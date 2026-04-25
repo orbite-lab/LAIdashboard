@@ -8,18 +8,11 @@
 |---|---|---|---|---|---|---|---|---|
 | 2025-06-03 | Camurus | Eli Lilly and Company | FluidCrystal | licensing | undisc. | $870M | Worldwide | partial |
 | 2024-07-09 | Indivior | (discontinued — no buyer) | Perseris | licensing | undisc. | undisc. | United States | full |
-| 2024-06-01 | Indivior | Newron Pharmaceuticals | Perseris | licensing | undisc. | undisc. | United States | minimal |
 | 2024-04-16 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
 | 2023-11-13 | Teva Pharmaceuticals International GmbH | Royalty Pharma | BEPO | royalty_purchase | $100M | $125M | Worldwide | full |
-| 2022-10-06 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
-| 2021-06-01 | Foresee Pharmaceuticals | Accord Healthcare | SpectruM | licensing | undisc. | undisc. | United States | minimal |
 | 2021-03-04 | Foresee Pharmaceuticals | Intas Pharmaceuticals (Accord BioPharma US) | SpectruM | licensing | $10M | $207M | United States | partial |
-| 2020-03-26 | Novartis | Recordati Rare Diseases | Signifor LAR | m_and_a | $390M | undisc. | Worldwide | partial |
 | 2019-07-12 | Novartis | Recordati Rare Diseases | Signifor LAR | m_and_a | $390M | undisc. | Worldwide | partial |
 | 2019-02-11 | Foresee Pharmaceuticals | Accord Healthcare | SpectruM | licensing | undisc. | $86M | Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle East | partial |
-| 2018-12-01 | Camurus | Braeburn | FluidCrystal | licensing | undisc. | undisc. | United States | minimal |
-| 2018-04-17 | MedinCell | Teva | BEPO | licensing | undisc. | undisc. | Worldwide | partial |
-| 2017-04-01 | Janssen (Johnson & Johnson) | ViiV Healthcare | NanoCrystal | licensing | undisc. | undisc. | Worldwide | minimal |
 | 2016-10-24 | Camurus | Braeburn | FluidCrystal | licensing | undisc. | undisc. | North America (with Asia options) | minimal |
 | 2016-01-07 | Janssen (Johnson & Johnson) | ViiV Healthcare | NanoCrystal | licensing | undisc. | undisc. | Worldwide | minimal |
 | 2014-11-20 | Camurus | Braeburn | FluidCrystal | licensing | $20M | $131M | North America (with options for Japan, Korea, Taiwan, China) | full |
@@ -48,15 +41,6 @@
 
 **TactBio view:** The clearest competitive market signal of 2024 in the schizophrenia LAI category — fourth-place risperidone LAI was non-viable even within an established commercial organization. Perseris launched 2018, ran for six years, and was discontinued without a buyer despite Indivior having US commercial infrastructure. Strategic read-across: in crowded LAI categories, late entry without structural differentiation produces not just margin compression but outright commercial failure. This is the empirical case study supporting the "category position matters more than technology" thesis. Reference point for any prospective late-stage LAI in the same space (Rovi Risvan in particular).
 
-### Indivior × Newron Pharmaceuticals — 2024-06-01
-
-**Description:** Indivior divested US commercial rights to Perseris (risperidone monthly LAI) to Newron Pharmaceuticals. Strategic exit from non-core schizophrenia LAI asset by Indivior to focus on OUD franchise (Sublocade).
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** United States  
-*Notes:* Specific transaction value not publicly disclosed. Strategic divestiture of underperforming asset; modest valuation likely. Verify exact terms against Newron and Indivior filings.
-
-**TactBio view:** Cautionary deal demonstrating that fourth-place LAI products in crowded categories struggle to attract premium valuations. Perseris faced Risperdal Consta, UZEDY, and Risvan in the risperidone LAI space and could not establish commercial differentiation. Strategic read: position matters more than technology in LAI deal economics — being late-to-market in a defined category compresses both commercial and dealability outcomes.
-
 ### MedinCell × AbbVie — 2024-04-16
 
 **Description:** Multi-program research and licensing collaboration. AbbVie to develop up to six programs across multiple therapeutic areas using BEPO technology. First IND filing expected 2026 per company guidance.
@@ -77,25 +61,6 @@
 
 **TactBio view:** Structurally significant deal but commonly misunderstood. This is NOT Royalty Pharma buying a forward royalty stream — it is conditional R&D financing with a synthetic loan plus royalty kicker. The implications differ — (1) Royalty Pharma's diligence here validates Teva's olanzapine Phase 3 probability, but does not imply RPRX views the asset as a high-quality royalty compounder; (2) Teva preserves the bulk of olanzapine economics, paying out only repayment plus 1-5% royalty; (3) approval risk is borne primarily by Royalty Pharma, but Teva's optionality is preserved. For BEPO platform validation, the deal is meaningful but less of a signal than a true forward royalty purchase would have been. MedinCell does not benefit directly from this RPRX-Teva agreement — MedinCell's olanzapine economics flow through the original 2013 Teva agreement, separately.
 
-### MedinCell × AbbVie — 2022-10-06
-
-**Description:** Multi-program research and licensing collaboration. AbbVie to develop up to six programs across multiple therapeutic areas using BEPO technology. First IND filing expected 2026 per company guidance.
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
-**Economics:** Upfront $35M · milestones $1900M  
-*Notes:* Mid-to-high single-digit tiered royalties per company disclosure. Milestone total of approx $1.9B across multiple programs; per-program milestone breakdown not disclosed. Upfront of $35M disclosed at signing. Verify figures against MEDCL 2022 annual report and subsequent amendments.
-
-**TactBio view:** Platform validation deal: tier-1 pharma partner, multi-program scope, meaningful milestone total. Key tensions — (1) time from signing to first IND (2022 to 2026 = 4 years) slow for platform validation skeptics; (2) specific therapeutic area allocations and molecules not disclosed, limiting ability to triangulate success probability; (3) renegotiation or program drops would be known only via press release. Monitor Q1 and Q3 MEDCL calls for IND progression updates.
-
-### Foresee Pharmaceuticals × Accord Healthcare — 2021-06-01
-
-**Description:** Accord Healthcare licensed US commercialization rights for Camcevi (leuprolide mesylate LAI) from Foresee. Camcevi approved 2021 in US for advanced prostate cancer; 6-month formulation approved 2024.
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** United States  
-*Notes:* Specific economics not publicly disclosed. Foresee receives royalties on Accord Camcevi net sales. Verify terms against Foresee Taipei Exchange filings.
-
-**TactBio view:** Mid-tier LAI partnership for a commoditized indication. Accord is a generics-focused commercial organization; the partnership reflects Camcevi's positioning as a value-priced LHRH LAI rather than premium innovator. Reference economics suggest modest royalty tiers consistent with category dynamics.
-
 ### Foresee Pharmaceuticals × Intas Pharmaceuticals (Accord BioPharma US) — 2021-03-04
 
 **Description:** Intas Pharmaceuticals (parent of Accord BioPharma US) licensed exclusive US commercialization rights for Camcevi (leuprolide mesylate LAI, FP-001). Complements the 2019 ex-US deal with Accord Healthcare. Camcevi launched US in 2021 after FDA approval (May 2021); 6-month formulation approved in 2024.
@@ -105,16 +70,6 @@
 *Notes:* Per Foresee March 4 2021 press release: $10M upfront, plus regulatory and sales milestones up to $207M combined, plus a share of product revenue in the US territory. Revenue share structure consistent with the 2019 Accord ex-US deal — Foresee's commercialization model favors revenue-sharing over tiered royalties across territorial partnerships.
 
 **TactBio view:** US-territory complement to the 2019 ex-US Accord deal. The combined Foresee deal stack across all territories totals $86M (Accord ex-US) + $207M (Intas US) + $123.85M (GenSci China) = ~$417M in headline milestone potential, with revenue share rather than royalty across all three. Reference economics for territorial licensing of late-entrant LHRH LAI: meaningful nominal milestone totals but revenue-share rather than royalty preserves more downside-protection for the licensor at the expense of upside leverage.
-
-### Novartis × Recordati Rare Diseases — 2020-03-26
-
-**Description:** Recordati acquired the Signifor (pasireotide) franchise from Novartis, including Signifor LAR. Strategic divestiture of mature endocrine asset by Novartis to a rare-disease-focused acquirer.
-  
-**Type:** m_and_a | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
-**Economics:** Upfront $390M  
-*Notes:* Approximately $390M upfront per Recordati announcement; mature commercial asset acquisition rather than licensing structure, so no royalty terms. Verify exact figure against Recordati 2020 filings.
-
-**TactBio view:** Demonstrates that mature LAI franchises retain meaningful M&A value even at or near patent expiry. The $390M figure provides a reference point for valuing mature peptide LAI assets — useful comp for any Sandostatin LAR or Somatuline divestiture scenario.
 
 ### Novartis × Recordati Rare Diseases — 2019-07-12
 
@@ -135,33 +90,6 @@
 *Notes:* Per Foresee press release Feb 11 2019: combined upfront + regulatory milestones + sales milestones up to $86M total, plus "a significant share of the product revenue in the territory." Specific upfront amount within the $86M tranche not separately disclosed. Royalty structure described as revenue share rather than tiered royalty — suggesting profit-share or net-sales-share economics rather than classical royalty layering.
 
 **TactBio view:** Mid-tier territorial licensing deal for a value-priced LHRH LAI. Combined $86M is modest by platform-deal standards, reflecting Camcevi's positioning as a commodity-priced alternative to Lupron Depot/Eligard rather than a premium innovator product. Revenue-share structure (vs. classical royalty) is unusual and may reflect Accord's generics-focused business model and Foresee's interest in cash-flow share rather than upfront capital. Reference data point: territory-licensing economics for late-entrant LAI in mature LHRH category cap meaningfully below tier-1 platform deals.
-
-### Camurus × Braeburn — 2018-12-01
-
-**Description:** Braeburn licensed US commercialization rights for buprenorphine LAI (later marketed as Brixadi) using FluidCrystal platform. Original agreement structure pre-dated Indivior/Sublocade competitive dynamics in US OUD market.
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** United States  
-*Notes:* Camurus receives royalties on Braeburn US net sales of Brixadi. Specific tiers not publicly disclosed at deal level. Verify against Camurus annual reports for tier disclosure.
-
-**TactBio view:** Reference deal for buprenorphine LAI US rights. Limited disclosure makes it less useful as a comp than higher-disclosure deals. Strategic context: Braeburn's mid-tier status created competitive disadvantage vs Indivior for Sublocade in US OUD; partner quality matters as much as platform technology in addiction LAI commercialization.
-
-### MedinCell × Teva — 2018-04-17
-
-**Description:** Teva licensed commercialization rights to risperidone LAI (UZEDY) using MedinCell's BEPO platform. Later expanded to include olanzapine LAI under subsequent agreement amendments.
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
-*Notes:* Specific royalty tiers not publicly disclosed. MedinCell receives royalties on Teva net sales of UZEDY and will receive royalties on olanzapine LAI if approved. Figures to verify from MEDCL annual reports and Teva 10-K filings — placeholder null pending data pull.
-
-**TactBio view:** Anchor deal for BEPO platform and sole source of near-term royalty revenue. Teva concentration risk is the central tension in any MedinCell investment thesis — a single counterparty, a single platform, two molecules. The deal's absence of public financial disclosure is itself signal — royalty-focused structures commonly disclosed at a minimum; the fact that ranges are inferred rather than reported increases execution-risk premium.
-
-### Janssen (Johnson & Johnson) × ViiV Healthcare — 2017-04-01
-
-**Description:** Co-development and co-promotion agreement for cabotegravir + rilpivirine long-acting HIV regimen. ViiV holds cabotegravir rights; Janssen contributes rilpivirine. Subsequent co-packaging as Cabenuva approved 2021.
-  
-**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
-*Notes:* Specific economics not publicly disclosed. Co-development structure means revenue/cost sharing rather than royalty stream. Deal terms inferred from GSK and J&J disclosures around Cabenuva launch.
-
-**TactBio view:** Reference precedent for major-pharma HIV LAI partnership economics. ViiV-Janssen demonstrates that long-acting regimens combining components from different originators can be commercialized through co-packaging rather than acquisition. Strategic context for any future LAI combination product structuring.
 
 ### Camurus × Braeburn — 2016-10-24
 
