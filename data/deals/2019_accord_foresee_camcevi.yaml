@@ -1,0 +1,66 @@
+id: 2019_accord_foresee_camcevi
+deal_type: licensing
+status: active
+
+licensor: Foresee Pharmaceuticals
+licensor_ticker: 6576
+licensee: Accord Healthcare
+licensee_ticker: null
+
+asset_id: null
+platform_id: spectrum
+description: >
+  Accord Healthcare licensed global commercialization rights to Camcevi
+  (leuprolide mesylate LAI, FP-001) excluding US, mainland China, Japan,
+  Taiwan, Israel, Turkey, and certain Middle East countries (which were
+  previously partnered or retained). Accord covers all commercialization
+  costs in the territory. Camcevi is Foresee's proprietary 6-month and
+  3-month subcutaneous leuprolide depot for advanced prostate cancer.
+
+announced_date: 2019-02-11
+completed_date: 2019-02-11
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: 86
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Per Foresee press release Feb 11 2019: combined upfront + regulatory
+    milestones + sales milestones up to $86M total, plus "a significant
+    share of the product revenue in the territory." Specific upfront
+    amount within the $86M tranche not separately disclosed. Royalty
+    structure described as revenue share rather than tiered royalty —
+    suggesting profit-share or net-sales-share economics rather than
+    classical royalty layering.
+
+option_structure: null
+territory: Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle East
+exclusivity: exclusive
+indications_covered:
+  - oncology
+termination_clauses: >
+  Not publicly disclosed in detail.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.prnewswire.com/news-releases/foresee-pharmaceuticals-enters-exclusive-license-agreement-with-accord-healthcare-300792989.html
+
+tactbio_view: >
+  Mid-tier territorial licensing deal for a value-priced LHRH LAI. Combined
+  $86M is modest by platform-deal standards, reflecting Camcevi's
+  positioning as a commodity-priced alternative to Lupron Depot/Eligard
+  rather than a premium innovator product. Revenue-share structure (vs.
+  classical royalty) is unusual and may reflect Accord's generics-focused
+  business model and Foresee's interest in cash-flow share rather than
+  upfront capital. Reference data point: territory-licensing economics for
+  late-entrant LAI in mature LHRH category cap meaningfully below tier-1
+  platform deals.
+
+last_updated: 2026-04-25

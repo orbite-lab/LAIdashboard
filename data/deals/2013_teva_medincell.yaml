@@ -1,0 +1,75 @@
+id: 2013_teva_medincell
+deal_type: licensing
+status: active
+
+licensor: MedinCell
+licensor_ticker: MEDCL
+licensee: Teva
+licensee_ticker: TEVA
+
+asset_id: uzedy
+platform_id: bepo
+description: >
+  Original November 2013 development and commercialization agreement covering
+  multiple long-acting injectable products using BEPO technology. Lead asset
+  was risperidone LAI (TV-46000, later marketed as UZEDY, approved April 2023).
+  Subsequent expansions: olanzapine LAI (mdc-TJK), with Royalty Pharma
+  acquiring a portion of the future royalty stream from Teva in late 2023.
+  BEPO is licensed to Teva under the trade name SteadyTeq.
+
+announced_date: 2013-11-01
+completed_date: 2013-11-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: 366
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: 112
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: 7
+  royalty_high_pct: 9
+  royalty_notes: >
+    Per Edison Group equity research (Dec 2018), aggregate milestones across
+    all three CNS programs partnered with Teva total up to $366M, with
+    "high single-digit royalties on tiered net sales." Teva 10-Q filings
+    confirm specifically up to $112M in commercial milestones for the
+    risperidone LAI program alone. For the olanzapine LAI (mdc-TJK)
+    program announced separately in 2023, MedinCell may receive up to
+    $117M in development and commercial milestones (per joint Teva-Royalty
+    Pharma announcement). Royalty tiering is described as high single
+    digits — 7-9% inferred range, but exact tiers are not separately
+    published. Teva is responsible for all development costs.
+
+option_structure: >
+  Multi-program agreement covering three CNS LAI products at original
+  signing, with subsequent expansions adding olanzapine LAI program.
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - psych
+termination_clauses: >
+  Standard termination provisions; no material performance clauses
+  publicly disclosed.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.sec.gov/Archives/edgar/data/818686/000119312522138669/d312501d10q.htm
+  - https://www.medincell.com/wp-content/uploads/2024/03/2023113-Teva-Royalty-Pharma_EN.pdf
+  - https://www.edisongroup.com/research/long-acting-injectable-drug-delivery-vehicle/8149/
+
+tactbio_view: >
+  Anchor deal for BEPO platform and primary source of near-term royalty
+  revenue. Teva concentration risk is the central tension in any MedinCell
+  investment thesis — a single counterparty, a single platform, two molecules.
+  Per Teva 10-Q disclosures, $112M in commercial milestones tied to the
+  risperidone (UZEDY) program alone is meaningful but not transformational
+  given UZEDY's commercial trajectory ($191M FY2025 sales, Teva guiding
+  $250-280M for FY2026). Royalty Pharma's late-2023 acquisition of a slice
+  of Teva's future royalty stream is the more significant signal — RPRX
+  paying for forward economics validates the platform's revenue durability
+  thesis from a sophisticated structured-finance counterparty.
+
+last_updated: 2026-04-25

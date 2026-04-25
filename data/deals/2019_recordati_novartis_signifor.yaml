@@ -1,0 +1,70 @@
+id: 2019_recordati_novartis_signifor
+deal_type: m_and_a
+status: active
+
+licensor: Novartis
+licensor_ticker: NVS
+licensee: Recordati Rare Diseases
+licensee_ticker: REC
+
+asset_id: null
+platform_id: signifor_lar_platform
+description: >
+  Recordati acquired worldwide rights to Novartis' Signifor (immediate-release
+  pasireotide) and Signifor LAR (depot pasireotide) plus the late-stage
+  development asset osilodrostat (LCI699, later approved as Isturisa).
+  Strategic divestiture by Novartis as part of CEO Vas Narasimhan's
+  portfolio pruning; rare-disease commercial focus by Recordati.
+  Agreement signed July 12, 2019; closed October 23, 2019.
+
+announced_date: 2019-07-12
+completed_date: 2019-10-23
+termination_date: null
+
+economics:
+  upfront_usd_m: 390
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Confirmed terms per Recordati and Novartis press releases:
+    $390M upfront cash consideration (€351M at deal-close FX) paid at
+    closing, funded by existing Recordati liquidity plus new debt facilities.
+    Additional regulatory milestones tied to osilodrostat (Isturisa)
+    approval and market access plus royalties on osilodrostat sales —
+    specific milestone amounts and royalty rates not disclosed. Note:
+    Signifor and Signifor LAR were not subject to additional milestones
+    or royalties — those applied only to the developmental osilodrostat
+    asset within the bundle.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - endocrine
+termination_clauses: >
+  Asset acquisition; no termination provisions applicable to Signifor
+  franchise. Osilodrostat-related contingent payments could lapse if
+  approval/market-access milestones are not met.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.globenewswire.com/news-release/2019/07/12/1882153/0/en/RECORDATI-TO-ACQUIRE-WORLDWIDE-RIGHTS-TO-SIGNIFOR-AND-OSILODROSTAT-LCI699.html
+  - https://www.globenewswire.com/news-release/2019/10/23/1933866/0/en/RECORDATI-ACQUISITION-OF-WORLDWIDE-RIGHTS-TO-SIGNIFOR-AND-OSILODROSTAT-LCI699-COMPLETED.html
+
+tactbio_view: >
+  Demonstrates that mature LAI franchises retain meaningful M&A value even
+  at or near patent expiry. The $390M figure provides a reference point
+  for valuing mature peptide LAI assets — useful comp for any Sandostatin
+  LAR or Somatuline divestiture scenario. Important caveat: $390M covered
+  three assets (Signifor IR, Signifor LAR, osilodrostat), so Signifor LAR
+  alone is worth meaningfully less than the headline. Implied LAI-only
+  valuation is probably $150-250M range, consistent with mid-tier endocrine
+  LAI economics at LOE.
+
+last_updated: 2026-04-25

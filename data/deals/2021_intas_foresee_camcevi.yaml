@@ -1,0 +1,62 @@
+id: 2021_intas_foresee_camcevi
+deal_type: licensing
+status: active
+
+licensor: Foresee Pharmaceuticals
+licensor_ticker: 6576
+licensee: Intas Pharmaceuticals (Accord BioPharma US)
+licensee_ticker: null
+
+asset_id: null
+platform_id: spectrum
+description: >
+  Intas Pharmaceuticals (parent of Accord BioPharma US) licensed exclusive
+  US commercialization rights for Camcevi (leuprolide mesylate LAI, FP-001).
+  Complements the 2019 ex-US deal with Accord Healthcare. Camcevi launched
+  US in 2021 after FDA approval (May 2021); 6-month formulation approved
+  in 2024.
+
+announced_date: 2021-03-04
+completed_date: 2021-03-04
+termination_date: null
+
+economics:
+  upfront_usd_m: 10
+  milestones_total_usd_m: 207
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Per Foresee March 4 2021 press release: $10M upfront, plus regulatory
+    and sales milestones up to $207M combined, plus a share of product
+    revenue in the US territory. Revenue share structure consistent with
+    the 2019 Accord ex-US deal — Foresee's commercialization model favors
+    revenue-sharing over tiered royalties across territorial partnerships.
+
+option_structure: null
+territory: United States
+exclusivity: exclusive
+indications_covered:
+  - oncology
+termination_clauses: >
+  Not publicly disclosed in detail.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.prnewswire.com/news-releases/foresee-pharmaceuticals-enters-exclusive-license-agreement-with-intas-pharmaceuticals-for-commercialization-in-the-united-states-301240734.html
+
+tactbio_view: >
+  US-territory complement to the 2019 ex-US Accord deal. The combined
+  Foresee deal stack across all territories totals $86M (Accord ex-US) +
+  $207M (Intas US) + $123.85M (GenSci China) = ~$417M in headline
+  milestone potential, with revenue share rather than royalty across all
+  three. Reference economics for territorial licensing of late-entrant
+  LHRH LAI: meaningful nominal milestone totals but revenue-share rather
+  than royalty preserves more downside-protection for the licensor at the
+  expense of upside leverage.
+
+last_updated: 2026-04-25

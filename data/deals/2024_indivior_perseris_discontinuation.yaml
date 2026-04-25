@@ -1,0 +1,66 @@
+id: 2024_indivior_perseris_discontinuation
+deal_type: licensing
+status: terminated
+
+licensor: Indivior
+licensor_ticker: INDV
+licensee: (discontinued — no buyer)
+licensee_ticker: null
+
+asset_id: null
+platform_id: perseris_platform
+description: >
+  Indivior announced discontinuation of Perseris (risperidone monthly LAI)
+  in July 2024 as part of a strategic refocus on its OUD franchise (Sublocade)
+  and Opvee. Perseris had launched in 2018 but never achieved meaningful
+  commercial scale relative to Risperdal Consta, UZEDY, or the Invega
+  franchise. This was a discontinuation rather than a divestiture — Indivior
+  did not find a buyer for the asset. Tracked here as a competitive market
+  event rather than a classical deal.
+
+announced_date: 2024-07-09
+completed_date: 2024-07-09
+termination_date: 2024-07-09
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    No transaction value applicable — discontinuation, not divestiture.
+    Indivior recorded approximately $65M total impairment/restructuring
+    charges including $20M cash for severance and contract termination.
+    Approximately 130 jobs were eliminated. Ongoing annual operating
+    expense savings expected at ~$50M.
+
+option_structure: null
+territory: United States
+exclusivity: null
+indications_covered:
+  - psych
+termination_clauses: >
+  Discontinuation announced; no successor commercial partner identified.
+
+disclosure_quality: full
+source_urls:
+  - https://www.lse.co.uk/news/top-news-indivior-lowers-2024-outlook-and-calls-time-on-perseris-laf3uj7qgr4t70v.html
+
+tactbio_view: >
+  The clearest competitive market signal of 2024 in the schizophrenia LAI
+  category — fourth-place risperidone LAI was non-viable even within an
+  established commercial organization. Perseris launched 2018, ran for
+  six years, and was discontinued without a buyer despite Indivior having
+  US commercial infrastructure. Strategic read-across: in crowded LAI
+  categories, late entry without structural differentiation produces not
+  just margin compression but outright commercial failure. This is the
+  empirical case study supporting the "category position matters more
+  than technology" thesis. Reference point for any prospective late-stage
+  LAI in the same space (Rovi Risvan in particular).
+
+last_updated: 2026-04-25

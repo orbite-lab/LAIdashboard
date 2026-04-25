@@ -1,0 +1,70 @@
+id: 2024_abbvie_medincell
+deal_type: licensing
+status: active
+
+licensor: MedinCell
+licensor_ticker: MEDCL
+licensee: AbbVie
+licensee_ticker: ABBV
+
+asset_id: null
+platform_id: bepo
+description: >
+  Multi-program research and licensing collaboration. AbbVie to develop up to
+  six programs across multiple therapeutic areas using BEPO technology.
+  First IND filing expected 2026 per company guidance.
+
+announced_date: 2024-04-16
+completed_date: 2024-04-16
+termination_date: null
+
+economics:
+  upfront_usd_m: 35
+  milestones_total_usd_m: 1900
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Confirmed deal terms per MedinCell press release (April 16, 2024):
+    $35M upfront, up to $1.9B in development and commercial milestones
+    ($315M per program × 6 programs = $1.89B), plus royalties on worldwide
+    sales. Royalty rates not separately disclosed; AbbVie funds development
+    costs. The per-program structure is significant — implies independent
+    progression rather than portfolio bundling, giving MedinCell visibility
+    into which specific programs are advancing through milestones over time.
+
+option_structure: >
+  Multi-program platform collaboration with program-by-program option-like
+  progression through development. AbbVie funds R&D costs.
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - oncology
+  - ophthalmology
+  - cns_neuro
+  - other
+termination_clauses: >
+  Program-by-program termination provisions standard in platform
+  collaborations; exact conditions not publicly disclosed.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.medincell.com/press-releases/
+
+tactbio_view: >
+  Platform validation deal: tier-1 pharma partner, multi-program scope,
+  meaningful milestone total. Key tensions — (1) per-program structure
+  ($315M each across 6 programs) gives MedinCell more transparency than
+  bundled deals but also creates per-program execution risk; (2) specific
+  therapeutic area allocations and molecules not disclosed, limiting
+  ability to triangulate success probability; (3) renegotiation or program
+  drops would be known only via press release. Monitor MEDCL quarterly
+  calls for IND progression updates. The $35M upfront on $1.9B headline
+  is light for a tier-1 platform deal — consistent with AbbVie retaining
+  optionality program-by-program rather than committing capital upfront.
+
+last_updated: 2026-04-21

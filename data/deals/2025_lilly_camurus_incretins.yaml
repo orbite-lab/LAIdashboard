@@ -35,12 +35,14 @@ economics:
   royalty_low_pct: 4
   royalty_high_pct: 7
   royalty_notes: >
-    Total deal value up to $870M comprising $290M in upfront, development,
-    and regulatory milestones plus $580M in sales-based milestones. Tiered
-    mid-single-digit royalties on global net product sales (4-7% range
-    inferred from "mid-single digit" disclosure language; verify exact
-    tiers in Camurus filings if material). Specific upfront amount within
-    the $290M tranche not separately disclosed.
+    Total deal value up to $870M comprising up to $290M in combined upfront,
+    development, and regulatory milestone payments PLUS up to $580M in
+    sales-based milestones. Tiered mid-single-digit royalties on global
+    net product sales (4-7% range inferred from "mid-single digit"
+    disclosure language). The $290M tranche is reported as a combined
+    upfront-plus-milestones figure — Camurus did not separately disclose
+    the upfront component, which is unusual and suggests Lilly secured
+    less front-loaded economics than headline implies.
 
 option_structure: >
   Up to four Lilly proprietary drug compounds may be selected, with option

@@ -1,0 +1,77 @@
+id: 2014_braeburn_camurus
+deal_type: licensing
+status: active
+
+licensor: Camurus
+licensor_ticker: CAMX
+licensee: Braeburn
+licensee_ticker: null
+
+asset_id: brixadi
+platform_id: fluidcrystal
+description: >
+  Exclusive license agreement for Camurus' weekly and monthly subcutaneous
+  buprenorphine injection products (CAM2038, later marketed as Brixadi in
+  the US and Buvidal/Sixmo in EU) for opioid use disorder and pain.
+  Braeburn obtained exclusive rights in North America plus options for
+  Japan, Korea, Taiwan, and China; Camurus retained rest of world.
+  Subsequent 2016 amendment expanded to include CAM2058 (buprenorphine
+  combination products for pain and nausea). Brixadi US launched
+  September 2023 after FDA approval in May 2023.
+
+announced_date: 2014-11-20
+completed_date: 2014-11-20
+termination_date: null
+
+economics:
+  upfront_usd_m: 20
+  milestones_total_usd_m: 131
+  milestones_development_usd_m: 56
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: 75
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: 13
+  royalty_high_pct: 17
+  royalty_notes: >
+    Fully disclosed at signing per Camurus November 2014 press release:
+    $20M upfront license fee, $35M development milestones for opioid
+    dependence indication, $21M development milestones for pain indication
+    ($56M development total), up to $75M sales-based milestones, and
+    "mid-teen royalties" on Braeburn product sales. Mid-teen royalties
+    interpreted as 13-17% range. The mid-teen royalty rate is notably
+    high for a platform-licensing deal — reflecting strong negotiating
+    position from Camurus given Braeburn's specialty-pharma focus on
+    addiction therapeutics.
+
+option_structure: >
+  Braeburn obtained options for Japan, Korea, Taiwan, and China.
+  2016 amendment expanded scope to include CAM2058 buprenorphine
+  combination products in same territories.
+territory: North America (with options for Japan, Korea, Taiwan, China)
+exclusivity: exclusive
+indications_covered:
+  - addiction
+  - pain
+termination_clauses: >
+  Standard termination provisions; not publicly disclosed in detail.
+
+disclosure_quality: full
+source_urls:
+  - https://www.camurus.com/media/press-releases/2014/camurus-and-braeburn-pharmaceuticals-sign-exclusive-license-for-long-acting-buprenorphine-injectables-for-the-treatment-of-opioid-dependence-and-pain/
+  - https://www.prnewswire.com/news-releases/braeburn-pharmaceuticals-and-camurus-expand-collaboration-and-license-agreement-to-include-new-combination-product-for-pain-and-nausea-300349566.html
+
+tactbio_view: >
+  Among the best-disclosed LAI platform deals on record — useful as a
+  pricing comp. Mid-teen royalty rate (13-17%) is unusually high for
+  platform licensing and well above the mid-single-digit norm seen in
+  the 2025 Lilly-Camurus deal. Two readings: (1) Braeburn was a
+  smaller-tier counterparty so Camurus could extract better economics;
+  (2) Camurus had strong negotiating position because the platform was
+  earlier-stage and CAM2038 was clearly differentiated. Strategic context
+  for benchmarking: tier-1 pharma deals (Lilly) compress royalties;
+  specialty-pharma deals (Braeburn) preserve them. Brixadi US royalty
+  receipts to Camurus reached SEK 212M (~$20M) in FY2024 implying
+  Braeburn US net sales of ~$130-150M at the disclosed royalty range.
+
+last_updated: 2026-04-25

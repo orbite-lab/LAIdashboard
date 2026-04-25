@@ -1,0 +1,67 @@
+id: 2016_viiv_janssen_cabenuva
+deal_type: licensing
+status: active
+
+licensor: Janssen (Johnson & Johnson)
+licensor_ticker: JNJ
+licensee: ViiV Healthcare
+licensee_ticker: GSK
+
+asset_id: cabenuva
+platform_id: nanocrystal
+description: >
+  Co-development and commercialization agreement for two-drug long-acting
+  HIV regimen combining ViiV Healthcare's cabotegravir and Janssen's
+  rilpivirine. Each company manufactures and supplies its own component;
+  ViiV leads Phase III development with Janssen support. Subsequent
+  co-packaging as Cabenuva approved in EU (December 2020) and US
+  (January 2021). Each company also retains separate single-agent
+  approvals (Apretude, Vocabria, Rekambys).
+
+announced_date: 2016-01-07
+completed_date: 2016-01-07
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Specific financial terms genuinely not publicly disclosed by either
+    company. Co-development structure means cost-and-revenue sharing
+    rather than royalty stream — typical of major-pharma combination-
+    product partnerships at this scale. No upfront, milestone, or royalty
+    figures appear in any public Janssen or GSK/ViiV filings or press
+    releases reviewed.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - hiv
+termination_clauses: >
+  Standard co-development termination provisions; not publicly disclosed
+  in detail.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.gsk.com/en-gb/media/press-releases/viiv-healthcare-to-progress-collaboration-with-janssen-to-develop-the-first-long-acting-two-drug-injectable-regimen-for-treatment-of-hiv-1-infection/
+  - https://www.prnewswire.com/news-releases/janssen-to-progress-collaboration-with-viiv-healthcare-to-develop-the-first-long-acting-two-drug-injectable-regimen-for-treatment-of-hiv-infection-564497381.html
+
+tactbio_view: >
+  Reference precedent for major-pharma HIV LAI partnership economics —
+  but limited as a deal comp because the structure is genuinely opaque.
+  Co-development between two tier-1 organizations bypasses the
+  royalty/milestone disclosures typical of asymmetric platform-licensing
+  deals. Strategic context: Cabenuva's commercial scaling reflects shared
+  economics across two strong commercial organizations rather than a
+  royalty compounder thesis. The structure is closer to a JV than a
+  classical license.
+
+last_updated: 2026-04-25
