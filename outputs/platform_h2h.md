@@ -102,7 +102,7 @@ European challenger platform with single-product commercialization in psych. Str
 
 ### Lupron Depot
 
-Tracked as competitive context — Lupron Depot is the price/share anchor for prostate cancer LHRH LAI globally. Any new entrant must position against Lupron's prescriber inertia and Takeda/AbbVie commercial scale. Strategic relevance to TactBio is in deal pricing — historical Lupron economics inform what new LHRH LAI entrants can realistically command.
+Tracked as competitive context — Lupron Depot is the price/share anchor for prostate cancer LHRH LAI globally. Any new entrant must position against Lupron's prescriber inertia and Takeda/AbbVie commercial scale. Strategic relevance is in deal pricing — historical Lupron economics inform what new LHRH LAI entrants can realistically command.
 
 ### Medisorb
 
@@ -122,7 +122,7 @@ Speculative early-stage platform with single Phase IIb asset. Strategic interest
 
 ### Novadur
 
-AbbVie-owned ophthalmic implant platform paralleling Durasert in indication but distinguished by bioerodibility. Strategic interest for TactBio is comparative — Novadur vs Durasert for a given drug class informs whether reformulation candidates favor erodible (3-6 month) or non-erodible (12-36 month) variants. The recent BEPO-AbbVie deal may also intersect this space as AbbVie's broader LAI strategy evolves.
+AbbVie-owned ophthalmic implant platform paralleling Durasert in indication but distinguished by bioerodibility. Strategic interest is comparative — Novadur vs Durasert for a given drug class informs whether reformulation candidates favor erodible (3-6 month) or non-erodible (12-36 month) variants. The recent BEPO-AbbVie deal may also intersect this space as AbbVie's broader LAI strategy evolves.
 
 ### Oil decanoate
 
@@ -170,5 +170,5 @@ Reference solid-implant platform for peptide LAI. Tracked for indication-fit con
 
 ### iDose
 
-Internal Glaukos asset, not externally investable as platform. Strategic significance for TactBio is as a benchmark — iDose's longer duration pressures Allergan's Durysta and sets a higher bar for any new ophthalmic LAI platform. Watch commercial uptake post-launch as a leading indicator for prescriber/patient acceptance of multi-year ocular implants.
+Internal Glaukos asset, not externally investable as platform. Strategic significance for us is as a benchmark — iDose's longer duration pressures Allergan's Durysta and sets a higher bar for any new ophthalmic LAI platform. Watch commercial uptake post-launch as a leading indicator for prescriber/patient acceptance of multi-year ocular implants.
 

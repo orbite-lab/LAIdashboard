@@ -148,7 +148,7 @@
 | dealability | 1 | high | Internal Janssen flagship asset; not externally licensable. |
 | regulatory | 5 | high | Approved with stable label; broad usage across schizophrenia LAI population. |
 
-**TactBio view:** Anchor monthly LAI antipsychotic and revenue driver for the Invega franchise. The competitive question for TactBio is whether UZEDY and Risvan can take share from Sustenna at the monthly tier, while Hafyera's 6-monthly duration defends the higher-value franchise tier. Sustenna LOE trajectory is the central event for the schizophrenia LAI market over the next 5 years.
+**TactBio view:** Anchor monthly LAI antipsychotic and revenue driver for the Invega franchise. The competitive question is whether UZEDY and Risvan can take share from Sustenna at the monthly tier, while Hafyera's 6-monthly duration defends the higher-value franchise tier. Sustenna LOE trajectory is the central event for the schizophrenia LAI market over the next 5 years.
 
 ### Lupron Depot (leuprolide acetate)
 
@@ -225,7 +225,7 @@
 | dealability | 2 | high | Indivior owns both product and commercialization; no licensing partner; dealability reflects standalone asset valuation not partnership trajectory. |
 | regulatory | 5 | high | Approved with REMS; label stable; 2023 REMS modification broadened prescriber access. |
 
-**TactBio view:** Sublocade is the category reference for OUD LAI success but sits inside Indivior's complex history (Reckitt spinoff, litigation, governance concerns). The platform score reflects commercial success; the TactBio analytical tension is whether Indivior corporate overhead justifies investing in Sublocade exposure versus finding cleaner expressions of the OUD LAI thesis.
+**TactBio view:** Sublocade is the category reference for OUD LAI success but sits inside Indivior's complex history (Reckitt spinoff, litigation, governance concerns). The platform score reflects commercial success; the analytical tension is whether Indivior corporate overhead justifies investing in Sublocade exposure versus finding cleaner expressions of the OUD LAI thesis.
 
 ### Susvimo (ranibizumab (via PDS))
 

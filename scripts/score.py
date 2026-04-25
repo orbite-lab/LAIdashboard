@@ -60,7 +60,7 @@ def composite(scores: dict, weights: dict) -> float | None:
 
 def platform_scores(conn, platform_id: str) -> dict:
     cur = conn.execute("""
-        SELECT dimension, value, rationale, confidence
+        SELECT dimension, value, rationale, confidence, scorer, scored_at
         FROM scores WHERE entity_type='platform' AND entity_id=?
     """, (platform_id,))
     return {r["dimension"]: dict(r) for r in cur.fetchall()}
@@ -68,7 +68,7 @@ def platform_scores(conn, platform_id: str) -> dict:
 
 def asset_scores(conn, asset_id: str) -> dict:
     cur = conn.execute("""
-        SELECT dimension, value, rationale, confidence, inherited_from
+        SELECT dimension, value, rationale, confidence, scorer, scored_at, inherited_from
         FROM scores WHERE entity_type='asset' AND entity_id=?
     """, (asset_id,))
     return {r["dimension"]: dict(r) for r in cur.fetchall()}

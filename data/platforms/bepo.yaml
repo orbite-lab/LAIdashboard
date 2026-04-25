@@ -88,7 +88,7 @@ indication_fit:
     scorer: RX
   ophthalmology:
     value: 4
-    rationale: AbbVie partnership explicitly includes ophthalmology; BEPO's formulation control fits intravitreal or periocular depot requirements; OCS-05 reformulation speculatively discussed in TactBio hypothesis memo.
+    rationale: AbbVie partnership explicitly includes ophthalmology; BEPO's formulation control fits intravitreal or periocular depot requirements; OCS-05 reformulation hypothesis remains speculative.
     confidence: medium
     scored_at: 2026-04-21
     scorer: RX

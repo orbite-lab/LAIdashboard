@@ -189,32 +189,82 @@ def render_composite_bars(conn) -> str:
     rows = ""
     for p in platforms:
         s = platform_scores(conn, p["id"])
+        if not s:
+            continue
         vals = {d: s[d]["value"] for d in s}
         comp = composite(vals, PLATFORM_WEIGHTS)
         if comp is None:
             continue
-        pct = (comp / 5.0) * 100
         # Color the bar based on composite: ≥4 teal, 3-4 blue, <3 gray
         bar_color = ACCENT_TEAL if comp >= 4 else (ACCENT_BLUE if comp >= 3 else MUTED)
+
+        # Build segments with full rationale in title attribute (hover tooltip)
         segments = ""
         for dim, weight in PLATFORM_WEIGHTS.items():
-            if dim in vals:
-                seg_pct = (vals[dim] / 5.0) * weight * 100
-                segments += (
-                    f'<span class="seg" title="{esc(dim)}: {vals[dim]}/5" '
-                    f'style="width:{seg_pct:.1f}%;background:{bar_color};"></span>'
-                )
+            if dim not in vals:
+                continue
+            seg_pct = (vals[dim] / 5.0) * weight * 100
+            score_row = s[dim]
+            conf = score_row.get("confidence") or "medium"
+            rationale = (score_row.get("rationale") or "").strip()
+            # Tooltip: dimension, score, confidence, full rationale
+            tip = f"{dim.upper()} {vals[dim]}/5 [{conf}] — {rationale}"
+            segments += (
+                f'<span class="seg" title="{esc(tip)}" '
+                f'style="width:{seg_pct:.1f}%;background:{bar_color};"></span>'
+            )
+
+        # Build the click-to-expand details panel
+        detail_rows = ""
+        for dim in PLATFORM_WEIGHTS:
+            if dim not in s:
+                continue
+            row = s[dim]
+            conf = row.get("confidence") or "medium"
+            rationale = esc((row.get("rationale") or "").strip())
+            scorer = esc(row.get("scorer") or "")
+            scored_at = esc(row.get("scored_at") or "")
+            conf_badge = (
+                f'<span class="conf-badge conf-{conf}">{conf}</span>'
+            )
+            detail_rows += f"""
+            <tr>
+              <td class="d-dim">{esc(dim)}</td>
+              <td class="d-score">{row['value']}</td>
+              <td class="d-conf">{conf_badge}</td>
+              <td class="d-rat">{rationale}</td>
+              <td class="d-meta">{scorer} · {scored_at}</td>
+            </tr>"""
+
+        # Pull tactbio_view (now neutral editorial commentary) for the panel
+        view_row = conn.execute(
+            "SELECT tactbio_view FROM platforms WHERE id=?", (p["id"],)
+        ).fetchone()
+        editorial = (view_row["tactbio_view"] or "").strip() if view_row else ""
+        editorial_block = (
+            f'<div class="d-editorial"><strong>Analytical view</strong><br>{esc(editorial)}</div>'
+            if editorial else ""
+        )
+
         rows += f"""
-        <div class="bar-row">
+        <div class="bar-row" data-platform="{esc(p['id'])}" tabindex="0" role="button" aria-expanded="false">
           <div class="bar-label">{esc(p["name"])}</div>
           <div class="bar-track">{segments}</div>
           <div class="bar-value">{comp:.2f}</div>
+          <div class="bar-toggle" aria-hidden="true">▸</div>
+        </div>
+        <div class="bar-detail" data-for="{esc(p['id'])}" hidden>
+          <table class="d-table">
+            <thead><tr><th>Dimension</th><th>Score</th><th>Confidence</th><th>Rationale</th><th>Scorer · Date</th></tr></thead>
+            <tbody>{detail_rows}</tbody>
+          </table>
+          {editorial_block}
         </div>"""
 
     return f"""
     <section class="card">
       <h2>Platform composite scores</h2>
-      <p class="subtitle">Weighted: tech 40% · IP 30% · dealability 30%. Hover segments for dimension detail.</p>
+      <p class="subtitle">Weighted: tech 40% · IP 30% · dealability 30%. Hover any bar segment for the rationale; click a row to expand full detail.</p>
       <div class="bars">{rows}</div>
     </section>"""
 
@@ -274,12 +324,18 @@ def render_asset_table(conn) -> str:
     return f"""
     <section class="card">
       <h2>Asset thesis tracker</h2>
-      <table class="data-table">
+      <p class="subtitle">Click any column header to sort. Click again to reverse.</p>
+      <table class="data-table sortable">
         <thead>
           <tr>
-            <th>Asset</th><th>Platform</th><th>Owner</th>
-            <th>Indication</th><th>Phase</th><th>Sales</th>
-            <th>Next catalyst</th><th style="text-align:right;">Composite</th>
+            <th data-sort="text">Asset</th>
+            <th data-sort="text">Platform</th>
+            <th data-sort="text">Owner</th>
+            <th data-sort="text">Indication</th>
+            <th data-sort="text">Phase</th>
+            <th data-sort="number">Sales</th>
+            <th data-sort="text">Next catalyst</th>
+            <th data-sort="number" style="text-align:right;">Composite</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>
@@ -316,12 +372,18 @@ def render_deal_log(conn) -> str:
     return f"""
     <section class="card">
       <h2>Deal log</h2>
-      <table class="data-table">
+      <p class="subtitle">Click any column header to sort. Click again to reverse.</p>
+      <table class="data-table sortable">
         <thead>
           <tr>
-            <th>Date</th><th>Counterparties</th><th>Platform</th>
-            <th>Type</th><th>Upfront</th><th>Milestones</th>
-            <th>Territory</th><th>Disclosure</th>
+            <th data-sort="date">Date</th>
+            <th data-sort="text">Counterparties</th>
+            <th data-sort="text">Platform</th>
+            <th data-sort="text">Type</th>
+            <th data-sort="number">Upfront</th>
+            <th data-sort="number">Milestones</th>
+            <th data-sort="text">Territory</th>
+            <th data-sort="text">Disclosure</th>
           </tr>
         </thead>
         <tbody>{rows}</tbody>
@@ -505,11 +567,17 @@ CSS = f"""
   /* Composite bars */
   .bar-row {{
     display: grid;
-    grid-template-columns: 140px 1fr 60px;
+    grid-template-columns: 140px 1fr 60px 18px;
     align-items: center;
     gap: 14px;
-    padding: 8px 0;
+    padding: 8px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.12s;
   }}
+  .bar-row:hover {{ background: #FAF6EC; }}
+  .bar-row:focus {{ outline: 2px solid {ACCENT_BLUE}; outline-offset: -2px; }}
+  .bar-row.is-open {{ background: #FAF6EC; }}
   .bar-label {{ font-weight: 500; }}
   .bar-track {{
     height: 22px;
@@ -524,6 +592,7 @@ CSS = f"""
     border-right: 1px solid rgba(255,255,255,0.35);
     opacity: 0.92;
     transition: opacity 0.15s;
+    cursor: help;
   }}
   .bar-track .seg:last-child {{ border-right: 0; }}
   .bar-track .seg:hover {{ opacity: 1; }}
@@ -532,6 +601,91 @@ CSS = f"""
     font-variant-numeric: tabular-nums;
     font-weight: 600;
     color: {NAVY};
+  }}
+  .bar-toggle {{
+    color: {MUTED};
+    font-size: 11px;
+    text-align: center;
+    transition: transform 0.18s;
+  }}
+  .bar-row.is-open .bar-toggle {{ transform: rotate(90deg); color: {ACCENT_BLUE}; }}
+
+  /* Bar detail panel (click-to-expand) */
+  .bar-detail {{
+    padding: 6px 8px 18px 154px;
+    border-bottom: 1px solid {BORDER};
+    margin-bottom: 4px;
+  }}
+  .bar-detail[hidden] {{ display: none; }}
+  table.d-table {{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }}
+  table.d-table th {{
+    text-align: left;
+    padding: 6px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: {MUTED};
+    font-weight: 600;
+    border-bottom: 1px solid {BORDER};
+  }}
+  table.d-table td {{
+    padding: 8px 10px;
+    border-bottom: 1px dashed {BORDER};
+    vertical-align: top;
+  }}
+  table.d-table td.d-dim {{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: {NAVY};
+    width: 90px;
+  }}
+  table.d-table td.d-score {{
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    width: 50px;
+    color: {NAVY};
+  }}
+  table.d-table td.d-conf {{ width: 90px; }}
+  table.d-table td.d-rat {{ color: {INK}; line-height: 1.55; }}
+  table.d-table td.d-meta {{
+    color: {MUTED};
+    font-size: 11px;
+    white-space: nowrap;
+    width: 130px;
+  }}
+  .conf-badge {{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }}
+  .conf-high   {{ background: #DDEFE8; color: #0F6E56; }}
+  .conf-medium {{ background: #F2E5C6; color: #8B6F3E; }}
+  .conf-low    {{ background: #F2D6D2; color: #A84545; }}
+  .d-editorial {{
+    background: #F7F4EC;
+    border-left: 3px solid {ACCENT_BLUE};
+    padding: 10px 14px;
+    border-radius: 3px;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: {INK};
+  }}
+  .d-editorial strong {{
+    color: {NAVY};
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: block;
+    margin-bottom: 4px;
   }}
 
   /* Data tables */
@@ -550,6 +704,36 @@ CSS = f"""
     text-transform: uppercase;
     letter-spacing: 0.6px;
     border-bottom: 2px solid {BORDER};
+  }}
+  table.data-table.sortable th {{
+    cursor: pointer;
+    user-select: none;
+    padding-right: 22px;
+    position: relative;
+    transition: background 0.12s;
+  }}
+  table.data-table.sortable th:hover {{
+    background: #EFE9DA;
+  }}
+  table.data-table.sortable th::after {{
+    content: '↕';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: {MUTED};
+    font-size: 9px;
+    opacity: 0.5;
+  }}
+  table.data-table.sortable th.sort-asc::after {{
+    content: '↑';
+    color: {ACCENT_BLUE};
+    opacity: 1;
+  }}
+  table.data-table.sortable th.sort-desc::after {{
+    content: '↓';
+    color: {ACCENT_BLUE};
+    opacity: 1;
   }}
   table.data-table td {{
     padding: 10px 12px;
@@ -595,7 +779,8 @@ CSS = f"""
   }}
   @media (max-width: 720px) {{
     .stats-row {{ grid-template-columns: repeat(2, 1fr); }}
-    .bar-row {{ grid-template-columns: 100px 1fr 50px; }}
+    .bar-row {{ grid-template-columns: 100px 1fr 50px 16px; }}
+    .bar-detail {{ padding-left: 12px; }}
     main {{ padding: 20px; }}
   }}
 """
@@ -619,21 +804,125 @@ def build_dashboard() -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TactBio LAI Tracker — Dashboard</title>
+<title>Long-Acting Injectable Tracker — Dashboard</title>
 <style>{CSS}</style>
 </head>
 <body>
 <header class="page-header">
-  <div class="brand">TACTBIO RESEARCH</div>
+  <div class="brand">LAI RESEARCH</div>
   <h1>Long-Acting Injectable Tracker</h1>
-  <div class="meta">Generated {generated} · Source of truth: <code>data/</code> YAML · Rebuild with <code>python scripts/build_dashboard.py</code></div>
+  <div class="meta">Generated {generated}</div>
 </header>
 <main>
 {''.join(body_sections)}
 </main>
 <footer>
-  TactBio Research · Internal use · Not investment advice · Regenerated each run from <code>db/lai.db</code>
+  Internal use · Not investment advice
 </footer>
+<script>
+(function() {{
+  var EMPTY_MARKERS = ['—', '-', 'undisc.', 'undisclosed', '', 'null', 'n/a'];
+
+  function parseNumber(text) {{
+    if (!text) return null;
+    var t = text.replace(/<[^>]+>/g, '').trim();
+    if (EMPTY_MARKERS.indexOf(t.toLowerCase()) !== -1) return null;
+    var m = t.match(/-?[\\d,]+\\.?\\d*/);
+    if (!m) return null;
+    var n = parseFloat(m[0].replace(/,/g, ''));
+    return isNaN(n) ? null : n;
+  }}
+
+  function parseDate(text) {{
+    if (!text) return null;
+    var t = text.replace(/<[^>]+>/g, '').trim();
+    if (EMPTY_MARKERS.indexOf(t.toLowerCase()) !== -1) return null;
+    var d = new Date(t);
+    return isNaN(d.getTime()) ? null : d.getTime();
+  }}
+
+  function getCellValue(row, idx, type) {{
+    var cell = row.children[idx];
+    if (!cell) return null;
+    var raw = cell.textContent.trim();
+    if (type === 'number') return parseNumber(raw);
+    if (type === 'date')   return parseDate(raw);
+    return raw.toLowerCase();
+  }}
+
+  function compareValues(a, b, dir) {{
+    var aNull = (a === null || a === undefined || a === '');
+    var bNull = (b === null || b === undefined || b === '');
+    if (aNull && bNull) return 0;
+    if (aNull) return 1;   // empties always at bottom
+    if (bNull) return -1;
+    if (a < b) return dir === 'asc' ? -1 : 1;
+    if (a > b) return dir === 'asc' ? 1 : -1;
+    return 0;
+  }}
+
+  function sortTable(table, colIdx, type, dir) {{
+    var tbody = table.querySelector('tbody');
+    var rows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+    rows.sort(function(r1, r2) {{
+      return compareValues(
+        getCellValue(r1, colIdx, type),
+        getCellValue(r2, colIdx, type),
+        dir
+      );
+    }});
+    rows.forEach(function(r) {{ tbody.appendChild(r); }});
+  }}
+
+  document.querySelectorAll('table.data-table.sortable').forEach(function(table) {{
+    var headers = table.querySelectorAll('thead th');
+    headers.forEach(function(th, idx) {{
+      th.addEventListener('click', function() {{
+        var type = th.getAttribute('data-sort') || 'text';
+        var current = th.classList.contains('sort-asc') ? 'asc'
+                    : th.classList.contains('sort-desc') ? 'desc' : null;
+        var nextDir = current === 'asc' ? 'desc' : 'asc';
+        headers.forEach(function(h) {{ h.classList.remove('sort-asc', 'sort-desc'); }});
+        th.classList.add(nextDir === 'asc' ? 'sort-asc' : 'sort-desc');
+        sortTable(table, idx, type, nextDir);
+      }});
+    }});
+  }});
+
+  // Bar-row click-to-expand for platform composite scores
+  function toggleBarRow(row) {{
+    var pid = row.getAttribute('data-platform');
+    if (!pid) return;
+    var detail = document.querySelector('.bar-detail[data-for="' + pid + '"]');
+    if (!detail) return;
+    var isOpen = !detail.hasAttribute('hidden');
+    if (isOpen) {{
+      detail.setAttribute('hidden', '');
+      row.classList.remove('is-open');
+      row.setAttribute('aria-expanded', 'false');
+    }} else {{
+      detail.removeAttribute('hidden');
+      row.classList.add('is-open');
+      row.setAttribute('aria-expanded', 'true');
+    }}
+  }}
+
+  document.querySelectorAll('.bar-row[data-platform]').forEach(function(row) {{
+    row.addEventListener('click', function(e) {{
+      // Don't toggle if user is hovering a segment for tooltip — segments
+      // intercept their own clicks too, so check the actual target
+      if (e.target.classList.contains('seg')) {{ return; }}
+      toggleBarRow(row);
+    }});
+    row.addEventListener('keydown', function(e) {{
+      if (e.key === 'Enter' || e.key === ' ') {{
+        e.preventDefault();
+        toggleBarRow(row);
+      }}
+    }});
+  }});
+}})();
+</script>
 </body>
 </html>
 """
