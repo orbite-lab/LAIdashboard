@@ -1,0 +1,102 @@
+id: atrigel
+name: Atrigel
+company: Tolmar
+country: US
+
+mechanism: in_situ_depot
+duration_bucket: medium
+duration_range_days: [30, 180]
+payload_classes:
+  - small_molecule
+  - peptide
+
+mechanism_notes: >
+  PLGA polymer dissolved in NMP solvent. Upon SC injection, NMP diffuses into
+  tissue and polymer precipitates forming solid depot. One of the oldest
+  in-situ depot platforms with the longest commercial track record
+  (Eligard leuprolide LAI since 2002).
+
+regulatory_history:
+  - product: Eligard (leuprolide LAI)
+    indication: oncology
+    approval_year: 2002
+    agency: FDA
+  - product: Sublocade (buprenorphine LAI)
+    indication: addiction
+    approval_year: 2017
+    agency: FDA
+  - product: Subcuvia variants and others across geographies
+    indication: oncology
+    approval_year: 2005
+    agency: EMA
+
+ip_core_expiry_year: 2022
+ip_continuation_strategy: weak
+ip_fto_concerns: minor
+ip_notes: >
+  Core composition-of-matter patents expired. Generic Eligard competition
+  active in some territories. Platform value now resides primarily in
+  manufacturing know-how, regulatory history, and product-specific patents
+  (Sublocade delivery).
+
+active_partners:
+  - name: Indivior
+    tier: tier_2
+    deal_id: null
+  - name: Astellas
+    tier: tier_2
+    deal_id: null
+
+scores:
+  tech:
+    value: 5
+    rationale: Longest commercial track record of any in-situ depot LAI platform; two decades of manufacturing refinement; broad payload experience across small molecules and peptides.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  ip:
+    value: 2
+    rationale: Core patents expired; generic competition to Eligard emerging; platform-level exclusivity now depends on manufacturing trade secrets rather than composition-of-matter.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  dealability:
+    value: 3
+    rationale: Historical partnering track record (AstraZeneca, Sanofi, Astellas, Indivior) demonstrates dealability, but IP expiry limits incremental licensing value; current positioning more manufacturing-services than platform licensor.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+
+indication_fit:
+  oncology:
+    value: 5
+    rationale: Eligard remains reference leuprolide LAI for prostate cancer; decades of label/safety data; Tolmar retains strong commercial position despite generics.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  addiction:
+    value: 5
+    rationale: Sublocade is the US market-leading buprenorphine LAI for OUD; Indivior partnership commercially entrenched; 6-month duration competitive vs. Brixadi monthly.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  psych:
+    value: 2
+    rationale: Mechanism compatible but category crowded and Tolmar has not pursued psych; IP expiry makes new psych entry commercially unattractive vs. platforms with runway.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  endocrine:
+    value: 3
+    rationale: Leuprolide indications (endometriosis, central precocious puberty, prostate cancer) span endocrine and oncology; addressable but category mature.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+
+tactbio_view: >
+  Platform value has shifted from IP-protected technology to manufacturing and
+  regulatory moat. Still commercially important via Eligard and Sublocade but
+  low investability as a standalone platform story. Reference point for what
+  happens to in-situ depot platforms after core IP expires.
+
+last_updated: 2026-04-21

@@ -1,0 +1,82 @@
+# Asset template — copy this file to data/assets/<slug>.yaml
+# Remove these comment lines once filled in. Required fields marked REQUIRED.
+
+id: slug_here                      # REQUIRED — lowercase, unique
+name: Asset Name                    # REQUIRED — brand name or INN
+inn: international_nonproprietary_name  # optional — INN / generic name
+platform_id: bepo                   # REQUIRED — slug of parent platform in data/platforms/
+owning_company: Company Name        # REQUIRED
+licensee_company: Licensee          # optional — if partnered
+indications:                        # REQUIRED — list of indications this asset targets
+  - code: psych                     # matches taxonomy ATA codes
+    phase: approved                 # preclinical / phase_1 / phase_2 / phase_3 / approved / withdrawn
+    first_approval_year: 2023
+    geography: US
+  # One entry per indication-geography-phase combination
+
+# Regulatory milestones
+key_dates:
+  pdufa: null                       # null or ISO date (YYYY-MM-DD)
+  nda_filed: 2023-01-15             # null or date
+  expected_readout: null            # null or date for pending trials
+  next_catalyst: 2026-Q4            # quarter or date
+
+# Commercial data
+commercial:
+  sales_latest:
+    year: 2025
+    value_usd_m: 191                # TTM or FY as noted in `sales_notes`
+    currency: USD
+    source: company press release
+  sales_notes: Full-year 2025 sales per Teva
+  list_price_usd: null              # list price per dose/course if disclosed
+  addressable_market_usd_m: null    # TactBio estimate of peak addressable
+
+# Deal linkage
+primary_deal_id: 2018_teva_medincell   # cross-reference to data/deals/
+
+# Clinical trial linkage
+primary_trials:
+  - nct_id: NCT00000000             # must exist in data/trials/ or note "pending"
+    role: pivotal
+
+# SCORING — see docs/scoring_rubric.md
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from BEPO platform; no asset-specific adjustment.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  ip:
+    value: 4
+    rationale: ...
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  dealability:
+    value: 4
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  regulatory:
+    value: 4
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+
+# TactBio editorial context
+tactbio_view: >
+  What's the contrarian take on this asset? Where does the market overprice or
+  underprice it? What's the kill condition for our thesis?
+
+last_updated: 2026-04-21

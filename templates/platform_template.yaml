@@ -1,0 +1,84 @@
+# Platform template — copy this file to data/platforms/<slug>.yaml
+# Remove these comment lines once filled in. Required fields marked REQUIRED.
+
+id: slug_here                      # REQUIRED — lowercase, underscores, unique
+name: Platform Display Name        # REQUIRED
+company: Owning Company             # REQUIRED — company slug in data/companies (future) or name
+company_ticker: TICKER              # optional — primary listing
+country: FR                         # optional — ISO country code of parent
+
+# Technical classification — must match docs/taxonomy.md
+mechanism: in_situ_depot            # REQUIRED — see taxonomy
+duration_bucket: medium             # REQUIRED — short/medium/long/ultra_long
+duration_range_days: [14, 90]       # REQUIRED — [min, max] realistic range across programs
+payload_classes:                    # REQUIRED — list of supported payload classes
+  - small_molecule
+  - peptide
+
+mechanism_notes: >                  # optional — used when mechanism=other, or to add nuance
+  Brief technical description of what makes the platform distinctive.
+
+# Regulatory footprint
+regulatory_history:                 # REQUIRED — list of approved products using this platform
+  - product: PRODUCT_NAME
+    indication: indication
+    approval_year: 2023
+    agency: FDA                     # FDA / EMA / PMDA / NMPA / other
+
+# IP position
+ip_core_expiry_year: 2030           # REQUIRED — year of earliest core composition-of-matter expiry
+ip_continuation_strategy: strong    # REQUIRED — strong / moderate / weak / none
+ip_fto_concerns: none               # REQUIRED — none / minor / material
+ip_notes: >                         # optional
+  Any important context on patent strategy, trade secrets, ongoing oppositions.
+
+# Commercial / partnering footprint
+active_partners:                    # optional — tier-1 / tier-2 partner list
+  - name: Partner Name
+    tier: tier_1                    # tier_1 / tier_2 / tier_3
+    deal_id: slug_for_deal_in_data_deals    # cross-reference to deal YAML
+
+# SCORING — populated via scripts/score.py, but initial hand-scoring goes here
+scores:
+  tech:
+    value: 4
+    rationale: One-sentence defense of the score — mandatory.
+    confidence: high                # high / medium / low
+    scored_at: 2026-04-21
+    scorer: RX                      # initials
+  ip:
+    value: 4
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  dealability:
+    value: 4
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+
+# Indication fit matrix — scores for each (platform, indication) pair
+# Used by the Platform H2H output
+indication_fit:
+  psych:
+    value: 5
+    rationale: ...
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  addiction:
+    value: 4
+    rationale: ...
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  # Add entries for indications worth scoring. Omit indications where fit is irrelevant.
+
+# Free-form TactBio analytical context
+tactbio_view: >
+  Short editorial paragraph. What's the contrarian take? Where does the market
+  misread this platform? What's the single question that would change our view?
+
+last_updated: 2026-04-21

@@ -1,0 +1,78 @@
+id: sublocade
+name: Sublocade
+inn: buprenorphine
+platform_id: atrigel
+owning_company: Indivior
+licensee_company: null
+
+indications:
+  - code: addiction
+    phase: approved
+    first_approval_year: 2017
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: Indivior 10-K
+  sales_notes: >
+    Sublocade is Indivior's largest product; 2024 sales approx $750M+ per
+    company reporting. Verify exact figure in next data pull.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: pending
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from Atrigel; reliable 30-day release for buprenorphine well-characterized.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: Phase 3 data robust; real-world evidence from 7+ years of commercial use in US.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  ip:
+    value: 3
+    rationale: Asset-level delivery patents layered over expired Atrigel platform IP; Indivior has faced IP challenges historically (Alvogen case); protection meaningful but contested.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  dealability:
+    value: 2
+    rationale: Indivior owns both product and commercialization; no licensing partner; dealability reflects standalone asset valuation not partnership trajectory.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  regulatory:
+    value: 5
+    rationale: Approved with REMS; label stable; 2023 REMS modification broadened prescriber access.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+
+tactbio_view: >
+  Sublocade is the category reference for OUD LAI success but sits inside
+  Indivior's complex history (Reckitt spinoff, litigation, governance concerns).
+  The platform score reflects commercial success; the TactBio analytical tension
+  is whether Indivior corporate overhead justifies investing in Sublocade
+  exposure versus finding cleaner expressions of the OUD LAI thesis.
+
+last_updated: 2026-04-21

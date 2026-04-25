@@ -1,0 +1,62 @@
+# Deal template — copy this file to data/deals/<year>_<licensor>_<licensee>.yaml
+# e.g., 2018_teva_medincell.yaml, 2022_abbvie_medincell.yaml
+# Remove these comment lines once filled in. Required fields marked REQUIRED.
+
+id: 2018_teva_medincell             # REQUIRED — year_licensor_licensee pattern
+deal_type: licensing                # REQUIRED — licensing / option / m_and_a / jv / royalty_monetization
+status: active                      # REQUIRED — active / terminated / expired / amended
+
+# Counterparties
+licensor: MedinCell                  # REQUIRED — the provider of tech / asset
+licensor_ticker: MEDCL
+licensee: Teva                       # REQUIRED — the acquirer of rights
+licensee_ticker: TEVA
+
+# Subject
+asset_id: uzedy                      # cross-reference to data/assets/ if applicable
+platform_id: bepo                    # cross-reference to data/platforms/ if applicable
+description: >                       # REQUIRED — one-sentence description
+  Licensing of risperidone LAI (later marketed as UZEDY) for US commercialization.
+
+# Timing
+announced_date: 2018-02-15          # REQUIRED — ISO date
+completed_date: 2018-02-15          # date definitive agreement signed/closed
+termination_date: null              # null if active
+
+# Economics — USD millions unless noted
+economics:
+  upfront_usd_m: null                # null if undisclosed
+  milestones_total_usd_m: null       # sum of all milestone potential
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null              # low end of tiered royalty range
+  royalty_high_pct: null             # high end
+  royalty_notes: >
+    Any structural detail — tiered royalties, net vs gross, step-up thresholds, caps.
+
+# Structural terms
+option_structure: null               # null or description if option-based
+territory: United States             # geography covered
+exclusivity: exclusive               # exclusive / semi_exclusive / non_exclusive
+indications_covered:                 # which indications this deal covers
+  - psych
+termination_clauses: >
+  Any disclosed termination rights, performance conditions, or reversion provisions.
+
+# Disclosure quality
+disclosure_quality: partial          # REQUIRED — full / partial / minimal
+  # full — all key terms disclosed
+  # partial — upfront or milestones disclosed, but not all
+  # minimal — only the existence of the deal is public
+source_urls:                         # REQUIRED — at least one source URL
+  - https://example.com/press_release
+
+# TactBio editorial context
+tactbio_view: >
+  What does this deal signal? Is pricing above/below market for comparable deals?
+  What does counterparty quality tell us about the platform?
+
+last_updated: 2026-04-21

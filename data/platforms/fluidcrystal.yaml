@@ -1,0 +1,101 @@
+id: fluidcrystal
+name: FluidCrystal
+company: Camurus
+company_ticker: CAMX
+country: SE
+
+mechanism: in_situ_depot
+duration_bucket: medium
+duration_range_days: [7, 180]
+payload_classes:
+  - small_molecule
+  - peptide
+
+mechanism_notes: >
+  Lipid liquid crystal technology. Low-viscosity precursor solution transforms
+  into liquid crystal depot on contact with aqueous body fluids. Covers weekly
+  and monthly dosing in approved products (Buvidal/Brixadi); 6-month durations
+  in clinical development (CAM2029). Distinctively broad duration range versus
+  polymer in-situ depot competitors.
+
+regulatory_history:
+  - product: Buvidal (buprenorphine LAI)
+    indication: addiction
+    approval_year: 2018
+    agency: EMA
+  - product: Brixadi (buprenorphine LAI, US)
+    indication: addiction
+    approval_year: 2023
+    agency: FDA
+
+ip_core_expiry_year: 2030
+ip_continuation_strategy: moderate
+ip_fto_concerns: none
+ip_notes: >
+  Core lipid liquid crystal patents filed early/mid 2000s with continuations.
+  Earlier filing dates than competing platforms mean earlier expiries.
+  Defensive strategy relies on formulation-specific continuations and
+  manufacturing know-how.
+
+active_partners:
+  - name: Braeburn
+    tier: tier_2
+    deal_id: 2018_braeburn_camurus
+  - name: Rhythm Pharmaceuticals
+    tier: tier_3
+    deal_id: null
+
+scores:
+  tech:
+    value: 5
+    rationale: Two approved products in two regions (Buvidal EU, Brixadi US), demonstrated payload breadth including peptides (CAM2029 octreotide Phase 3), duration range from weekly to six-monthly is widest in category.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  ip:
+    value: 3
+    rationale: Core platform patents approaching 2030 expiry; continuation strategy moderate but earlier filings mean less runway than BEPO or Atrigel newer filings.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  dealability:
+    value: 4
+    rationale: Multiple partner deals but Braeburn is mid-tier, no tier-1 pharma partnership to date; Camurus increasingly commercializing direct rather than licensing, which reduces dealability datapoints.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+
+indication_fit:
+  addiction:
+    value: 5
+    rationale: Two approved products; category leader in opioid use disorder LAI in multiple geographies; entrenched prescriber familiarity.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  psych:
+    value: 3
+    rationale: Mechanism compatible but BEPO has first-mover momentum with UZEDY and Invega/Abilify franchise already entrenched in nanocrystal and microsphere LAI; FluidCrystal unlikely to enter psych.
+    confidence: medium
+    scored_at: 2026-04-21
+    scorer: RX
+  endocrine:
+    value: 4
+    rationale: CAM2029 octreotide LAI in Phase 3 for acromegaly; fits the long-duration peptide delivery sweet spot of the platform.
+    confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  oncology:
+    value: 3
+    rationale: LHRH-like analogs technically feasible but commoditized category with Zoladex/Lupron incumbents; CAM2032 setmelanotide program adjacent but obesity/rare disease more than oncology.
+    confidence: low
+    scored_at: 2026-04-21
+    scorer: RX
+
+tactbio_view: >
+  Under-appreciated platform with the widest duration range in its category but
+  commercialization-heavy strategy reduces pure-play platform investment appeal.
+  Contrarian read: the shift from licensing to direct commercialization is both
+  strength (margin capture) and weakness (reduced dealability signal for investors
+  looking for royalty compounders).
+
+last_updated: 2026-04-21

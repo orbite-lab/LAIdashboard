@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Derived artifact — rebuilt from YAML by scripts/build_db.py
+db/*.db
+
+# OS / editor detritus
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Outputs are committed so diffs between refreshes are visible in git history.
+# If you want to exclude them, uncomment:
+# outputs/*.md
