@@ -45,7 +45,7 @@ Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no mark
 | Chroniject | 3 | 2 | 3 | **2.70** |
 | DepoFoam | 3 | 2 | 2 | **2.40** |
 | Durasert | 5 | 4 | 3 | **4.10** |
-| FluidCrystal | 5 | 3 | 4 | **4.10** |
+| FluidCrystal | 5 | 3 | 5 | **4.40** |
 | ISM | 4 | 4 | 3 | **3.70** |
 | Lupron Depot | 5 | 1 | 1 | **2.60** |
 | Medisorb | 5 | 2 | 4 | **3.80** |
@@ -94,7 +94,7 @@ The reference platform for ophthalmic implant LAI. Strategic question is whether
 
 ### FluidCrystal
 
-Under-appreciated platform with the widest duration range in its category but commercialization-heavy strategy reduces pure-play platform investment appeal. Contrarian read: the shift from licensing to direct commercialization is both strength (margin capture) and weakness (reduced dealability signal for investors looking for royalty compounders).
+Re-rated platform post-June 2025 Eli Lilly $870M deal. Previously framed as "under-appreciated platform with commercialization-heavy strategy" — the Lilly endorsement converts the dealability narrative. FluidCrystal is now the only LAI platform with both meaningful direct-commercial scale (Buvidal SEK 1.65B / USD 157M FY2024) AND tier-1 pharma external licensing (Lilly cardiometabolic incretins). Watch CAM2029 (Oclaiz) acromegaly resubmission post-CRL and SORENTO NET readout (late 2025/ early 2026) as the next franchise-defining catalysts. Contrarian read: Lilly's mid-single-digit royalty (4-7%) is below what a transformational obesity-LAI platform deal could have commanded — Camurus took meaningful but not extraordinary economics, suggesting Lilly retained leverage on terms despite competitive obesity-LAI dynamics.
 
 ### ISM
 

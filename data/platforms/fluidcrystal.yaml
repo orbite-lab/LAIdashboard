@@ -38,9 +38,12 @@ ip_notes: >
   manufacturing know-how.
 
 active_partners:
-  - name: Braeburn
+  - name: Braeburn (Brixadi US commercialization)
     tier: tier_2
     deal_id: 2018_braeburn_camurus
+  - name: Eli Lilly (cardiometabolic incretins, June 2025)
+    tier: tier_1
+    deal_id: 2025_lilly_camurus_incretins
   - name: Rhythm Pharmaceuticals
     tier: tier_3
     deal_id: null
@@ -59,11 +62,11 @@ scores:
     scored_at: 2026-04-21
     scorer: RX
   dealability:
-    value: 4
-    rationale: Multiple partner deals but Braeburn is mid-tier, no tier-1 pharma partnership to date; Camurus increasingly commercializing direct rather than licensing, which reduces dealability datapoints.
-    confidence: medium
-    scored_at: 2026-04-21
-    scorer: RX
+    value: 5
+    rationale: June 2025 Eli Lilly $870M cardiometabolic incretins deal (up to four GIP/GLP-1 compounds, mid-single-digit royalties) validates FluidCrystal at tier-1 pharma counterparty level. Combined with Buvidal direct commercialization (~SEK 1.65B / USD 157M FY2024 product sales) and Brixadi US royalties (SEK 212M FY2024), Camurus now demonstrates both internal commercialization scale AND tier-1 external licensing optionality. Score upgraded from 4 to 5 post-Lilly endorsement.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
 
 indication_fit:
   addiction:
@@ -92,10 +95,17 @@ indication_fit:
     scorer: RX
 
 tactbio_view: >
-  Under-appreciated platform with the widest duration range in its category but
-  commercialization-heavy strategy reduces pure-play platform investment appeal.
-  Contrarian read: the shift from licensing to direct commercialization is both
-  strength (margin capture) and weakness (reduced dealability signal for investors
-  looking for royalty compounders).
+  Re-rated platform post-June 2025 Eli Lilly $870M deal. Previously framed
+  as "under-appreciated platform with commercialization-heavy strategy" —
+  the Lilly endorsement converts the dealability narrative. FluidCrystal
+  is now the only LAI platform with both meaningful direct-commercial
+  scale (Buvidal SEK 1.65B / USD 157M FY2024) AND tier-1 pharma external
+  licensing (Lilly cardiometabolic incretins). Watch CAM2029 (Oclaiz)
+  acromegaly resubmission post-CRL and SORENTO NET readout (late 2025/
+  early 2026) as the next franchise-defining catalysts. Contrarian read:
+  Lilly's mid-single-digit royalty (4-7%) is below what a transformational
+  obesity-LAI platform deal could have commanded — Camurus took meaningful
+  but not extraordinary economics, suggesting Lilly retained leverage on
+  terms despite competitive obesity-LAI dynamics.
 
-last_updated: 2026-04-21
+last_updated: 2026-04-25

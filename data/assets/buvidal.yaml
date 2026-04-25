@@ -1,0 +1,90 @@
+id: buvidal
+name: Buvidal
+inn: buprenorphine
+platform_id: fluidcrystal
+owning_company: Camurus
+licensee_company: null
+
+indications:
+  - code: addiction
+    phase: approved
+    first_approval_year: 2018
+    geography: EU
+  - code: addiction
+    phase: approved
+    first_approval_year: 2018
+    geography: AU
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 157
+    currency: USD
+    source: Camurus FY2024 report (SEK 1,654M at ~10.5 SEK/USD)
+  sales_notes: >
+    Buvidal FY2024 product sales were SEK 1,654 million, up 27% YoY from
+    SEK 1,299M in FY2023. Approximately 48,000+ patients on treatment by
+    end of 2023 per Camurus disclosures. Camurus commercializes Buvidal
+    directly across Europe (EU + UK), Australia, and adjacent geographies
+    — distinct from Brixadi which is the US brand commercialized by Braeburn.
+    Camurus FY2025 guidance implied total revenues SEK 2.7-3.0B (+45% to +61%).
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT02611440
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from FluidCrystal; weekly and monthly dosing options demonstrate platform range.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: Same molecule and pivotal data set as Brixadi; demonstrated efficacy across two regulatory regions and 6+ years commercial use.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 3
+    rationale: FluidCrystal platform IP plus product-specific patents; runway shorter than newer LAI entrants per platform-level scoring.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 4
+    rationale: Camurus directly commercializes; demonstrates platform's ability to generate company-level value without third-party licensee, but limits external deal datapoints for this asset specifically.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved across EU and Australia with stable label; weekly and monthly formulations established.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Buvidal is the Camurus revenue engine and commercial validation of the
+  FluidCrystal platform thesis. Combined Buvidal + Brixadi (royalty-equivalent)
+  generated ~SEK 1.87B (~USD 178M) in 2024 — a meaningful scale for a
+  formulation-platform biotech. Strategic question is sustainability of growth
+  trajectory vs. competition from Sublocade in EU markets where access expands.
+  Watch FY2025 guidance execution — Camurus' top end of SEK 3B requires
+  continued European market penetration plus Brixadi US scaling. The Lilly
+  incretin deal provides additional revenue optionality but is unlikely to
+  contribute material near-term royalty given clinical-stage status.
+
+last_updated: 2026-04-25

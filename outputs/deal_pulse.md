@@ -6,6 +6,7 @@
 
 | Date | Licensor | Licensee | Platform | Type | Upfront | Milestones | Territory | Disclosure |
 |---|---|---|---|---|---|---|---|---|
+| 2025-06-03 | Camurus | Eli Lilly and Company | FluidCrystal | licensing | undisc. | $870M | Worldwide | partial |
 | 2024-06-01 | Indivior | Newron Pharmaceuticals | Perseris | licensing | undisc. | undisc. | United States | minimal |
 | 2022-10-06 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
 | 2021-06-01 | Foresee Pharmaceuticals | Accord Healthcare | SpectruM | licensing | undisc. | undisc. | United States | minimal |
@@ -17,6 +18,16 @@
 | 2008-02-12 | EyePoint Pharmaceuticals | Alimera Sciences | Durasert | licensing | undisc. | undisc. | Worldwide | partial |
 
 ## Deal detail and TactBio view
+
+### Camurus × Eli Lilly and Company — 2025-06-03
+
+**Description:** Collaboration and license agreement granting Lilly exclusive worldwide rights to develop, manufacture, and commercialize long-acting incretin products for cardiometabolic health using Camurus' FluidCrystal technology. Covers up to four Lilly proprietary drug compounds, with selection across dual GIP/GLP-1 agonists, triple GIP/glucagon/GLP-1 agonists, and an option to include amylin receptor agonists. Lilly's lead obesity assets (tirzepatide, retatrutide) are the strategic context — the deal targets extended-duration formulations as a competitive moat against rival monthly/quarterly LAI obesity entrants (Amgen MariTide, Metsera).
+  
+**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
+**Economics:** milestones $870M · royalty 4%–7%  
+*Notes:* Total deal value up to $870M comprising $290M in upfront, development, and regulatory milestones plus $580M in sales-based milestones. Tiered mid-single-digit royalties on global net product sales (4-7% range inferred from "mid-single digit" disclosure language; verify exact tiers in Camurus filings if material). Specific upfront amount within the $290M tranche not separately disclosed.
+
+**TactBio view:** Single most important platform deal of 2025 for the LAI category and validates FluidCrystal at the highest tier of pharma counterparty. Strategic significance — (1) Lilly's choice of Camurus over BEPO, Atrigel, or in-house formulation work signals that FluidCrystal's payload-breadth and duration-range profile is genuinely differentiated for obesity peptides; (2) the structure ($290M upfront/dev + $580M sales + mid-single-digit royalty) sets a new market-rate benchmark for platform deals where the licensee provides the molecule; (3) the deal re-rates the dealability score for FluidCrystal — Camurus had not previously had a tier-1 pharma partnership, and now does. The contrarian read is that royalty tiers in mid-single digits are below what biotech bulls might have expected for a platform with Lilly's incretin franchise attached; this is "best-effort" obesity LAI rather than a transformational economics deal for Camurus.
 
 ### Indivior × Newron Pharmaceuticals — 2024-06-01
 

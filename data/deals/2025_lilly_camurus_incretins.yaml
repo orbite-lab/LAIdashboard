@@ -1,0 +1,78 @@
+id: 2025_lilly_camurus_incretins
+deal_type: licensing
+status: active
+
+licensor: Camurus
+licensor_ticker: CAMX
+licensee: Eli Lilly and Company
+licensee_ticker: LLY
+
+asset_id: null
+platform_id: fluidcrystal
+description: >
+  Collaboration and license agreement granting Lilly exclusive worldwide rights
+  to develop, manufacture, and commercialize long-acting incretin products for
+  cardiometabolic health using Camurus' FluidCrystal technology. Covers up to
+  four Lilly proprietary drug compounds, with selection across dual GIP/GLP-1
+  agonists, triple GIP/glucagon/GLP-1 agonists, and an option to include amylin
+  receptor agonists. Lilly's lead obesity assets (tirzepatide, retatrutide) are
+  the strategic context — the deal targets extended-duration formulations as
+  a competitive moat against rival monthly/quarterly LAI obesity entrants
+  (Amgen MariTide, Metsera).
+
+announced_date: 2025-06-03
+completed_date: 2025-06-03
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: 870
+  milestones_development_usd_m: 290
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: 580
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: 4
+  royalty_high_pct: 7
+  royalty_notes: >
+    Total deal value up to $870M comprising $290M in upfront, development,
+    and regulatory milestones plus $580M in sales-based milestones. Tiered
+    mid-single-digit royalties on global net product sales (4-7% range
+    inferred from "mid-single digit" disclosure language; verify exact
+    tiers in Camurus filings if material). Specific upfront amount within
+    the $290M tranche not separately disclosed.
+
+option_structure: >
+  Up to four Lilly proprietary drug compounds may be selected, with option
+  to include amylin receptor agonists in addition to the named GIP/GLP-1
+  and GIP/glucagon/GLP-1 classes.
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - metabolic
+  - endocrine
+termination_clauses: >
+  Specific termination terms not publicly disclosed.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.camurus.com/media/press-releases/2025/camurus-and-lilly-enter-collaboration-and-license-agreement-for-long-acting-fluidcrystal-incretins/
+  - https://www.biopharmadive.com/news/eli-lilly-camarus-long-acting-obesity-drug-deal/749761/
+
+tactbio_view: >
+  Single most important platform deal of 2025 for the LAI category and
+  validates FluidCrystal at the highest tier of pharma counterparty.
+  Strategic significance — (1) Lilly's choice of Camurus over BEPO,
+  Atrigel, or in-house formulation work signals that FluidCrystal's
+  payload-breadth and duration-range profile is genuinely differentiated
+  for obesity peptides; (2) the structure ($290M upfront/dev + $580M sales
+  + mid-single-digit royalty) sets a new market-rate benchmark for
+  platform deals where the licensee provides the molecule; (3) the deal
+  re-rates the dealability score for FluidCrystal — Camurus had not
+  previously had a tier-1 pharma partnership, and now does. The contrarian
+  read is that royalty tiers in mid-single digits are below what biotech
+  bulls might have expected for a platform with Lilly's incretin franchise
+  attached; this is "best-effort" obesity LAI rather than a transformational
+  economics deal for Camurus.
+
+last_updated: 2026-04-25

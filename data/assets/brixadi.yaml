@@ -24,12 +24,17 @@ key_dates:
 commercial:
   sales_latest:
     year: 2024
-    value_usd_m: null
+    value_usd_m: 20
     currency: USD
-    source: Camurus disclosures
+    source: Camurus FY2024 report (Brixadi royalties SEK 212M ≈ USD 20M at ~10.5 SEK/USD)
   sales_notes: >
-    Brixadi US launched May 2023 via Braeburn; Buvidal EU approved 2018.
-    Specific 2024/2025 figures need verification — placeholder pending data pull.
+    Brixadi US royalties to Camurus from Braeburn were SEK 212 million in
+    FY2024, up from SEK 9M in FY2023 (>20x growth post-launch). Camurus
+    estimated Brixadi at ~25% market share of the US long-acting buprenorphine
+    segment by end-2024. The $20M figure is Camurus' royalty receipt — actual
+    Brixadi US net sales by Braeburn are higher (typical mid-single-digit
+    royalty would imply ~$300-400M Braeburn net sales, but Braeburn does
+    not publicly disclose specific Brixadi net sales).
   list_price_usd: null
   addressable_market_usd_m: null
 

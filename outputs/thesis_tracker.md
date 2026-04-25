@@ -8,6 +8,7 @@
 |---|---|---|---|---|---|---|
 | Apretude | cabotegravir | NanoCrystal | ViiV Healthcare | approved | **4.65** | — |
 | Brixadi | buprenorphine | FluidCrystal | Camurus / Braeburn | approved | **4.30** | — |
+| Buvidal | buprenorphine | FluidCrystal | Camurus | approved | **4.50** | — |
 | Cabenuva | cabotegravir + rilpivirine | NanoCrystal | ViiV Healthcare | approved | **4.85** | — |
 | Eligard | leuprolide acetate | Atrigel | Tolmar | approved | **3.95** | — |
 | Exparel | bupivacaine liposomal | DepoFoam | Pacira BioSciences | approved | **3.05** | — |
@@ -44,6 +45,7 @@
 **Platform:** FluidCrystal  
 **Owner:** Camurus  
 **Licensee:** Braeburn  
+**Sales 2024:** $20M (Camurus FY2024 report (Brixadi royalties SEK 212M ≈ USD 20M at ~10.5 SEK/USD))
 
 | Dimension | Score | Conf. | Rationale |
 |---|---|---|---|
@@ -54,6 +56,22 @@
 | regulatory | 5 | high | Dual-geography approval with REMS framework established; label expansions possible but not pending. |
 
 **TactBio view:** Brixadi/Buvidal is the structurally disadvantaged second player in US OUD LAI behind Sublocade. Camurus-Braeburn must compete on dosing flexibility (weekly option) and provider economics. Follow-up question: is the weekly formulation genuinely expanding the LAI-treated patient population, or substituting for daily buprenorphine while Sublocade captures first-line LAI?
+
+### Buvidal (buprenorphine)
+
+**Platform:** FluidCrystal  
+**Owner:** Camurus  
+**Sales 2024:** $157M (Camurus FY2024 report (SEK 1,654M at ~10.5 SEK/USD))
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 5 | high | Inherited from FluidCrystal; weekly and monthly dosing options demonstrate platform range. |
+| clinical | 5 | high | Same molecule and pivotal data set as Brixadi; demonstrated efficacy across two regulatory regions and 6+ years commercial use. |
+| ip | 3 | medium | FluidCrystal platform IP plus product-specific patents; runway shorter than newer LAI entrants per platform-level scoring. |
+| dealability | 4 | high | Camurus directly commercializes; demonstrates platform's ability to generate company-level value without third-party licensee, but limits external deal datapoints for this asset specifically. |
+| regulatory | 5 | high | Approved across EU and Australia with stable label; weekly and monthly formulations established. |
+
+**TactBio view:** Buvidal is the Camurus revenue engine and commercial validation of the FluidCrystal platform thesis. Combined Buvidal + Brixadi (royalty-equivalent) generated ~SEK 1.87B (~USD 178M) in 2024 — a meaningful scale for a formulation-platform biotech. Strategic question is sustainability of growth trajectory vs. competition from Sublocade in EU markets where access expands. Watch FY2025 guidance execution — Camurus' top end of SEK 3B requires continued European market penetration plus Brixadi US scaling. The Lilly incretin deal provides additional revenue optionality but is unlikely to contribute material near-term royalty given clinical-stage status.
 
 ### Cabenuva (cabotegravir + rilpivirine)
 
