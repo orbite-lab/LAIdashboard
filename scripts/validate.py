@@ -65,7 +65,7 @@ def load_all(subdir: str) -> dict[str, dict]:
         return out
     for f in sorted(path.glob("*.yaml")):
         try:
-            with open(f) as fh:
+            with open(f, encoding="utf-8") as fh:
                 data = yaml.safe_load(fh)
             if data is None:
                 continue
@@ -172,7 +172,7 @@ def main():
             return out
         for f in sorted(path.glob("*.yaml")):
             try:
-                with open(f) as fh:
+                with open(f, encoding="utf-8") as fh:
                     data = yaml.safe_load(fh)
                 if data is None:
                     continue

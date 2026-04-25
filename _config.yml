@@ -1,0 +1,24 @@
+# GitHub Pages / Jekyll configuration
+# The dashboard is pre-rendered HTML at index.html — Jekyll doesn't need to
+# do anything with it. This config tells Jekyll to leave alone the folders
+# that contain machine-generated content or source-of-truth data.
+
+# Encoding — must be UTF-8 for Jekyll/kramdown to accept the markdown outputs
+encoding: utf-8
+
+# Don't process these folders as Jekyll content
+exclude:
+  - data/
+  - db/
+  - scripts/
+  - templates/
+  - requirements.txt
+  - .gitignore
+
+# Plugins handled by GitHub Pages automatically
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+# Theme — minimal default
+theme: jekyll-theme-primer

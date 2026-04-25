@@ -6,21 +6,21 @@
 
 | Asset | INN | Platform | Owner / Licensee | Status | Composite | Next catalyst |
 |---|---|---|---|---|---|---|
-| Apretude | cabotegravir | NanoCrystal | ViiV Healthcare | approved | **4.65** | — |
-| Brixadi | buprenorphine | FluidCrystal | Camurus / Braeburn | approved | **4.30** | — |
-| Cabenuva | cabotegravir + rilpivirine | NanoCrystal | ViiV Healthcare | approved | **4.85** | — |
-| Eligard | leuprolide acetate | Atrigel | Tolmar | approved | **3.95** | — |
-| Exparel | bupivacaine liposomal | DepoFoam | Pacira BioSciences | approved | **3.05** | — |
-| Invega Hafyera | paliperidone palmitate (6-monthly) | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.75** | — |
-| Invega Sustenna | paliperidone palmitate | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.90** | — |
-| Lupron Depot | leuprolide acetate | Lupron Depot | AbbVie / Takeda | approved | **3.60** | — |
-| Risperdal Consta | risperidone | Medisorb | Janssen (Johnson & Johnson) | approved | **3.60** | — |
-| Sandostatin LAR | octreotide acetate | Sandostatin LAR | Novartis | approved | **3.40** | — |
-| Somatuline Depot | lanreotide | Somatuline Autogel | Ipsen | approved | **3.55** | — |
-| Sublocade | buprenorphine | Atrigel | Indivior | approved | **4.10** | — |
-| Susvimo | ranibizumab (via PDS) | PDS (Susvimo) | Genentech (Roche) | approved | **3.40** | — |
+| Apretude | cabotegravir | NanoCrystal | ViiV Healthcare | approved | **4.65** | â€” |
+| Brixadi | buprenorphine | FluidCrystal | Camurus / Braeburn | approved | **4.30** | â€” |
+| Cabenuva | cabotegravir + rilpivirine | NanoCrystal | ViiV Healthcare | approved | **4.85** | â€” |
+| Eligard | leuprolide acetate | Atrigel | Tolmar | approved | **3.95** | â€” |
+| Exparel | bupivacaine liposomal | DepoFoam | Pacira BioSciences | approved | **3.05** | â€” |
+| Invega Hafyera | paliperidone palmitate (6-monthly) | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.75** | â€” |
+| Invega Sustenna | paliperidone palmitate | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.90** | â€” |
+| Lupron Depot | leuprolide acetate | Lupron Depot | AbbVie / Takeda | approved | **3.60** | â€” |
+| Risperdal Consta | risperidone | Medisorb | Janssen (Johnson & Johnson) | approved | **3.60** | â€” |
+| Sandostatin LAR | octreotide acetate | Sandostatin LAR | Novartis | approved | **3.40** | â€” |
+| Somatuline Depot | lanreotide | Somatuline Autogel | Ipsen | approved | **3.55** | â€” |
+| Sublocade | buprenorphine | Atrigel | Indivior | approved | **4.10** | â€” |
+| Susvimo | ranibizumab (via PDS) | PDS (Susvimo) | Genentech (Roche) | approved | **3.40** | â€” |
 | UZEDY | risperidone | BEPO | MedinCell / Teva | approved | **4.65** | 2026-Q4 |
-| Vivitrol | naltrexone | Medisorb | Alkermes | approved | **3.45** | — |
+| Vivitrol | naltrexone | Medisorb | Alkermes | approved | **3.45** | â€” |
 
 ## Asset detail
 

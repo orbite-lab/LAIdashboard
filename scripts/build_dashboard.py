@@ -642,8 +642,8 @@ def build_dashboard() -> str:
 def main():
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     html_str = build_dashboard()
-    OUT_PATH.write_text(html_str)
-    INDEX_PATH.write_text(html_str)
+    OUT_PATH.write_text(html_str, encoding="utf-8")
+    INDEX_PATH.write_text(html_str, encoding="utf-8")
     size_kb = OUT_PATH.stat().st_size // 1024
     print(f"Wrote {OUT_PATH} ({size_kb} KB)")
     print(f"Wrote {INDEX_PATH} ({size_kb} KB) — for GitHub Pages root")

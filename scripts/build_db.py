@@ -159,7 +159,7 @@ def load_yaml_dir(path: Path) -> list[dict]:
     if not path.exists():
         return entries
     for f in sorted(path.glob("*.yaml")):
-        with open(f) as fh:
+        with open(f, encoding="utf-8") as fh:
             try:
                 data = yaml.safe_load(fh)
                 if data is None:

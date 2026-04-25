@@ -4,36 +4,36 @@
 
 ## Indication fit matrix
 
-Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no marker = high; `·` = medium; `?` = low.
+Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no marker = high; `Â·` = medium; `?` = low.
 
 | Platform | psych | addiction | hiv | oncology | endocrine | ophthalmology | pain | metabolic |
 |---|---|---|---|---|---|---|---|---|
-| Atrigel | 2· | 5 | — | 5 | 3· | — | — | — |
-| BEPO | 5 | 3· | 3? | 3? | — | 4· | — | — |
-| Biochronomer | — | — | — | 3· | — | — | 4 | — |
-| Chroniject | 3? | — | — | 3? | — | — | — | — |
-| DepoFoam | — | — | — | 1 | — | — | 4 | — |
-| Durasert | — | — | — | — | — | 5 | — | — |
-| FluidCrystal | 3· | 5 | — | 3? | 4 | — | — | — |
-| ISM | 4 | — | — | 3? | 3? | — | — | — |
-| Lupron Depot | — | — | — | 5 | 5 | — | — | — |
-| Medisorb | 5 | 4 | — | — | 3· | — | — | — |
-| Medusa | — | — | — | — | 3? | — | — | 3· |
-| NanoCrystal | 5 | 3? | 5 | 3? | — | — | — | — |
-| NanoZolid | — | — | — | 3· | 3? | — | — | — |
-| Novadur | — | — | — | — | — | 5 | — | — |
-| Oil decanoate | 4 | — | — | 4 | 5 | — | — | — |
-| PDS (Susvimo) | — | — | — | — | — | 5 | — | — |
-| Perseris | 3 | — | — | — | — | — | — | — |
-| PolyActiva | — | — | — | — | — | 3· | — | — |
-| Probuphine | — | 2 | — | — | — | — | — | — |
-| Sandostatin LAR | — | — | — | 4 | 5 | — | — | — |
-| Signifor LAR | — | — | — | 3· | 4 | — | — | — |
-| Somatuline Autogel | — | — | — | 5 | 5 | — | — | — |
-| SpectruM | — | — | — | 4 | 3? | — | — | — |
-| Trelstar | — | — | — | 5 | 4 | — | — | — |
-| Zoladex | — | — | — | 5 | 4 | — | — | — |
-| iDose | — | — | — | — | — | 5 | — | — |
+| Atrigel | 2Â· | 5 | â€” | 5 | 3Â· | â€” | â€” | â€” |
+| BEPO | 5 | 3Â· | 3? | 3? | â€” | 4Â· | â€” | â€” |
+| Biochronomer | â€” | â€” | â€” | 3Â· | â€” | â€” | 4 | â€” |
+| Chroniject | 3? | â€” | â€” | 3? | â€” | â€” | â€” | â€” |
+| DepoFoam | â€” | â€” | â€” | 1 | â€” | â€” | 4 | â€” |
+| Durasert | â€” | â€” | â€” | â€” | â€” | 5 | â€” | â€” |
+| FluidCrystal | 3Â· | 5 | â€” | 3? | 4 | â€” | â€” | â€” |
+| ISM | 4 | â€” | â€” | 3? | 3? | â€” | â€” | â€” |
+| Lupron Depot | â€” | â€” | â€” | 5 | 5 | â€” | â€” | â€” |
+| Medisorb | 5 | 4 | â€” | â€” | 3Â· | â€” | â€” | â€” |
+| Medusa | â€” | â€” | â€” | â€” | 3? | â€” | â€” | 3Â· |
+| NanoCrystal | 5 | 3? | 5 | 3? | â€” | â€” | â€” | â€” |
+| NanoZolid | â€” | â€” | â€” | 3Â· | 3? | â€” | â€” | â€” |
+| Novadur | â€” | â€” | â€” | â€” | â€” | 5 | â€” | â€” |
+| Oil decanoate | 4 | â€” | â€” | 4 | 5 | â€” | â€” | â€” |
+| PDS (Susvimo) | â€” | â€” | â€” | â€” | â€” | 5 | â€” | â€” |
+| Perseris | 3 | â€” | â€” | â€” | â€” | â€” | â€” | â€” |
+| PolyActiva | â€” | â€” | â€” | â€” | â€” | 3Â· | â€” | â€” |
+| Probuphine | â€” | 2 | â€” | â€” | â€” | â€” | â€” | â€” |
+| Sandostatin LAR | â€” | â€” | â€” | 4 | 5 | â€” | â€” | â€” |
+| Signifor LAR | â€” | â€” | â€” | 3Â· | 4 | â€” | â€” | â€” |
+| Somatuline Autogel | â€” | â€” | â€” | 5 | 5 | â€” | â€” | â€” |
+| SpectruM | â€” | â€” | â€” | 4 | 3? | â€” | â€” | â€” |
+| Trelstar | â€” | â€” | â€” | 5 | 4 | â€” | â€” | â€” |
+| Zoladex | â€” | â€” | â€” | 5 | 4 | â€” | â€” | â€” |
+| iDose | â€” | â€” | â€” | â€” | â€” | 5 | â€” | â€” |
 
 ## Platform composite scores
 

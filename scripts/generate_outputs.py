@@ -272,7 +272,7 @@ def main():
     }
     for name, content in outputs.items():
         path = OUT_DIR / name
-        path.write_text(content)
+        path.write_text(content, encoding="utf-8")
         print(f"  wrote {path} ({len(content):,} chars)")
 
     print("Done.")
