@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "db" / "lai.db"
 OUT_PATH = REPO_ROOT / "outputs" / "dashboard.html"
+INDEX_PATH = REPO_ROOT / "index.html"
 
 from score import (
     platform_scores, asset_scores, composite,
@@ -642,8 +643,10 @@ def main():
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     html_str = build_dashboard()
     OUT_PATH.write_text(html_str)
+    INDEX_PATH.write_text(html_str)
     size_kb = OUT_PATH.stat().st_size // 1024
     print(f"Wrote {OUT_PATH} ({size_kb} KB)")
+    print(f"Wrote {INDEX_PATH} ({size_kb} KB) — for GitHub Pages root")
     print(f"Open it with: open {OUT_PATH}")
 
 
