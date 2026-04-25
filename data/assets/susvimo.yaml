@@ -1,0 +1,80 @@
+id: susvimo
+name: Susvimo
+inn: ranibizumab (via PDS)
+platform_id: pds
+owning_company: Genentech (Roche)
+licensee_company: null
+
+indications:
+  - code: ophthalmology
+    phase: approved
+    first_approval_year: 2021
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: Roche 2024 (likely segment-level, verify)
+  sales_notes: >
+    Susvimo was voluntarily recalled in October 2022 due to a septum
+    performance issue; relaunched in 2024 after corrective action. Sales
+    trajectory rebuilding. Commercial scale not yet at pre-recall expectations.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT03677934
+    role: pivotal
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from PDS; first commercial LAI for ophthalmic biologic delivery, but recall history is a meaningful caveat.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: ARCHWAY trial demonstrated non-inferiority to monthly ranibizumab; recall and relaunch trajectory tempers the score.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Roche/Genentech proprietary device IP plus ranibizumab patents.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Roche asset.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 4
+    rationale: Approved but commercial relaunch follows recall; regulatory trajectory normal but operational complexity acknowledged.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Strategic touchstone for retinal disease LAI thesis. Susvimo's commercial
+  trajectory will determine whether the wet AMD treatment paradigm shifts
+  toward 6-monthly refill systems vs. continued monthly anti-VEGF injections
+  or new biologics with extended duration. Recall history is a cautionary
+  note for any device-formulation hybrid LAI strategy. Monitor relaunch
+  uptake quarterly.
+
+last_updated: 2026-04-25

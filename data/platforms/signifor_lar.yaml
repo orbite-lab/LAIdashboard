@@ -1,0 +1,71 @@
+id: signifor_lar_platform
+name: Signifor LAR
+company: Recordati Rare Diseases
+country: IT
+
+mechanism: microsphere
+duration_bucket: medium
+duration_range_days: [28, 28]
+payload_classes:
+  - peptide
+
+mechanism_notes: >
+  PLGA microsphere platform for pasireotide (somatostatin analog). Approved
+  for Cushing's disease and acromegaly. Recordati acquired the Signifor
+  franchise from Novartis in 2020.
+
+regulatory_history:
+  - product: Signifor LAR (pasireotide, monthly)
+    indication: endocrine
+    approval_year: 2014
+    agency: FDA
+
+ip_core_expiry_year: 2025
+ip_continuation_strategy: weak
+ip_fto_concerns: none
+ip_notes: >
+  Patent runway ending; verify current status against Recordati filings.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 3
+    rationale: Approved product but narrow indication scope; mechanism conventional PLGA microsphere.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Patent runway short; commercial moat eroding.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Mature asset within rare-disease specialist company; not externally licensable.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  endocrine:
+    value: 4
+    rationale: Pasireotide is differentiated from octreotide on receptor selectivity (SSTR5); commercial position established in Cushing's disease but limited in acromegaly vs Sandostatin LAR.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  oncology:
+    value: 3
+    rationale: Off-label use in some neuroendocrine tumors but not first-line.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Niche endocrine LAI tracked for competitive context. Strategic relevance
+  is as a precedent for rare-disease LAI economics — Recordati's acquisition
+  from Novartis demonstrates that mature LAI franchises can be transferred
+  between strategics at meaningful multiples even with patent expiry approaching.
+
+last_updated: 2026-04-25

@@ -1,0 +1,60 @@
+id: 2008_alimera_eyepoint_iluvien
+deal_type: licensing
+status: active
+
+licensor: EyePoint Pharmaceuticals
+licensor_ticker: EYPT
+licensee: Alimera Sciences
+licensee_ticker: ALIM
+
+asset_id: null
+platform_id: durasert
+description: >
+  Alimera licensed worldwide rights to develop and commercialize Iluvien
+  (fluocinolone acetonide intravitreal implant) for diabetic macular edema
+  using EyePoint's Durasert technology. Approved in EU 2012 and US 2014.
+  Long-running collaboration with multiple amendments over time.
+
+announced_date: 2008-02-12
+completed_date: 2008-02-12
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Long-running partnership with multiple amendments. EyePoint receives
+    royalties on Alimera Iluvien net sales; specific tiers per amendment
+    history. Subsequent amendments added Yutiq EMEA rights for Alimera.
+    Verify current terms against EyePoint 10-K filings.
+
+option_structure: >
+  Multi-amendment collaboration with subsequent rights expansions
+  (Yutiq EMEA added 2023).
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - ophthalmology
+termination_clauses: >
+  Not publicly disclosed in full; collaboration has continued through
+  multiple amendments.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.eyepointpharma.com/
+
+tactbio_view: >
+  Long-running ophthalmic LAI partnership demonstrating that platform-product
+  collaborations can sustain over 15+ years through amendments and rights
+  expansions. Strategic context for any new ophthalmic LAI licensing —
+  the structure of platform-licensor + commercialization-partner is
+  durable in the ophthalmic specialty space.
+
+last_updated: 2026-04-25

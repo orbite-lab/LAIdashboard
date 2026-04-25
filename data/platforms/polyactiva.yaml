@@ -1,0 +1,66 @@
+id: polyactiva
+name: PolyActiva
+company: PolyActiva (private)
+country: AU
+
+mechanism: implant
+duration_bucket: long
+duration_range_days: [180, 365]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Biodegradable polymer implant technology developed by Australian biotech
+  PolyActiva, targeting ophthalmic indications. Lead candidate is a 6-month
+  bimatoprost ocular implant (PA5108) for glaucoma, positioned competitively
+  to Allergan's Durysta with longer claimed duration. Privately held;
+  limited public clinical data.
+
+regulatory_history: []
+
+ip_core_expiry_year: 2035
+ip_continuation_strategy: moderate
+ip_fto_concerns: minor
+ip_notes: >
+  PLACEHOLDER VALUE — Private company; patent estate not publicly characterized.
+  Set to 2035 as a reasonable placeholder reflecting clinical-stage filing
+  vintage. Verify via WIPO searches if pursuing detailed analysis.
+  Confidence on IP score: low.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 3
+    rationale: Clinical-stage only; no approved products; mechanism within established polymer-implant category but specifics differentiated by claimed 6-month duration.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Limited public IP visibility for private company; assumed moderate based on platform-stage filings.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 3
+    rationale: Private clinical-stage platform; deal optionality theoretical pending Phase 2/3 validation.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  ophthalmology:
+    value: 3
+    rationale: Lead program directly competes with approved Durysta; differentiation depends on whether 6-month duration translates to clinical/commercial preference.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Speculative emerging-platform watchlist entry. PolyActiva represents the
+  next-generation challenger thesis to Durysta in glaucoma — if Phase 3 data
+  supports superior duration with comparable safety, the platform could
+  attract Big Pharma interest. Pre-clinical-readout, pure optionality.
+
+last_updated: 2026-04-25

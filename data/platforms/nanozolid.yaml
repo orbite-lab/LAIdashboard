@@ -1,0 +1,77 @@
+id: nanozolid
+name: NanoZolid
+company: LIDDS AB
+company_ticker: LIDDS
+country: SE
+
+mechanism: in_situ_depot
+duration_bucket: long
+duration_range_days: [90, 180]
+payload_classes:
+  - small_molecule
+  - peptide
+  - protein
+
+mechanism_notes: >
+  Calcium sulphate-based injectable depot technology. Drug is suspended in
+  a calcium sulphate matrix that solidifies post-injection and erodes over
+  weeks to months. Differentiated from polymer-based in-situ depots by
+  inorganic matrix chemistry. Lead clinical asset is Larroca Depot
+  (intraprostatic 2-HOF for prostate cancer active surveillance) in Phase IIb.
+  Platform also explored for biologics (EGF preclinical) — relatively rare
+  among in-situ depots.
+
+regulatory_history: []
+
+ip_core_expiry_year: 2030
+ip_continuation_strategy: moderate
+ip_fto_concerns: none
+ip_notes: >
+  Calcium sulphate platform IP filed early/mid 2010s. LIDDS has continuation
+  strategy in place. Verify specific expiry against company filings.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 3
+    rationale: No approved products; broad payload claims (small molecules through proteins) but only one clinical candidate at Phase IIb; biologic capability mostly preclinical.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Reasonable runway with continuation activity; novel inorganic-matrix mechanism distinguishes IP from polymer-platform competitors.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 2
+    rationale: No major partnerships announced; small-cap European biotech with limited tier-1 outreach evident.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  oncology:
+    value: 3
+    rationale: Lead asset Larroca Depot targets prostate cancer active surveillance — niche but potentially valuable indication given size of active-surveillance population.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  endocrine:
+    value: 3
+    rationale: Theoretical compatibility with hormone delivery but no clinical programs publicly disclosed.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Speculative early-stage platform with single Phase IIb asset. Strategic
+  interest is twofold — (1) the active-surveillance prostate cancer niche
+  is under-served and could support a niche commercial product; (2) the
+  inorganic-matrix mechanism is genuinely differentiated from polymer
+  depots and may prove more compatible with sensitive payloads. Both
+  theses require Phase IIb data confirmation before becoming actionable.
+
+last_updated: 2026-04-25

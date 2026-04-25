@@ -1,0 +1,83 @@
+id: zoladex_implant
+name: Zoladex
+company: AstraZeneca / TerSera
+company_ticker: AZN
+country: GB
+
+mechanism: implant
+duration_bucket: long
+duration_range_days: [28, 90]
+payload_classes:
+  - peptide
+
+mechanism_notes: >
+  Pre-formed PLGA solid rod implant containing goserelin acetate. Inserted
+  subcutaneously in the abdomen via 14- or 16-gauge applicator needle.
+  Distinct from Lupron Depot microsphere approach — Zoladex is a single
+  solid rod that erodes in vivo over the dosing interval. AstraZeneca legacy
+  product; US rights transferred to TerSera Therapeutics. Approved 1989
+  in Europe, 1989 in US.
+
+regulatory_history:
+  - product: Zoladex 1-month (goserelin acetate)
+    indication: oncology
+    approval_year: 1989
+    agency: FDA
+  - product: Zoladex 3-month
+    indication: oncology
+    approval_year: 1996
+    agency: FDA
+
+ip_core_expiry_year: 2005
+ip_continuation_strategy: none
+ip_fto_concerns: none
+ip_notes: >
+  Foundational implant patents expired. Goserelin off-patent. Tracked as
+  category context rather than investable platform.
+
+active_partners:
+  - name: TerSera Therapeutics (US rights)
+    tier: tier_2
+    deal_id: null
+
+scores:
+  tech:
+    value: 4
+    rationale: Solid-rod implant approach long established and reliable for goserelin; alternative duration options demonstrate flexibility within the format.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 1
+    rationale: Off-patent.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Mature product; no licensing optionality beyond region-specific commercial transfers (already executed).
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  oncology:
+    value: 5
+    rationale: Zoladex remains widely used for prostate cancer and breast cancer hormonal therapy globally.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  endocrine:
+    value: 4
+    rationale: Used in endometriosis and other GnRH-responsive conditions; established but secondary to Lupron Depot in some markets.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Reference solid-implant platform for peptide LAI. Tracked for indication-fit
+  context in the platform H2H matrix. Competitive context for any new solid-
+  rod implant entrant — Zoladex's commercial entrenchment in oncology hormonal
+  therapy is durable despite IP expiry.
+
+last_updated: 2026-04-25

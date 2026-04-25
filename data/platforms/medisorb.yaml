@@ -1,0 +1,99 @@
+id: medisorb
+name: Medisorb
+company: Alkermes
+company_ticker: ALKS
+country: US
+
+mechanism: microsphere
+duration_bucket: medium
+duration_range_days: [14, 28]
+payload_classes:
+  - small_molecule
+  - peptide
+
+mechanism_notes: >
+  PLG (poly-D,L-lactide-co-glycolide) biodegradable polymer microspheres.
+  Drug is encapsulated via solvent extraction-evaporation; the microspheres
+  hydrolyze in vivo over weeks. Industrial-scale manufacturing established
+  for over two decades. Lyophilized vial format requires aqueous reconstitution
+  before IM injection — a tolerated but operationally complex workflow.
+
+regulatory_history:
+  - product: Risperdal Consta (risperidone)
+    indication: psych
+    approval_year: 2003
+    agency: FDA
+  - product: Vivitrol (naltrexone)
+    indication: addiction
+    approval_year: 2006
+    agency: FDA
+  - product: Bydureon (exenatide)
+    indication: endocrine
+    approval_year: 2012
+    agency: FDA
+
+ip_core_expiry_year: 2018
+ip_continuation_strategy: weak
+ip_fto_concerns: minor
+ip_notes: >
+  Core PLG microsphere patents long expired. Platform now competes on
+  manufacturing know-how and product-specific patents rather than
+  composition-of-matter exclusivity. Confidence on specific expiry
+  year: medium — needs IP search verification.
+
+active_partners:
+  - name: Janssen / J&J (Risperdal Consta historical)
+    tier: tier_1
+    deal_id: null
+  - name: AstraZeneca (Bydureon historical)
+    tier: tier_1
+    deal_id: null
+
+scores:
+  tech:
+    value: 5
+    rationale: Three approved products spanning small molecules and peptides over two decades; foundational microsphere platform with robust commercial track record.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Core composition-of-matter expired; platform exclusivity now dependent on manufacturing trade secrets and product-specific patents.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 4
+    rationale: Historical partnerships with Janssen and AstraZeneca demonstrate dealability; current Alkermes strategy more product-focused than platform-licensing.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  psych:
+    value: 5
+    rationale: Risperdal Consta is the original commercial LAI antipsychotic; microsphere mechanism well-characterized for risperidone/paliperidone class.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  addiction:
+    value: 4
+    rationale: Vivitrol is approved for both alcohol and opioid use disorder; commercially established but secondary to Sublocade/Brixadi for OUD specifically.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  endocrine:
+    value: 3
+    rationale: Bydureon GLP-1 microsphere platform was technically successful but commercially disrupted by semaglutide and tirzepatide oral/weekly; mechanism viable but category dynamics shifted.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Foundational microsphere platform whose strategic relevance has shifted
+  from technology innovation to manufacturing scale. Alkermes' product portfolio
+  built on Medisorb generates substantial revenue, but the platform itself is
+  no longer a credible licensing story. Reference point for what mature LAI
+  technology looks like post-IP cliff.
+
+last_updated: 2026-04-25

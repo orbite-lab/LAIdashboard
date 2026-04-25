@@ -1,0 +1,84 @@
+id: somatuline_depot
+name: Somatuline Depot
+inn: lanreotide
+platform_id: somatuline_autogel
+owning_company: Ipsen
+licensee_company: null
+
+indications:
+  - code: endocrine
+    phase: approved
+    first_approval_year: 2007
+    geography: US
+  - code: oncology
+    phase: approved
+    first_approval_year: 2014
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 1100
+    currency: USD
+    source: Ipsen 2024 annual report (approximate, verify)
+  sales_notes: >
+    Somatuline franchise estimated at €1B+ annually. Approval expansion
+    to neuroendocrine tumors (CLARINET trial) substantially expanded
+    addressable market beyond acromegaly.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT00353496
+    role: pivotal
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from Somatuline Autogel; novel self-assembling nanotube mechanism delivers convenient deep SC injection.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: Two indications with robust pivotal data; CLARINET trial established NET indication.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Core IP at or near expiry; generic threat emerging though no LAI generic launches publicly disclosed.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Ipsen flagship.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved across two indications with stable label.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Largest somatostatin analog LAI by recent revenue. Strategic relevance
+  is as the higher-bar comparator for any lanreotide- or octreotide-class
+  entrant. Patent expiry trajectory creates the central question for
+  Ipsen — defending Somatuline economics will require new indications,
+  pricing flexibility, or commercial focus on geographies where generic
+  entry remains less competitive.
+
+last_updated: 2026-04-25

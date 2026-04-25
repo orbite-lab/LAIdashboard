@@ -1,0 +1,71 @@
+id: idose
+name: iDose
+company: Glaukos
+company_ticker: GKOS
+country: US
+
+mechanism: implant
+duration_bucket: ultra_long
+duration_range_days: [90, 1095]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Titanium intracameral implant with embedded membrane releasing travoprost
+  (a prostaglandin analog) for sustained intraocular pressure reduction in
+  glaucoma and ocular hypertension. iDose TR approved by FDA December 2023.
+  Distinct from biodegradable Durysta (also bimatoprost-class but PLGA
+  bioerodible) — iDose is non-bioerodible titanium device. Phase 3 trials
+  demonstrated up to 36-month efficacy.
+
+regulatory_history:
+  - product: iDose TR (travoprost intracameral)
+    indication: ophthalmology
+    approval_year: 2023
+    agency: FDA
+
+ip_core_expiry_year: 2034
+ip_continuation_strategy: strong
+ip_fto_concerns: none
+ip_notes: >
+  Glaukos patent estate filed 2010s with active continuation strategy.
+  Distinguished platform IP from polymer-based ophthalmic implants.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 4
+    rationale: One approved product with up to 36-month demonstrated efficacy in Phase 3; novel non-bioerodible titanium device approach.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 5
+    rationale: Strong patent estate with continuations; novel device-based mechanism creates distinct IP space from polymer implants.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Glaukos commercializes iDose internally; no external licensing opportunity.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  ophthalmology:
+    value: 5
+    rationale: iDose competes directly with Durysta in glaucoma but with longer duration (up to 36 months vs Durysta's quarterly); first non-bioerodible sustained prostaglandin.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Internal Glaukos asset, not externally investable as platform. Strategic
+  significance for TactBio is as a benchmark — iDose's longer duration
+  pressures Allergan's Durysta and sets a higher bar for any new ophthalmic
+  LAI platform. Watch commercial uptake post-launch as a leading indicator
+  for prescriber/patient acceptance of multi-year ocular implants.
+
+last_updated: 2026-04-25

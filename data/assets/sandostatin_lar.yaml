@@ -1,0 +1,84 @@
+id: sandostatin_lar
+name: Sandostatin LAR
+inn: octreotide acetate
+platform_id: sandostatin_lar_platform
+owning_company: Novartis
+licensee_company: null
+
+indications:
+  - code: endocrine
+    phase: approved
+    first_approval_year: 1998
+    geography: US
+  - code: oncology
+    phase: approved
+    first_approval_year: 2000
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: Novartis 2024 (segment-level)
+  sales_notes: >
+    Sandostatin franchise (LAR + immediate-release) historically generated
+    over $1.5B annually but has declined materially under generic and
+    biosimilar competition since IP expiry. Verify current 2024 figures.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: null
+    role: pivotal
+
+scores:
+  tech:
+    value: 4
+    rationale: Reference octreotide LAI for 25+ years; PLGA microsphere mechanism well-validated for somatostatin analog delivery.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: Decades of use in acromegaly and neuroendocrine tumors; effectiveness and safety baseline well-established.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 1
+    rationale: Off-patent; generic competition active.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Novartis asset.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Tracked as competitive context for Camurus CAM2029 (octreotide via FluidCrystal)
+  and any future octreotide LAI entrants. Sandostatin LAR's commercial
+  trajectory under generic pressure provides the price ceiling and share
+  baseline that any innovator octreotide must overcome. Watch CAM2029
+  Phase 3 readouts as the catalyst that defines next-generation octreotide
+  LAI economics.
+
+last_updated: 2026-04-25

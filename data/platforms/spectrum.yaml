@@ -1,0 +1,83 @@
+id: spectrum
+name: SpectruM
+company: Foresee Pharmaceuticals
+company_ticker: 6576
+country: TW
+
+mechanism: in_situ_depot
+duration_bucket: long
+duration_range_days: [30, 180]
+payload_classes:
+  - small_molecule
+  - peptide
+
+mechanism_notes: >
+  Foresee proprietary Stabilized Pharmaceutical Excipient Compound
+  Sustained Release Microparticle (SpectruM) technology — a polymer-based
+  in-situ forming depot. Lead commercial product is Camcevi (leuprolide LAI)
+  approved in US/EU for advanced prostate cancer, partnered with Accord
+  Healthcare. Six-month formulation also approved.
+
+regulatory_history:
+  - product: Camcevi (leuprolide mesylate, monthly)
+    indication: oncology
+    approval_year: 2021
+    agency: FDA
+  - product: Camcevi (6-month)
+    indication: oncology
+    approval_year: 2024
+    agency: FDA
+
+ip_core_expiry_year: 2032
+ip_continuation_strategy: moderate
+ip_fto_concerns: none
+ip_notes: >
+  Foresee patent estate filed 2010s with continuation activity. Specific
+  expiry years require verification.
+
+active_partners:
+  - name: Accord Healthcare (Camcevi commercialization)
+    tier: tier_2
+    deal_id: null
+
+scores:
+  tech:
+    value: 4
+    rationale: Two approved formulations (monthly and 6-month) of the same molecule demonstrate platform flexibility on duration; commercial validation in major markets.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Reasonable patent runway with active continuation strategy; specific expiry verification needed.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 3
+    rationale: Single notable partnership (Accord) is mid-tier; no Big Pharma deals to date; commercialization-focused strategy.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  oncology:
+    value: 4
+    rationale: Camcevi competes in commoditized prostate cancer LHRH category; differentiation primarily on dosing convenience and pricing rather than novel mechanism.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  endocrine:
+    value: 3
+    rationale: Mechanism compatible but no current programs in non-oncology endocrine indications publicly disclosed.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Asian-domiciled (Taiwan) platform commercializing in Western markets via
+  partner — interesting model but not a platform commanding licensing premium.
+  Camcevi competes with Eligard, Lupron Depot, and Trelstar in mature LHRH
+  category. Investment thesis is product-economics-driven, not platform-driven.
+
+last_updated: 2026-04-25

@@ -1,0 +1,55 @@
+id: 2021_accord_foresee_camcevi
+deal_type: licensing
+status: active
+
+licensor: Foresee Pharmaceuticals
+licensor_ticker: 6576
+licensee: Accord Healthcare
+licensee_ticker: null
+
+asset_id: null
+platform_id: spectrum
+description: >
+  Accord Healthcare licensed US commercialization rights for Camcevi
+  (leuprolide mesylate LAI) from Foresee. Camcevi approved 2021 in US
+  for advanced prostate cancer; 6-month formulation approved 2024.
+
+announced_date: 2021-06-01
+completed_date: 2021-06-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Specific economics not publicly disclosed. Foresee receives royalties
+    on Accord Camcevi net sales. Verify terms against Foresee Taipei
+    Exchange filings.
+
+option_structure: null
+territory: United States
+exclusivity: exclusive
+indications_covered:
+  - oncology
+termination_clauses: >
+  Not publicly disclosed.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.foreseepharma.com/
+
+tactbio_view: >
+  Mid-tier LAI partnership for a commoditized indication. Accord is a
+  generics-focused commercial organization; the partnership reflects
+  Camcevi's positioning as a value-priced LHRH LAI rather than premium
+  innovator. Reference economics suggest modest royalty tiers consistent
+  with category dynamics.
+
+last_updated: 2026-04-25

@@ -1,0 +1,54 @@
+id: 2020_recordati_novartis_signifor
+deal_type: m_and_a
+status: active
+
+licensor: Novartis
+licensor_ticker: NVS
+licensee: Recordati Rare Diseases
+licensee_ticker: REC
+
+asset_id: null
+platform_id: signifor_lar_platform
+description: >
+  Recordati acquired the Signifor (pasireotide) franchise from Novartis,
+  including Signifor LAR. Strategic divestiture of mature endocrine asset
+  by Novartis to a rare-disease-focused acquirer.
+
+announced_date: 2020-03-26
+completed_date: 2020-07-01
+termination_date: null
+
+economics:
+  upfront_usd_m: 390
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Approximately $390M upfront per Recordati announcement; mature commercial
+    asset acquisition rather than licensing structure, so no royalty terms.
+    Verify exact figure against Recordati 2020 filings.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - endocrine
+termination_clauses: >
+  Asset acquisition; no termination provisions applicable.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.recordati.com/en/media/press-releases/
+
+tactbio_view: >
+  Demonstrates that mature LAI franchises retain meaningful M&A value
+  even at or near patent expiry. The $390M figure provides a reference
+  point for valuing mature peptide LAI assets — useful comp for any
+  Sandostatin LAR or Somatuline divestiture scenario.
+
+last_updated: 2026-04-25

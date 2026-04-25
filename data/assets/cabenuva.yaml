@@ -1,0 +1,86 @@
+id: cabenuva
+name: Cabenuva
+inn: cabotegravir + rilpivirine
+platform_id: nanocrystal
+owning_company: ViiV Healthcare
+licensee_company: null
+
+indications:
+  - code: hiv
+    phase: approved
+    first_approval_year: 2021
+    geography: US
+  - code: hiv
+    phase: approved
+    first_approval_year: 2020
+    geography: EU
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: GSK 2024 annual report (verify)
+  sales_notes: >
+    Cabenuva is part of ViiV's HIV LAI franchise (with Apretude); ViiV is
+    majority-owned by GSK with Pfizer and Shionogi minority stakes.
+    Combined LAI franchise sales reported at £1B+ globally in 2024 per
+    GSK disclosures — verify exact figures.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT02938520
+    role: pivotal
+  - nct_id: NCT02951052
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from NanoCrystal platform; demonstrated 2-month duration in commercial use.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: ATLAS and FLAIR pivotal trials demonstrated non-inferiority to oral regimen; established real-world effectiveness.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 4
+    rationale: ViiV patent estate plus Janssen rilpivirine IP collectively provide commercial moat through late 2020s/early 2030s; verify specific expiry.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 5
+    rationale: ViiV-Janssen co-development demonstrates major-pharma partnering capacity; commercial positioning entrenched.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved in major regions with progressive label expansions (every-2-month dosing, oral lead-in optional).
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Defines HIV LAI category economics. Commercial trajectory is the leading
+  indicator for whether infrequent-dosing antiretroviral therapy can take
+  share from generic daily oral regimens — a structurally challenging
+  comparison given oral ART pricing. Cabenuva's growth tells us about the
+  upper bound of LAI premium pricing in cost-sensitive disease categories.
+
+last_updated: 2026-04-25

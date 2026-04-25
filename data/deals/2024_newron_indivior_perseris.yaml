@@ -1,0 +1,56 @@
+id: 2024_newron_indivior_perseris
+deal_type: licensing
+status: active
+
+licensor: Indivior
+licensor_ticker: INDV
+licensee: Newron Pharmaceuticals
+licensee_ticker: NWRN
+
+asset_id: null
+platform_id: perseris_platform
+description: >
+  Indivior divested US commercial rights to Perseris (risperidone monthly LAI)
+  to Newron Pharmaceuticals. Strategic exit from non-core schizophrenia LAI
+  asset by Indivior to focus on OUD franchise (Sublocade).
+
+announced_date: 2024-06-01
+completed_date: 2024-09-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Specific transaction value not publicly disclosed. Strategic divestiture
+    of underperforming asset; modest valuation likely. Verify exact terms
+    against Newron and Indivior filings.
+
+option_structure: null
+territory: United States
+exclusivity: exclusive
+indications_covered:
+  - psych
+termination_clauses: >
+  Standard commercial license terms; not publicly disclosed in detail.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.indivior.com/
+
+tactbio_view: >
+  Cautionary deal demonstrating that fourth-place LAI products in crowded
+  categories struggle to attract premium valuations. Perseris faced
+  Risperdal Consta, UZEDY, and Risvan in the risperidone LAI space and
+  could not establish commercial differentiation. Strategic read: position
+  matters more than technology in LAI deal economics — being late-to-market
+  in a defined category compresses both commercial and dealability outcomes.
+
+last_updated: 2026-04-25

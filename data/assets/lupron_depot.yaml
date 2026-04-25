@@ -1,0 +1,84 @@
+id: lupron_depot
+name: Lupron Depot
+inn: leuprolide acetate
+platform_id: lupron_depot_platform
+owning_company: AbbVie / Takeda
+licensee_company: null
+
+indications:
+  - code: oncology
+    phase: approved
+    first_approval_year: 1989
+    geography: US
+  - code: endocrine
+    phase: approved
+    first_approval_year: 1993
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 800
+    currency: USD
+    source: AbbVie 2024 annual report (approximate, verify)
+  sales_notes: >
+    Lupron Depot remains a substantial revenue contributor to AbbVie despite
+    decades of generic competition. Combined US franchise estimated at
+    $800M+ in 2024. Multiple duration formats (1-, 3-, 4-, 6-month) and
+    pediatric formulation contribute.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: null
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Foundational peptide LAI; multiple duration formats; manufacturing at industrial scale established for decades.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: 35+ years commercial use across prostate cancer, endometriosis, central precocious puberty, and uterine fibroids.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 1
+    rationale: Off-patent; generic competition (Eligard) and innovator competition (Camcevi) active in the LHRH LAI category.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal AbbVie/Takeda asset.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label across multiple indications.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  The reference LHRH LAI by US revenue. Strategic relevance is as price/share
+  anchor for any new entrant in prostate cancer hormonal therapy. Lupron
+  Depot's commercial durability post-LOE is the empirical demonstration
+  that LAI manufacturing barriers and prescriber inertia create durable
+  moats even in commoditized indications.
+
+last_updated: 2026-04-25

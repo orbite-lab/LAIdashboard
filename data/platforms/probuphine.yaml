@@ -1,0 +1,71 @@
+id: probuphine
+name: Probuphine
+company: Titan Pharmaceuticals (legacy)
+country: US
+
+mechanism: implant
+duration_bucket: ultra_long
+duration_range_days: [180, 180]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Subcutaneous EVA (ethylene vinyl acetate) polymer implant containing
+  buprenorphine for sustained release over 6 months. Distinct from PLGA-based
+  bioerodible implants — EVA is non-bioerodible and requires removal at end
+  of dosing interval. Approved 2016 by FDA for OUD; commercial launch
+  encountered challenges, manufacturing/commercial rights have transferred
+  multiple times.
+
+regulatory_history:
+  - product: Probuphine (buprenorphine 6-month implant)
+    indication: addiction
+    approval_year: 2016
+    agency: FDA
+
+ip_core_expiry_year: 2025
+ip_continuation_strategy: weak
+ip_fto_concerns: minor
+ip_notes: >
+  Foundational EVA implant patents nearing or at expiry. Verify current
+  status — some product-specific patents may extend beyond core platform.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 3
+    rationale: Approved product but commercial uptake limited; required surgical insertion/removal added friction vs. injectable LAI competitors (Sublocade, Brixadi); platform stalled commercially.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 1
+    rationale: Core IP at or near expiry; commercial relevance fading.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Multiple commercial transfers and limited uptake make this an unattractive platform-licensing story.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  addiction:
+    value: 2
+    rationale: Mechanism technically delivers 6-month buprenorphine but in-office surgical insertion/removal is structurally inferior to Sublocade's monthly SC injection; commercial reality has confirmed this.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Tracked as competitive context and as a cautionary tale — Probuphine
+  illustrates that LAI duration alone does not win markets; site-of-care
+  workflow and prescriber preference matter more. The 6-month duration
+  was insufficient compensation for surgical insertion friction. Strategic
+  read-across to any prospective implant LAI in indications where
+  injectable alternatives exist.
+
+last_updated: 2026-04-25

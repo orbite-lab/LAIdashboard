@@ -1,0 +1,56 @@
+id: 2018_braeburn_camurus
+deal_type: licensing
+status: active
+
+licensor: Camurus
+licensor_ticker: CAMX
+licensee: Braeburn
+licensee_ticker: null
+
+asset_id: brixadi
+platform_id: fluidcrystal
+description: >
+  Braeburn licensed US commercialization rights for buprenorphine LAI
+  (later marketed as Brixadi) using FluidCrystal platform. Original
+  agreement structure pre-dated Indivior/Sublocade competitive dynamics
+  in US OUD market.
+
+announced_date: 2018-12-01
+completed_date: 2018-12-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Camurus receives royalties on Braeburn US net sales of Brixadi.
+    Specific tiers not publicly disclosed at deal level. Verify against
+    Camurus annual reports for tier disclosure.
+
+option_structure: null
+territory: United States
+exclusivity: exclusive
+indications_covered:
+  - addiction
+termination_clauses: >
+  Standard termination provisions; specific clauses not publicly disclosed.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.camurus.com/
+
+tactbio_view: >
+  Reference deal for buprenorphine LAI US rights. Limited disclosure makes
+  it less useful as a comp than higher-disclosure deals. Strategic context:
+  Braeburn's mid-tier status created competitive disadvantage vs Indivior
+  for Sublocade in US OUD; partner quality matters as much as platform
+  technology in addiction LAI commercialization.
+
+last_updated: 2026-04-25

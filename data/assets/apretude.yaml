@@ -1,0 +1,86 @@
+id: apretude
+name: Apretude
+inn: cabotegravir
+platform_id: nanocrystal
+owning_company: ViiV Healthcare
+licensee_company: null
+
+indications:
+  - code: hiv
+    phase: approved
+    first_approval_year: 2021
+    geography: US
+  - code: hiv
+    phase: approved
+    first_approval_year: 2023
+    geography: EU
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: GSK 2024 annual report (verify)
+  sales_notes: >
+    Apretude is the first long-acting injectable PrEP. Sales figures
+    bundled with ViiV LAI franchise reporting; specific Apretude-only
+    figure requires verification.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT02720094
+    role: pivotal
+  - nct_id: NCT03164564
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from NanoCrystal; same drug as Cabenuva but mono-agent for prevention rather than treatment.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: HPTN 083 and HPTN 084 demonstrated superior efficacy vs daily oral PrEP (Truvada/Descovy) in prevention.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 4
+    rationale: ViiV cabotegravir patent estate provides commercial exclusivity through late 2020s; longer than oral PrEP equivalents now generic.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 4
+    rationale: Internal ViiV asset; not externally licensable but demonstrates platform-asset value for HIV market.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved in major regions; expanding access partnerships in low/middle-income countries via licensing to Medicines Patent Pool.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Apretude is the structural shift in HIV prevention — moving from daily
+  pill adherence (~50% real-world) to bi-monthly injection. Commercial
+  uptake has been slower than anticipated due to access, payer, and
+  prescriber dynamics rather than efficacy concerns. Watch as the leading
+  indicator for whether LAI PrEP achieves meaningful share of total PrEP
+  spend; current trajectory suggests slow but durable growth.
+
+last_updated: 2026-04-25

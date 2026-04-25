@@ -1,0 +1,80 @@
+id: invega_sustenna
+name: Invega Sustenna
+inn: paliperidone palmitate
+platform_id: nanocrystal
+owning_company: Janssen (Johnson & Johnson)
+licensee_company: null
+
+indications:
+  - code: psych
+    phase: approved
+    first_approval_year: 2009
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 4500
+    currency: USD
+    source: J&J 2024 annual report (figures approximate, verify)
+  sales_notes: >
+    Combined Invega Sustenna/Trinza/Hafyera franchise generated approximately
+    $4.5B+ in 2024 per J&J reporting. Specific Sustenna-only figure
+    requires segmentation from franchise total.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT00078260
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited NanoCrystal; nanocrystal palmitate ester delivers reliable monthly PK.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: 15+ years commercial use; established efficacy and safety in real-world schizophrenia LAI population.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Core paliperidone IP expired or expiring; Janssen has product-specific patents but loss of exclusivity scenarios approaching.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Janssen flagship asset; not externally licensable.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label; broad usage across schizophrenia LAI population.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Anchor monthly LAI antipsychotic and revenue driver for the Invega
+  franchise. The competitive question for TactBio is whether UZEDY and
+  Risvan can take share from Sustenna at the monthly tier, while Hafyera's
+  6-monthly duration defends the higher-value franchise tier. Sustenna LOE
+  trajectory is the central event for the schizophrenia LAI market over
+  the next 5 years.
+
+last_updated: 2026-04-25

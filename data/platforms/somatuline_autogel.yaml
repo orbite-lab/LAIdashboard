@@ -1,0 +1,82 @@
+id: somatuline_autogel
+name: Somatuline Autogel
+company: Ipsen
+company_ticker: IPN
+country: FR
+
+mechanism: in_situ_depot
+duration_bucket: medium
+duration_range_days: [28, 56]
+payload_classes:
+  - peptide
+
+mechanism_notes: >
+  Supersaturated aqueous solution of lanreotide that forms a depot upon
+  subcutaneous injection — mechanism distinct from polymer-based in-situ
+  depots in that lanreotide self-assembles into nanotubes. Approved 2007
+  in US for acromegaly, expanded to neuroendocrine tumors. Distinguished
+  by deep SC injection with prefilled syringe — unusually convenient
+  administration for a peptide LAI.
+
+regulatory_history:
+  - product: Somatuline Autogel/Depot (lanreotide, 1- and 2-month)
+    indication: endocrine
+    approval_year: 2007
+    agency: FDA
+  - product: Somatuline Depot for NETs
+    indication: oncology
+    approval_year: 2014
+    agency: FDA
+
+ip_core_expiry_year: 2024
+ip_continuation_strategy: moderate
+ip_fto_concerns: minor
+ip_notes: >
+  Core composition-of-matter at or near expiry; product-specific patents
+  (autoinjector device, indication expansions) extend protection. Verify
+  status against Orange Book.
+
+active_partners: []
+
+scores:
+  tech:
+    value: 4
+    rationale: Novel self-assembling nanotube mechanism distinct from polymer LAI; demonstrated commercial success across two indications; convenient administration profile.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Core IP nearing or at expiry; product-specific extensions provide some additional runway.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Ipsen flagship asset; not externally licensable.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  endocrine:
+    value: 5
+    rationale: Somatuline is the principal lanreotide LAI; competes with Sandostatin LAR in acromegaly with administration-convenience differentiation.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  oncology:
+    value: 5
+    rationale: Reference somatostatin analog for NET treatment with both acromegaly and oncology label; Lutathera radioligand has emerged as additional/sequential therapy but Somatuline retains prominent role.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Reference peptide LAI for somatostatin analog category with novel
+  self-assembly mechanism. Tracked for competitive context against
+  Sandostatin LAR and Camurus CAM2029. Unusual mechanism makes this a
+  technically distinctive entry that warrants ongoing attention even as
+  core IP runs off.
+
+last_updated: 2026-04-25

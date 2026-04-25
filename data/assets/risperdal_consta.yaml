@@ -1,0 +1,80 @@
+id: risperdal_consta
+name: Risperdal Consta
+inn: risperidone
+platform_id: medisorb
+owning_company: Janssen (Johnson & Johnson)
+licensee_company: null
+
+indications:
+  - code: psych
+    phase: approved
+    first_approval_year: 2003
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: null
+    currency: USD
+    source: J&J 2024 reporting (verify)
+  sales_notes: >
+    Risperdal Consta sales have declined materially as Invega franchise
+    cannibalized share; 2024 specific figure not separately disclosed
+    by J&J. Estimate sub-$200M range globally.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: null
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Original commercial LAI antipsychotic; foundational microsphere product still available 20+ years later.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 5
+    rationale: Two decades of clinical use in schizophrenia LAI; established efficacy/safety baseline.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 1
+    rationale: Off-patent; generic risperidone microsphere products available in some markets.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Mature internal asset.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Tracked as historical and competitive context. Risperdal Consta's
+  declining commercial trajectory illustrates how franchise cannibalization
+  works within an LAI portfolio (Invega Sustenna replaced Consta's role
+  for J&J). Strategic read-across for any company managing multi-generation
+  LAI portfolios — newer products require active cannibalization to
+  protect overall franchise economics.
+
+last_updated: 2026-04-25

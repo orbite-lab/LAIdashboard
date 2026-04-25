@@ -1,0 +1,93 @@
+id: durasert
+name: Durasert
+company: EyePoint Pharmaceuticals
+company_ticker: EYPT
+country: US
+
+mechanism: implant
+duration_bucket: ultra_long
+duration_range_days: [180, 1095]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Non-bioerodible polyimide/polyvinyl-alcohol intravitreal implant for sustained
+  ocular drug delivery, typically 25-gauge injector deployment. Enables 6-month
+  to 36-month durations within the eye — among the longest-acting platforms in
+  any therapeutic area. Originally developed under "Vitrasert" branding for CMV
+  retinitis (1996), evolved through Retisert (2005), Iluvien (2014, Alimera
+  partnership), and Yutiq (2018) for various uveitis and DME indications.
+  EyePoint's pipeline candidate EYP-1901 (vorolanib via bioerodible Durasert E)
+  targets wet AMD with 6-month dosing.
+
+regulatory_history:
+  - product: Vitrasert (ganciclovir, CMV retinitis)
+    indication: ophthalmology
+    approval_year: 1996
+    agency: FDA
+  - product: Retisert (fluocinolone acetonide, posterior uveitis)
+    indication: ophthalmology
+    approval_year: 2005
+    agency: FDA
+  - product: Iluvien (fluocinolone acetonide, DME — partner Alimera)
+    indication: ophthalmology
+    approval_year: 2014
+    agency: FDA
+  - product: Yutiq (fluocinolone acetonide, posterior uveitis)
+    indication: ophthalmology
+    approval_year: 2018
+    agency: FDA
+
+ip_core_expiry_year: 2030
+ip_continuation_strategy: moderate
+ip_fto_concerns: none
+ip_notes: >
+  Core Durasert platform IP plus product-specific patents on individual
+  formulations. Bioerodible variant (Durasert E) carries newer composition-of-matter
+  filings extending runway. Verify specific expiry year against EyePoint
+  10-K patent disclosures.
+
+active_partners:
+  - name: Alimera Sciences (Iluvien — DME)
+    tier: tier_2
+    deal_id: null
+  - name: Bausch + Lomb (Retisert historical)
+    tier: tier_2
+    deal_id: null
+
+scores:
+  tech:
+    value: 5
+    rationale: Four approved products spanning 25+ years; demonstrated up to 36-month durations; only commercial LAI platform achieving multi-year sustained ophthalmic delivery.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Layered platform and product IP plus next-generation bioerodible variant in development; meaningful runway though specific expiry years require verification.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 3
+    rationale: Alimera partnership for Iluvien is the largest external commercial expression; recent EyePoint strategy more internally focused on EYP-1901 development.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  ophthalmology:
+    value: 5
+    rationale: Pure-play ophthalmic platform with longest-duration commercial implants in the field; uniquely fit for chronic eye conditions requiring multi-year therapy.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  The reference platform for ophthalmic implant LAI. Strategic question is
+  whether EyePoint's pipeline — particularly EYP-1901 in wet AMD — can establish
+  a sustained-release alternative to monthly anti-VEGF injections. If successful,
+  the platform could redefine retinal disease economics; if not, Durasert remains
+  a niche steroid-implant business.
+
+last_updated: 2026-04-25

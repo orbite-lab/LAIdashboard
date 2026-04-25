@@ -1,0 +1,79 @@
+id: vivitrol
+name: Vivitrol
+inn: naltrexone
+platform_id: medisorb
+owning_company: Alkermes
+licensee_company: null
+
+indications:
+  - code: addiction
+    phase: approved
+    first_approval_year: 2006
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 410
+    currency: USD
+    source: Alkermes 2024 annual report (verify)
+  sales_notes: >
+    Vivitrol generated approximately $410M in 2024 per Alkermes reporting.
+    Used in both alcohol use disorder and opioid use disorder populations.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT00038662
+    role: pivotal
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from Medisorb; reliable monthly PK for naltrexone over 18+ years commercial use.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: Effective for AUD and OUD with established real-world data; mechanism (opioid antagonist) requires complete detoxification before initiation.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Naltrexone off-patent; Alkermes commercial moat resides in microsphere manufacturing scale.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Alkermes asset.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label; broad clinical guidelines integration.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Established LAI for addiction with dual indication coverage. Strategic
+  positioning is unique — opioid antagonist mechanism distinguishes from
+  buprenorphine LAI competitors (Sublocade/Brixadi) which are partial
+  agonists. Watch market dynamics as overall OUD treatment shifts toward
+  buprenorphine LAI; Vivitrol's defensible niche is patients who cannot
+  or will not use partial agonists.
+
+last_updated: 2026-04-25

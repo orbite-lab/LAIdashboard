@@ -1,0 +1,112 @@
+id: nanocrystal
+name: NanoCrystal
+company: Alkermes (originally Elan)
+company_ticker: ALKS
+country: US
+
+mechanism: nanoparticle
+duration_bucket: long
+duration_range_days: [28, 180]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Drug nanoparticle (typically <1µm) suspension technology, originally developed
+  by Elan and acquired by Alkermes. Drug is milled to nanoscale and stabilized
+  in aqueous suspension; sustained release via slow dissolution at the injection
+  site. Cabotegravir LAI (Apretude/Cabenuva) and paliperidone palmitate
+  (Invega Sustenna/Trinza/Hafyera) are the two leading commercial expressions.
+
+regulatory_history:
+  - product: Invega Sustenna (paliperidone palmitate, monthly)
+    indication: psych
+    approval_year: 2009
+    agency: FDA
+  - product: Invega Trinza (paliperidone palmitate, 3-monthly)
+    indication: psych
+    approval_year: 2015
+    agency: FDA
+  - product: Invega Hafyera (paliperidone palmitate, 6-monthly)
+    indication: psych
+    approval_year: 2021
+    agency: FDA
+  - product: Cabenuva (cabotegravir + rilpivirine)
+    indication: hiv
+    approval_year: 2021
+    agency: FDA
+  - product: Apretude (cabotegravir LAI for PrEP)
+    indication: hiv
+    approval_year: 2021
+    agency: FDA
+
+ip_core_expiry_year: 2020
+ip_continuation_strategy: moderate
+ip_fto_concerns: none
+ip_notes: >
+  Foundational nanocrystal patents expired; product-specific formulation
+  patents extend protection on individual drugs. Janssen's paliperidone
+  palmitate franchise and ViiV's cabotegravir each carry their own patent
+  estates beyond core platform IP. Verify expiry year against patent records.
+
+active_partners:
+  - name: Janssen / J&J (Invega franchise)
+    tier: tier_1
+    deal_id: null
+  - name: ViiV Healthcare (cabotegravir)
+    tier: tier_1
+    deal_id: null
+
+scores:
+  tech:
+    value: 5
+    rationale: Multiple commercial successes across psych and HIV; demonstrated 6-month duration capability (Invega Hafyera, longest LAI antipsychotic); platform validated for low-solubility small molecules.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Platform IP largely expired; product-level patents preserve commercial exclusivity for individual drugs but not for new entrants using the mechanism.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 3
+    rationale: Two tier-1 commercial relationships (Janssen, ViiV) but Alkermes does not actively license the platform externally; deal optionality is largely captured.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  psych:
+    value: 5
+    rationale: Invega franchise is category leader in long-duration LAI antipsychotics; 6-month dosing currently unmatched commercially.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  hiv:
+    value: 5
+    rationale: Cabenuva (treatment) and Apretude (PrEP) collectively define the HIV LAI market; ViiV holds dominant position.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  addiction:
+    value: 3
+    rationale: Mechanism compatible with low-solubility small molecules but no nanocrystal LAI specifically advanced for OUD; Sublocade/Brixadi own that category.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+  oncology:
+    value: 3
+    rationale: Theoretical fit for hormonal therapies but commercially commoditized space; no nanocrystal LAI advanced for oncology indications.
+    confidence: low
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Most commercially successful LAI platform by revenue, with Invega franchise
+  and cabotegravir generating multi-billion-dollar combined sales. Strategic
+  value resides in existing product franchises rather than platform licensing
+  potential. Watch Janssen's response as Invega Sustenna faces generic LOE
+  beyond 2030 — Hafyera's 6-monthly duration is the franchise's defensive moat.
+
+last_updated: 2026-04-25

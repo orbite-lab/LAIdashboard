@@ -1,0 +1,90 @@
+id: depofoam
+name: DepoFoam
+company: Pacira BioSciences
+company_ticker: PCRX
+country: US
+
+mechanism: liposome_depot
+duration_bucket: short
+duration_range_days: [3, 4]
+payload_classes:
+  - small_molecule
+
+mechanism_notes: >
+  Multivesicular liposome technology — drug encapsulated in chambered lipid
+  vesicles that erode over days, releasing API. Distinct from conventional
+  liposomes (single bilayer) and lipid nanoparticles. Best-suited for short-
+  to medium-duration sustained release at the local site of injection rather
+  than systemic chronic dosing. Exparel for post-surgical pain is the lead
+  commercial product.
+
+regulatory_history:
+  - product: Exparel (bupivacaine liposomal)
+    indication: pain
+    approval_year: 2011
+    agency: FDA
+  - product: DepoCyt (cytarabine liposomal — withdrawn 2017)
+    indication: oncology
+    approval_year: 1999
+    agency: FDA
+  - product: DepoDur (morphine liposomal — withdrawn)
+    indication: pain
+    approval_year: 2004
+    agency: FDA
+
+ip_core_expiry_year: 2024
+ip_continuation_strategy: weak
+ip_fto_concerns: material
+ip_notes: >
+  Core multivesicular liposome composition-of-matter expired. Pacira has
+  pursued aggressive defensive litigation against generic Exparel entrants
+  but lost key cases. Generic launches anticipated in coming years pressure
+  the franchise. Verify litigation status in current filings.
+
+active_partners:
+  - name: Eagle Pharmaceuticals (legacy Exparel partnership)
+    tier: tier_3
+    deal_id: null
+
+scores:
+  tech:
+    value: 3
+    rationale: One commercially significant product (Exparel) but two prior products withdrawn; mechanism niche to local-site short-duration applications rather than systemic LAI.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  ip:
+    value: 2
+    rationale: Core platform IP expired; ongoing litigation indicates exposure rather than strength; generic competition imminent or active.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+  dealability:
+    value: 2
+    rationale: Pacira's commercialization is internal; no external platform licensing precedent of note; product-focused company strategy.
+    confidence: medium
+    scored_at: 2026-04-25
+    scorer: CL
+
+indication_fit:
+  pain:
+    value: 4
+    rationale: Exparel is the reference local-anesthetic LAI for post-surgical pain; commercial position established but eroding under generic pressure.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+  oncology:
+    value: 1
+    rationale: DepoCyt withdrawal demonstrates platform mismatch with sustained systemic oncology drug delivery requirements.
+    confidence: high
+    scored_at: 2026-04-25
+    scorer: CL
+
+tactbio_view: >
+  Niche local-administration liposomal depot with limited transferability
+  beyond regional anesthesia. Strategic relevance to broader LAI thesis is
+  primarily as a counterexample — demonstrates that not all "depot" platforms
+  generalize across indications. Pacira's investment thesis is product-specific,
+  not platform-driven.
+
+last_updated: 2026-04-25
