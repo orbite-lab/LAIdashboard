@@ -10,6 +10,7 @@
 | 2024-07-09 | Indivior | (discontinued — no buyer) | Perseris | licensing | undisc. | undisc. | United States | full |
 | 2024-06-01 | Indivior | Newron Pharmaceuticals | Perseris | licensing | undisc. | undisc. | United States | minimal |
 | 2024-04-16 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
+| 2023-11-13 | Teva Pharmaceuticals International GmbH | Royalty Pharma | BEPO | royalty_purchase | $100M | $125M | Worldwide | full |
 | 2022-10-06 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
 | 2021-06-01 | Foresee Pharmaceuticals | Accord Healthcare | SpectruM | licensing | undisc. | undisc. | United States | minimal |
 | 2021-03-04 | Foresee Pharmaceuticals | Intas Pharmaceuticals (Accord BioPharma US) | SpectruM | licensing | $10M | $207M | United States | partial |
@@ -19,9 +20,10 @@
 | 2018-12-01 | Camurus | Braeburn | FluidCrystal | licensing | undisc. | undisc. | United States | minimal |
 | 2018-04-17 | MedinCell | Teva | BEPO | licensing | undisc. | undisc. | Worldwide | partial |
 | 2017-04-01 | Janssen (Johnson & Johnson) | ViiV Healthcare | NanoCrystal | licensing | undisc. | undisc. | Worldwide | minimal |
+| 2016-10-24 | Camurus | Braeburn | FluidCrystal | licensing | undisc. | undisc. | North America (with Asia options) | minimal |
 | 2016-01-07 | Janssen (Johnson & Johnson) | ViiV Healthcare | NanoCrystal | licensing | undisc. | undisc. | Worldwide | minimal |
 | 2014-11-20 | Camurus | Braeburn | FluidCrystal | licensing | $20M | $131M | North America (with options for Japan, Korea, Taiwan, China) | full |
-| 2014-02-01 | Alkermes | AstraZeneca / later Eli Lilly | Medisorb | m_and_a | undisc. | undisc. | Worldwide (with regional variations) | minimal |
+| 2014-02-01 | Alkermes | AstraZeneca / later Eli Lilly | Medisorb | royalty_purchase | undisc. | undisc. | Worldwide (with regional commercial transitions) | full |
 | 2013-11-01 | MedinCell | Teva | BEPO | licensing | undisc. | $366M | Worldwide | partial |
 | 2008-02-12 | EyePoint Pharmaceuticals | Alimera Sciences | Durasert | licensing | undisc. | undisc. | Worldwide | partial |
 
@@ -64,6 +66,16 @@
 *Notes:* Confirmed deal terms per MedinCell press release (April 16, 2024): $35M upfront, up to $1.9B in development and commercial milestones ($315M per program × 6 programs = $1.89B), plus royalties on worldwide sales. Royalty rates not separately disclosed; AbbVie funds development costs. The per-program structure is significant — implies independent progression rather than portfolio bundling, giving MedinCell visibility into which specific programs are advancing through milestones over time.
 
 **TactBio view:** Platform validation deal: tier-1 pharma partner, multi-program scope, meaningful milestone total. Key tensions — (1) per-program structure ($315M each across 6 programs) gives MedinCell more transparency than bundled deals but also creates per-program execution risk; (2) specific therapeutic area allocations and molecules not disclosed, limiting ability to triangulate success probability; (3) renegotiation or program drops would be known only via press release. Monitor MEDCL quarterly calls for IND progression updates. The $35M upfront on $1.9B headline is light for a tier-1 platform deal — consistent with AbbVie retaining optionality program-by-program rather than committing capital upfront.
+
+### Teva Pharmaceuticals International GmbH × Royalty Pharma — 2023-11-13
+
+**Description:** Synthetic R&D funding agreement (not a forward royalty purchase). Royalty Pharma provides Teva up to $100M to fund ongoing Phase 3 development costs for olanzapine LAI (TEV-'749, mdc-TJK), the second BEPO/SteadyTeq-based asset after UZEDY. Mutual option to extend total funding to $125M. Upon FDA approval, Teva repays the funded amount over five years AND pays low-to-mid-single-digit royalties to Royalty Pharma on commercialization. Structure is hybrid debt/royalty: principal repayment + royalty stream contingent on regulatory success. MedinCell is the underlying platform technology owner but is not a counterparty to this specific RPRX-Teva agreement.
+  
+**Type:** royalty_purchase | **Status:** active | **Exclusivity:** non_exclusive | **Territory:** Worldwide  
+**Economics:** Upfront $100M · milestones $125M · royalty 1%–5%  
+*Notes:* Per Teva and Royalty Pharma joint press release Nov 13 2023: $100M upfront R&D funding to Teva, with mutual option to extend to $125M total. Conditional repayment terms: if FDA approves olanzapine LAI, Teva repays the funded amount over five years AND pays "low to mid single-digit" royalties on commercial sales. Royalty range 1-5% inferred from "low to mid single digit" language (typically interpreted as 1-6%, conservatively 1-5%). NOT a forward royalty stream purchase — Royalty Pharma's economics depend entirely on FDA approval, after which they receive principal-plus-royalty rather than a clean royalty asset.
+
+**TactBio view:** Structurally significant deal but commonly misunderstood. This is NOT Royalty Pharma buying a forward royalty stream — it is conditional R&D financing with a synthetic loan plus royalty kicker. The implications differ — (1) Royalty Pharma's diligence here validates Teva's olanzapine Phase 3 probability, but does not imply RPRX views the asset as a high-quality royalty compounder; (2) Teva preserves the bulk of olanzapine economics, paying out only repayment plus 1-5% royalty; (3) approval risk is borne primarily by Royalty Pharma, but Teva's optionality is preserved. For BEPO platform validation, the deal is meaningful but less of a signal than a true forward royalty purchase would have been. MedinCell does not benefit directly from this RPRX-Teva agreement — MedinCell's olanzapine economics flow through the original 2013 Teva agreement, separately.
 
 ### MedinCell × AbbVie — 2022-10-06
 
@@ -151,6 +163,15 @@
 
 **TactBio view:** Reference precedent for major-pharma HIV LAI partnership economics. ViiV-Janssen demonstrates that long-acting regimens combining components from different originators can be commercialized through co-packaging rather than acquisition. Strategic context for any future LAI combination product structuring.
 
+### Camurus × Braeburn — 2016-10-24
+
+**Description:** Amendment to the 2014 Camurus-Braeburn license agreement, expanding scope to include buprenorphine combination products. Lead asset CAM2058 (buprenorphine + granisetron extended-release injection) for postoperative pain, nausea, and vomiting. Braeburn obtained exclusive North American rights with options for Japan, Korea, Taiwan, and China. The CAM2058 program did not progress through clinical development to commercialization — Braeburn underwent significant strategic shifts post-Probuphine underperformance and the Camurus partnership focus narrowed back to the core Brixadi/CAM2038 asset. Tracked here as a separate deal entry rather than an amendment-only footnote because it represented an independent expansion in scope and territory rights.
+  
+**Type:** licensing | **Status:** terminated | **Exclusivity:** exclusive | **Territory:** North America (with Asia options)  
+*Notes:* Amendment terms per joint press release Oct 24 2016: Camurus eligible to "non-disclosed late-stage development milestones for CAM2058" in addition to the financial terms already disclosed for products under the 2014 License Agreement. No upfront, royalty rate, or specific milestone amount was disclosed for the CAM2058 component. Royalty rate likely consistent with parent agreement (mid-teens 13-17%) but not separately confirmed.
+
+**TactBio view:** Cautionary case study in amendment-deal accounting. The 2016 amendment expanded scope to a postoperative pain combination product (CAM2058) with non-disclosed late-stage milestones — but the asset never progressed meaningfully and the partnership refocused on CAM2038 (Brixadi). Useful reference for two reasons: (1) demonstrates that amendment deals can fade silently rather than being formally terminated, making deal-status tracking inherently lagged; (2) reinforces that postoperative pain LAI is structurally challenging — Heron Zynrelef faces similar headwinds and Pacira Exparel has eroded under generic pressure. Camurus' subsequent strategic focus on addiction (Brixadi), endocrine (CAM2029), and cardiometabolic (Lilly partnership) avoided the postsurgical pain category, which is a deliberate omission worth noting.
+
 ### Janssen (Johnson & Johnson) × ViiV Healthcare — 2016-01-07
 
 **Description:** Co-development and commercialization agreement for two-drug long-acting HIV regimen combining ViiV Healthcare's cabotegravir and Janssen's rilpivirine. Each company manufactures and supplies its own component; ViiV leads Phase III development with Janssen support. Subsequent co-packaging as Cabenuva approved in EU (December 2020) and US (January 2021). Each company also retains separate single-agent approvals (Apretude, Vocabria, Rekambys).
@@ -172,13 +193,13 @@
 
 ### Alkermes × AstraZeneca / later Eli Lilly — 2014-02-01
 
-**Description:** Bydureon (exenatide microsphere LAI) commercial trajectory passed through multiple owners — originally Alkermes-Amylin-Lilly tripartite development; Bristol-Myers Squibb acquired Amylin 2012; AstraZeneca acquired BMS diabetes business 2014; AstraZeneca commercialized Bydureon through the late 2010s. Alkermes received royalties on net sales throughout. Tracked as a multi-decade reference for microsphere LAI commercialization arc.
+**Description:** Long-running royalty arrangement on Bydureon (exenatide microsphere LAI) net sales. Alkermes' royalty stream originated under the original Alkermes-Amylin development partnership; commercial counterparty changed through corporate ownership transitions: Bristol-Myers Squibb acquired Amylin in 2012, AstraZeneca acquired BMS diabetes business in February 2014. Tracked under the 2014 AZ commercial-control date as a reference point. Bydureon US rights subsequently transferred to Lilly. Alkermes has retained royalty rights throughout the ownership transitions.
   
-**Type:** m_and_a | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide (with regional variations)  
-**Economics:** royalty 8%–12%  
-*Notes:* Approximate royalty range based on industry reporting; specific tiers vary by net sales threshold and were never fully disclosed in detail. Bydureon reached over $700M annual sales at peak before declining against weekly oral GLP-1 competitors. Verify specific royalty terms against Alkermes 10-K disclosures.
+**Type:** royalty_purchase | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide (with regional commercial transitions)  
+**Economics:** royalty 5.5%–8%  
+*Notes:* Verified from Alkermes 10-K filings and the original ACTII-Amylin development and license agreement (filed as exhibit to Alkermes 2023 10-K). Tiered royalty structure: 8% on first 40 million units of Exenatide LAR (Bydureon) sold per calendar year, 5.5% on units sold above 40M per year. This tiering applied through December 31, 2021 (the tenth full calendar year following first commercial sale). After Dec 31 2021, the royalty rate became flat 5.5% on all net sales for the remaining term. For oil-based products (Bydureon BCise), similar structure applied. For products not manufactured by Alkermes, flat 5.5% royalty applies. Earlier tracker version listed 8-12% range — that was incorrect; verified rates are 5.5-8% during the initial tier period and 5.5% flat thereafter.
 
-**TactBio view:** Reference case for what happens to LAI economics when underlying category dynamics shift. Bydureon demonstrated that microsphere LAI technology is fully validated, but commercial trajectory was undermined by superior GLP-1 alternatives (semaglutide, dulaglutide). Read across: technology execution alone does not guarantee commercial durability — category dynamics matter at least as much.
+**TactBio view:** Reference case for what happens to LAI economics when underlying category dynamics shift. Bydureon demonstrated that microsphere LAI technology is fully validated, but commercial trajectory was undermined by superior GLP-1 alternatives (semaglutide, dulaglutide). The royalty structure is also instructive — front-loaded 8% on early units captured most economic value during peak years (2014-2018) before competition compressed sales. Read across: technology execution alone does not guarantee commercial durability. Category dynamics matter at least as much. The post-2021 step-down to flat 5.5% reflects a typical pharma-favorable royalty taper — innovators secure better terms in early years when category positioning is strongest.
 
 ### MedinCell × Teva — 2013-11-01
 
@@ -188,7 +209,7 @@
 **Economics:** milestones $366M · royalty 7%–9%  
 *Notes:* Per Edison Group equity research (Dec 2018), aggregate milestones across all three CNS programs partnered with Teva total up to $366M, with "high single-digit royalties on tiered net sales." Teva 10-Q filings confirm specifically up to $112M in commercial milestones for the risperidone LAI program alone. For the olanzapine LAI (mdc-TJK) program announced separately in 2023, MedinCell may receive up to $117M in development and commercial milestones (per joint Teva-Royalty Pharma announcement). Royalty tiering is described as high single digits — 7-9% inferred range, but exact tiers are not separately published. Teva is responsible for all development costs.
 
-**TactBio view:** Anchor deal for BEPO platform and primary source of near-term royalty revenue. Teva concentration risk is the central tension in any MedinCell investment thesis — a single counterparty, a single platform, two molecules. Per Teva 10-Q disclosures, $112M in commercial milestones tied to the risperidone (UZEDY) program alone is meaningful but not transformational given UZEDY's commercial trajectory ($191M FY2025 sales, Teva guiding $250-280M for FY2026). Royalty Pharma's late-2023 acquisition of a slice of Teva's future royalty stream is the more significant signal — RPRX paying for forward economics validates the platform's revenue durability thesis from a sophisticated structured-finance counterparty.
+**TactBio view:** Anchor deal for BEPO platform and primary source of near-term royalty revenue. Teva concentration risk is the central tension in any MedinCell investment thesis — a single counterparty, a single platform, two molecules. Per Teva 10-Q disclosures, $112M in commercial milestones tied to the risperidone (UZEDY) program alone is meaningful but not transformational given UZEDY's commercial trajectory ($191M FY2025 sales, Teva guiding $250-280M for FY2026). The November 2023 Royalty Pharma deal (separately tracked) is structurally a conditional R&D financing for olanzapine LAI rather than a forward royalty acquisition — RPRX provides Teva up to $125M for Phase 3 funding, recoverable post-approval as principal repayment plus 1-5% royalty. This is downside-protected lending more than royalty compounding, and does not directly benefit MedinCell (whose underlying olanzapine economics flow through this 2013 agreement separately).
 
 ### EyePoint Pharmaceuticals × Alimera Sciences — 2008-02-12
 

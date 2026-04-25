@@ -1,0 +1,79 @@
+id: 2016_braeburn_camurus_cam2058_amendment
+deal_type: licensing
+status: terminated
+
+licensor: Camurus
+licensor_ticker: CAMX
+licensee: Braeburn
+licensee_ticker: null
+
+asset_id: null
+platform_id: fluidcrystal
+description: >
+  Amendment to the 2014 Camurus-Braeburn license agreement, expanding scope
+  to include buprenorphine combination products. Lead asset CAM2058
+  (buprenorphine + granisetron extended-release injection) for postoperative
+  pain, nausea, and vomiting. Braeburn obtained exclusive North American
+  rights with options for Japan, Korea, Taiwan, and China. The CAM2058
+  program did not progress through clinical development to commercialization
+  — Braeburn underwent significant strategic shifts post-Probuphine
+  underperformance and the Camurus partnership focus narrowed back to the
+  core Brixadi/CAM2038 asset. Tracked here as a separate deal entry rather
+  than an amendment-only footnote because it represented an independent
+  expansion in scope and territory rights.
+
+announced_date: 2016-10-24
+completed_date: 2016-10-24
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Amendment terms per joint press release Oct 24 2016: Camurus eligible
+    to "non-disclosed late-stage development milestones for CAM2058" in
+    addition to the financial terms already disclosed for products under
+    the 2014 License Agreement. No upfront, royalty rate, or specific
+    milestone amount was disclosed for the CAM2058 component. Royalty
+    rate likely consistent with parent agreement (mid-teens 13-17%) but
+    not separately confirmed.
+
+option_structure: >
+  Braeburn options for China, Japan, South Korea, and Taiwan rights to
+  CAM2058 (parallel to parent CAM2038 territorial options).
+territory: North America (with Asia options)
+exclusivity: exclusive
+indications_covered:
+  - pain
+termination_clauses: >
+  Tied to parent 2014 agreement termination provisions; not separately
+  disclosed.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.camurus.com/media/press-releases/2016/braeburn-pharmaceuticals-and-camurus-expand-collaboration-and-license-agreement-to-include-new-combination-product-for-pain-and-nausea/
+  - https://www.businesswire.com/news/home/20161023005061/en/
+
+tactbio_view: >
+  Cautionary case study in amendment-deal accounting. The 2016 amendment
+  expanded scope to a postoperative pain combination product (CAM2058)
+  with non-disclosed late-stage milestones — but the asset never
+  progressed meaningfully and the partnership refocused on CAM2038
+  (Brixadi). Useful reference for two reasons: (1) demonstrates that
+  amendment deals can fade silently rather than being formally terminated,
+  making deal-status tracking inherently lagged; (2) reinforces that
+  postoperative pain LAI is structurally challenging — Heron Zynrelef
+  faces similar headwinds and Pacira Exparel has eroded under generic
+  pressure. Camurus' subsequent strategic focus on addiction (Brixadi),
+  endocrine (CAM2029), and cardiometabolic (Lilly partnership) avoided
+  the postsurgical pain category, which is a deliberate omission worth
+  noting.
+
+last_updated: 2026-04-25

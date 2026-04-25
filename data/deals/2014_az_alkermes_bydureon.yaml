@@ -1,5 +1,5 @@
-id: 2018_lilly_alkermes_bydureon
-deal_type: m_and_a
+id: 2014_az_alkermes_bydureon
+deal_type: royalty_purchase
 status: active
 
 licensor: Alkermes
@@ -10,13 +10,14 @@ licensee_ticker: LLY
 asset_id: null
 platform_id: medisorb
 description: >
-  Bydureon (exenatide microsphere LAI) commercial trajectory passed through
-  multiple owners — originally Alkermes-Amylin-Lilly tripartite development;
-  Bristol-Myers Squibb acquired Amylin 2012; AstraZeneca acquired BMS
-  diabetes business 2014; AstraZeneca commercialized Bydureon through
-  the late 2010s. Alkermes received royalties on net sales throughout.
-  Tracked as a multi-decade reference for microsphere LAI commercialization
-  arc.
+  Long-running royalty arrangement on Bydureon (exenatide microsphere LAI)
+  net sales. Alkermes' royalty stream originated under the original
+  Alkermes-Amylin development partnership; commercial counterparty changed
+  through corporate ownership transitions: Bristol-Myers Squibb acquired
+  Amylin in 2012, AstraZeneca acquired BMS diabetes business in February
+  2014. Tracked under the 2014 AZ commercial-control date as a reference
+  point. Bydureon US rights subsequently transferred to Lilly. Alkermes
+  has retained royalty rights throughout the ownership transitions.
 
 announced_date: 2014-02-01
 completed_date: 2014-02-01
@@ -30,34 +31,48 @@ economics:
   milestones_commercial_usd_m: null
   equity_investment_usd_m: null
   rd_funding_usd_m: null
-  royalty_low_pct: 8
-  royalty_high_pct: 12
+  royalty_low_pct: 5.5
+  royalty_high_pct: 8
   royalty_notes: >
-    Approximate royalty range based on industry reporting; specific tiers
-    vary by net sales threshold and were never fully disclosed in detail.
-    Bydureon reached over $700M annual sales at peak before declining
-    against weekly oral GLP-1 competitors. Verify specific royalty terms
-    against Alkermes 10-K disclosures.
+    Verified from Alkermes 10-K filings and the original ACTII-Amylin
+    development and license agreement (filed as exhibit to Alkermes 2023
+    10-K). Tiered royalty structure: 8% on first 40 million units of
+    Exenatide LAR (Bydureon) sold per calendar year, 5.5% on units sold
+    above 40M per year. This tiering applied through December 31, 2021
+    (the tenth full calendar year following first commercial sale).
+    After Dec 31 2021, the royalty rate became flat 5.5% on all net sales
+    for the remaining term. For oil-based products (Bydureon BCise),
+    similar structure applied. For products not manufactured by Alkermes,
+    flat 5.5% royalty applies. Earlier tracker version listed 8-12%
+    range — that was incorrect; verified rates are 5.5-8% during the
+    initial tier period and 5.5% flat thereafter.
 
 option_structure: null
-territory: Worldwide (with regional variations)
+territory: Worldwide (with regional commercial transitions)
 exclusivity: exclusive
 indications_covered:
   - endocrine
 termination_clauses: >
-  Long-running royalty arrangement with multiple commercial transfers;
-  specific terms not publicly disclosed in detail.
+  Royalty obligations continue for the duration of relevant ACTII patents
+  and supply arrangement; specific termination triggers in the underlying
+  agreement.
 
-disclosure_quality: minimal
+disclosure_quality: full
 source_urls:
-  - https://www.alkermes.com/
+  - https://www.sec.gov/Archives/edgar/data/0001520262/000095017024017883/alks-ex10_5a.htm
+  - https://investor.alkermes.com/static-files/b5b1daee-663e-4193-82ef-0ece863e323e
 
 tactbio_view: >
-  Reference case for what happens to LAI economics when underlying
-  category dynamics shift. Bydureon demonstrated that microsphere LAI
-  technology is fully validated, but commercial trajectory was undermined
-  by superior GLP-1 alternatives (semaglutide, dulaglutide). Read across:
-  technology execution alone does not guarantee commercial durability —
-  category dynamics matter at least as much.
+  Reference case for what happens to LAI economics when underlying category
+  dynamics shift. Bydureon demonstrated that microsphere LAI technology is
+  fully validated, but commercial trajectory was undermined by superior
+  GLP-1 alternatives (semaglutide, dulaglutide). The royalty structure is
+  also instructive — front-loaded 8% on early units captured most economic
+  value during peak years (2014-2018) before competition compressed sales.
+  Read across: technology execution alone does not guarantee commercial
+  durability. Category dynamics matter at least as much. The post-2021
+  step-down to flat 5.5% reflects a typical pharma-favorable royalty
+  taper — innovators secure better terms in early years when category
+  positioning is strongest.
 
 last_updated: 2026-04-25

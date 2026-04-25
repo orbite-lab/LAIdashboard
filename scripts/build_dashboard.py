@@ -345,8 +345,10 @@ def render_asset_table(conn) -> str:
 
 def render_deal_log(conn) -> str:
     deals = list(conn.execute("""
-        SELECT d.*, p.name AS platform_name
-        FROM deals d LEFT JOIN platforms p ON d.platform_id = p.id
+        SELECT d.*, p.name AS platform_name, a.name AS asset_name
+        FROM deals d
+        LEFT JOIN platforms p ON d.platform_id = p.id
+        LEFT JOIN assets a ON d.asset_id = a.id
         ORDER BY d.announced_date DESC
     """))
     if not deals:
@@ -358,10 +360,43 @@ def render_deal_log(conn) -> str:
         disc_color = {"full": ACCENT_TEAL, "partial": "#8B6F3E", "minimal": "#A84545"}.get(
             d["disclosure_quality"], MUTED
         )
+        # Build a short scope hint to disambiguate same-counterparty deals
+        scope_hint = ""
+        if d["asset_name"]:
+            scope_hint = esc(d["asset_name"])
+        else:
+            # Infer from id when it includes a salient suffix (e.g. amendment, discontinuation)
+            id_lower = d["id"].lower()
+            if "amendment" in id_lower:
+                scope_hint = "amendment"
+            elif "discontinuation" in id_lower:
+                scope_hint = "discontinuation"
+            elif "olanzapine" in id_lower:
+                scope_hint = "olanzapine LAI funding"
+            elif "incretins" in id_lower:
+                scope_hint = "cardiometabolic incretins"
+            elif "signifor" in id_lower:
+                scope_hint = "Signifor + osilodrostat"
+            elif "iluvien" in id_lower:
+                scope_hint = "Iluvien"
+            elif "cabenuva" in id_lower:
+                scope_hint = "Cabenuva"
+            elif "bydureon" in id_lower:
+                scope_hint = "Bydureon"
+            elif "perseris" in id_lower:
+                scope_hint = "Perseris"
+            elif "camcevi" in id_lower:
+                scope_hint = "Camcevi"
+            elif "medincell" in id_lower:
+                scope_hint = "BEPO (multi-program)"
+        scope_html = (
+            f"<br/><span class='muted' style='font-size:11px;'>{scope_hint}</span>"
+            if scope_hint else ""
+        )
         rows += f"""
         <tr>
           <td>{esc(d["announced_date"])}</td>
-          <td><strong>{esc(d["licensor"])}</strong> × {esc(d["licensee"])}</td>
+          <td><strong>{esc(d["licensor"])}</strong> × {esc(d["licensee"])}{scope_html}</td>
           <td>{esc(d["platform_name"] or '—')}</td>
           <td>{esc(d["deal_type"])}</td>
           <td>{upfront}</td>

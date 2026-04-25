@@ -1,0 +1,81 @@
+id: 2023_royaltypharma_teva_olanzapine
+deal_type: royalty_purchase
+status: active
+
+licensor: Teva Pharmaceuticals International GmbH
+licensor_ticker: TEVA
+licensee: Royalty Pharma
+licensee_ticker: RPRX
+
+asset_id: null
+platform_id: bepo
+description: >
+  Synthetic R&D funding agreement (not a forward royalty purchase). Royalty
+  Pharma provides Teva up to $100M to fund ongoing Phase 3 development costs
+  for olanzapine LAI (TEV-'749, mdc-TJK), the second BEPO/SteadyTeq-based
+  asset after UZEDY. Mutual option to extend total funding to $125M. Upon
+  FDA approval, Teva repays the funded amount over five years AND pays
+  low-to-mid-single-digit royalties to Royalty Pharma on commercialization.
+  Structure is hybrid debt/royalty: principal repayment + royalty stream
+  contingent on regulatory success. MedinCell is the underlying platform
+  technology owner but is not a counterparty to this specific RPRX-Teva
+  agreement.
+
+announced_date: 2023-11-13
+completed_date: 2023-11-13
+termination_date: null
+
+economics:
+  upfront_usd_m: 100
+  milestones_total_usd_m: 125
+  milestones_development_usd_m: 100
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: 100
+  royalty_low_pct: 1
+  royalty_high_pct: 5
+  royalty_notes: >
+    Per Teva and Royalty Pharma joint press release Nov 13 2023:
+    $100M upfront R&D funding to Teva, with mutual option to extend
+    to $125M total. Conditional repayment terms: if FDA approves
+    olanzapine LAI, Teva repays the funded amount over five years
+    AND pays "low to mid single-digit" royalties on commercial sales.
+    Royalty range 1-5% inferred from "low to mid single digit" language
+    (typically interpreted as 1-6%, conservatively 1-5%). NOT a forward
+    royalty stream purchase — Royalty Pharma's economics depend entirely
+    on FDA approval, after which they receive principal-plus-royalty
+    rather than a clean royalty asset.
+
+option_structure: >
+  Mutual option to expand total funding from $100M to $125M.
+territory: Worldwide
+exclusivity: non_exclusive
+indications_covered:
+  - psych
+termination_clauses: >
+  If FDA approval is not obtained, Royalty Pharma's funding is at risk;
+  specific clawback or write-off mechanics not publicly disclosed.
+
+disclosure_quality: full
+source_urls:
+  - https://www.royaltypharma.com/news/royalty-pharma-and-teva-collaborate-further-accelerate/
+  - https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2023/Teva-and-Royalty-Pharma-Collaborate-to-Further-Accelerate-Olanzapine-LAI-Program/default.aspx
+  - https://www.fiercepharma.com/pharma/teva-draws-100m-royalty-funding-bankroll-long-acting-schizophrenia-drug
+
+tactbio_view: >
+  Structurally significant deal but commonly misunderstood. This is NOT
+  Royalty Pharma buying a forward royalty stream — it is conditional
+  R&D financing with a synthetic loan plus royalty kicker. The implications
+  differ — (1) Royalty Pharma's diligence here validates Teva's olanzapine
+  Phase 3 probability, but does not imply RPRX views the asset as a
+  high-quality royalty compounder; (2) Teva preserves the bulk of olanzapine
+  economics, paying out only repayment plus 1-5% royalty; (3) approval
+  risk is borne primarily by Royalty Pharma, but Teva's optionality is
+  preserved. For BEPO platform validation, the deal is meaningful but
+  less of a signal than a true forward royalty purchase would have been.
+  MedinCell does not benefit directly from this RPRX-Teva agreement —
+  MedinCell's olanzapine economics flow through the original 2013 Teva
+  agreement, separately.
+
+last_updated: 2026-04-25
