@@ -26,7 +26,8 @@ ip_continuation_strategy: strong
 ip_fto_concerns: minor
 ip_notes: >
   Newer-vintage IP; full runway. Specific patent landscape not reviewed.
-ip_records: []
+ip_records:
+  - metsera_zihipp_peptide_analogues_wo
 
 active_partners:
   - name: Pfizer
@@ -80,9 +81,9 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 3
-    rationale: Default neutral per rubric — Metsera HALO platform patent landscape not assessed. Newer-vintage filings (Metsera founded 2022) suggest full nominal runway, but the specific composition claims and any Pfizer-augmented continuations post-acquisition have not been verified.
-    confidence: low
+    value: 4
+    rationale: WO2017178829A1 (priority April 2016, expiry ~2037) provides foundational composition-of-matter coverage of peptide hormone analogues (Exendin-4, GLP-1, OXM, glucagon variants) — in-licensed to Zihipp/Metsera from Imperial College / IP2IPO. Underlying library of 20,000 peptides supports MET-097, MET-233, MET-034, MET-067. Pfizer post-acquisition adds tier-1 patent infrastructure plus continuation strategy. Royalty obligations to IP Group plc are a secondary economic consideration but do not weaken the freedom-to-operate position.
+    confidence: medium
     scored_at: 2026-04-27
     scorer: CL
   dealability:
@@ -100,9 +101,9 @@ scores:
 
 indication_fit:
   metabolic:
-    value: 3
-    rationale: Default neutral per rubric — Phase 1/2 obesity data is too early-stage to claim a "good fit" (4); upgrade contingent on Phase 3 readout. Pfizer acquisition in late 2025 underscores the commercial bet on the category but does not de-risk the platform's clinical fit.
-    confidence: low
+    value: 4
+    rationale: VESPER-1 Phase 2b (n=215) reported September 2025 — placebo-adjusted weight loss up to 14.1% at 28 weekly doses (1.2mg arm) without titration; dose-response across 0.4-1.2mg; favorable tolerability vs class (12.8% nausea, 11.1% vomiting risk diff vs placebo, 2.9% AE-driven discontinuation). Phase 3 program initiated late 2025. Mechanism is half-life extension rather than depot LAI per taxonomy — minor mismatch keeps it at 4 not 5.
+    confidence: medium
     scored_at: 2026-04-27
     scorer: CL
 

@@ -20,8 +20,8 @@
 | Invega Hafyera | paliperidone palmitate (6-monthly) | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.75** | — |
 | Invega Sustenna | paliperidone palmitate | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.90** | — |
 | Lupron Depot | leuprolide acetate | Lupron Depot | AbbVie / Takeda | approved | **3.60** | — |
-| MET-097 | undisclosed long-acting GLP-1 | Metsera depot platform | Metsera (Pfizer-acquired) | phase_2 | **2.75** | 2026-Q3 |
-| MariTide | maridebart cafraglutide (AMG 133) | MariTide platform (Amgen) | Amgen | phase_3 | **2.60** | 2026-Q4 |
+| MET-097 | undisclosed long-acting GLP-1 | Metsera depot platform | Metsera (Pfizer-acquired) | phase_2 | **3.85** | 2026-Q3 |
+| MariTide | maridebart cafraglutide (AMG 133) | MariTide platform (Amgen) | Amgen | phase_3 | **2.75** | 2026-Q4 |
 | PA5108 | latanoprost | PolyActiva | PolyActiva Pty Ltd | phase_2 | **2.50** | 2026-Q3 |
 | Risperdal Consta | risperidone | Medisorb | Janssen (Johnson & Johnson) | approved | **3.60** | — |
 | Risvan | risperidone | ISM | Rovi | approved | **3.45** | — |
@@ -262,11 +262,11 @@
 
 | Dimension | Score | Conf. | Rationale |
 |---|---|---|---|
-| tech | 2 | low | Phase 1/2 stage; long-acting peptide engineering not yet platform-validated. |
-| clinical | 2 | low | Phase 1 data supportive; Phase 2 dose-finding ongoing. |
-| ip | 3 | low | Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Metsera HALO patent landscape search confirms strong composition coverage; Pfizer-acquired status may add continuation activity. |
-| dealability | 5 | medium | Pfizer 2025 acquisition validates platform commercial value at tier-1 level. |
-| regulatory | 2 | low | Pre-IND or early IND; regulatory pathway established by GLP-1 class. |
+| tech | 3 | medium | VESPER-1 Phase 2b confirmed once-monthly-capable PK profile (15-16 day half-life) translates into clinical weight loss; HALO peptide-lipidation platform validated late-clinical at the asset level. Not yet commercial; Phase 3 initiation late 2025. |
+| clinical | 4 | high | VESPER-1 Phase 2b (n=215) showed up to 14.1% placebo-adjusted weight loss at 28 weekly doses with monotonic dose-response (0.4mg 8.1%, 0.6mg 10.0%, 0.9mg 13.0%, 1.2mg 14.1%); 36-week exploratory analysis shows continued weight loss without plateau. VESPER-3 titration arm shows manageable tolerability. Phase 3 initiation late 2025. |
+| ip | 4 | medium | Inherits platform IP score; backed by WO2017178829A1 (priority April 2016, expiry ~2037) covering peptide hormone analogues — in-licensed from Imperial College / IP2IPO via Zihipp. Pfizer post-acquisition adds tier-1 continuation strategy. |
+| dealability | 5 | high | Pfizer ~$10B acquisition of Metsera completed November 2025 validates platform and lead-asset commercial value at tier-1 pharma level. Sets benchmark for clinical-stage obesity LAI enterprise valuation. |
+| regulatory | 3 | medium | Phase 3 program initiating late 2025; GLP-1 RA regulatory pathway well-established by semaglutide / tirzepatide precedents. Pfizer regulatory infrastructure plus prior Metsera Phase 2b data position MET-097i for a standard NDA pathway. |
 
 **Investor view:** Now a Pfizer-internal asset post-acquisition. Phase 2 readouts will determine whether Pfizer's $5B+ Metsera bet was prescient.
 
@@ -279,7 +279,7 @@
 |---|---|---|---|
 | tech | 3 | medium | Phase 2 monthly dosing demonstrated; mechanism is half-life extension rather than depot LAI. |
 | clinical | 3 | medium | Phase 2 weight loss results competitive; Phase 3 outcomes pending. |
-| ip | 3 | low | Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Amgen MariTide patent landscape search confirms strong composition and method coverage. |
+| ip | 4 | medium | Inherits platform IP score; backed by US10905772B2 (granted Feb 2021, expiry 2038) plus active continuation WO2024102742A1 (priority Nov 2022) covering methods for treating obesity. International family across EP/JP/CN/KR plus emerging markets. No public oppositions. |
 | dealability | 1 | high | Internal Amgen asset; not externally licensable. |
 | regulatory | 3 | medium | Pre-NDA. GLP-1 / GIP regulatory pathway established by tirzepatide and semaglutide. |
 

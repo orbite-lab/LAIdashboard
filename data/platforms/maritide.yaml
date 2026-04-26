@@ -29,7 +29,9 @@ ip_continuation_strategy: strong
 ip_fto_concerns: none
 ip_notes: >
   Amgen-internal IP estate; specific patent landscape not reviewed.
-ip_records: []
+ip_records:
+  - amgen_amg133_method_us
+  - amgen_amg133_obesity_methods_wo
 
 active_partners: []
 
@@ -79,9 +81,9 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 3
-    rationale: Default neutral per rubric — Amgen MariTide patent landscape not assessed; revise after a proper Espacenet / WIPO search. Likely a strong estate given Amgen's biologics IP infrastructure but the specific Fc-conjugate composition and method claims have not been verified.
-    confidence: low
+    value: 4
+    rationale: US10905772B2 (priority Jan 2017, expiry 2038) granted method-of-treatment claims for GIPR-antagonist + GLP-1 conjugates; international counterpart WO2018237095A1. Active continuation strategy via WO2024102742A1 (priority Nov 2022) extends methods-for-obesity claims; national-stage filings in EP/JP/CN/KR/IL/PE/MX/JO/CO. No public oppositions or PTAB challenges identified.
+    confidence: medium
     scored_at: 2026-04-27
     scorer: CL
   dealability:

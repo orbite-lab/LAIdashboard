@@ -20,7 +20,7 @@ Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no mark
 | MariTide platform (Amgen) | — | — | — | — | 3? | — | — | 4· |
 | Medisorb | 5 | 4 | — | — | 3· 🔒 | — | — | — |
 | Medusa | — | — | — | — | 3? | — | — | 3· |
-| Metsera depot platform | — | — | — | — | — | — | — | 3? |
+| Metsera depot platform | — | — | — | — | — | — | — | 4· |
 | NanoCrystal | 5 | 3? | 5 🔒 | 3? | — | — | — | — |
 | NanoZolid | — | — | — | 3· | 3? | — | — | — |
 | Novadur | — | — | — | — | — | 5 | — | — |
@@ -52,10 +52,10 @@ Composite weights (v1): tech 0.30, ip 0.20, dealability 0.25, availability 0.25.
 | FluidCrystal | 5 | 3 | 5 | 3 | **4.10** |
 | ISM | 4 | 4 | 3 | 3 | **3.50** |
 | Lupron Depot | 5 | 1 | 1 | 3 | **2.70** |
-| MariTide platform (Amgen) | 3 | 3 | 1 | 1 | **2.00** |
+| MariTide platform (Amgen) | 3 | 4 | 1 | 1 | **2.20** |
 | Medisorb | 5 | 2 | 4 | 2 | **3.40** |
 | Medusa | 2 | 3 | 2 | 3 | **2.45** |
-| Metsera depot platform | 2 | 3 | 5 | 1 | **2.70** |
+| Metsera depot platform | 2 | 4 | 5 | 1 | **2.90** |
 | NanoCrystal | 5 | 3 | 3 | 2 | **3.35** |
 | NanoZolid | 3 | 3 | 2 | 3 | **2.75** |
 | Novadur | 4 | 3 | 2 | 3 | **3.05** |

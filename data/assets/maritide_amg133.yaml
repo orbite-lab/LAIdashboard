@@ -50,9 +50,9 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 3
-    rationale: Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Amgen MariTide patent landscape search confirms strong composition and method coverage.
-    confidence: low
+    value: 4
+    rationale: Inherits platform IP score; backed by US10905772B2 (granted Feb 2021, expiry 2038) plus active continuation WO2024102742A1 (priority Nov 2022) covering methods for treating obesity. International family across EP/JP/CN/KR plus emerging markets. No public oppositions.
+    confidence: medium
     scored_at: 2026-04-27
     scorer: CL
   dealability:

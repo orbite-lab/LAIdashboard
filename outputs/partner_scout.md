@@ -20,7 +20,7 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 | MariTide platform (Amgen) | — | — | — | — | — | 3 ✓ | — | — | 4 ✓ |
 | Medisorb | selective | 5 ✓ | 4 ✓ | — | — | 3 🔒 | — | — | — |
 | Medusa | unknown | — | — | — | — | 3 ✓ | — | — | 3 ✓ |
-| Metsera depot platform | — | — | — | — | — | — | — | — | 3 ✓ |
+| Metsera depot platform | — | — | — | — | — | — | — | — | 4 ✓ |
 | NanoCrystal | selective | 5 ✓ | 3 ✓ | 5 🔒 | 3 ✓ | — | — | — | — |
 | NanoZolid | unknown | — | — | — | 3 ✓ | 3 ✓ | — | — | — |
 | Novadur | unknown | — | — | — | — | — | 5 ✓ | — | — |

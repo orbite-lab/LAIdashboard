@@ -36,34 +36,34 @@ primary_trials: []
 
 scores:
   tech:
-    value: 2
-    rationale: Phase 1/2 stage; long-acting peptide engineering not yet platform-validated.
-    confidence: low
-    scored_at: 2026-04-26
+    value: 3
+    rationale: VESPER-1 Phase 2b confirmed once-monthly-capable PK profile (15-16 day half-life) translates into clinical weight loss; HALO peptide-lipidation platform validated late-clinical at the asset level. Not yet commercial; Phase 3 initiation late 2025.
+    confidence: medium
+    scored_at: 2026-04-27
     scorer: CL
   clinical:
-    value: 2
-    rationale: Phase 1 data supportive; Phase 2 dose-finding ongoing.
-    confidence: low
-    scored_at: 2026-04-26
+    value: 4
+    rationale: VESPER-1 Phase 2b (n=215) showed up to 14.1% placebo-adjusted weight loss at 28 weekly doses with monotonic dose-response (0.4mg 8.1%, 0.6mg 10.0%, 0.9mg 13.0%, 1.2mg 14.1%); 36-week exploratory analysis shows continued weight loss without plateau. VESPER-3 titration arm shows manageable tolerability. Phase 3 initiation late 2025.
+    confidence: high
+    scored_at: 2026-04-27
     scorer: CL
   ip:
-    value: 3
-    rationale: Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Metsera HALO patent landscape search confirms strong composition coverage; Pfizer-acquired status may add continuation activity.
-    confidence: low
+    value: 4
+    rationale: Inherits platform IP score; backed by WO2017178829A1 (priority April 2016, expiry ~2037) covering peptide hormone analogues — in-licensed from Imperial College / IP2IPO via Zihipp. Pfizer post-acquisition adds tier-1 continuation strategy.
+    confidence: medium
     scored_at: 2026-04-27
     scorer: CL
   dealability:
     value: 5
-    rationale: Pfizer 2025 acquisition validates platform commercial value at tier-1 level.
-    confidence: medium
-    scored_at: 2026-04-26
+    rationale: Pfizer ~$10B acquisition of Metsera completed November 2025 validates platform and lead-asset commercial value at tier-1 pharma level. Sets benchmark for clinical-stage obesity LAI enterprise valuation.
+    confidence: high
+    scored_at: 2026-04-27
     scorer: CL
   regulatory:
-    value: 2
-    rationale: Pre-IND or early IND; regulatory pathway established by GLP-1 class.
-    confidence: low
-    scored_at: 2026-04-26
+    value: 3
+    rationale: Phase 3 program initiating late 2025; GLP-1 RA regulatory pathway well-established by semaglutide / tirzepatide precedents. Pfizer regulatory infrastructure plus prior Metsera Phase 2b data position MET-097i for a standard NDA pathway.
+    confidence: medium
+    scored_at: 2026-04-27
     scorer: CL
 
 views:

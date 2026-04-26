@@ -1,0 +1,25 @@
+id: amgen_amg133_method_us
+patent_number: US10905772B2
+jurisdiction: US
+assignee: Amgen Inc.
+platform_id: maritide
+asset_id: maritide_amg133
+filing_date: 2018-01-16
+priority_date: 2017-01-17
+grant_date: 2021-02-02
+expiry_date: 2038-02-04
+claim_type: method
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: No public oppositions or PTAB challenges identified as of import date.
+notes: >
+  Method-of-treatment patent covering "GLP-1 receptor agonists conjugated to
+  antagonists for gastric inhibitory peptide receptor (GIPR)" — the
+  mechanistic class of MariTide / AMG 133 / maridebart cafraglutide.
+  Granted with a 2038 expiry, providing substantial commercial runway.
+  International counterpart WO2018237095A1. Methods-of-use family extended
+  by the November 2022 priority date of WO2024102742A1.
+source_urls:
+  - https://patents.google.com/patent/US10905772B2/en
+last_updated: 2026-04-27

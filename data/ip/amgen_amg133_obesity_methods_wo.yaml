@@ -1,0 +1,26 @@
+id: amgen_amg133_obesity_methods_wo
+patent_number: WO2024102742A1
+jurisdiction: WO
+assignee: Amgen Inc.
+platform_id: maritide
+asset_id: maritide_amg133
+filing_date: 2023-11-07
+priority_date: 2022-11-07
+grant_date: null
+expiry_date: 2043-11-07
+claim_type: method
+continuation_lineage:
+  - amgen_amg133_method_us
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: No public oppositions.
+notes: >
+  Methods-for-treating-obesity continuation family, priority November 7,
+  2022 from US Provisional 63/382,700. Extends Amgen's MariTide method
+  estate beyond the 2017-priority US10905772B2. National-stage filings
+  in EP, JP, CN, KR, IL, PE plus later filings in MX, JO, CO. Active
+  continuation strategy — strong runway against generic / biosimilar
+  challengers.
+source_urls:
+  - https://patents.google.com/patent/WO2024102742A1/en
+last_updated: 2026-04-27
