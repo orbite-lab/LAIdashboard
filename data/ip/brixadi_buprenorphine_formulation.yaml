@@ -1,0 +1,27 @@
+id: brixadi_buprenorphine_formulation
+patent_number: US9,937,164
+jurisdiction: US
+assignee: Camurus
+platform_id: fluidcrystal
+asset_id: brixadi
+filing_date: 2009-10-21
+priority_date: 2008-10-21
+grant_date: 2018-04-10
+expiry_date: 2030-10-21
+claim_type: formulation
+continuation_lineage: [fluidcrystal_core_composition]
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: >
+  Litigation history: Indivior brought patent litigation against Braeburn
+  alleging Brixadi infringement of Sublocade IP, contributing to the delayed
+  US launch (2018 FDA approval but 2023 commercial launch). Resolved 2023.
+notes: >
+  Camurus formulation patent specifically covering buprenorphine in
+  FluidCrystal lipid liquid crystal matrix. Listed in the FDA Orange Book
+  for Brixadi. Effective protection through 2030 plus product-specific
+  manufacturing trade secrets. Verify Orange Book current listing and any
+  paragraph IV filings.
+source_urls:
+  - https://patents.google.com/patent/US9937164
+last_updated: 2026-04-25

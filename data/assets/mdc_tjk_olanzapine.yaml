@@ -1,0 +1,100 @@
+id: mdc_tjk_olanzapine
+name: TEV-749 (mdc-TJK)
+inn: olanzapine
+platform_id: bepo
+owning_company: MedinCell
+licensee_company: Teva
+
+indications:
+  - code: psych
+    phase: phase_3
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: 2026-12-15
+  nda_filed: 2025-Q4
+  expected_readout: 2025-Q1
+  next_catalyst: 2026-Q4
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. SOLARIS Phase 3 reported positive in early 2025; NDA
+    filing late 2025; PDUFA expected Q4 2026 per company guidance. The
+    central commercial question is the FDA label outcome relative to
+    Zyprexa Relprevv's black-box warning for post-injection delirium /
+    sedation syndrome (PDSS). If TEV-749 demonstrates meaningfully lower
+    PDSS rate, label could omit or soften the black box — the central
+    differentiator. TAM in long-acting olanzapine is structurally large
+    given Zyprexa Relprevv's restricted use under REMS. Royalty Pharma
+    funded $100-125M of Phase 3 development cost in exchange for principal
+    repayment plus 1-5% royalty post-approval (separate from MedinCell's
+    underlying economics under the 2013 Teva agreement).
+  list_price_usd: null
+  addressable_market_usd_m: 800
+
+primary_deal_id: 2013_teva_medincell
+
+primary_trials:
+  - nct_id: NCT05693935
+    role: pivotal
+    trial_id: solaris_olanzapine_lai
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from BEPO; olanzapine is a small-molecule with established release kinetics in PLA depots.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: SOLARIS Phase 3 positive on relapse-prevention primary endpoint; PDSS frequency vs Relprevv is the open clinical question gating label scope.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: BEPO platform IP plus asset-specific formulation patents; effective protection through 2030s.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 5
+    rationale: Teva commercial counterparty already validated by UZEDY; Royalty Pharma synthetic R&D financing further validates commercial probability.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 3
+    rationale: PDUFA still pending; PDSS labeling outcome creates real binary risk against the score.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Second BEPO/Teva asset; PDUFA in Q4 2026 is the single biggest near-term
+    catalyst for MedinCell. Black-box question on PDSS is the central tension.
+    A clean label drives 5x revenue scenario vs Relprevv-equivalent restricted
+    label. Royalty Pharma's $100-125M synthetic R&D financing tells you their
+    diligence reached a probability-weighted positive view, but does not signal
+    "high-quality royalty" — RPRX's economics depend on principal repayment,
+    not pure royalty compounding.
+  partner: >
+    Not available — Teva exclusive worldwide. Reference point for olanzapine
+    LAI economics. BD scouts evaluating BEPO platform for non-CNS indications
+    can use TEV-749 progression as platform-validation evidence.
+  acquirer: >
+    Acquirer thesis on MedinCell hinges materially on TEV-749 milestone receipts.
+    Diligence should focus on the Teva-MedinCell milestone schedule
+    (specific milestone $ amounts and triggers per the 2013 agreement) plus
+    any change-of-control provisions either Teva or Royalty Pharma may invoke.
+
+tactbio_view: >
+  Second BEPO/Teva asset; PDUFA in Q4 2026 is the single biggest near-term
+  catalyst for MedinCell.
+
+last_updated: 2026-04-26

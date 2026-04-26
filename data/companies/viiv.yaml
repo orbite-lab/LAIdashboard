@@ -1,0 +1,30 @@
+id: viiv
+name: ViiV Healthcare
+ticker: null
+listing_venue: private (subsidiary of GSK)
+country_hq: GB
+employees: ~1500
+market_cap_usd_m: null
+market_cap_as_of: null
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  HIV-focused JV: GSK majority owner, Pfizer and Shionogi minority
+  shareholders. Operates as standalone but rolls up to GSK financials.
+  Cabotegravir and dolutegravir franchises drive revenue.
+
+related_platforms: [nanocrystal]
+related_assets: [cabenuva, apretude]
+related_deals: [2016_viiv_janssen_cabenuva]
+
+ir_contact: null
+last_updated: 2026-04-26
+
+notes: >
+  ViiV's Cabenuva and Apretude products use NanoCrystal-derived nanocrystal
+  formulations originally developed under Alkermes/Janssen IP. ViiV is the
+  reference commercial counterparty for HIV LAI; bar for any new HIV LAI
+  entrant. JV structure complicates M&A — minority partners (Pfizer 11.7%,
+  Shionogi 10%) hold consent rights.

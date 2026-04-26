@@ -1,0 +1,33 @@
+# Company template — copy this file to data/companies/<slug>.yaml
+# REQUIRED fields marked.
+
+id: company_slug                   # REQUIRED — lowercase, unique
+name: Full Company Name            # REQUIRED
+ticker: CAMX                       # optional — primary listing ticker
+listing_venue: Stockholm           # optional — NASDAQ / NYSE / Stockholm / Euronext Paris / etc.
+country_hq: SE                     # REQUIRED — ISO code
+employees: 200                     # optional — number or string range
+market_cap_usd_m: 2500             # optional — most recent
+market_cap_as_of: 2026-04-25       # optional — ISO date
+cash_position_usd_m: 200           # optional
+cash_runway_quarters: 16           # optional
+debt_usd_m: null                   # optional
+ifrs_or_gaap: IFRS                 # IFRS / GAAP
+
+key_insiders:
+  - name: Founder Name
+    role: CEO / Chairman / etc.
+    holding_pct: 5.2
+governance_notes: short string     # optional
+
+m_and_a_protections:
+  poison_pill: false               # true / false / unknown
+  staggered_board: false
+  notes: short string
+
+related_platforms: [fluidcrystal]
+related_assets: [buvidal, brixadi, cam2029]
+related_deals: [2014_braeburn_camurus, 2025_lilly_camurus_incretins]
+
+ir_contact: ir@example.com         # optional
+last_updated: 2026-04-25

@@ -1,0 +1,32 @@
+id: alkermes
+name: Alkermes plc
+ticker: ALKS
+listing_venue: NASDAQ
+country_hq: IE
+employees: ~2000
+market_cap_usd_m: 5500
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 800
+debt_usd_m: 300
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Mid-cap commercial-stage biotech. Owns Medisorb microsphere platform
+  and NanoCrystal nanocrystal platform. Spun out oncology assets to
+  Mural Oncology in 2023. Continues to generate revenue from Vivitrol,
+  Aristada, and royalty streams (Invega franchise via NanoCrystal,
+  Bydureon via Medisorb, Vumerity).
+
+related_platforms: [medisorb, nanocrystal]
+related_assets: [vivitrol]
+related_deals: [2014_az_alkermes_bydureon]
+
+ir_contact: ir@alkermes.com
+last_updated: 2026-04-26
+
+notes: >
+  Alkermes' platform-licensing posture is selective — heritage NanoCrystal
+  technology was widely licensed historically (Invega franchise to Janssen,
+  Bydureon to AstraZeneca/Lilly), but current focus is internal pipeline
+  and product execution. Partnering posture should be considered closed
+  for new external programs absent specific IR signals.

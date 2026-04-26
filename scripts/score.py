@@ -28,7 +28,15 @@ DB_PATH = REPO_ROOT / "db" / "lai.db"
 
 # Weights for composite score computation. Tunable per the scoring rubric.
 # Sum should be 1.0.
+# v1: added availability dimension. v0 platforms without availability scored
+# get weight redistributed proportionally via composite() fallback.
 PLATFORM_WEIGHTS = {
+    "tech": 0.30,
+    "ip": 0.20,
+    "dealability": 0.25,
+    "availability": 0.25,
+}
+PLATFORM_WEIGHTS_LEGACY = {
     "tech": 0.40,
     "ip": 0.30,
     "dealability": 0.30,
@@ -52,10 +60,20 @@ def connect() -> sqlite3.Connection:
 
 
 def composite(scores: dict, weights: dict) -> float | None:
-    """Compute weighted composite. Returns None if any dimension is missing."""
-    if not all(d in scores for d in weights):
+    """Compute weighted composite. Returns None if any dimension is missing.
+
+    Renormalizes weights across dimensions actually present, so a platform
+    missing the v1 'availability' dimension still produces a comparable
+    composite from its v0 dimensions.
+    """
+    present = {d: w for d, w in weights.items() if d in scores}
+    if not present:
         return None
-    return round(sum(scores[d] * w for d, w in weights.items()), 2)
+    total_w = sum(present.values())
+    return round(
+        sum(scores[d] * (w / total_w) for d, w in present.items()),
+        2,
+    )
 
 
 def platform_scores(conn, platform_id: str) -> dict:

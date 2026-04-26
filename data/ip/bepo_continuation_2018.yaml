@@ -1,0 +1,25 @@
+id: bepo_continuation_2018
+patent_number: WO2018/172419
+jurisdiction: WO
+assignee: MedinCell
+platform_id: bepo
+asset_id: null
+filing_date: 2018-03-21
+priority_date: 2017-03-21
+grant_date: null
+expiry_date: 2038-03-21
+claim_type: formulation
+continuation_lineage: [bepo_core_composition]
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: None disclosed.
+notes: >
+  Continuation/formulation family extending BEPO platform protection to 2038.
+  Covers specific copolymer ratios and excipient combinations supporting
+  particular release profiles. Layered continuation strategy is the basis for
+  ip_score=4 on the BEPO platform. Verify against latest MedinCell IP landscape
+  refresh; further continuations filed through 2023 likely extend material
+  protection further.
+source_urls:
+  - https://patents.google.com/?q=WO2018172419
+last_updated: 2026-04-25

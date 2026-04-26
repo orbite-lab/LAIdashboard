@@ -3,73 +3,129 @@ name: Novadur
 company: Allergan (AbbVie)
 company_ticker: ABBV
 country: US
-
 mechanism: implant
 duration_bucket: long
-duration_range_days: [90, 180]
+duration_range_days:
+- 90
+- 180
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'Biodegradable PLGA-based solid polymer implant designed for intravitreal
+  (Ozurdex) and intracameral (Durysta) administration. Distinguished from Durasert by its
+  bioerodibility — no removal procedure required as the polymer hydrolyzes over months. Single-use
+  applicator for in-office injection.
 
-mechanism_notes: >
-  Biodegradable PLGA-based solid polymer implant designed for intravitreal
-  (Ozurdex) and intracameral (Durysta) administration. Distinguished from
-  Durasert by its bioerodibility — no removal procedure required as the
-  polymer hydrolyzes over months. Single-use applicator for in-office injection.
-
+  '
 regulatory_history:
-  - product: Ozurdex (dexamethasone, intravitreal)
-    indication: ophthalmology
-    approval_year: 2009
-    agency: FDA
-  - product: Durysta (bimatoprost, intracameral)
-    indication: ophthalmology
-    approval_year: 2020
-    agency: FDA
-
+- product: Ozurdex (dexamethasone, intravitreal)
+  indication: ophthalmology
+  approval_year: 2009
+  agency: FDA
+- product: Durysta (bimatoprost, intracameral)
+  indication: ophthalmology
+  approval_year: 2020
+  agency: FDA
 ip_core_expiry_year: 2028
 ip_continuation_strategy: moderate
 ip_fto_concerns: minor
-ip_notes: >
-  Ozurdex faced multiple patent challenges and generic threats; Allergan
-  prevailed in some, settled in others. Durysta benefits from newer
-  intracameral-specific filings. Specific expiry years require Orange Book verification.
+ip_notes: 'Ozurdex faced multiple patent challenges and generic threats; Allergan prevailed
+  in some, settled in others. Durysta benefits from newer intracameral-specific filings. Specific
+  expiry years require Orange Book verification.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 4
-    rationale: Two approved ophthalmic products across distinct administration routes (intravitreal, intracameral); 3-6 month duration well-characterized; bioerodible mechanism eliminates implant removal step.
+    rationale: Two approved ophthalmic products across distinct administration routes (intravitreal,
+      intracameral); 3-6 month duration well-characterized; bioerodible mechanism eliminates
+      implant removal step.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 3
-    rationale: Mid-stage IP runway with continuation activity; some generic pressure on Ozurdex. Confidence medium pending Orange Book check.
+    rationale: Mid-stage IP runway with continuation activity; some generic pressure on Ozurdex.
+      Confidence medium pending Orange Book check.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 2
-    rationale: AbbVie commercializes both products internally; no external licensing precedent for the platform.
+    rationale: AbbVie commercializes both products internally; no external licensing precedent
+      for the platform.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   ophthalmology:
     value: 5
-    rationale: Two approved products cover both anterior (Durysta for glaucoma) and posterior (Ozurdex for uveitis/DME/RVO) segment indications; established prescriber familiarity.
+    rationale: Two approved products cover both anterior (Durysta for glaucoma) and posterior
+      (Ozurdex for uveitis/DME/RVO) segment indications; established prescriber familiarity.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'AbbVie-owned ophthalmic implant platform paralleling Durasert in indication
+  but distinguished by bioerodibility. Strategic interest is comparative — Novadur vs Durasert
+  for a given drug class informs whether reformulation candidates favor erodible (3-6 month)
+  or non-erodible (12-36 month) variants. The recent BEPO-AbbVie deal may also intersect this
+  space as AbbVie''s broader LAI strategy evolves.
 
-tactbio_view: >
-  AbbVie-owned ophthalmic implant platform paralleling Durasert in indication
-  but distinguished by bioerodibility. Strategic interest is
-  comparative — Novadur vs Durasert for a given drug class informs whether
-  reformulation candidates favor erodible (3-6 month) or non-erodible (12-36
-  month) variants. The recent BEPO-AbbVie deal may also intersect this space
-  as AbbVie's broader LAI strategy evolves.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'AbbVie-owned ophthalmic implant platform paralleling Durasert in indication but
+    distinguished by bioerodibility. Strategic interest is comparative — Novadur vs Durasert
+    for a given drug class informs whether reformulation candidates favor erodible (3-6 month)
+    or non-erodible (12-36 month) variants. The recent BEPO-AbbVie deal may also intersect
+    this space as AbbVie''s broader LAI strategy evolves.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

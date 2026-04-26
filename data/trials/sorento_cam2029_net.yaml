@@ -1,0 +1,25 @@
+id: sorento_cam2029_net
+nct_id: NCT05050942
+asset_id: cam2029
+indication: oncology
+phase: 3
+n: 220
+design: Randomized open-label active-comparator
+primary_endpoint: Progression-free survival vs investigator's choice (octreotide LAR or lanreotide depot)
+control_arm: active comparator
+sponsor: Camurus
+status: active
+start_date: 2022-07-01
+expected_readout: 2026-Q2
+result: null
+geography: [US, EU, ROW]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT05050942
+  - https://www.camurus.com/media/press-releases/
+last_updated: 2026-04-25
+notes: >
+  SORENTO is the Phase 3 trial of CAM2029 (octreotide subcutaneous depot via
+  FluidCrystal) in advanced gastroenteropancreatic neuroendocrine tumors (GEP-NET).
+  Critical platform-validation readout for FluidCrystal in oncology/peptide LAI.
+  Verify exact NCT — multiple Camurus oncology programs use similar IDs;
+  confirm against company quarterly updates.

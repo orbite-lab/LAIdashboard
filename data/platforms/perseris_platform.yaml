@@ -3,69 +3,122 @@ name: Perseris
 company: Indivior
 company_ticker: INDV
 country: GB
-
 mechanism: in_situ_depot
 duration_bucket: medium
-duration_range_days: [30, 30]
+duration_range_days:
+- 30
+- 30
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'PLGA-based in-situ forming depot using NMP solvent — closely related to
+  Tolmar''s Atrigel mechanism. Lead product is Perseris (risperidone monthly LAI) approved
+  2018 for schizophrenia. Indivior subsequently divested Perseris commercial rights to Newron
+  Pharmaceuticals (2024).
 
-mechanism_notes: >
-  PLGA-based in-situ forming depot using NMP solvent — closely related to
-  Tolmar's Atrigel mechanism. Lead product is Perseris (risperidone monthly
-  LAI) approved 2018 for schizophrenia. Indivior subsequently divested
-  Perseris commercial rights to Newron Pharmaceuticals (2024).
-
+  '
 regulatory_history:
-  - product: Perseris (risperidone monthly)
-    indication: psych
-    approval_year: 2018
-    agency: FDA
-
+- product: Perseris (risperidone monthly)
+  indication: psych
+  approval_year: 2018
+  agency: FDA
 ip_core_expiry_year: 2030
 ip_continuation_strategy: moderate
 ip_fto_concerns: minor
-ip_notes: >
-  Product-specific patents extend protection beyond Atrigel-class platform IP.
-  Verify current status given commercial transfer to Newron.
+ip_notes: 'Product-specific patents extend protection beyond Atrigel-class platform IP. Verify
+  current status given commercial transfer to Newron.
 
+  '
 active_partners:
-  - name: Newron Pharmaceuticals (US commercial rights, 2024)
-    tier: tier_3
-    deal_id: null
-
+- name: Newron Pharmaceuticals (US commercial rights, 2024)
+  tier: tier_3
+  deal_id: null
 scores:
   tech:
     value: 3
-    rationale: One approved product; mechanism similar to Atrigel and Sublocade-class PLGA in-situ depots; not platform-defining.
+    rationale: One approved product; mechanism similar to Atrigel and Sublocade-class PLGA
+      in-situ depots; not platform-defining.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 3
-    rationale: Product-specific patents provide commercial moat; platform mechanism IP largely shared with broader PLGA in-situ category.
+    rationale: Product-specific patents provide commercial moat; platform mechanism IP largely
+      shared with broader PLGA in-situ category.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 2
-    rationale: Recent divestiture from Indivior to Newron signals limited strategic priority; platform-level dealability marginal.
+    rationale: Recent divestiture from Indivior to Newron signals limited strategic priority;
+      platform-level dealability marginal.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   psych:
     value: 3
-    rationale: Perseris is the third or fourth risperidone LAI in the US market (alongside Risperdal Consta, UZEDY, Risvan); structurally disadvantaged position.
+    rationale: Perseris is the third or fourth risperidone LAI in the US market (alongside
+      Risperdal Consta, UZEDY, Risvan); structurally disadvantaged position.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Marginal platform tracked for completeness in risperidone LAI competitive set.
+  Indivior''s divestiture to Newron suggests the asset is non-core for its original developer;
+  commercial trajectory uncertain. Limited investment thesis on its own.
 
-tactbio_view: >
-  Marginal platform tracked for completeness in risperidone LAI competitive
-  set. Indivior's divestiture to Newron suggests the asset is non-core for
-  its original developer; commercial trajectory uncertain. Limited investment
-  thesis on its own.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Marginal platform tracked for completeness in risperidone LAI competitive set.
+    Indivior''s divestiture to Newron suggests the asset is non-core for its original developer;
+    commercial trajectory uncertain. Limited investment thesis on its own.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

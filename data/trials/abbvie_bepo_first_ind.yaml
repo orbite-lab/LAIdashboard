@@ -1,0 +1,25 @@
+id: abbvie_bepo_first_ind
+nct_id: pending
+asset_id: abbvie_bepo_program_1
+indication: other
+phase: 1
+n: null
+design: Phase 1 first-in-human (planned)
+primary_endpoint: Safety and PK characterization
+control_arm: null
+sponsor: AbbVie
+status: planning
+start_date: null
+expected_readout: 2027-Q1
+result: null
+geography: [US]
+source_urls:
+  - https://www.medincell.com/press-releases/
+last_updated: 2026-04-25
+notes: >
+  First IND under the 2024 AbbVie-MedinCell collaboration. AbbVie has guided
+  to first IND filing in 2026. Specific molecule and indication not disclosed.
+  This trial entry is a placeholder; update as AbbVie provides ClinicalTrials.gov
+  registration. Critical milestone for BEPO platform validation outside CNS
+  (Teva-partnered programs in psych are the only clinical-stage BEPO products
+  to date).

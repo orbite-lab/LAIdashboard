@@ -1,0 +1,23 @@
+id: hptn083_apretude
+nct_id: NCT02720094
+asset_id: apretude
+indication: hiv
+phase: 3
+n: 4566
+design: Randomized double-blind active-controlled non-inferiority
+primary_endpoint: HIV-1 incidence vs daily oral TDF/FTC
+control_arm: active comparator
+sponsor: ViiV Healthcare / NIAID (HPTN)
+status: completed
+start_date: 2016-12-01
+expected_readout: 2020-Q3
+result: positive
+geography: [US, ROW]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT02720094
+last_updated: 2026-04-25
+notes: >
+  Foundational PrEP trial for cabotegravir LAI. Demonstrated 66% lower HIV
+  incidence vs daily oral TDF/FTC in cisgender men and transgender women
+  who have sex with men. Companion trial HPTN 084 demonstrated similar
+  superiority in cisgender women. Reference precedent for any HIV PrEP LAI.

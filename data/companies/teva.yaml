@@ -1,0 +1,33 @@
+id: teva
+name: Teva Pharmaceutical Industries Ltd.
+ticker: TEVA
+listing_venue: NYSE / Tel Aviv
+country_hq: IL
+employees: ~37000
+market_cap_usd_m: 22000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 3000
+debt_usd_m: 17000
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Large-cap generic and specialty pharma. CNS franchise (Austedo, UZEDY,
+  TEV-749 in development) is strategic growth pillar offsetting generics
+  decline. Significant net debt continues to influence capital allocation
+  posture. CEO Richard Francis (joined 2023) leading turnaround strategy.
+
+related_platforms: [bepo]
+related_assets: [uzedy, mdc_tjk_olanzapine]
+related_deals:
+  - 2013_teva_medincell
+  - 2023_royaltypharma_teva_olanzapine
+
+ir_contact: ir@tevapharm.com
+last_updated: 2026-04-26
+
+notes: >
+  Teva is the principal commercial counterparty for BEPO/SteadyTeq.
+  UZEDY commercial trajectory (FY2025 $191M, FY2026 guide $250-280M) and
+  TEV-749 olanzapine PDUFA Q4 2026 are the dominant signals for MedinCell
+  thesis. Royalty Pharma R&D financing (Nov 2023) layered $100-125M on
+  the olanzapine program with conditional repayment.

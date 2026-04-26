@@ -38,7 +38,7 @@ commercial:
   list_price_usd: null
   addressable_market_usd_m: null
 
-primary_deal_id: 2018_braeburn_camurus
+primary_deal_id: 2014_braeburn_camurus
 
 primary_trials:
   - nct_id: pending

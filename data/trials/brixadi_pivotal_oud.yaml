@@ -1,0 +1,23 @@
+id: brixadi_pivotal_oud
+nct_id: NCT02651584
+asset_id: brixadi
+indication: addiction
+phase: 3
+n: 428
+design: Randomized double-blind active-controlled non-inferiority
+primary_endpoint: Responder rate (defined by negative urine plus self-report) at weeks 9-13
+control_arm: active comparator (sublingual buprenorphine)
+sponsor: Camurus / Braeburn
+status: completed
+start_date: 2015-12-01
+expected_readout: 2018-Q1
+result: positive
+geography: [US, EU]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT02651584
+last_updated: 2026-04-25
+notes: >
+  Pivotal Phase 3 supporting Buvidal (EU 2018) and Brixadi (US 2023, after
+  litigation-related delay) approvals. Demonstrated non-inferiority to daily
+  sublingual buprenorphine in OUD. Real-world commercial evidence has now
+  superseded this as primary clinical_score evidence.

@@ -1,6 +1,7 @@
 id: bepo
 name: BEPO
 company: MedinCell
+company_id: medincell
 company_ticker: MEDCL
 country: FR
 
@@ -12,34 +13,104 @@ payload_classes:
   - peptide
 
 mechanism_notes: >
-  Proprietary polymer blend (PLA-based) dissolved in biocompatible solvent.
-  On contact with aqueous body fluid, solvent diffuses out and polymer
-  precipitates, forming a solid depot that releases drug over weeks to months.
-  Distinguished from Atrigel by polymer formulation and release profile control.
+  Proprietary diblock copolymer system (PLA-PEG / PLGA-PEG) dissolved in
+  biocompatible solvent. On contact with aqueous body fluid, solvent diffuses
+  out and polymer precipitates, forming a solid depot that releases drug over
+  weeks to months. Distinguished from Atrigel by polymer chemistry (block
+  copolymer with PEG vs straight PLGA) and release profile control.
+  Branded as "SteadyTeq" under the Teva license. Continuation patent layering
+  extends effective protection to mid-2030s.
 
 regulatory_history:
   - product: UZEDY (risperidone LAI)
     indication: psych
     approval_year: 2023
     agency: FDA
-  # Olanzapine LAI — PDUFA expected Q4 2026 (per company guidance as of Q1 2026)
 
-ip_core_expiry_year: 2033
+ip_core_expiry_year: 2031
 ip_continuation_strategy: strong
 ip_fto_concerns: none
 ip_notes: >
-  Core composition-of-matter patents filed mid-2010s with continuations filed
-  through 2023. Manufacturing trade secrets material. FTO position reviewed
-  during AbbVie diligence (no known issues). Needs verification against latest
-  patent landscape search before next quarterly.
+  Core composition-of-matter patents filed 2010-2011 with continuations and
+  formulation patents filed through 2018+. Manufacturing trade secrets material.
+  AbbVie completed FTO diligence as part of 2024 deal — no known material exposure.
+ip_records:
+  - bepo_core_composition
+  - bepo_continuation_2018
+  - uzedy_formulation
 
 active_partners:
   - name: Teva
     tier: tier_1
-    deal_id: 2018_teva_medincell
+    deal_id: 2013_teva_medincell
   - name: AbbVie
     tier: tier_1
-    deal_id: 2022_abbvie_medincell
+    deal_id: 2024_abbvie_medincell
+
+partnering_posture:
+  open_to_partnering: selective
+  open_indications: [addiction, hiv, metabolic, pain]
+  closed_indications: [psych, oncology, ophthalmology, cns_neuro, other]
+  open_geographies: [worldwide]
+  closed_geographies: []
+  last_partnering_signal:
+    date: 2024-04-16
+    type: deal_announcement
+    description: AbbVie multi-program collaboration announced
+  bd_contact_disclosed: true
+  notes: >
+    AbbVie's 2024 collaboration covers up to six programs across oncology,
+    ophthalmology, cns_neuro, and "other." Teva exclusive in psych. This
+    leaves a narrower band of open indications than the indication_fit
+    matrix would suggest. Addiction is technically open but Camurus
+    FluidCrystal and Indivior Atrigel are entrenched commercially. HIV,
+    metabolic/non-incretin, and pain are the most actionable open scopes.
+
+encumbrances:
+  - deal_id: 2013_teva_medincell
+    indications: [psych]
+    molecule_classes: [risperidone, olanzapine, "third CNS LAI"]
+    compound_count_locked: 3
+    territory: worldwide
+    exclusivity: exclusive
+    expires: deal-life
+  - deal_id: 2024_abbvie_medincell
+    indications: [oncology, ophthalmology, cns_neuro, other]
+    molecule_classes: [undisclosed]
+    compound_count_locked: 6
+    territory: worldwide
+    exclusivity: exclusive
+    expires: deal-life
+
+technical_fit:
+  injection_volume_ml_range: [0.3, 2.0]
+  viscosity_cP_range: [100, 1000]
+  needle_gauge_typical: "21G"
+  max_payload_mass_mg: null
+  cold_chain_required: false
+  excipient_classes: ["PLA-PEG diblock copolymer", "DMSO", "NMP"]
+  release_profile_summary: >
+    Tunable release from 1 week to 3 months by varying copolymer composition
+    (PLA chain length, PEG fraction). UZEDY: monthly dosing. mdc-TJK olanzapine:
+    monthly. AbbVie programs scope unspecified.
+  iv_ivc_established: true
+  injection_site: [SC, IM]
+
+cmc_capacity:
+  primary_facility:
+    location: Jacou, France
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: ["Teva (UZEDY commercial supply)"]
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: >
+    MedinCell maintains a development and clinical-supply facility in
+    Jacou (Montpellier metro), France. Commercial supply of UZEDY is
+    handled through Teva's manufacturing network. Multi-program AbbVie
+    collaboration may require capacity expansion or additional CDMO
+    partnerships as programs progress. Verify current facility capex
+    and any 2025-2026 expansion announcements.
 
 scores:
   tech:
@@ -50,16 +121,22 @@ scores:
     scorer: RX
   ip:
     value: 4
-    rationale: Core patents to 2033 with active continuation strategy; AbbVie FTO diligence suggests no material exposure.
+    rationale: Core patents to 2031 with active continuation strategy through 2038+; AbbVie FTO diligence suggests no material exposure.
     confidence: medium
-    scored_at: 2026-04-21
-    scorer: RX
+    scored_at: 2026-04-26
+    scorer: CL
   dealability:
     value: 5
     rationale: Two tier-1 pharma partnerships (Teva, AbbVie), six-program AbbVie expansion plus option structures, mid-to-high single-digit royalties reference market-plus.
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
+  availability:
+    value: 2
+    rationale: Most indications encumbered — psych locked under Teva, plus AbbVie locks oncology/ophthalmology/cns_neuro/"other". Open scope effectively limited to addiction (commercially crowded), HIV, non-incretin metabolic, pain. Posture is selective but available scope is narrow.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
 
 indication_fit:
   psych:
@@ -93,12 +170,35 @@ indication_fit:
     scored_at: 2026-04-21
     scorer: RX
 
-tactbio_view: >
-  Market correctly identifies BEPO as the best-positioned non-microsphere in-situ depot
-  platform, but overprices the royalty-compounder transition before olanzapine PDUFA
-  resolves. Contrarian read: Teva concentration risk is material — 100% of near-term
-  royalty revenue derives from a single counterparty — and the AbbVie platform
-  validation is priced in before a single clinical candidate files IND.
-  Kill condition: olanzapine CRL, or Teva reducing commercial investment in UZEDY.
+views:
+  investor: >
+    Market correctly identifies BEPO as the best-positioned non-microsphere in-situ depot
+    platform, but overprices the royalty-compounder transition before olanzapine PDUFA
+    resolves. Contrarian read: Teva concentration risk is material — 100% of near-term
+    royalty revenue derives from a single counterparty — and the AbbVie platform
+    validation is priced in before a single clinical candidate files IND.
+    Kill condition: olanzapine CRL, or Teva reducing commercial investment in UZEDY.
+  partner: >
+    BEPO is the second most-validated in-situ depot LAI platform after FluidCrystal.
+    For BD scouts, BEPO is attractive if your molecule is a small molecule needing
+    1-3 month duration with strong IP runway (2031 core + continuations to 2038+).
+    Important caveat: most TAs are encumbered. Open scope effectively limited to
+    addiction (commercially crowded), HIV, non-incretin metabolic, pain. AbbVie
+    collaboration locks oncology, ophthalmology, CNS-neuro, and "other"; Teva
+    locks psych. New partner inquiries should focus on the unfilled HIV/metabolic/
+    pain band or wait for AbbVie program drops to free up space.
+  acquirer: >
+    MedinCell (MEDCL, Euronext Paris) is a small-cap clinical-stage / early-royalty
+    biotech with significant counterparty concentration risk (Teva 100% of near-term
+    royalties). M&A targets at this stage typically gate on platform-validation
+    milestones — TEV-749 olanzapine PDUFA Q4 2026 is the single most important
+    near-term catalyst. Both Teva (2013) and AbbVie (2024) deals likely contain
+    consent / ROFR provisions on platform transfer; diligence both. Royalty Pharma
+    olanzapine financing creates an additional creditor relationship to navigate.
+    French listing and IFRS reporting add accounting complexity for US acquirers.
 
-last_updated: 2026-04-21
+tactbio_view: >
+  Best-positioned non-microsphere in-situ depot platform but overpriced before
+  olanzapine PDUFA resolves. Teva concentration risk is the central tension.
+
+last_updated: 2026-04-26

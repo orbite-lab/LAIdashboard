@@ -2,65 +2,118 @@ id: polyactiva
 name: PolyActiva
 company: PolyActiva (private)
 country: AU
-
 mechanism: implant
 duration_bucket: long
-duration_range_days: [180, 365]
+duration_range_days:
+- 180
+- 365
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'Biodegradable polymer implant technology developed by Australian biotech
+  PolyActiva, targeting ophthalmic indications. Lead candidate is a 6-month bimatoprost ocular
+  implant (PA5108) for glaucoma, positioned competitively to Allergan''s Durysta with longer
+  claimed duration. Privately held; limited public clinical data.
 
-mechanism_notes: >
-  Biodegradable polymer implant technology developed by Australian biotech
-  PolyActiva, targeting ophthalmic indications. Lead candidate is a 6-month
-  bimatoprost ocular implant (PA5108) for glaucoma, positioned competitively
-  to Allergan's Durysta with longer claimed duration. Privately held;
-  limited public clinical data.
-
+  '
 regulatory_history: []
-
 ip_core_expiry_year: 2035
 ip_continuation_strategy: moderate
 ip_fto_concerns: minor
-ip_notes: >
-  PLACEHOLDER VALUE — Private company; patent estate not publicly characterized.
-  Set to 2035 as a reasonable placeholder reflecting clinical-stage filing
-  vintage. Verify via WIPO searches if pursuing detailed analysis.
-  Confidence on IP score: low.
+ip_notes: 'PLACEHOLDER VALUE — Private company; patent estate not publicly characterized.
+  Set to 2035 as a reasonable placeholder reflecting clinical-stage filing vintage. Verify
+  via WIPO searches if pursuing detailed analysis. Confidence on IP score: low.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 3
-    rationale: Clinical-stage only; no approved products; mechanism within established polymer-implant category but specifics differentiated by claimed 6-month duration.
+    rationale: Clinical-stage only; no approved products; mechanism within established polymer-implant
+      category but specifics differentiated by claimed 6-month duration.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 3
-    rationale: Limited public IP visibility for private company; assumed moderate based on platform-stage filings.
+    rationale: Limited public IP visibility for private company; assumed moderate based on
+      platform-stage filings.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 3
-    rationale: Private clinical-stage platform; deal optionality theoretical pending Phase 2/3 validation.
+    rationale: Private clinical-stage platform; deal optionality theoretical pending Phase
+      2/3 validation.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   ophthalmology:
     value: 3
-    rationale: Lead program directly competes with approved Durysta; differentiation depends on whether 6-month duration translates to clinical/commercial preference.
+    rationale: Lead program directly competes with approved Durysta; differentiation depends
+      on whether 6-month duration translates to clinical/commercial preference.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Speculative emerging-platform watchlist entry. PolyActiva represents the next-generation
+  challenger thesis to Durysta in glaucoma — if Phase 3 data supports superior duration with
+  comparable safety, the platform could attract Big Pharma interest. Pre-clinical-readout,
+  pure optionality.
 
-tactbio_view: >
-  Speculative emerging-platform watchlist entry. PolyActiva represents the
-  next-generation challenger thesis to Durysta in glaucoma — if Phase 3 data
-  supports superior duration with comparable safety, the platform could
-  attract Big Pharma interest. Pre-clinical-readout, pure optionality.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Speculative emerging-platform watchlist entry. PolyActiva represents the next-generation
+    challenger thesis to Durysta in glaucoma — if Phase 3 data supports superior duration
+    with comparable safety, the platform could attract Big Pharma interest. Pre-clinical-readout,
+    pure optionality.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

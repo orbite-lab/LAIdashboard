@@ -1,0 +1,25 @@
+id: fluidcrystal_core_composition
+patent_number: WO2005/117830
+jurisdiction: WO
+assignee: Camurus
+platform_id: fluidcrystal
+asset_id: null
+filing_date: 2005-06-03
+priority_date: 2004-06-04
+grant_date: null
+expiry_date: 2025-06-03
+claim_type: composition
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: None disclosed.
+notes: >
+  Original Camurus lipid liquid crystal composition family. Earliest priority
+  date among in-situ depot platforms in the tracker. Core composition
+  protection has lapsed (or is about to lapse) in most major jurisdictions
+  on the headline 20-year term. Continuation and formulation families extend
+  effective protection to ~2030; manufacturing know-how is the durable moat
+  beyond that. ip_score=3 on the FluidCrystal platform reflects this.
+source_urls:
+  - https://patents.google.com/?q=WO2005117830
+last_updated: 2026-04-25

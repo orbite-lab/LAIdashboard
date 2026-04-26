@@ -1,0 +1,124 @@
+id: metsera_lai
+name: Metsera depot platform
+company: Metsera
+company_id: null
+company_ticker: MTSR
+country: US
+
+mechanism: other
+duration_bucket: medium
+duration_range_days: [28, 90]
+payload_classes:
+  - peptide
+
+mechanism_notes: >
+  Metsera is developing long-acting incretins (MET-097, dual GIP/GLP-1
+  amylin/GLP-1 combinations) using proprietary HALO ("Half-life Augmenting
+  Lipid Optimization") and depot technologies. Mix of half-life extension
+  and depot mechanisms; not a pure depot LAI platform but tracked here
+  for the obesity-LAI competitive landscape. Pfizer announced acquisition
+  in late 2025 (verify deal close status).
+
+regulatory_history: []
+
+ip_core_expiry_year: 2042
+ip_continuation_strategy: strong
+ip_fto_concerns: minor
+ip_notes: >
+  Newer-vintage IP; full runway. Specific patent landscape not reviewed.
+ip_records: []
+
+active_partners:
+  - name: Pfizer
+    tier: tier_1
+    deal_id: null
+
+partnering_posture:
+  open_to_partnering: false
+  open_indications: []
+  closed_indications: [metabolic, endocrine]
+  open_geographies: []
+  closed_geographies: [worldwide]
+  last_partnering_signal:
+    date: 2025-12-01
+    type: deal_announcement
+    description: Pfizer announced acquisition / strategic partnership (verify close)
+  bd_contact_disclosed: false
+  notes: Internal Metsera (Pfizer-acquired) — not externally available.
+
+encumbrances: []
+
+technical_fit:
+  injection_volume_ml_range: [null, null]
+  viscosity_cP_range: [null, null]
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: true
+  excipient_classes: []
+  release_profile_summary: >
+    Monthly subcutaneous dosing in Phase 1/2 obesity trials. Verify
+    specific platform mechanism — Metsera describes both half-life
+    extension and depot approaches across its pipeline.
+  iv_ivc_established: null
+  injection_site: [SC]
+
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+
+scores:
+  tech:
+    value: 2
+    rationale: Phase 1/2 stage; mechanism mix of HALO half-life extension and depot approaches; not yet platform-validated.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Newer-vintage IP, full runway.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 5
+    rationale: Pfizer 2025 acquisition validates platform commercial value at tier-1 level.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  availability:
+    value: 1
+    rationale: Acquired by Pfizer; not externally available.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+indication_fit:
+  metabolic:
+    value: 4
+    rationale: Phase 1/2 obesity data positive; primary commercial focus.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Tracked as competitive context for Camurus FluidCrystal incretin program.
+    Pfizer's acquisition of Metsera in late 2025 underscores the strategic
+    importance of LAI obesity formulation across tier-1 pharma. Combined
+    with Lilly-Camurus, the obesity LAI category now has Lilly + Camurus,
+    Pfizer + Metsera, Amgen MariTide as the three key competitive axes.
+  partner: >
+    Not available — Pfizer-acquired.
+  acquirer: >
+    Not actionable as a standalone target post-Pfizer deal close.
+
+tactbio_view: >
+  Pfizer-acquired competitor in obesity-LAI. Tracked for competitive context.
+
+last_updated: 2026-04-26

@@ -1,0 +1,25 @@
+id: acroinnova_cam2029_acromegaly
+nct_id: NCT04076462
+asset_id: cam2029
+indication: endocrine
+phase: 3
+n: 135
+design: Randomized double-blind placebo-controlled with open-label extension (ACROINNOVA 1 + 2)
+primary_endpoint: Proportion of patients with biochemical response (IGF-1 ≤ 1.0 ULN)
+control_arm: placebo
+sponsor: Camurus
+status: completed
+start_date: 2020-09-01
+expected_readout: 2023-Q2
+result: positive
+geography: [US, EU, ROW]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT04076462
+  - https://www.camurus.com/media/press-releases/2023/positive-acroinnova-1-results/
+last_updated: 2026-04-25
+notes: >
+  Pivotal Phase 3 program for CAM2029 in acromegaly. Met primary endpoint.
+  FDA issued CRL post-NDA submission (CMC-related rather than clinical);
+  resubmission and PDUFA in 2026 are gating event for first FluidCrystal
+  endocrine approval. Verify exact CRL response timeline against Camurus
+  most recent regulatory updates.

@@ -1,0 +1,90 @@
+id: cam2032
+name: CAM2032
+inn: setmelanotide
+platform_id: fluidcrystal
+owning_company: Camurus
+licensee_company: Rhythm Pharmaceuticals
+
+indications:
+  - code: endocrine
+    phase: phase_2
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: 2026-Q4
+  next_catalyst: 2026-Q4
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. Long-acting setmelanotide partnership with Rhythm
+    Pharmaceuticals. Setmelanotide (oral/daily) is approved for genetic
+    obesity (Bardet-Biedl, POMC, LEPR deficiency) under brand name IMCIVREE.
+    Long-acting weekly/monthly LAI formulation expands convenience and
+    adherence in chronic rare-disease use. Reference TAM is small (rare
+    diseases) but potential expansion into hypothalamic obesity and broader
+    obesity is the upside scenario.
+  list_price_usd: null
+  addressable_market_usd_m: 500
+
+primary_deal_id: null
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from FluidCrystal.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 2
+    rationale: Phase 2 stage; specific clinical endpoints and timing not publicly disclosed.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 3
+    rationale: FluidCrystal platform IP plus partnership-specific formulation patents.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 4
+    rationale: Rhythm partnership demonstrates ability to attract specialty rare-disease counterparty for FluidCrystal; specific terms undisclosed.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 3
+    rationale: Setmelanotide regulatory pathway established by IMCIVREE; LAI formulation will require its own pivotal data.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Optionality asset rather than franchise-defining. Rhythm partnership
+    validates FluidCrystal in rare endocrine but financial contribution is
+    modest given Rhythm's commercial scale. Watch for any clinical readout
+    that would provide a third proof point for FluidCrystal peptide delivery
+    (CAM2029 octreotide and the Lilly incretin program being the other two).
+  partner: >
+    Not available — Rhythm is the exclusive partner for setmelanotide LAI.
+    Reference data point for FluidCrystal peptide delivery in rare disease;
+    BD scouts looking at melanocortin agonists need to consider this prior
+    encumbrance.
+  acquirer: >
+    Minor enterprise-value contributor. Verify deal mechanics for any
+    Rhythm change-of-control rights in case of Camurus acquisition.
+
+tactbio_view: >
+  Optionality asset rather than franchise-defining. Rhythm partnership
+  validates FluidCrystal in rare endocrine.
+
+last_updated: 2026-04-26

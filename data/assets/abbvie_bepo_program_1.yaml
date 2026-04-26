@@ -1,0 +1,91 @@
+id: abbvie_bepo_program_1
+name: AbbVie BEPO Program 1 (placeholder)
+inn: undisclosed
+platform_id: bepo
+owning_company: MedinCell
+licensee_company: AbbVie
+
+indications:
+  - code: other
+    phase: preclinical
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: 2026-Q4
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-clinical / undisclosed. Per the 2024 AbbVie-MedinCell collaboration,
+    AbbVie has rights to develop up to six programs across multiple
+    therapeutic areas using BEPO. Specific molecules and indications are
+    not publicly disclosed. AbbVie has guided to first IND filing in 2026.
+    This placeholder represents the lead program; programs 2-6 follow the
+    same structure and per-program $315M milestone economics.
+  list_price_usd: null
+  addressable_market_usd_m: null
+
+primary_deal_id: 2024_abbvie_medincell
+
+primary_trials:
+  - nct_id: pending
+    role: phase_1_planned
+    trial_id: abbvie_bepo_first_ind
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from BEPO platform.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 1
+    rationale: Pre-clinical; no IND filed yet.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: BEPO platform IP; asset-specific IP not yet established.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 5
+    rationale: AbbVie tier-1 partnership demonstrated with $35M upfront and $315M per-program milestone potential.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 1
+    rationale: Pre-IND.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Pure platform-validation optionality. Per-program milestone structure
+    ($315M each across 6 programs = $1.89B total) provides MedinCell
+    visibility into which programs advance. IND-2026 is the gating event.
+  partner: >
+    Not available for licensing — AbbVie exclusive. The collaboration
+    encumbers BEPO across oncology, ophthalmology, CNS-neuro, and "other"
+    therapeutic areas worldwide. BD scouts looking at BEPO must work
+    around this scope.
+  acquirer: >
+    Significant change-of-control consideration. Diligence the AbbVie-MedinCell
+    agreement for any AbbVie consent rights or termination provisions
+    triggered by MedinCell change of control.
+
+tactbio_view: >
+  Pure platform-validation optionality. Per-program milestone structure
+  provides MedinCell visibility into which programs advance.
+
+last_updated: 2026-04-26

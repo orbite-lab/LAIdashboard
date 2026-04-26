@@ -1,0 +1,25 @@
+id: uzedy_formulation
+patent_number: US10,646,484
+jurisdiction: US
+assignee: MedinCell / Teva
+platform_id: bepo
+asset_id: uzedy
+filing_date: 2018-06-13
+priority_date: 2017-06-14
+grant_date: 2020-05-12
+expiry_date: 2038-06-13
+claim_type: formulation
+continuation_lineage: [bepo_core_composition]
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: None disclosed.
+notes: >
+  Asset-specific formulation patent covering UZEDY (risperidone) BEPO
+  formulation. Combined with the platform composition family, provides
+  exclusivity through 2038 in the US. Listed in the FDA Orange Book.
+  Generic risperidone LAI entry blocked in the near term. Verify Orange
+  Book listings for additional method-of-use patents and any pending
+  paragraph IV ANDA filings.
+source_urls:
+  - https://patents.google.com/patent/US10646484
+last_updated: 2026-04-25

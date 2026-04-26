@@ -3,79 +3,133 @@ name: Biochronomer
 company: Heron Therapeutics
 company_ticker: HRTX
 country: US
-
 mechanism: in_situ_depot
 duration_bucket: short
-duration_range_days: [3, 7]
+duration_range_days:
+- 3
+- 7
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'Polymer-based in-situ depot using polyorthoester chemistry. Distinct from
+  PLGA-based competitors. Two approved products both for short-duration applications: Sustol
+  (granisetron, 5-day chemotherapy-induced nausea prevention) and Zynrelef (bupivacaine +
+  meloxicam, postsurgical analgesia, 72-hour duration). Lead applications are short-duration,
+  reflecting polymer-degradation profile.
 
-mechanism_notes: >
-  Polymer-based in-situ depot using polyorthoester chemistry. Distinct from
-  PLGA-based competitors. Two approved products both for short-duration
-  applications: Sustol (granisetron, 5-day chemotherapy-induced nausea
-  prevention) and Zynrelef (bupivacaine + meloxicam, postsurgical analgesia,
-  72-hour duration). Lead applications are short-duration, reflecting
-  polymer-degradation profile.
-
+  '
 regulatory_history:
-  - product: Sustol (granisetron, 5-day CINV)
-    indication: oncology
-    approval_year: 2016
-    agency: FDA
-  - product: Zynrelef (bupivacaine/meloxicam, postsurgical analgesia)
-    indication: pain
-    approval_year: 2021
-    agency: FDA
-
+- product: Sustol (granisetron, 5-day CINV)
+  indication: oncology
+  approval_year: 2016
+  agency: FDA
+- product: Zynrelef (bupivacaine/meloxicam, postsurgical analgesia)
+  indication: pain
+  approval_year: 2021
+  agency: FDA
 ip_core_expiry_year: 2030
 ip_continuation_strategy: moderate
 ip_fto_concerns: minor
-ip_notes: >
-  Heron has filed continuations on Biochronomer composition and product
-  applications; verify specific expiry against Orange Book.
+ip_notes: 'Heron has filed continuations on Biochronomer composition and product applications;
+  verify specific expiry against Orange Book.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 3
-    rationale: Two approved products demonstrate platform viability but both in short-duration applications; mechanism limited beyond 7-day depots.
+    rationale: Two approved products demonstrate platform viability but both in short-duration
+      applications; mechanism limited beyond 7-day depots.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 3
-    rationale: Reasonable continuation strategy; novel polyorthoester mechanism distinguishes IP space from PLGA-class platforms.
+    rationale: Reasonable continuation strategy; novel polyorthoester mechanism distinguishes
+      IP space from PLGA-class platforms.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 2
-    rationale: Heron commercializes both products internally; no major external licensing precedent for the platform.
+    rationale: Heron commercializes both products internally; no major external licensing
+      precedent for the platform.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   pain:
     value: 4
-    rationale: Zynrelef positions in postsurgical analgesia category with 72-hour duration; competes with Exparel which has shorter effective duration but earlier market position.
+    rationale: Zynrelef positions in postsurgical analgesia category with 72-hour duration;
+      competes with Exparel which has shorter effective duration but earlier market position.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   oncology:
     value: 3
-    rationale: Sustol for CINV is niche given 5-day duration; competes with palonosetron and NK1 antagonists.
+    rationale: Sustol for CINV is niche given 5-day duration; competes with palonosetron and
+      NK1 antagonists.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Specialty short-duration depot platform with two approved products in two distinct
+  therapeutic areas. Limited platform-licensing optionality given Heron''s internal commercialization
+  strategy and short-duration mechanism profile. Monitor Zynrelef commercial trajectory as
+  a leading indicator for postsurgical-pain LAI category economics.
 
-tactbio_view: >
-  Specialty short-duration depot platform with two approved products in
-  two distinct therapeutic areas. Limited platform-licensing optionality
-  given Heron's internal commercialization strategy and short-duration
-  mechanism profile. Monitor Zynrelef commercial trajectory as a leading
-  indicator for postsurgical-pain LAI category economics.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Specialty short-duration depot platform with two approved products in two distinct
+    therapeutic areas. Limited platform-licensing optionality given Heron''s internal commercialization
+    strategy and short-duration mechanism profile. Monitor Zynrelef commercial trajectory
+    as a leading indicator for postsurgical-pain LAI category economics.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

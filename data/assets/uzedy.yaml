@@ -28,7 +28,7 @@ commercial:
   list_price_usd: null
   addressable_market_usd_m: null
 
-primary_deal_id: 2018_teva_medincell
+primary_deal_id: 2013_teva_medincell
 
 primary_trials:
   - nct_id: pending

@@ -1,0 +1,23 @@
+id: rise_uzedy_pivotal
+nct_id: NCT03503318
+asset_id: uzedy
+indication: psych
+phase: 3
+n: 544
+design: Randomized double-blind placebo-controlled relapse-prevention
+primary_endpoint: Time to relapse vs placebo
+control_arm: placebo
+sponsor: Teva
+status: completed
+start_date: 2018-08-01
+expected_readout: 2022-Q4
+result: positive
+geography: [US, EU]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT03503318
+  - https://www.tevapharm.com/news-and-media/
+last_updated: 2026-04-25
+notes: >
+  RISE was the pivotal Phase 3 supporting UZEDY (TV-46000) FDA approval in
+  April 2023. Demonstrated significant reduction in time-to-relapse vs
+  placebo. Real-world commercial data now anchors clinical_score.

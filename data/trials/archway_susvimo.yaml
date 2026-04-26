@@ -1,0 +1,23 @@
+id: archway_susvimo
+nct_id: NCT03677934
+asset_id: susvimo
+indication: ophthalmology
+phase: 3
+n: 418
+design: Randomized open-label active-controlled non-inferiority
+primary_endpoint: Mean change in BCVA (best-corrected visual acuity) at weeks 36 and 40 (non-inferiority to monthly ranibizumab)
+control_arm: active comparator
+sponsor: Genentech / Roche
+status: completed
+start_date: 2018-09-01
+expected_readout: 2021-Q2
+result: positive
+geography: [US, EU]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT03677934
+last_updated: 2026-04-25
+notes: >
+  Pivotal trial for Susvimo (ranibizumab via PDS implant, refilled every 24 weeks)
+  in wet AMD. Demonstrated non-inferiority to monthly intravitreal ranibizumab.
+  Approval, voluntary recall (2022 — septum/leak issue), and 2023 relaunch
+  collectively define the cautionary case study for device-LAI hybrids.

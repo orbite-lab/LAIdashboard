@@ -1,0 +1,33 @@
+id: braeburn
+name: Braeburn Inc.
+ticker: null
+listing_venue: private
+country_hq: US
+employees: ~50
+market_cap_usd_m: null
+market_cap_as_of: null
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Private specialty pharma. Subsidiary of Apple Tree Partners (ATP)
+  portfolio. Focused on addiction therapeutics. Brixadi US is the lead
+  commercial asset. Probuphine (buprenorphine implant) was earlier asset
+  and underperformed commercially.
+
+related_platforms: [fluidcrystal, probuphine]
+related_assets: [brixadi]
+related_deals:
+  - 2014_braeburn_camurus
+  - 2016_braeburn_camurus_cam2058_amendment
+
+ir_contact: null
+last_updated: 2026-04-26
+
+notes: >
+  Braeburn's Brixadi US commercialization economics flow back to Camurus
+  via mid-teen royalty (13-17% per 2014 deal). FY2024 Brixadi royalties
+  to Camurus were SEK 212M (~USD 20M), implying Braeburn US net sales
+  ~$130-150M. Braeburn is the primary commercial counterparty for
+  FluidCrystal in the addiction space.

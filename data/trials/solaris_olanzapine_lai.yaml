@@ -1,0 +1,28 @@
+id: solaris_olanzapine_lai
+nct_id: NCT05693935
+asset_id: mdc_tjk_olanzapine
+indication: psych
+phase: 3
+n: 675
+design: Randomized double-blind placebo-controlled relapse-prevention with subsequent open-label safety
+primary_endpoint: Time to relapse vs placebo in stable schizophrenia patients
+control_arm: placebo
+sponsor: Teva
+status: completed
+start_date: 2023-02-01
+expected_readout: 2025-Q1
+result: positive
+geography: [US, EU]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT05693935
+  - https://www.tevapharm.com/news-and-media/latest-news/
+last_updated: 2026-04-25
+notes: >
+  SOLARIS is the pivotal Phase 3 of TEV-749 (mdc-TJK), Teva and MedinCell's
+  monthly olanzapine LAI built on BEPO. PDUFA expected Q4 2026. Critical
+  question is post-injection delirium/sedation syndrome (PDSS) frequency
+  vs Zyprexa Relprevv (which carries a black-box warning). If SOLARIS data
+  show meaningfully lower PDSS rates, label could omit or soften the black box —
+  the central commercial differentiator vs Relprevv. Verify enrollment and
+  exact NCT against ClinicalTrials.gov as Teva sometimes uses program-numbered
+  identifiers.

@@ -1,0 +1,55 @@
+id: medincell
+name: MedinCell SA
+ticker: MEDCL
+listing_venue: Euronext Paris
+country_hq: FR
+employees: ~150
+market_cap_usd_m: 250
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 50
+cash_runway_quarters: null
+debt_usd_m: null
+ifrs_or_gaap: IFRS
+
+key_insiders:
+  - name: Christophe Douat
+    role: Co-Founder, CEO
+    holding_pct: null
+  - name: Founders / employee shareholders
+    role: Significant collective holding
+    holding_pct: null
+
+governance_notes: >
+  Founded 2003. IPO on Euronext Paris 2018. Company has a unique social
+  mission charter — first French BCorp-certified pharma — which influences
+  IP licensing posture (humanitarian access for some malaria/HIV
+  programs). Smaller market cap than typical platform-stage biotech;
+  cash runway is a continuing investor concern.
+
+m_and_a_protections:
+  poison_pill: false
+  staggered_board: false
+  notes: >
+    Standard French company protections under AMF rules. Founder/employee
+    holdings concentrated; potential deal-blocking minorities require
+    diligence. BCorp charter could constrain certain acquisition structures
+    or post-deal use of certain platform programs.
+
+related_platforms: [bepo]
+related_assets:
+  - uzedy
+  - mdc_tjk_olanzapine
+  - abbvie_bepo_program_1
+related_deals:
+  - 2013_teva_medincell
+  - 2024_abbvie_medincell
+
+ir_contact: investors@medincell.com
+last_updated: 2026-04-26
+
+notes: >
+  MedinCell's revenue model is royalty/milestone-driven through partners.
+  Near-term cash flows dominated by Teva milestones on UZEDY commercial
+  ramp and TEV-749 olanzapine PDUFA. AbbVie 2024 deal added $35M upfront
+  but milestone receipts are program-progression-gated. Cash runway and
+  TEV-749 PDUFA Q4 2026 outcome are the central operational variables.

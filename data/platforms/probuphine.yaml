@@ -2,40 +2,39 @@ id: probuphine
 name: Probuphine
 company: Titan Pharmaceuticals (legacy)
 country: US
-
 mechanism: implant
 duration_bucket: ultra_long
-duration_range_days: [180, 180]
+duration_range_days:
+- 180
+- 180
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'Subcutaneous EVA (ethylene vinyl acetate) polymer implant containing buprenorphine
+  for sustained release over 6 months. Distinct from PLGA-based bioerodible implants — EVA
+  is non-bioerodible and requires removal at end of dosing interval. Approved 2016 by FDA
+  for OUD; commercial launch encountered challenges, manufacturing/commercial rights have
+  transferred multiple times.
 
-mechanism_notes: >
-  Subcutaneous EVA (ethylene vinyl acetate) polymer implant containing
-  buprenorphine for sustained release over 6 months. Distinct from PLGA-based
-  bioerodible implants — EVA is non-bioerodible and requires removal at end
-  of dosing interval. Approved 2016 by FDA for OUD; commercial launch
-  encountered challenges, manufacturing/commercial rights have transferred
-  multiple times.
-
+  '
 regulatory_history:
-  - product: Probuphine (buprenorphine 6-month implant)
-    indication: addiction
-    approval_year: 2016
-    agency: FDA
-
+- product: Probuphine (buprenorphine 6-month implant)
+  indication: addiction
+  approval_year: 2016
+  agency: FDA
 ip_core_expiry_year: 2025
 ip_continuation_strategy: weak
 ip_fto_concerns: minor
-ip_notes: >
-  Foundational EVA implant patents nearing or at expiry. Verify current
-  status — some product-specific patents may extend beyond core platform.
+ip_notes: 'Foundational EVA implant patents nearing or at expiry. Verify current status —
+  some product-specific patents may extend beyond core platform.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 3
-    rationale: Approved product but commercial uptake limited; required surgical insertion/removal added friction vs. injectable LAI competitors (Sublocade, Brixadi); platform stalled commercially.
+    rationale: Approved product but commercial uptake limited; required surgical insertion/removal
+      added friction vs. injectable LAI competitors (Sublocade, Brixadi); platform stalled
+      commercially.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -47,25 +46,81 @@ scores:
     scorer: CL
   dealability:
     value: 1
-    rationale: Multiple commercial transfers and limited uptake make this an unattractive platform-licensing story.
+    rationale: Multiple commercial transfers and limited uptake make this an unattractive
+      platform-licensing story.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   addiction:
     value: 2
-    rationale: Mechanism technically delivers 6-month buprenorphine but in-office surgical insertion/removal is structurally inferior to Sublocade's monthly SC injection; commercial reality has confirmed this.
+    rationale: Mechanism technically delivers 6-month buprenorphine but in-office surgical
+      insertion/removal is structurally inferior to Sublocade's monthly SC injection; commercial
+      reality has confirmed this.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Tracked as competitive context and as a cautionary tale — Probuphine illustrates
+  that LAI duration alone does not win markets; site-of-care workflow and prescriber preference
+  matter more. The 6-month duration was insufficient compensation for surgical insertion friction.
+  Strategic read-across to any prospective implant LAI in indications where injectable alternatives
+  exist.
 
-tactbio_view: >
-  Tracked as competitive context and as a cautionary tale — Probuphine
-  illustrates that LAI duration alone does not win markets; site-of-care
-  workflow and prescriber preference matter more. The 6-month duration
-  was insufficient compensation for surgical insertion friction. Strategic
-  read-across to any prospective implant LAI in indications where
-  injectable alternatives exist.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Tracked as competitive context and as a cautionary tale — Probuphine illustrates
+    that LAI duration alone does not win markets; site-of-care workflow and prescriber preference
+    matter more. The 6-month duration was insufficient compensation for surgical insertion
+    friction. Strategic read-across to any prospective implant LAI in indications where injectable
+    alternatives exist.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

@@ -3,86 +3,141 @@ name: ISM
 company: Laboratorios Farmaceuticos Rovi
 company_ticker: ROVI
 country: ES
-
 mechanism: in_situ_depot
 duration_bucket: medium
-duration_range_days: [28, 90]
+duration_range_days:
+- 28
+- 90
 payload_classes:
-  - small_molecule
-  - peptide
+- small_molecule
+- peptide
+mechanism_notes: 'PLGA-based in-situ forming microsphere technology — proprietary to Rovi.
+  Distinct from in-situ depot platforms (BEPO, FluidCrystal, Atrigel) by forming discrete
+  microspheres in vivo rather than a contiguous solid depot. Lead commercial product Risvan
+  (risperidone ISM) approved 2022 in EU and 2023 in US (as Okedi/Risvan depending on region).
 
-mechanism_notes: >
-  PLGA-based in-situ forming microsphere technology — proprietary to Rovi.
-  Distinct from in-situ depot platforms (BEPO, FluidCrystal, Atrigel) by
-  forming discrete microspheres in vivo rather than a contiguous solid depot.
-  Lead commercial product Risvan (risperidone ISM) approved 2022 in EU and
-  2023 in US (as Okedi/Risvan depending on region).
-
+  '
 regulatory_history:
-  - product: Okedi/Risvan (risperidone ISM, monthly)
-    indication: psych
-    approval_year: 2022
-    agency: EMA
-  - product: Risvan (US approval)
-    indication: psych
-    approval_year: 2024
-    agency: FDA
-
+- product: Okedi/Risvan (risperidone ISM, monthly)
+  indication: psych
+  approval_year: 2022
+  agency: EMA
+- product: Risvan (US approval)
+  indication: psych
+  approval_year: 2024
+  agency: FDA
 ip_core_expiry_year: 2032
 ip_continuation_strategy: strong
 ip_fto_concerns: none
-ip_notes: >
-  ISM platform IP filed mid-to-late 2010s with active continuation strategy.
-  Rovi retains full ownership of platform technology. Specific patent
-  expiry years require verification against Rovi's annual reports.
+ip_notes: 'ISM platform IP filed mid-to-late 2010s with active continuation strategy. Rovi
+  retains full ownership of platform technology. Specific patent expiry years require verification
+  against Rovi''s annual reports.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 4
-    rationale: One approved product in two major regions; novel mechanism distinct from competing in-situ depots; second-generation candidates (letrozole, others) in development.
+    rationale: One approved product in two major regions; novel mechanism distinct from competing
+      in-situ depots; second-generation candidates (letrozole, others) in development.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 4
-    rationale: Newer filings than Atrigel/FluidCrystal provide longer runway; continuation strategy active.
+    rationale: Newer filings than Atrigel/FluidCrystal provide longer runway; continuation
+      strategy active.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 3
-    rationale: Rovi commercializes Okedi/Risvan directly in EU; no major external platform licensing announced; commercialization-heavy strategy reduces deal datapoints.
+    rationale: Rovi commercializes Okedi/Risvan directly in EU; no major external platform
+      licensing announced; commercialization-heavy strategy reduces deal datapoints.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   psych:
     value: 4
-    rationale: Risvan adds a 4th risperidone LAI option (alongside Risperdal Consta, UZEDY, Perseris); category increasingly crowded but Rovi has niche EU position.
+    rationale: Risvan adds a 4th risperidone LAI option (alongside Risperdal Consta, UZEDY,
+      Perseris); category increasingly crowded but Rovi has niche EU position.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   endocrine:
     value: 3
-    rationale: Letrozole-ISM and other peptide programs in development; theoretical fit but commercial validation pending.
+    rationale: Letrozole-ISM and other peptide programs in development; theoretical fit but
+      commercial validation pending.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
   oncology:
     value: 3
-    rationale: Letrozole-ISM positions for breast cancer hormonal therapy; established competitive set.
+    rationale: Letrozole-ISM positions for breast cancer hormonal therapy; established competitive
+      set.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'European challenger platform with single-product commercialization in psych.
+  Strategic question: can Rovi differentiate from BEPO-derived UZEDY or Risperdal Consta on
+  duration, tolerability, or pricing? Without a clear edge, ISM risks becoming the fourth-place
+  risperidone LAI rather than a platform commanding licensing premium.
 
-tactbio_view: >
-  European challenger platform with single-product commercialization in psych.
-  Strategic question: can Rovi differentiate from BEPO-derived UZEDY or
-  Risperdal Consta on duration, tolerability, or pricing? Without a clear
-  edge, ISM risks becoming the fourth-place risperidone LAI rather than a
-  platform commanding licensing premium.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'European challenger platform with single-product commercialization in psych.
+    Strategic question: can Rovi differentiate from BEPO-derived UZEDY or Risperdal Consta
+    on duration, tolerability, or pricing? Without a clear edge, ISM risks becoming the fourth-place
+    risperidone LAI rather than a platform commanding licensing premium.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

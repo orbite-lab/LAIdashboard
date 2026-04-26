@@ -1,0 +1,31 @@
+id: indivior
+name: Indivior PLC
+ticker: INDV
+listing_venue: NASDAQ
+country_hq: GB
+employees: ~1100
+market_cap_usd_m: 1800
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 500
+debt_usd_m: 250
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Spun off from Reckitt Benckiser 2014. Sublocade (atrigel buprenorphine)
+  is dominant commercial asset. Discontinued Perseris July 2024. Complex
+  litigation history (Suboxone, antitrust).
+
+related_platforms: [atrigel, perseris]
+related_assets: [sublocade]
+related_deals: [2024_indivior_perseris_discontinuation]
+
+ir_contact: ir@indivior.com
+last_updated: 2026-04-26
+
+notes: >
+  Indivior is the dominant US OUD LAI commercial player via Sublocade.
+  Sublocade IP rests on asset-specific formulation patents on top of
+  expired Atrigel core composition; litigation history is active.
+  Indivior is the structural competitor to Camurus / Braeburn (Brixadi)
+  in US OUD LAI; corporate overhead and litigation history complicate
+  any acquirer thesis.

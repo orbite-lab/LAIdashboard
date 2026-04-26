@@ -1,0 +1,23 @@
+# IP / patent template — copy this file to data/ip/<slug>.yaml
+# REQUIRED fields marked.
+
+id: patent_slug                    # REQUIRED — lowercase, unique
+patent_number: WO2010/119076       # REQUIRED — official number
+jurisdiction: WO                   # REQUIRED — WO / US / EP / JP / CN / etc.
+assignee: MedinCell                # REQUIRED
+platform_id: bepo                  # REQUIRED if platform-level IP — slug in data/platforms/
+asset_id: null                     # optional — slug if asset-specific
+filing_date: 2010-04-15            # ISO date
+priority_date: 2009-04-15          # optional — ISO date
+grant_date: 2014-09-12             # ISO date or null
+expiry_date: 2030-04-15            # REQUIRED — ISO date (calc from priority + 20y unless extended)
+claim_type: composition            # composition / method / formulation / device / use
+continuation_lineage: []           # optional — list of parent patent slugs
+paragraph_iv_filers: []            # optional — list of generic filers (US ANDA)
+ipr_petitions: []                  # optional — list of {petitioner, status}
+opposition_history: short string   # optional — EP oppositions etc.
+notes: >                           # optional
+  Free-form patent commentary.
+source_urls:
+  - https://patents.google.com/patent/...
+last_updated: 2026-04-25

@@ -1,0 +1,23 @@
+# Trial template — copy this file to data/trials/<slug>.yaml
+# REQUIRED fields marked.
+
+id: trial_slug                     # REQUIRED — lowercase, unique
+nct_id: NCT00000000                # REQUIRED — ClinicalTrials.gov ID, or "pending" with rationale
+asset_id: cam2029                  # REQUIRED — must resolve to data/assets/<asset_id>.yaml
+indication: endocrine              # REQUIRED — taxonomy code
+phase: 3                           # REQUIRED — 1 / 2 / 3 / 4
+n: 100                             # optional — enrollment target / actual
+design: Open-label single-arm      # optional — short string
+primary_endpoint: short string     # optional
+control_arm: SOC                   # SOC / placebo / active comparator / none / null
+sponsor: Camurus                   # REQUIRED
+status: enrolling                  # planning / enrolling / active / completed / terminated / readout-pending
+start_date: 2024-01-15             # ISO date or null
+expected_readout: 2026-Q1          # ISO date or quarter or null
+result: null                       # null / positive / negative / mixed
+geography: [US, EU]                # optional — list of regions
+source_urls:
+  - https://clinicaltrials.gov/study/NCT00000000
+last_updated: 2026-04-25
+notes: >                           # optional
+  Free-form context.

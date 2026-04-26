@@ -1,0 +1,103 @@
+id: cam2029
+name: CAM2029 (Oclaiz)
+inn: octreotide
+platform_id: fluidcrystal
+owning_company: Camurus
+licensee_company: null
+
+indications:
+  - code: endocrine
+    phase: phase_3
+    first_approval_year: null
+    geography: US
+  - code: oncology
+    phase: phase_3
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: 2023-05-15
+  expected_readout: 2026-Q2
+  next_catalyst: 2026-Q2
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. Acromegaly NDA submitted 2023; FDA issued Complete
+    Response Letter (CRL) on CMC grounds; resubmission expected with PDUFA
+    in 2026. SORENTO Phase 3 in advanced GEP-NETs is the second pivotal
+    program. Combined acromegaly + NET indication TAM is $1-2B based on
+    Sandostatin LAR + Somatuline Depot reference economics.
+  list_price_usd: null
+  addressable_market_usd_m: 1500
+
+primary_deal_id: null
+
+primary_trials:
+  - nct_id: NCT05050942
+    role: pivotal
+    trial_id: sorento_cam2029_net
+  - nct_id: NCT04076462
+    role: pivotal
+    trial_id: acroinnova_cam2029_acromegaly
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from FluidCrystal; CAM2029 demonstrates peptide payload capability and 4-week dosing.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: ACROINNOVA 1 met primary endpoint with biochemical response superior to placebo; SORENTO NET pivotal still readout-pending.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 3
+    rationale: FluidCrystal platform IP (2030 core expiry) plus asset-specific formulation patents; runway adequate for first-cycle commercial life.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 4
+    rationale: Camurus retains worldwide rights and intends direct commercialization; provides optionality to partner regionally post-approval but currently no third-party validation.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 3
+    rationale: First-cycle CRL on CMC grounds adds execution risk; resubmission and PDUFA in 2026 are the gating event for the score upgrade.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    The FluidCrystal franchise-defining asset outside addiction. Two indication
+    pivotals (acromegaly approved-pending-resubmission, NET readout-pending)
+    create binary catalyst stack in 2026. Successful approval re-rates Camurus
+    from a single-product (Buvidal) commercializer to a multi-product specialty
+    pharma — the same step UZEDY did for MedinCell. Kill condition: second CRL,
+    or SORENTO miss.
+  partner: >
+    Not currently available for licensing — Camurus retaining worldwide rights.
+    Octreotide is competitive vs Sandostatin LAR (genericized) and Somatuline
+    Depot (Ipsen, peptide self-assembly mechanism). For BD scouts looking at
+    octreotide alternatives, CAM2029 sets the pricing ceiling for next-gen
+    octreotide LAI; not actionable as a direct partnering target.
+  acquirer: >
+    Asset is the single biggest pipeline contributor to Camurus enterprise value.
+    Any acquisition thesis rests on CAM2029 SORENTO/NET success plus Buvidal
+    durability. Lilly incretin deal is a significant change-of-control consideration —
+    review the deal for any ROFR / consent rights that would constrain a Camurus
+    acquirer.
+
+tactbio_view: >
+  The FluidCrystal franchise-defining asset outside addiction. Two indication
+  pivotals create binary catalyst stack in 2026.
+
+last_updated: 2026-04-26

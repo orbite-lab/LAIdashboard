@@ -1,0 +1,26 @@
+id: atrigel_core_expired
+patent_number: US4,938,763
+jurisdiction: US
+assignee: Atrix Laboratories (now Tolmar)
+platform_id: atrigel
+asset_id: null
+filing_date: 1988-10-03
+priority_date: 1988-10-03
+grant_date: 1990-07-03
+expiry_date: 2008-10-03
+claim_type: composition
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: None.
+notes: >
+  Original Atrigel composition patent (Dunn et al.) describing biodegradable
+  in-situ forming polymer system. Expired 2008. Why Atrigel platform IP
+  score is 2: core composition is in the public domain; commercial moat is
+  manufacturing scale and product-specific formulation patents. Reference
+  point for what happens to in-situ depot platforms after composition
+  patents expire — Eligard and Sublocade still trade durably 17+ years
+  later, suggesting in-situ depot CMC barriers are durable.
+source_urls:
+  - https://patents.google.com/patent/US4938763
+last_updated: 2026-04-25

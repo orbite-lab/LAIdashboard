@@ -3,56 +3,54 @@ name: Lupron Depot
 company: AbbVie / Takeda (originally Takeda)
 company_ticker: ABBV
 country: US
-
 mechanism: microsphere
 duration_bucket: long
-duration_range_days: [28, 180]
+duration_range_days:
+- 28
+- 180
 payload_classes:
-  - peptide
+- peptide
+mechanism_notes: 'Original PLGA microsphere LAI platform developed by Takeda for leuprolide
+  delivery. Reference product is Lupron Depot, the first commercial peptide LAI (1989) and
+  still the dominant prostate cancer LHRH agonist by sales. Multiple duration options (1-,
+  3-, 4-, 6-month). Partnered with AbbVie for US commercialization; Takeda retains other rights.
+  Tracked as a product-specific platform rather than externally licensable.
 
-mechanism_notes: >
-  Original PLGA microsphere LAI platform developed by Takeda for leuprolide
-  delivery. Reference product is Lupron Depot, the first commercial peptide
-  LAI (1989) and still the dominant prostate cancer LHRH agonist by sales.
-  Multiple duration options (1-, 3-, 4-, 6-month). Partnered with AbbVie
-  for US commercialization; Takeda retains other rights. Tracked as a
-  product-specific platform rather than externally licensable.
-
+  '
 regulatory_history:
-  - product: Lupron Depot (leuprolide acetate, monthly)
-    indication: oncology
-    approval_year: 1989
-    agency: FDA
-  - product: Lupron Depot 3-month
-    indication: oncology
-    approval_year: 1995
-    agency: FDA
-  - product: Lupron Depot 6-month
-    indication: oncology
-    approval_year: 2011
-    agency: FDA
-  - product: Lupron Depot-PED (pediatric central precocious puberty)
-    indication: endocrine
-    approval_year: 1993
-    agency: FDA
-
+- product: Lupron Depot (leuprolide acetate, monthly)
+  indication: oncology
+  approval_year: 1989
+  agency: FDA
+- product: Lupron Depot 3-month
+  indication: oncology
+  approval_year: 1995
+  agency: FDA
+- product: Lupron Depot 6-month
+  indication: oncology
+  approval_year: 2011
+  agency: FDA
+- product: Lupron Depot-PED (pediatric central precocious puberty)
+  indication: endocrine
+  approval_year: 1993
+  agency: FDA
 ip_core_expiry_year: 2010
 ip_continuation_strategy: weak
 ip_fto_concerns: none
-ip_notes: >
-  Core composition-of-matter and process patents long expired. Generic
-  competition (e.g., Eligard from Tolmar, Camcevi from Foresee) active.
-  Commercial moat now on manufacturing scale and prescriber familiarity.
+ip_notes: 'Core composition-of-matter and process patents long expired. Generic competition
+  (e.g., Eligard from Tolmar, Camcevi from Foresee) active. Commercial moat now on manufacturing
+  scale and prescriber familiarity.
 
+  '
 active_partners:
-  - name: AbbVie (US commercialization)
-    tier: tier_1
-    deal_id: null
-
+- name: AbbVie (US commercialization)
+  tier: tier_1
+  deal_id: null
 scores:
   tech:
     value: 5
-    rationale: Multiple duration formats over 35+ years; foundational peptide LAI; manufacturing at industrial scale long-established.
+    rationale: Multiple duration formats over 35+ years; foundational peptide LAI; manufacturing
+      at industrial scale long-established.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -68,26 +66,80 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   oncology:
     value: 5
-    rationale: Lupron Depot remains the reference leuprolide LAI by US revenue; established prescriber base and patient familiarity.
+    rationale: Lupron Depot remains the reference leuprolide LAI by US revenue; established
+      prescriber base and patient familiarity.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   endocrine:
     value: 5
-    rationale: Lupron Depot-PED is the reference treatment for central precocious puberty and Lupron Depot for endometriosis remains widely used.
+    rationale: Lupron Depot-PED is the reference treatment for central precocious puberty
+      and Lupron Depot for endometriosis remains widely used.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Tracked as competitive context — Lupron Depot is the price/share anchor for
+  prostate cancer LHRH LAI globally. Any new entrant must position against Lupron''s prescriber
+  inertia and Takeda/AbbVie commercial scale. Strategic relevance is in deal pricing — historical
+  Lupron economics inform what new LHRH LAI entrants can realistically command.
 
-tactbio_view: >
-  Tracked as competitive context — Lupron Depot is the price/share anchor
-  for prostate cancer LHRH LAI globally. Any new entrant must position
-  against Lupron's prescriber inertia and Takeda/AbbVie commercial scale.
-  Strategic relevance is in deal pricing — historical Lupron
-  economics inform what new LHRH LAI entrants can realistically command.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Tracked as competitive context — Lupron Depot is the price/share anchor for prostate
+    cancer LHRH LAI globally. Any new entrant must position against Lupron''s prescriber inertia
+    and Takeda/AbbVie commercial scale. Strategic relevance is in deal pricing — historical
+    Lupron economics inform what new LHRH LAI entrants can realistically command.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

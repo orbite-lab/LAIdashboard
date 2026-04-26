@@ -2,79 +2,133 @@ id: chroniject
 name: Chroniject
 company: Oakwood Laboratories
 country: US
-
 mechanism: microsphere
 duration_bucket: long
-duration_range_days: [7, 365]
+duration_range_days:
+- 7
+- 365
 payload_classes:
-  - small_molecule
-  - peptide
-  - protein
+- small_molecule
+- peptide
+- protein
+mechanism_notes: 'PLA/PLGA microsphere platform with claimed durations from one week to one
+  year. Oakwood positions as a CDMO/development partner rather than asset developer. Recent
+  partnerships include PharmaTher (ketamine LAI for neuropsychiatric disorders) demonstrating
+  ongoing platform engagement for novel indications. Mechanism is conventional PLG microsphere;
+  differentiation is on manufacturing flexibility and partner-program model.
 
-mechanism_notes: >
-  PLA/PLGA microsphere platform with claimed durations from one week to one
-  year. Oakwood positions as a CDMO/development partner rather than asset
-  developer. Recent partnerships include PharmaTher (ketamine LAI for
-  neuropsychiatric disorders) demonstrating ongoing platform engagement
-  for novel indications. Mechanism is conventional PLG microsphere; differentiation
-  is on manufacturing flexibility and partner-program model.
-
+  '
 regulatory_history: []
-
 ip_core_expiry_year: 2025
 ip_continuation_strategy: weak
 ip_fto_concerns: minor
-ip_notes: >
-  PLACEHOLDER VALUE — Chroniject relies on long-established PLGA microsphere
-  chemistry and trade-secret manufacturing know-how rather than primary
-  composition-of-matter patents. Set to 2025 as a conservative placeholder;
-  verify whether Oakwood holds any composition or process patents
-  beyond standard trade-secret protection.
+ip_notes: 'PLACEHOLDER VALUE — Chroniject relies on long-established PLGA microsphere chemistry
+  and trade-secret manufacturing know-how rather than primary composition-of-matter patents.
+  Set to 2025 as a conservative placeholder; verify whether Oakwood holds any composition
+  or process patents beyond standard trade-secret protection.
 
+  '
 active_partners:
-  - name: PharmaTher (ketamine LAI partnership)
-    tier: tier_3
-    deal_id: null
-
+- name: PharmaTher (ketamine LAI partnership)
+  tier: tier_3
+  deal_id: null
 scores:
   tech:
     value: 3
-    rationale: 25+ years platform history but no Chroniject-branded approved products; partnered programs in clinical development. Capability evidenced but commercial validation pending.
+    rationale: 25+ years platform history but no Chroniject-branded approved products; partnered
+      programs in clinical development. Capability evidenced but commercial validation pending.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 2
-    rationale: PLGA microsphere mechanism is generic; platform value resides in manufacturing scale and CDMO services rather than IP-protected technology.
+    rationale: PLGA microsphere mechanism is generic; platform value resides in manufacturing
+      scale and CDMO services rather than IP-protected technology.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 3
-    rationale: CDMO model means dealability is structurally limited to development-services revenue rather than royalty-bearing licenses; partner-program approach generates recurring engagement but smaller economics per deal.
+    rationale: CDMO model means dealability is structurally limited to development-services
+      revenue rather than royalty-bearing licenses; partner-program approach generates recurring
+      engagement but smaller economics per deal.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   psych:
     value: 3
-    rationale: PharmaTher ketamine partnership signals psych/neuropsychiatric capability but no approved products; mechanism viable.
+    rationale: PharmaTher ketamine partnership signals psych/neuropsychiatric capability but
+      no approved products; mechanism viable.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
   oncology:
     value: 3
-    rationale: Microsphere platforms are generally compatible with oncology hormonal therapies and chemo, but Chroniject specifically lacks commercial validation.
+    rationale: Microsphere platforms are generally compatible with oncology hormonal therapies
+      and chemo, but Chroniject specifically lacks commercial validation.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Capacity provider rather than investable platform. Strategic relevance is primarily
+  as a window into the broader LAI development pipeline — Oakwood''s partner roster (when
+  disclosed) reveals which biotechs are pursuing microsphere reformulations. Not a primary
+  investment target on its own merits.
 
-tactbio_view: >
-  Capacity provider rather than investable platform. Strategic relevance
-  is primarily as a window into the broader LAI development pipeline —
-  Oakwood's partner roster (when disclosed) reveals which biotechs are
-  pursuing microsphere reformulations. Not a primary investment target
-  on its own merits.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Capacity provider rather than investable platform. Strategic relevance is primarily
+    as a window into the broader LAI development pipeline — Oakwood''s partner roster (when
+    disclosed) reveals which biotechs are pursuing microsphere reformulations. Not a primary
+    investment target on its own merits.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

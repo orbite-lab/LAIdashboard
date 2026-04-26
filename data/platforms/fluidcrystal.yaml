@@ -1,6 +1,7 @@
 id: fluidcrystal
 name: FluidCrystal
 company: Camurus
+company_id: camurus
 company_ticker: CAMX
 country: SE
 
@@ -36,17 +37,90 @@ ip_notes: >
   Earlier filing dates than competing platforms mean earlier expiries.
   Defensive strategy relies on formulation-specific continuations and
   manufacturing know-how.
+ip_records:
+  - fluidcrystal_core_composition
+  - fluidcrystal_continuation_2010
+  - brixadi_buprenorphine_formulation
 
 active_partners:
   - name: Braeburn (Brixadi US commercialization)
     tier: tier_2
-    deal_id: 2018_braeburn_camurus
+    deal_id: 2014_braeburn_camurus
   - name: Eli Lilly (cardiometabolic incretins, June 2025)
     tier: tier_1
     deal_id: 2025_lilly_camurus_incretins
   - name: Rhythm Pharmaceuticals
     tier: tier_3
     deal_id: null
+
+partnering_posture:
+  open_to_partnering: selective
+  open_indications: [oncology, ophthalmology, cns_neuro, pain]
+  closed_indications: [addiction, metabolic]
+  open_geographies: [worldwide]
+  closed_geographies: []
+  last_partnering_signal:
+    date: 2025-06-03
+    type: deal_announcement
+    description: Lilly cardiometabolic incretin deal announced
+  bd_contact_disclosed: true
+  notes: >
+    Camurus has shown a clear preference for retaining direct commercialization
+    in addiction and endocrine (Buvidal/Brixadi/CAM2029) and partnering for
+    indications outside its commercial reach. Lilly deal validates platform
+    for tier-1 BD; new partners in oncology / ophthalmology / pain plausible.
+
+encumbrances:
+  - deal_id: 2025_lilly_camurus_incretins
+    indications: [metabolic, endocrine]
+    molecule_classes: ["GIP/GLP-1 agonists", "GIP/glucagon/GLP-1 agonists", "amylin receptor agonists"]
+    compound_count_locked: 4
+    territory: worldwide
+    exclusivity: exclusive
+    expires: deal-life
+  - deal_id: 2014_braeburn_camurus
+    indications: [addiction, pain]
+    molecule_classes: [buprenorphine, "buprenorphine combinations"]
+    compound_count_locked: 2
+    territory: "North America (with Asia options)"
+    exclusivity: exclusive
+    expires: deal-life
+  - deal_id: 2016_braeburn_camurus_cam2058_amendment
+    indications: [pain]
+    molecule_classes: [buprenorphine-granisetron]
+    compound_count_locked: 1
+    territory: "North America"
+    exclusivity: exclusive
+    expires: deal-life
+
+technical_fit:
+  injection_volume_ml_range: [0.16, 1.5]
+  viscosity_cP_range: [50, 500]
+  needle_gauge_typical: "23G"
+  max_payload_mass_mg: 256
+  cold_chain_required: false
+  excipient_classes: ["soy phosphatidylcholine", "glycerol dioleate", "ethanol"]
+  release_profile_summary: >
+    Initial low burst followed by zero- to first-order release over 1 week
+    (Brixadi weekly), 4 weeks (Buvidal monthly), or up to 6 months (CAM2029
+    in development) depending on lipid composition.
+  iv_ivc_established: true
+  injection_site: [SC, IM]
+
+cmc_capacity:
+  primary_facility:
+    location: Lund, Sweden
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: ["Recipharm (historic)"]
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: >
+    Camurus operates an in-house aseptic fill/finish facility in Lund,
+    Sweden, scaled for Buvidal/Brixadi commercial supply. Capacity for
+    Lilly obesity peptide volumes (potential blockbuster scale) is the
+    central operational question post-2025 deal. Verify current expansion
+    capex disclosures in Camurus annual report.
 
 scores:
   tech:
@@ -63,9 +137,15 @@ scores:
     scorer: RX
   dealability:
     value: 5
-    rationale: June 2025 Eli Lilly $870M cardiometabolic incretins deal (up to four GIP/GLP-1 compounds, mid-single-digit royalties) validates FluidCrystal at tier-1 pharma counterparty level. Combined with Buvidal direct commercialization (~SEK 1.65B / USD 157M FY2024 product sales) and Brixadi US royalties (SEK 212M FY2024), Camurus now demonstrates both internal commercialization scale AND tier-1 external licensing optionality. Score upgraded from 4 to 5 post-Lilly endorsement.
+    rationale: June 2025 Eli Lilly $870M cardiometabolic incretins deal (up to four GIP/GLP-1 compounds, mid-single-digit royalties) validates FluidCrystal at tier-1 pharma counterparty level. Combined with Buvidal direct commercialization (~SEK 1.65B / USD 157M FY2024 product sales) and Brixadi US royalties (SEK 212M FY2024), Camurus now demonstrates both internal commercialization scale AND tier-1 external licensing optionality.
     confidence: high
     scored_at: 2026-04-25
+    scorer: CL
+  availability:
+    value: 3
+    rationale: Addiction and metabolic/endocrine encumbered by Braeburn and Lilly respectively, but oncology, ophthalmology, CNS-neuro, and pain are open. Selective posture and engaged BD function support an "open in some TAs" read.
+    confidence: medium
+    scored_at: 2026-04-26
     scorer: CL
 
 indication_fit:
@@ -93,19 +173,53 @@ indication_fit:
     confidence: low
     scored_at: 2026-04-21
     scorer: RX
+  metabolic:
+    value: 5
+    rationale: Lilly incretin partnership establishes FluidCrystal as the lead platform for long-acting GIP/GLP-1 obesity peptides; competitor LAI approaches (MariTide, Metsera) face platform-validation gap.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Re-rated platform post-June 2025 Eli Lilly $870M deal. Previously framed
+    as "under-appreciated platform with commercialization-heavy strategy" —
+    the Lilly endorsement converts the dealability narrative. FluidCrystal
+    is now the only LAI platform with both meaningful direct-commercial
+    scale (Buvidal SEK 1.65B / USD 157M FY2024) AND tier-1 pharma external
+    licensing (Lilly cardiometabolic incretins). Watch CAM2029 (Oclaiz)
+    acromegaly resubmission post-CRL and SORENTO NET readout (late 2025/
+    early 2026) as the next franchise-defining catalysts. Contrarian read:
+    Lilly's mid-single-digit royalty (4-7%) is below what a transformational
+    obesity-LAI platform deal could have commanded — Camurus took meaningful
+    but not extraordinary economics, suggesting Lilly retained leverage on
+    terms despite competitive obesity-LAI dynamics.
+  partner: >
+    Most differentiated in-situ depot for peptides and broad duration range
+    (weekly to six-monthly). For BD scouts, FluidCrystal is the platform of
+    choice if your molecule is a peptide, requires cold-chain-free room-temp
+    stability, or needs duration flexibility. Open indications for new partners:
+    oncology, ophthalmology, CNS-neuro, pain. Closed: addiction (Braeburn),
+    metabolic/endocrine incretins (Lilly), rare-endocrine setmelanotide (Rhythm).
+    Two approved products (Buvidal, Brixadi) and Lund-based commercial CMC
+    capacity reduce technical risk for new programs. Mid-teen royalty has been
+    achieved historically (Braeburn 2014); tier-1 deals compress to mid-single-digit
+    (Lilly 2025).
+  acquirer: >
+    Camurus (CAMX, Stockholm) is a small-cap commercial-stage biotech with
+    direct commercial revenue (Buvidal) and royalty income (Brixadi via
+    Braeburn). Major change-of-control considerations: (1) Lilly deal
+    likely contains consent or ROFR provisions on platform transfer —
+    verify; (2) Braeburn US Brixadi license likely has change-of-control
+    ROFR — verify; (3) Rhythm setmelanotide partnership encumbers
+    melanocortin LAI scope. Acquisition rationale rests on pipeline
+    optionality (CAM2029) plus Lilly milestone tail rather than current
+    EBITDA. Founder/board concentrated holdings — diligence ownership for
+    deal-blocking minorities.
 
 tactbio_view: >
-  Re-rated platform post-June 2025 Eli Lilly $870M deal. Previously framed
-  as "under-appreciated platform with commercialization-heavy strategy" —
-  the Lilly endorsement converts the dealability narrative. FluidCrystal
-  is now the only LAI platform with both meaningful direct-commercial
-  scale (Buvidal SEK 1.65B / USD 157M FY2024) AND tier-1 pharma external
-  licensing (Lilly cardiometabolic incretins). Watch CAM2029 (Oclaiz)
-  acromegaly resubmission post-CRL and SORENTO NET readout (late 2025/
-  early 2026) as the next franchise-defining catalysts. Contrarian read:
-  Lilly's mid-single-digit royalty (4-7%) is below what a transformational
-  obesity-LAI platform deal could have commanded — Camurus took meaningful
-  but not extraordinary economics, suggesting Lilly retained leverage on
-  terms despite competitive obesity-LAI dynamics.
+  Re-rated platform post-June 2025 Eli Lilly $870M deal. FluidCrystal is now
+  the only LAI platform with both meaningful direct-commercial scale AND
+  tier-1 pharma external licensing.
 
-last_updated: 2026-04-25
+last_updated: 2026-04-26

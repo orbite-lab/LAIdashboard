@@ -1,0 +1,50 @@
+id: camurus
+name: Camurus AB
+ticker: CAMX
+listing_venue: Nasdaq Stockholm
+country_hq: SE
+employees: ~200
+market_cap_usd_m: 4500
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 250
+cash_runway_quarters: null
+debt_usd_m: null
+ifrs_or_gaap: IFRS
+
+key_insiders:
+  - name: Fredrik Tiberg
+    role: Founder, President and CEO
+    holding_pct: null
+  - name: Sandberg / institutional holders
+    role: Largest institutional shareholders
+    holding_pct: null
+
+governance_notes: >
+  Founded 1991 by Fredrik Tiberg. IPO on Nasdaq Stockholm 2015. Founder-led.
+  Single-class share structure. Verify current insider holdings against
+  most recent annual report.
+
+m_and_a_protections:
+  poison_pill: false
+  staggered_board: false
+  notes: >
+    Standard Swedish public company protections. Mandatory bid threshold
+    at 30%. Major shareholders can block deals via 10%+ stakes.
+
+related_platforms: [fluidcrystal]
+related_assets: [buvidal, brixadi, cam2029, cam2032]
+related_deals:
+  - 2014_braeburn_camurus
+  - 2016_braeburn_camurus_cam2058_amendment
+  - 2025_lilly_camurus_incretins
+
+ir_contact: ir@camurus.com
+last_updated: 2026-04-26
+
+notes: >
+  Camurus generates direct commercial revenue from Buvidal (EU/AU) plus
+  royalty income from Brixadi (US, via Braeburn). 2024 product sales
+  ~SEK 1.65B (~USD 157M); 2025 guidance SEK 2.7-3.0B. Lilly 2025 deal
+  contributed to FY2025 results via upfront/development milestones (combined
+  $290M tranche). Pipeline catalysts: CAM2029 acromegaly resubmission,
+  SORENTO NET readout 2026.

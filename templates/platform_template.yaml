@@ -4,6 +4,7 @@
 id: slug_here                      # REQUIRED — lowercase, underscores, unique
 name: Platform Display Name        # REQUIRED
 company: Owning Company             # REQUIRED — company slug in data/companies (future) or name
+company_id: company_slug            # optional — slug of company in data/companies/
 company_ticker: TICKER              # optional — primary listing
 country: FR                         # optional — ISO country code of parent
 
@@ -31,6 +32,7 @@ ip_continuation_strategy: strong    # REQUIRED — strong / moderate / weak / no
 ip_fto_concerns: none               # REQUIRED — none / minor / material
 ip_notes: >                         # optional
   Any important context on patent strategy, trade secrets, ongoing oppositions.
+ip_records: []                      # optional — list of patent_ids (slugs in data/ip/)
 
 # Commercial / partnering footprint
 active_partners:                    # optional — tier-1 / tier-2 partner list
@@ -38,7 +40,54 @@ active_partners:                    # optional — tier-1 / tier-2 partner list
     tier: tier_1                    # tier_1 / tier_2 / tier_3
     deal_id: slug_for_deal_in_data_deals    # cross-reference to deal YAML
 
+# Partnering posture (NEW v1) — see docs/taxonomy.md
+partnering_posture:
+  open_to_partnering: selective     # true / false / selective
+  open_indications: [oncology, cns_neuro]
+  closed_indications: [psych, addiction]
+  open_geographies: [worldwide]
+  closed_geographies: []
+  last_partnering_signal:
+    date: 2026-01-15
+    type: jpm_presentation         # deal_announcement / jpm_presentation / bio_presentation / ir_inbound / none
+    description: Mentioned BD bandwidth at JPM26
+  bd_contact_disclosed: true
+
+# Encumbrances (NEW v1) — auto-derivable from data/deals/, manual overrides allowed
+encumbrances:
+  - deal_id: slug_for_deal_in_data_deals
+    indications: [psych]
+    molecule_classes: [risperidone, olanzapine]
+    compound_count_locked: 2
+    territory: worldwide
+    exclusivity: exclusive
+    expires: null                   # date or "deal-life"
+
+# Technical fit (NEW v1) — pharma-scientist screenable attributes
+technical_fit:
+  injection_volume_ml_range: [0.5, 2.0]
+  viscosity_cP_range: [50, 500]
+  needle_gauge_typical: "23G"
+  max_payload_mass_mg: null
+  cold_chain_required: false        # true / false / partial
+  excipient_classes: [PLGA, NMP]
+  release_profile_summary: First-order release over 30-90 days, low burst.
+  iv_ivc_established: true
+  injection_site: [SC, IM]
+
+# CMC / manufacturing capacity (NEW v1)
+cmc_capacity:
+  primary_facility:
+    location: City, Country
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: moderate       # ample / moderate / tight / unknown
+  scale_up_timeline_months: 18
+  notes: short string
+
 # SCORING — populated via scripts/score.py, but initial hand-scoring goes here
+# Composite weight (v1): tech 0.30, ip 0.20, dealability 0.25, availability 0.25
 scores:
   tech:
     value: 4
@@ -56,6 +105,12 @@ scores:
     value: 4
     rationale: ...
     confidence: high
+    scored_at: 2026-04-21
+    scorer: RX
+  availability:                     # NEW v1
+    value: 3
+    rationale: ...
+    confidence: medium
     scored_at: 2026-04-21
     scorer: RX
 
@@ -76,9 +131,19 @@ indication_fit:
     scorer: RX
   # Add entries for indications worth scoring. Omit indications where fit is irrelevant.
 
-# Free-form TactBio analytical context
+# Audience-specific editorial views (NEW v1)
+# tactbio_view (legacy) is treated as views.investor if views block is absent.
+views:
+  investor: >
+    Contrarian read, kill conditions, mispricing signal — what the market gets wrong.
+  partner: >
+    Technical fit summary for BD evaluation, posture, scale, available indications.
+  acquirer: >
+    Change-of-control exposure, encumbrance map, integration cost, M&A defenses.
+
+# Legacy field — preserved for backward compat. Treated as views.investor if views block missing.
 tactbio_view: >
   Short editorial paragraph. What's the contrarian take? Where does the market
   misread this platform? What's the single question that would change our view?
 
-last_updated: 2026-04-21
+last_updated: 2026-04-25

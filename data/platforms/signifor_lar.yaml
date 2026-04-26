@@ -2,32 +2,30 @@ id: signifor_lar_platform
 name: Signifor LAR
 company: Recordati Rare Diseases
 country: IT
-
 mechanism: microsphere
 duration_bucket: medium
-duration_range_days: [28, 28]
+duration_range_days:
+- 28
+- 28
 payload_classes:
-  - peptide
+- peptide
+mechanism_notes: 'PLGA microsphere platform for pasireotide (somatostatin analog). Approved
+  for Cushing''s disease and acromegaly. Recordati acquired the Signifor franchise from Novartis
+  in 2020.
 
-mechanism_notes: >
-  PLGA microsphere platform for pasireotide (somatostatin analog). Approved
-  for Cushing's disease and acromegaly. Recordati acquired the Signifor
-  franchise from Novartis in 2020.
-
+  '
 regulatory_history:
-  - product: Signifor LAR (pasireotide, monthly)
-    indication: endocrine
-    approval_year: 2014
-    agency: FDA
-
+- product: Signifor LAR (pasireotide, monthly)
+  indication: endocrine
+  approval_year: 2014
+  agency: FDA
 ip_core_expiry_year: 2025
 ip_continuation_strategy: weak
 ip_fto_concerns: none
-ip_notes: >
-  Patent runway ending; verify current status against Recordati filings.
+ip_notes: 'Patent runway ending; verify current status against Recordati filings.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 3
@@ -47,11 +45,19 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 2
+    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
+      — review and refine.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   endocrine:
     value: 4
-    rationale: Pasireotide is differentiated from octreotide on receptor selectivity (SSTR5); commercial position established in Cushing's disease but limited in acromegaly vs Sandostatin LAR.
+    rationale: Pasireotide is differentiated from octreotide on receptor selectivity (SSTR5);
+      commercial position established in Cushing's disease but limited in acromegaly vs Sandostatin
+      LAR.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -61,11 +67,67 @@ indication_fit:
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Niche endocrine LAI tracked for competitive context. Strategic relevance is
+  as a precedent for rare-disease LAI economics — Recordati''s acquisition from Novartis demonstrates
+  that mature LAI franchises can be transferred between strategics at meaningful multiples
+  even with patent expiry approaching.
 
-tactbio_view: >
-  Niche endocrine LAI tracked for competitive context. Strategic relevance
-  is as a precedent for rare-disease LAI economics — Recordati's acquisition
-  from Novartis demonstrates that mature LAI franchises can be transferred
-  between strategics at meaningful multiples even with patent expiry approaching.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: selective
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances:
+- deal_id: 2019_recordati_novartis_signifor
+  indications:
+  - endocrine
+  molecule_classes:
+  - undisclosed
+  compound_count_locked: null
+  territory: Worldwide
+  exclusivity: exclusive
+  expires: deal-life
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Niche endocrine LAI tracked for competitive context. Strategic relevance is as
+    a precedent for rare-disease LAI economics — Recordati''s acquisition from Novartis demonstrates
+    that mature LAI franchises can be transferred between strategics at meaningful multiples
+    even with patent expiry approaching.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

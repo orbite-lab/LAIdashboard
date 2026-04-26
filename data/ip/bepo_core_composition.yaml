@@ -1,0 +1,27 @@
+id: bepo_core_composition
+patent_number: WO2012/090070
+jurisdiction: WO
+assignee: MedinCell
+platform_id: bepo
+asset_id: null
+filing_date: 2011-12-23
+priority_date: 2010-12-23
+grant_date: null
+expiry_date: 2031-12-23
+claim_type: composition
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: No publicly disclosed oppositions.
+notes: >
+  MedinCell's foundational BEPO patent family covers the diblock copolymer
+  composition (PLA-PEG / PLGA-PEG) used to form in-situ depot. Family includes
+  national-stage filings in US, EP, JP. Expiry calculated from priority date +
+  20y for the core family; later continuations and formulation patents extend
+  effective protection. Specific national-stage patent numbers vary by
+  jurisdiction; this entry tracks the WO publication. Verify exact composition
+  claim scope against AbbVie's 2024 FTO diligence memo.
+source_urls:
+  - https://patents.google.com/?q=WO2012090070
+  - https://www.medincell.com/wp-content/uploads/our-bepo-technology/
+last_updated: 2026-04-25

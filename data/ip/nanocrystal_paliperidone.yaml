@@ -1,0 +1,28 @@
+id: nanocrystal_paliperidone
+patent_number: US6,555,544
+jurisdiction: US
+assignee: Janssen Pharmaceutica
+platform_id: nanocrystal
+asset_id: invega_sustenna
+filing_date: 2000-11-20
+priority_date: 1999-11-20
+grant_date: 2003-04-29
+expiry_date: 2019-11-20
+claim_type: composition
+continuation_lineage: []
+paragraph_iv_filers: [Teva, Mylan, Aurobindo]
+ipr_petitions: []
+opposition_history: >
+  Multiple paragraph IV ANDA filings led to litigation. Janssen prevailed
+  in defending key claims through the late 2010s extending effective
+  exclusivity beyond nominal expiry. Hafyera (6-monthly) launched 2021
+  is the franchise's defensive moat as Sustenna patent runway shortens.
+notes: >
+  Foundational paliperidone palmitate nanocrystal patent. Reference example
+  for how legacy LAI franchises defend exclusivity post-nominal-expiry via
+  formulation patents and litigation. Hafyera's 6-month formulation has
+  separate IP estate (verify) extending Invega franchise exclusivity into
+  the 2030s.
+source_urls:
+  - https://patents.google.com/patent/US6555544
+last_updated: 2026-04-25

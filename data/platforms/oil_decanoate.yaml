@@ -2,53 +2,51 @@ id: oil_decanoate
 name: Oil decanoate
 company: Multiple (generic platform)
 country: null
-
 mechanism: oil_solution
 duration_bucket: medium
-duration_range_days: [14, 28]
+duration_range_days:
+- 14
+- 28
 payload_classes:
-  - small_molecule
-
-mechanism_notes: >
-  Classical LAI mechanism — drug esterified with long aliphatic chain
-  (decanoate, palmitate, enanthate) and dissolved in oily vehicle (sesame oil,
-  cottonseed oil, castor oil, etc.). Slow drug release driven by partitioning
-  from oil phase to interstitial fluid. Developed primarily 1950s-1980s;
-  remains commercially significant in psychiatry (haloperidol decanoate,
-  fluphenazine decanoate) and endocrinology (testosterone enanthate, cypionate).
+- small_molecule
+mechanism_notes: 'Classical LAI mechanism — drug esterified with long aliphatic chain (decanoate,
+  palmitate, enanthate) and dissolved in oily vehicle (sesame oil, cottonseed oil, castor
+  oil, etc.). Slow drug release driven by partitioning from oil phase to interstitial fluid.
+  Developed primarily 1950s-1980s; remains commercially significant in psychiatry (haloperidol
+  decanoate, fluphenazine decanoate) and endocrinology (testosterone enanthate, cypionate).
   Tracked as a category rather than a proprietary platform.
 
+  '
 regulatory_history:
-  - product: Haloperidol decanoate (multiple generics)
-    indication: psych
-    approval_year: 1986
-    agency: FDA
-  - product: Fluphenazine decanoate (multiple generics)
-    indication: psych
-    approval_year: 1972
-    agency: FDA
-  - product: Testosterone enanthate / cypionate (multiple generics)
-    indication: endocrine
-    approval_year: 1953
-    agency: FDA
-  - product: Faslodex (fulvestrant)
-    indication: oncology
-    approval_year: 2002
-    agency: FDA
-
+- product: Haloperidol decanoate (multiple generics)
+  indication: psych
+  approval_year: 1986
+  agency: FDA
+- product: Fluphenazine decanoate (multiple generics)
+  indication: psych
+  approval_year: 1972
+  agency: FDA
+- product: Testosterone enanthate / cypionate (multiple generics)
+  indication: endocrine
+  approval_year: 1953
+  agency: FDA
+- product: Faslodex (fulvestrant)
+  indication: oncology
+  approval_year: 2002
+  agency: FDA
 ip_core_expiry_year: 1990
 ip_continuation_strategy: none
 ip_fto_concerns: none
-ip_notes: >
-  Foundational chemistry long off-patent; commercially generic. Tracked
-  as competitive context rather than proprietary platform.
+ip_notes: 'Foundational chemistry long off-patent; commercially generic. Tracked as competitive
+  context rather than proprietary platform.
 
+  '
 active_partners: []
-
 scores:
   tech:
     value: 5
-    rationale: Decades of clinical and commercial use; reliable PK well-characterized for esterifiable molecules; longest commercial track record of any LAI platform category.
+    rationale: Decades of clinical and commercial use; reliable PK well-characterized for
+      esterifiable molecules; longest commercial track record of any LAI platform category.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -64,32 +62,89 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 3
+    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
+      posture before publication.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   psych:
     value: 4
-    rationale: First-generation depot antipsychotics (haloperidol/fluphenazine decanoate) remain widely used in markets where cost matters more than newer LAI options.
+    rationale: First-generation depot antipsychotics (haloperidol/fluphenazine decanoate)
+      remain widely used in markets where cost matters more than newer LAI options.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   endocrine:
     value: 5
-    rationale: Testosterone esters remain the standard for testosterone replacement therapy globally.
+    rationale: Testosterone esters remain the standard for testosterone replacement therapy
+      globally.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   oncology:
     value: 4
-    rationale: Faslodex is the reference fulvestrant formulation in HR+ breast cancer; competitively entrenched.
+    rationale: Faslodex is the reference fulvestrant formulation in HR+ breast cancer; competitively
+      entrenched.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Tracked for competitive context, not investability. Oil decanoate solutions
+  are the price-anchor floor for LAI markets — any newer platform must justify premium pricing
+  relative to this generic baseline. The continued commercial life of decanoate antipsychotics
+  in cost-sensitive markets is a structural headwind for innovator LAI economics outside high-income
+  geographies.
 
-tactbio_view: >
-  Tracked for competitive context, not investability. Oil decanoate solutions
-  are the price-anchor floor for LAI markets — any newer platform must
-  justify premium pricing relative to this generic baseline. The continued
-  commercial life of decanoate antipsychotics in cost-sensitive markets is
-  a structural headwind for innovator LAI economics outside high-income geographies.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: unknown
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances: []
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Tracked for competitive context, not investability. Oil decanoate solutions are
+    the price-anchor floor for LAI markets — any newer platform must justify premium pricing
+    relative to this generic baseline. The continued commercial life of decanoate antipsychotics
+    in cost-sensitive markets is a structural headwind for innovator LAI economics outside
+    high-income geographies.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

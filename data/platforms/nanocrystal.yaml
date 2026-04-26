@@ -3,110 +3,179 @@ name: NanoCrystal
 company: Alkermes (originally Elan)
 company_ticker: ALKS
 country: US
-
 mechanism: nanoparticle
 duration_bucket: long
-duration_range_days: [28, 180]
+duration_range_days:
+- 28
+- 180
 payload_classes:
-  - small_molecule
+- small_molecule
+mechanism_notes: 'Drug nanoparticle (typically <1µm) suspension technology, originally developed
+  by Elan and acquired by Alkermes. Drug is milled to nanoscale and stabilized in aqueous
+  suspension; sustained release via slow dissolution at the injection site. Cabotegravir LAI
+  (Apretude/Cabenuva) and paliperidone palmitate (Invega Sustenna/Trinza/Hafyera) are the
+  two leading commercial expressions.
 
-mechanism_notes: >
-  Drug nanoparticle (typically <1µm) suspension technology, originally developed
-  by Elan and acquired by Alkermes. Drug is milled to nanoscale and stabilized
-  in aqueous suspension; sustained release via slow dissolution at the injection
-  site. Cabotegravir LAI (Apretude/Cabenuva) and paliperidone palmitate
-  (Invega Sustenna/Trinza/Hafyera) are the two leading commercial expressions.
-
+  '
 regulatory_history:
-  - product: Invega Sustenna (paliperidone palmitate, monthly)
-    indication: psych
-    approval_year: 2009
-    agency: FDA
-  - product: Invega Trinza (paliperidone palmitate, 3-monthly)
-    indication: psych
-    approval_year: 2015
-    agency: FDA
-  - product: Invega Hafyera (paliperidone palmitate, 6-monthly)
-    indication: psych
-    approval_year: 2021
-    agency: FDA
-  - product: Cabenuva (cabotegravir + rilpivirine)
-    indication: hiv
-    approval_year: 2021
-    agency: FDA
-  - product: Apretude (cabotegravir LAI for PrEP)
-    indication: hiv
-    approval_year: 2021
-    agency: FDA
-
+- product: Invega Sustenna (paliperidone palmitate, monthly)
+  indication: psych
+  approval_year: 2009
+  agency: FDA
+- product: Invega Trinza (paliperidone palmitate, 3-monthly)
+  indication: psych
+  approval_year: 2015
+  agency: FDA
+- product: Invega Hafyera (paliperidone palmitate, 6-monthly)
+  indication: psych
+  approval_year: 2021
+  agency: FDA
+- product: Cabenuva (cabotegravir + rilpivirine)
+  indication: hiv
+  approval_year: 2021
+  agency: FDA
+- product: Apretude (cabotegravir LAI for PrEP)
+  indication: hiv
+  approval_year: 2021
+  agency: FDA
 ip_core_expiry_year: 2020
 ip_continuation_strategy: moderate
 ip_fto_concerns: none
-ip_notes: >
-  Foundational nanocrystal patents expired; product-specific formulation
-  patents extend protection on individual drugs. Janssen's paliperidone
-  palmitate franchise and ViiV's cabotegravir each carry their own patent
-  estates beyond core platform IP. Verify expiry year against patent records.
+ip_notes: 'Foundational nanocrystal patents expired; product-specific formulation patents
+  extend protection on individual drugs. Janssen''s paliperidone palmitate franchise and ViiV''s
+  cabotegravir each carry their own patent estates beyond core platform IP. Verify expiry
+  year against patent records.
 
+  '
 active_partners:
-  - name: Janssen / J&J (Invega franchise)
-    tier: tier_1
-    deal_id: null
-  - name: ViiV Healthcare (cabotegravir)
-    tier: tier_1
-    deal_id: null
-
+- name: Janssen / J&J (Invega franchise)
+  tier: tier_1
+  deal_id: null
+- name: ViiV Healthcare (cabotegravir)
+  tier: tier_1
+  deal_id: null
 scores:
   tech:
     value: 5
-    rationale: Multiple commercial successes across psych and HIV; demonstrated 6-month duration capability (Invega Hafyera, longest LAI antipsychotic); platform validated for low-solubility small molecules.
+    rationale: Multiple commercial successes across psych and HIV; demonstrated 6-month duration
+      capability (Invega Hafyera, longest LAI antipsychotic); platform validated for low-solubility
+      small molecules.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 3
-    rationale: Platform IP largely expired; product-level patents preserve commercial exclusivity for individual drugs but not for new entrants using the mechanism.
+    rationale: Platform IP largely expired; product-level patents preserve commercial exclusivity
+      for individual drugs but not for new entrants using the mechanism.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 3
-    rationale: Two tier-1 commercial relationships (Janssen, ViiV) but Alkermes does not actively license the platform externally; deal optionality is largely captured.
+    rationale: Two tier-1 commercial relationships (Janssen, ViiV) but Alkermes does not actively
+      license the platform externally; deal optionality is largely captured.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
-
+  availability:
+    value: 2
+    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
+      — review and refine.
+    confidence: low
+    scored_at: '2026-04-26'
+    scorer: MIG
 indication_fit:
   psych:
     value: 5
-    rationale: Invega franchise is category leader in long-duration LAI antipsychotics; 6-month dosing currently unmatched commercially.
+    rationale: Invega franchise is category leader in long-duration LAI antipsychotics; 6-month
+      dosing currently unmatched commercially.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   hiv:
     value: 5
-    rationale: Cabenuva (treatment) and Apretude (PrEP) collectively define the HIV LAI market; ViiV holds dominant position.
+    rationale: Cabenuva (treatment) and Apretude (PrEP) collectively define the HIV LAI market;
+      ViiV holds dominant position.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   addiction:
     value: 3
-    rationale: Mechanism compatible with low-solubility small molecules but no nanocrystal LAI specifically advanced for OUD; Sublocade/Brixadi own that category.
+    rationale: Mechanism compatible with low-solubility small molecules but no nanocrystal
+      LAI specifically advanced for OUD; Sublocade/Brixadi own that category.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
   oncology:
     value: 3
-    rationale: Theoretical fit for hormonal therapies but commercially commoditized space; no nanocrystal LAI advanced for oncology indications.
+    rationale: Theoretical fit for hormonal therapies but commercially commoditized space;
+      no nanocrystal LAI advanced for oncology indications.
     confidence: low
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Most commercially successful LAI platform by revenue, with Invega franchise
+  and cabotegravir generating multi-billion-dollar combined sales. Strategic value resides
+  in existing product franchises rather than platform licensing potential. Watch Janssen''s
+  response as Invega Sustenna faces generic LOE beyond 2030 — Hafyera''s 6-monthly duration
+  is the franchise''s defensive moat.
 
-tactbio_view: >
-  Most commercially successful LAI platform by revenue, with Invega franchise
-  and cabotegravir generating multi-billion-dollar combined sales. Strategic
-  value resides in existing product franchises rather than platform licensing
-  potential. Watch Janssen's response as Invega Sustenna faces generic LOE
-  beyond 2030 — Hafyera's 6-monthly duration is the franchise's defensive moat.
-
+  '
 last_updated: 2026-04-25
+partnering_posture:
+  open_to_partnering: selective
+  open_indications: []
+  closed_indications: []
+  open_geographies: []
+  closed_geographies: []
+  last_partnering_signal:
+    date: null
+    type: none
+    description: Data pending — populate from IR / press releases.
+  bd_contact_disclosed: false
+  notes: Auto-migrated v1 default. Refresh from primary sources.
+encumbrances:
+- deal_id: 2016_viiv_janssen_cabenuva
+  indications:
+  - hiv
+  molecule_classes:
+  - undisclosed
+  compound_count_locked: null
+  territory: Worldwide
+  exclusivity: exclusive
+  expires: deal-life
+technical_fit:
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
+  needle_gauge_typical: null
+  max_payload_mass_mg: null
+  cold_chain_required: null
+  excipient_classes: []
+  release_profile_summary: Data pending.
+  iv_ivc_established: null
+  injection_site: []
+cmc_capacity:
+  primary_facility:
+    location: unknown
+    capacity_units_per_year: null
+    units_definition: doses
+  cdmo_partners: []
+  capacity_headroom: unknown
+  scale_up_timeline_months: null
+  notes: Data pending.
+views:
+  investor: 'Most commercially successful LAI platform by revenue, with Invega franchise and
+    cabotegravir generating multi-billion-dollar combined sales. Strategic value resides in
+    existing product franchises rather than platform licensing potential. Watch Janssen''s
+    response as Invega Sustenna faces generic LOE beyond 2030 — Hafyera''s 6-monthly duration
+    is the franchise''s defensive moat.
+
+    '
+  partner: Data pending — populate partner-view editorial. See partnering_posture and encumbrances
+    for structured availability.
+  acquirer: Data pending — populate acquirer-view editorial covering change-of-control terms,
+    encumbrance map, and integration cost.
+ip_records: []

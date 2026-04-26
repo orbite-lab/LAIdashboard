@@ -1,6 +1,18 @@
-# Scoring Rubric — v0
+# Scoring Rubric — v1
 
 This is the authoritative scoring methodology for the TactBio LAI tracker. Python scoring logic in `scripts/score.py` must stay aligned with this document. If they diverge, this document wins — update the code to match.
+
+**v1 changes from v0:** added `availability` platform dimension; introduced audience-specific editorial views (`views.investor`, `views.partner`, `views.acquirer`); rebalanced platform composite weights to include availability for the BD-scout audience.
+
+## Audiences
+
+The same data layer powers three audience views:
+
+- **Investor** (TactBio internal, hedge funds, sellside) — wants thesis framing, contrarian read, kill conditions, mispricing signal.
+- **Partner** (pharma BD scouting LAI delivery solutions) — wants technical fit, encumbrance map, partnering posture, CMC capacity, deal-economics benchmarks.
+- **Acquirer** (pharma corp dev evaluating M&A) — wants change-of-control terms, encumbrance map, pipeline depth, integration cost, market cap and dilution.
+
+YAMLs hold all three views under `views.{investor,partner,acquirer}`. Legacy `tactbio_view` is preserved as the investor view.
 
 ## General rules
 
@@ -23,6 +35,17 @@ This is the authoritative scoring methodology for the TactBio LAI tracker. Pytho
 If confidence is `low`, default toward 3 (neutral) unless there is a strong reason otherwise.
 
 ## Platform-level dimensions
+
+Composite weights (sum to 1.0):
+
+| Dimension | Weight | Rationale |
+|---|---|---|
+| Tech | 0.30 | What the platform can technically do |
+| IP | 0.20 | Runway and protection |
+| Dealability | 0.25 | Demonstrated counterparty quality |
+| Availability | 0.25 | What's actually open to a new partner |
+
+Availability is new in v1 — added because the prior weighting penalized partner-scouts looking for what's actionable. A platform fully encumbered by a single Big Pharma partner can score 5/5 on Tech/IP/Dealability and still be uninvestable for a BD scout.
 
 ### 1. Tech (`tech_score`)
 
@@ -47,7 +70,7 @@ Evaluates the platform's technical robustness as a delivery system.
 Evaluates intellectual property strength and runway.
 
 **Inputs:**
-- Core composition-of-matter or method-of-use patent expiry dates
+- Core composition-of-matter or method-of-use patent expiry dates (cross-reference `data/ip/`)
 - Continuation strategy (layered continuations extending life cycle?)
 - Freedom-to-operate concerns (competing claims, design-arounds?)
 - Trade secret / know-how component (CMC lock-in difficult to replicate?)
@@ -77,6 +100,24 @@ Evaluates the platform's demonstrated and prospective ability to command partner
 - **2** — Limited partnering, below-market disclosed terms, or failed partnerships
 - **1** — No executed deals, or material partner terminations
 
+### 4. Availability (`availability_score`) — NEW in v1
+
+Evaluates how much of the platform's potential is actually open to a new partner. Reads from `partnering_posture` and `encumbrances` blocks.
+
+**Inputs:**
+- How many therapeutic areas are encumbered by exclusive deals?
+- How many compounds/molecules are locked under existing partners?
+- Geographic territories already licensed?
+- Stated partnering posture (open / selective / closed)
+- Recent partnering signals (BIO/JPM presence, IR responsiveness)
+
+**Scoring anchors:**
+- **5** — Open across ≥3 TAs, ≥2 compounds available per TA, multiple geographies open, actively partnering
+- **4** — Open across 2 TAs, posture selective but engaged, geographies mostly open
+- **3** — One open TA, others encumbered, geographies partially open, selective posture
+- **2** — Most TAs encumbered, narrow open scope, low partnering signal
+- **1** — Fully encumbered or platform owner not partnering
+
 ## Asset-level dimensions
 
 ### 1. Tech (`tech_score`) — inherited
@@ -103,7 +144,7 @@ Evaluates clinical data quality and de-risking.
 
 ### 3. IP (`ip_score`)
 
-Similar to platform IP but at asset level. Combines platform IP with asset-specific formulation/indication patents.
+Similar to platform IP but at asset level. Combines platform IP with asset-specific formulation/indication patents. Cross-reference `data/ip/` records carrying matching `asset_id`.
 
 ### 4. Dealability (`dealability_score`)
 
@@ -120,6 +161,16 @@ Similar to platform IP but at asset level. Combines platform IP with asset-speci
 - Regulatory precedent (is this pathway established or novel?)
 - Post-marketing requirements if approved
 - Label expansion feasibility
+
+Asset composite weights (sum to 1.0):
+
+| Dimension | Weight |
+|---|---|
+| Tech | 0.20 |
+| Clinical | 0.30 |
+| IP | 0.15 |
+| Dealability | 0.20 |
+| Regulatory | 0.15 |
 
 ## Indication fit scoring (platform × indication matrix)
 
@@ -139,6 +190,8 @@ This is the heart of the **Platform H2H** output. For each (platform, indication
 - **2** — Significant mismatch on one dimension
 - **1** — Fundamental mismatch — wouldn't pursue
 
+For the BD-scout audience, indication_fit is paired with `encumbrances` to produce an "open fit" score: the indication_fit value, but only counted if not encumbered.
+
 ## Confidence interpretation
 
 - **high** — Multiple independent data points support this score. Would defend in writing.
@@ -150,12 +203,13 @@ Low-confidence scores with scores 4 or 5 should trigger review — claiming a st
 ## Quarterly refresh checklist
 
 For each scored entity at quarterly refresh:
-1. Pull new clinical data since last refresh
-2. Pull new deals or partner actions
-3. Pull new IP filings (continuations, oppositions)
+1. Pull new clinical data since last refresh (cross-reference `data/trials/`)
+2. Pull new deals or partner actions (regenerate `encumbrances` block)
+3. Pull new IP filings (continuations, oppositions) (update `data/ip/`)
 4. Re-read rationale — does it still hold?
 5. If changing a score, write new rationale; old rationale stays in `scores_history`
 6. If confidence should change, note why
+7. Refresh partnering_posture based on IR signals (JPM, BIO, earnings call language)
 
 ## When to override inheritance
 

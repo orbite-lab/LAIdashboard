@@ -1,25 +1,27 @@
 # Platform Head-to-Head
 
-*Generated 2026-04-25 from `db/lai.db`. Do not hand-edit.*
+*Generated 2026-04-26 from `db/lai.db`. Do not hand-edit.*
 
 ## Indication fit matrix
 
-Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no marker = high; `·` = medium; `?` = low.
+Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no marker = high; `·` = medium; `?` = low. `🔒` = indication encumbered by existing exclusive deal (see Partner Scout for details).
 
 | Platform | psych | addiction | hiv | oncology | endocrine | ophthalmology | pain | metabolic |
 |---|---|---|---|---|---|---|---|---|
 | Atrigel | 2· | 5 | — | 5 | 3· | — | — | — |
-| BEPO | 5 | 3· | 3? | 3? | — | 4· | — | — |
+| BEPO | 5 🔒 | 3· | 3? | 3? 🔒 | — | 4· 🔒 | — | — |
 | Biochronomer | — | — | — | 3· | — | — | 4 | — |
 | Chroniject | 3? | — | — | 3? | — | — | — | — |
 | DepoFoam | — | — | — | 1 | — | — | 4 | — |
-| Durasert | — | — | — | — | — | 5 | — | — |
-| FluidCrystal | 3· | 5 | — | 3? | 4 | — | — | — |
+| Durasert | — | — | — | — | — | 5 🔒 | — | — |
+| FluidCrystal | 3· | 5 🔒 | — | 3? | 4 🔒 | — | — | 5 🔒 |
 | ISM | 4 | — | — | 3? | 3? | — | — | — |
 | Lupron Depot | — | — | — | 5 | 5 | — | — | — |
-| Medisorb | 5 | 4 | — | — | 3· | — | — | — |
+| MariTide platform (Amgen) | — | — | — | — | 3? | — | — | 4· |
+| Medisorb | 5 | 4 | — | — | 3· 🔒 | — | — | — |
 | Medusa | — | — | — | — | 3? | — | — | 3· |
-| NanoCrystal | 5 | 3? | 5 | 3? | — | — | — | — |
+| Metsera depot platform | — | — | — | — | — | — | — | 4? |
+| NanoCrystal | 5 | 3? | 5 🔒 | 3? | — | — | — | — |
 | NanoZolid | — | — | — | 3· | 3? | — | — | — |
 | Novadur | — | — | — | — | — | 5 | — | — |
 | Oil decanoate | 4 | — | — | 4 | 5 | — | — | — |
@@ -28,45 +30,49 @@ Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no mark
 | PolyActiva | — | — | — | — | — | 3· | — | — |
 | Probuphine | — | 2 | — | — | — | — | — | — |
 | Sandostatin LAR | — | — | — | 4 | 5 | — | — | — |
-| Signifor LAR | — | — | — | 3· | 4 | — | — | — |
+| Signifor LAR | — | — | — | 3· | 4 🔒 | — | — | — |
 | Somatuline Autogel | — | — | — | 5 | 5 | — | — | — |
-| SpectruM | — | — | — | 4 | 3? | — | — | — |
+| SpectruM | — | — | — | 4 🔒 | 3? | — | — | — |
 | Trelstar | — | — | — | 5 | 4 | — | — | — |
 | Zoladex | — | — | — | 5 | 4 | — | — | — |
 | iDose | — | — | — | — | — | 5 | — | — |
 
 ## Platform composite scores
 
-| Platform | Tech | IP | Dealability | Composite |
-|---|---|---|---|---|
-| Atrigel | 5 | 2 | 3 | **3.50** |
-| BEPO | 4 | 4 | 5 | **4.30** |
-| Biochronomer | 3 | 3 | 2 | **2.70** |
-| Chroniject | 3 | 2 | 3 | **2.70** |
-| DepoFoam | 3 | 2 | 2 | **2.40** |
-| Durasert | 5 | 4 | 3 | **4.10** |
-| FluidCrystal | 5 | 3 | 5 | **4.40** |
-| ISM | 4 | 4 | 3 | **3.70** |
-| Lupron Depot | 5 | 1 | 1 | **2.60** |
-| Medisorb | 5 | 2 | 4 | **3.80** |
-| Medusa | 2 | 3 | 2 | **2.30** |
-| NanoCrystal | 5 | 3 | 3 | **3.80** |
-| NanoZolid | 3 | 3 | 2 | **2.70** |
-| Novadur | 4 | 3 | 2 | **3.10** |
-| Oil decanoate | 5 | 1 | 1 | **2.60** |
-| PDS (Susvimo) | 4 | 4 | 1 | **3.10** |
-| Perseris | 3 | 3 | 2 | **2.70** |
-| PolyActiva | 3 | 3 | 3 | **3.00** |
-| Probuphine | 3 | 1 | 1 | **1.80** |
-| Sandostatin LAR | 4 | 1 | 1 | **2.20** |
-| Signifor LAR | 3 | 2 | 1 | **2.10** |
-| Somatuline Autogel | 4 | 2 | 1 | **2.50** |
-| SpectruM | 4 | 4 | 3 | **3.70** |
-| Trelstar | 4 | 1 | 2 | **2.50** |
-| Zoladex | 4 | 1 | 1 | **2.20** |
-| iDose | 4 | 5 | 1 | **3.40** |
+Composite weights (v1): tech 0.30, ip 0.20, dealability 0.25, availability 0.25. Platforms missing availability are scored on remaining weights renormalized.
 
-## TactBio view per platform
+| Platform | Tech | IP | Dealability | Availability | Composite |
+|---|---|---|---|---|---|
+| Atrigel | 5 | 2 | 3 | 3 | **3.40** |
+| BEPO | 4 | 4 | 5 | 2 | **3.75** |
+| Biochronomer | 3 | 3 | 2 | 3 | **2.75** |
+| Chroniject | 3 | 2 | 3 | 3 | **2.80** |
+| DepoFoam | 3 | 2 | 2 | 3 | **2.55** |
+| Durasert | 5 | 4 | 3 | 2 | **3.55** |
+| FluidCrystal | 5 | 3 | 5 | 3 | **4.10** |
+| ISM | 4 | 4 | 3 | 3 | **3.50** |
+| Lupron Depot | 5 | 1 | 1 | 3 | **2.70** |
+| MariTide platform (Amgen) | 3 | 4 | 1 | 1 | **2.20** |
+| Medisorb | 5 | 2 | 4 | 2 | **3.40** |
+| Medusa | 2 | 3 | 2 | 3 | **2.45** |
+| Metsera depot platform | 2 | 4 | 5 | 1 | **2.90** |
+| NanoCrystal | 5 | 3 | 3 | 2 | **3.35** |
+| NanoZolid | 3 | 3 | 2 | 3 | **2.75** |
+| Novadur | 4 | 3 | 2 | 3 | **3.05** |
+| Oil decanoate | 5 | 1 | 1 | 3 | **2.70** |
+| PDS (Susvimo) | 4 | 4 | 1 | 3 | **3.00** |
+| Perseris | 3 | 3 | 2 | 3 | **2.75** |
+| PolyActiva | 3 | 3 | 3 | 3 | **3.00** |
+| Probuphine | 3 | 1 | 1 | 3 | **2.10** |
+| Sandostatin LAR | 4 | 1 | 1 | 3 | **2.40** |
+| Signifor LAR | 3 | 2 | 1 | 2 | **2.05** |
+| Somatuline Autogel | 4 | 2 | 1 | 3 | **2.60** |
+| SpectruM | 4 | 4 | 3 | 2 | **3.25** |
+| Trelstar | 4 | 1 | 2 | 3 | **2.65** |
+| Zoladex | 4 | 1 | 1 | 3 | **2.40** |
+| iDose | 4 | 5 | 1 | 3 | **3.20** |
+
+## TactBio view per platform (investor)
 
 ### Atrigel
 
@@ -104,6 +110,10 @@ European challenger platform with single-product commercialization in psych. Str
 
 Tracked as competitive context — Lupron Depot is the price/share anchor for prostate cancer LHRH LAI globally. Any new entrant must position against Lupron's prescriber inertia and Takeda/AbbVie commercial scale. Strategic relevance is in deal pricing — historical Lupron economics inform what new LHRH LAI entrants can realistically command.
 
+### MariTide platform (Amgen)
+
+Tracked as primary competitive context to FluidCrystal incretin program via Lilly. MariTide is structurally different (half-life extension via Fc conjugate vs depot release) but competes commercially for the same obesity-LAI market. Amgen Phase 3 readouts will define the obesity-LAI bar.
+
 ### Medisorb
 
 Foundational microsphere platform whose strategic relevance has shifted from technology innovation to manufacturing scale. Alkermes' product portfolio built on Medisorb generates substantial revenue, but the platform itself is no longer a credible licensing story. Reference point for what mature LAI technology looks like post-IP cliff.
@@ -111,6 +121,10 @@ Foundational microsphere platform whose strategic relevance has shifted from tec
 ### Medusa
 
 French formulation platform with chronic execution challenges. Strategic relevance is primarily as a counterexample for dealability — the 2017 Lilly partnership termination on BioChaperone Lispro illustrates how formulation-platform companies can lose tier-1 relationships when underlying programs disappoint. Tracking value low unless a specific program reaches Phase 3.
+
+### Metsera depot platform
+
+Tracked as competitive context for Camurus FluidCrystal incretin program. Pfizer's acquisition of Metsera in late 2025 underscores the strategic importance of LAI obesity formulation across tier-1 pharma. Combined with Lilly-Camurus, the obesity LAI category now has Lilly + Camurus, Pfizer + Metsera, Amgen MariTide as the three key competitive axes.
 
 ### NanoCrystal
 

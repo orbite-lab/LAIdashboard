@@ -1,0 +1,31 @@
+id: sublocade_formulation
+patent_number: US9,272,044
+jurisdiction: US
+assignee: Indivior
+platform_id: atrigel
+asset_id: sublocade
+filing_date: 2014-08-08
+priority_date: 2013-08-08
+grant_date: 2016-03-01
+expiry_date: 2034-08-08
+claim_type: formulation
+continuation_lineage: []
+paragraph_iv_filers: [Alvogen, Teva]
+ipr_petitions:
+  - petitioner: Alvogen
+    status: Resolved 2023; Indivior preserved key formulation claims.
+opposition_history: >
+  Multiple paragraph IV ANDA filings against Sublocade. Indivior pursued
+  litigation against Alvogen and Teva. Settlement / litigation outcomes
+  preserved Sublocade exclusivity to date but generic risk remains an
+  active monitoring item. Verify current Orange Book status quarterly.
+notes: >
+  Asset-specific Sublocade formulation patent on top of expired Atrigel
+  platform IP. Indivior's IP defense has been more contested than for
+  newer platforms — both because Atrigel composition is public domain
+  and because Sublocade represents a high-value generic target. Reference
+  for understanding the IP-litigation surface of mature in-situ depot
+  products.
+source_urls:
+  - https://patents.google.com/patent/US9272044
+last_updated: 2026-04-25

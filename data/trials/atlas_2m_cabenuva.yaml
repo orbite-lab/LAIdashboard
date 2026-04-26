@@ -1,0 +1,23 @@
+id: atlas_2m_cabenuva
+nct_id: NCT03299049
+asset_id: cabenuva
+indication: hiv
+phase: 3
+n: 1045
+design: Randomized open-label active-controlled non-inferiority
+primary_endpoint: Virologic non-suppression at week 48 (every-2-month vs every-month dosing)
+control_arm: active comparator
+sponsor: ViiV Healthcare
+status: completed
+start_date: 2017-12-01
+expected_readout: 2020-Q4
+result: positive
+geography: [US, EU, ROW]
+source_urls:
+  - https://clinicaltrials.gov/study/NCT03299049
+last_updated: 2026-04-25
+notes: >
+  Established every-2-month Cabenuva dosing as non-inferior to monthly.
+  Label expanded to Q2M dosing on the back of this trial; remains the
+  gating trial for Cabenuva commercial trajectory and broader LAI HIV
+  paradigm. Reference precedent for non-inferiority designs in HIV LAI.
