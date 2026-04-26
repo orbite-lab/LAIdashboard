@@ -1,0 +1,22 @@
+id: "idose_tr_nct06582732"
+nct_id: "NCT06582732"
+asset_id: "idose_tr"
+indication: "ophthalmology"
+phase: 2
+n: 210
+design: "Interventional"
+primary_endpoint: >
+  Travoprost Free Acid Concentration (ng/mL) in Aqueous Humor 12 Months Post-administration; Travoprost Free Acid Concentration (ng/mL) in Aqueous Humor 3 Months Post-administration; Travoprost Free Acid Concentration (ng/mL) in Aqueous Humor 6 Months Post-administration; Travoprost Free Acid Concentration (ng/mL) in Aqueous Humor 24 Months Post-administration; Travoprost Free Acid Concentration(ng/mL) in Aqueous Humor 21 Months Post-administration; Travoprost Free Acid Concentration (ng/mL) in Aq
+control_arm: "active comparator"
+sponsor: "Glaukos Corporation"
+status: "completed"
+start_date: "2021-03-10"
+expected_readout: "2023-11-02"
+result: null
+geography:
+  - "Armenia"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06582732"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Performance of the Travoprost Intraocular Implant. Sponsor: Glaukos Corporation. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

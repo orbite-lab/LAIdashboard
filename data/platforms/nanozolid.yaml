@@ -96,27 +96,33 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 1.0
+  - 5.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 22G
+  max_payload_mass_mg: 200
+  cold_chain_required: true
+  excipient_classes:
+  - calcium sulfate hemihydrate
+  - biocompatible binder
+  release_profile_summary: LIDDS NanoZolid calcium-sulfate matrix delivering local sustained
+    release of cytotoxics (lead asset Liproca Depot — 2-hydroxyflutamide intratumoral for
+    prostate cancer active surveillance). 6-month duration via single intratumoral injection.
+  iv_ivc_established: true
+  injection_site:
+  - intratumoral
+  - intra-articular
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Stockholm, Sweden (LIDDS)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: tight
+  scale_up_timeline_months: 24
+  notes: Clinical-stage only; commercial-scale manufacturing would require partner.
 views:
   investor: 'Speculative early-stage platform with single Phase IIb asset. Strategic interest
     is twofold — (1) the active-surveillance prostate cancer niche is under-served and could

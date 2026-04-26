@@ -98,27 +98,33 @@ encumbrances:
   expires: deal-life
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 2.0
+  - 2.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 20G
+  max_payload_mass_mg: 60
+  cold_chain_required: true
+  excipient_classes:
+  - PLGA copolymer
+  - carboxymethylcellulose
+  - mannitol
+  release_profile_summary: PLGA microsphere suspension delivering pasireotide pamoate monthly
+    via deep gluteal IM injection. Storage 2-8°C. Reconstituted at room temp immediately before
+    injection.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Recordati / Novartis legacy sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Mature franchise post-Novartis divestiture; rare-disease scale.
 views:
   investor: 'Niche endocrine LAI tracked for competitive context. Strategic relevance is as
     a precedent for rare-disease LAI economics — Recordati''s acquisition from Novartis demonstrates

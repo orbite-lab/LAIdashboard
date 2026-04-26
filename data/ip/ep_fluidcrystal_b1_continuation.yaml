@@ -1,0 +1,21 @@
+id: "ep_fluidcrystal_b1_continuation"
+patent_number: "EP2491931B1"
+jurisdiction: "EP"
+assignee: "Camurus"
+platform_id: "fluidcrystal"
+asset_id: null
+filing_date: "2010-10-21"
+priority_date: "2009-10-21"
+grant_date: "2014-09-03"
+expiry_date: "2030-10-21"
+claim_type: "formulation"
+continuation_lineage:
+  - "fluidcrystal_continuation_2010"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "No public oppositions."
+notes: >
+  European grant of WO2011048495 — lipid-glyceride formulation continuation extending FluidCrystal effective protection to 2030.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/043302039/publication/EP2491931B1"
+last_updated: "2026-04-26"

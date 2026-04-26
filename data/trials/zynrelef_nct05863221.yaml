@@ -1,0 +1,22 @@
+id: "zynrelef_nct05863221"
+nct_id: "NCT05863221"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 4
+n: 120
+design: "Interventional"
+primary_endpoint: >
+  Postoperative Pain Scores; Opioid rescue medication use; Patient Global Assessment (PGA); Discharge readiness assessment per the Modified Post Anesthetic Discharge Scoring System (MPADSS); Subject's satisfaction with postoperative pain control; Overall benefit of analgesia score (OBAS); Time to Resume Exercise
+control_arm: "active comparator"
+sponsor: "Dr. Yannis Raftopoulos"
+status: "active"
+start_date: "2023-05-09"
+expected_readout: "2024-10-09"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05863221"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: ZYNRELEF® for Postoperative Analgesia After Laparoscopic Sleeve Gastrectomy. Sponsor: Dr. Yannis Raftopoulos. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,22 @@
+id: "cabenuva_nct05601128"
+nct_id: "NCT05601128"
+asset_id: "cabenuva"
+indication: "hiv"
+phase: 3
+n: 12
+design: "Interventional"
+primary_endpoint: >
+  Cabotegravir plasma concentration over time; Cabotegravir plasma concentration over time; Cabotegravir area under the curve; Rilpivirine plasma concentration over time; Rilpivirine plasma concentration over time; Rilpivirine area under the curve; Cabotegravir plasma concentration comparison between patients with severe renal impairment and those without severe renal impairment; Cabotegravir plasma concentration comparison between patients with severe renal impairment and those without severe ren
+control_arm: "none"
+sponsor: "Allegheny Singer Research Institute (also known as Allegheny Health Network Research Institute)"
+status: "completed"
+start_date: "2023-01-01"
+expected_readout: "2025-04-01"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05601128"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study Evaluating the Pharmacokinetics, Efficacy, Safety and Tolerability of CABENUVA. Sponsor: Allegheny Singer Research Institute (also known as Allegheny Health Network Research Institute). Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

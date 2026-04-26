@@ -1,0 +1,22 @@
+id: "durysta_nct04647214"
+nct_id: "NCT04647214"
+asset_id: "durysta"
+indication: "ophthalmology"
+phase: null
+n: 220
+design: "Observational"
+primary_endpoint: >
+  Proportion of treated eyes that did not receive additional Intraocular Pressure (IOP) -lowering intervention/therapy per standard medical care
+control_arm: "none"
+sponsor: "Allergan"
+status: "completed"
+start_date: "2021-03-03"
+expected_readout: "2024-07-12"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04647214"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: 18 Month Prospective Efficacy and Safety Study of Bimatoprost Intracameral Implant (DURYSTA). Sponsor: Allergan. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

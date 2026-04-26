@@ -44,7 +44,7 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 | Atrigel | in_situ_depot | 30–180d | small_molecule, peptide | 0.25–0.5 | yes | moderate |
 | BEPO | in_situ_depot | 7–90d | small_molecule, peptide | 0.3–2.0 | no | moderate |
 | Biochronomer | in_situ_depot | 3–7d | small_molecule | 0.5–30.0 | yes | moderate |
-| Chroniject | microsphere | 7–365d | small_molecule, peptide, protein | — | — | unknown |
+| Chroniject | microsphere | 7–365d | small_molecule, peptide, protein | 0.5–2.0 | yes | moderate |
 | DepoFoam | liposome_depot | 3–4d | small_molecule | 0.5–30.0 | yes | moderate |
 | Durasert | implant | 180–1095d | small_molecule | — | no | moderate |
 | FluidCrystal | in_situ_depot | 7–180d | small_molecule, peptide | 0.16–1.5 | no | moderate |
@@ -52,20 +52,20 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 | Lupron Depot | microsphere | 28–180d | peptide | 1.0–2.0 | no | ample |
 | MariTide platform (Amgen) | other | 28–90d | peptide, biologic | — | yes | unknown |
 | Medisorb | microsphere | 14–28d | small_molecule, peptide | 0.5–3.4 | yes | ample |
-| Medusa | drug_conjugate | 3–30d | peptide, protein | — | — | unknown |
+| Medusa | drug_conjugate | 3–30d | peptide, protein | 0.5–2.0 | yes | tight |
 | Metsera depot platform | other | 28–90d | peptide | — | yes | unknown |
 | NanoCrystal | nanoparticle | 28–180d | small_molecule | 0.875–1.5 | no | ample |
-| NanoZolid | in_situ_depot | 90–180d | small_molecule, peptide, protein | — | — | unknown |
+| NanoZolid | in_situ_depot | 90–180d | small_molecule, peptide, protein | 1.0–5.0 | yes | tight |
 | Novadur | implant | 90–180d | small_molecule | — | no | ample |
-| Oil decanoate | oil_solution | 14–28d | small_molecule | — | — | unknown |
+| Oil decanoate | oil_solution | 14–28d | small_molecule | 1.0–3.0 | no | ample |
 | PDS (Susvimo) | implant | 120–180d | biologic | 0.05–0.05 | yes | moderate |
-| Perseris | in_situ_depot | 30–30d | small_molecule | — | — | unknown |
-| PolyActiva | implant | 180–365d | small_molecule | — | — | unknown |
-| Probuphine | implant | 180–180d | small_molecule | — | — | unknown |
+| Perseris | in_situ_depot | 30–30d | small_molecule | 0.6–0.6 | no | tight |
+| PolyActiva | implant | 180–365d | small_molecule | — | no | tight |
+| Probuphine | implant | 180–180d | small_molecule | — | no | tight |
 | Sandostatin LAR | microsphere | 28–28d | peptide | 2.5–2.5 | yes | ample |
-| Signifor LAR | microsphere | 28–28d | peptide | — | — | unknown |
+| Signifor LAR | microsphere | 28–28d | peptide | 2.0–2.0 | yes | ample |
 | Somatuline Autogel | in_situ_depot | 28–56d | peptide | 0.5–0.5 | yes | moderate |
-| SpectruM | in_situ_depot | 30–180d | small_molecule, peptide | — | — | unknown |
+| SpectruM | in_situ_depot | 30–180d | small_molecule, peptide | 0.25–0.375 | yes | moderate |
 | Trelstar | microsphere | 28–180d | peptide | 2.0–2.0 | no | ample |
 | Zoladex | implant | 28–90d | peptide | — | no | ample |
 | iDose | implant | 90–1095d | small_molecule | — | no | moderate |

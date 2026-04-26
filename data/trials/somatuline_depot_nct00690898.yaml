@@ -1,0 +1,29 @@
+id: "somatuline_depot_nct00690898"
+nct_id: "NCT00690898"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 108
+design: "Interventional"
+primary_endpoint: >
+  Percentage of Patients With Relevant Reduction in Pituitary Tumour Volume (as Measured by MRI) From Baseline Volume (Visit 1) to Week 48 (After 12 Injections at Visit 5)
+control_arm: "none"
+sponsor: "Ipsen"
+status: "completed"
+start_date: "2008-05"
+expected_readout: "2012-02"
+result: null
+geography:
+  - "Belgium"
+  - "Czechia"
+  - "Finland"
+  - "France"
+  - "Germany"
+  - "Italy"
+  - "Netherlands"
+  - "Turkey (T\u00fcrkiye)"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00690898"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Lanreotide as Primary Treatment for Acromegalic Patients With Pituitary Gland Macroadenoma. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

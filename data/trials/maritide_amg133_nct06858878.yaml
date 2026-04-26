@@ -1,0 +1,28 @@
+id: "maritide_amg133_nct06858878"
+nct_id: "NCT06858878"
+asset_id: "maritide_amg133"
+indication: "metabolic"
+phase: 3
+n: 1105
+design: "Interventional"
+primary_endpoint: "Percent Change from Baseline in Body Weight at Week 72"
+control_arm: "placebo"
+sponsor: "Amgen"
+status: "active"
+start_date: "2025-03-17"
+expected_readout: "2027-01-21"
+result: null
+geography:
+  - "Argentina"
+  - "Bulgaria"
+  - "Canada"
+  - "Czechia"
+  - "Germany"
+  - "Hungary"
+  - "Italy"
+  - "Japan"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06858878"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Efficacy and Safety of Maridebart Cafraglutide in Adult Participants With Type 2 Diabetes Mellitus Who Have Obesity or Are Overweight. Sponsor: Amgen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

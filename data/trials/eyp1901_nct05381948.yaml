@@ -1,0 +1,21 @@
+id: "eyp1901_nct05381948"
+nct_id: "NCT05381948"
+asset_id: "eyp1901"
+indication: "ophthalmology"
+phase: 2
+n: 161
+design: "Interventional"
+primary_endpoint: "Average Change in Best Corrected Visual Acuity (BCVA) From Baseline Averaged Over Weeks 28 and 32"
+control_arm: "active comparator"
+sponsor: "EyePoint Pharmaceuticals, Inc."
+status: "completed"
+start_date: "2022-06-30"
+expected_readout: "2023-11-29"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05381948"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD). Sponsor: EyePoint Pharmaceuticals, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

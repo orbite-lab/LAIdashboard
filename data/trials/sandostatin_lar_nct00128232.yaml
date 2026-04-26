@@ -1,0 +1,20 @@
+id: "sandostatin_lar_nct00128232"
+nct_id: "NCT00128232"
+asset_id: "sandostatin_lar"
+indication: "endocrine"
+phase: 3
+n: 100
+design: "Interventional"
+primary_endpoint: "Mean GH and IGF-I at baseline, week 12, 24 and 48"
+control_arm: "null"
+sponsor: "Novartis"
+status: "completed"
+start_date: "2002-12"
+expected_readout: "2004-08"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00128232"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Safety and Efficacy of Octreotide Long Acting Release (LAR) in Treatment Naïve Acromegalic Patients. Sponsor: Novartis. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

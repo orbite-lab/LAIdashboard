@@ -1,0 +1,21 @@
+id: "ep_bepo_b1_composition"
+patent_number: "EP2654731B1"
+jurisdiction: "EP"
+assignee: "MedinCell"
+platform_id: "bepo"
+asset_id: null
+filing_date: "2011-12-23"
+priority_date: "2010-12-23"
+grant_date: "2018-04-25"
+expiry_date: "2031-12-23"
+claim_type: "composition"
+continuation_lineage:
+  - "bepo_core_composition"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "EP grant \u2014 no public oppositions filed."
+notes: >
+  European grant of the WO2012090070 family covering BEPO diblock copolymer composition. Verify against Espacenet for current national-stage validations and any divisional applications.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/044862037/publication/EP2654731B1"
+last_updated: "2026-04-26"

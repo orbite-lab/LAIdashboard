@@ -1,0 +1,22 @@
+id: "pa5108_nct04060758"
+nct_id: "NCT04060758"
+asset_id: "pa5108"
+indication: "ophthalmology"
+phase: 1
+n: 37
+design: "Interventional"
+primary_endpoint: "Effective dose; Safety and Tolerability-incidence of treatment emergent Adverse Events"
+control_arm: "active comparator"
+sponsor: "PolyActiva Pty Ltd"
+status: "completed"
+start_date: "2020-03-11"
+expected_readout: "2025-05-13"
+result: null
+geography:
+  - "Australia"
+  - "New Zealand"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04060758"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Open Label, Sequential-dose Study of PA5108 Latanoprost FA SR Ocular Implant for Mild-moderate Glaucoma. Sponsor: PolyActiva Pty Ltd. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

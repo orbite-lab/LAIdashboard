@@ -1,0 +1,21 @@
+id: "pa5108_nct03604328"
+nct_id: "NCT03604328"
+asset_id: "pa5108"
+indication: "ophthalmology"
+phase: 1
+n: 8
+design: "Interventional"
+primary_endpoint: "Safety and tolerability as measured by the occurrence of adverse events"
+control_arm: "none"
+sponsor: "PolyActiva Pty Ltd"
+status: "completed"
+start_date: "2018-07-24"
+expected_readout: "2020-06-15"
+result: null
+geography:
+  - "Australia"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03604328"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Safety and Tolerability of a Prostaglandin Ocular Implant for Treatment of Open Angle Glaucoma. Sponsor: PolyActiva Pty Ltd. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

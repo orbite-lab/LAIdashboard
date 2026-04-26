@@ -1,0 +1,28 @@
+id: "eligard_nct00378690"
+nct_id: "NCT00378690"
+asset_id: "eligard"
+indication: "oncology"
+phase: 3
+n: 706
+design: "Interventional"
+primary_endpoint: "Time to PSA progression"
+control_arm: "active comparator"
+sponsor: "Astellas Pharma Inc"
+status: "completed"
+start_date: "2006-03"
+expected_readout: "2011-06"
+result: null
+geography:
+  - "Belgium"
+  - "Czechia"
+  - "Finland"
+  - "France"
+  - "Germany"
+  - "Hungary"
+  - "Italy"
+  - "Russia"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00378690"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Phase IIIb Study of Intermittent Versus Continuous Hormone Deprivation Treatment With ELIGARD. Sponsor: Astellas Pharma Inc. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

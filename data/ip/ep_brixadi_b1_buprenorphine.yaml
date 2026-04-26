@@ -1,0 +1,22 @@
+id: "ep_brixadi_b1_buprenorphine"
+patent_number: "EP2347746B1"
+jurisdiction: "EP"
+assignee: "Camurus"
+platform_id: "fluidcrystal"
+asset_id: "brixadi"
+filing_date: "2009-10-21"
+priority_date: "2008-10-21"
+grant_date: "2017-08-30"
+expiry_date: "2029-10-21"
+claim_type: "formulation"
+continuation_lineage:
+  - "fluidcrystal_core_composition"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: >
+  Indivior filed opposition (in parallel with US Sublocade litigation); EP grant survived in amended form. Verify amended claim scope.
+notes: >
+  European grant covering Buvidal/Brixadi buprenorphine in FluidCrystal lipid-liquid-crystal matrix. Survived an Indivior opposition. Effective EU exclusivity through 2029-2030.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/041350900/publication/EP2347746B1"
+last_updated: "2026-04-26"

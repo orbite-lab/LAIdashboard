@@ -1,0 +1,21 @@
+id: "ep_fluidcrystal_b1_lipid"
+patent_number: "EP1768647B1"
+jurisdiction: "EP"
+assignee: "Camurus"
+platform_id: "fluidcrystal"
+asset_id: null
+filing_date: "2005-06-03"
+priority_date: "2004-06-04"
+grant_date: "2010-12-15"
+expiry_date: "2025-06-03"
+claim_type: "composition"
+continuation_lineage:
+  - "fluidcrystal_core_composition"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Standard EP opposition window passed; no public oppositions sustained."
+notes: >
+  European grant of the WO2005117830 family covering Camurus' lipid liquid crystal composition. Core composition expiry runs in 2025; effective protection extends via continuations to ~2030.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/036693056/publication/EP1768647B1"
+last_updated: "2026-04-26"

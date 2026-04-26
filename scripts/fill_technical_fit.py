@@ -364,6 +364,220 @@ TECHNICAL_FIT = {
         "notes": "Heron-internal manufacturing for Zynrelef, Sustol commercial supply.",
     }),
 
+    "perseris_platform": ({
+        "injection_volume_ml_range": [0.6, 0.6],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "18G",
+        "max_payload_mass_mg": 120,
+        "cold_chain_required": False,
+        "excipient_classes": ["PLGH polymer", "N-methyl-2-pyrrolidone (NMP)"],
+        "release_profile_summary": (
+            "Atrigel-derived in-situ depot for monthly risperidone SC abdominal "
+            "injection (90 mg or 120 mg). Discontinued July 2024 — kept here "
+            "for competitive context and historical IP/manufacturing read-across."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["SC"],
+    }, {
+        "primary_facility": {"location": "Indivior contract sites", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "tight",
+        "scale_up_timeline_months": None,
+        "notes": "Discontinued; capacity wound down 2024.",
+    }),
+
+    "probuphine": ({
+        "injection_volume_ml_range": [None, None],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "applicator (incision-based insertion)",
+        "max_payload_mass_mg": 297,
+        "cold_chain_required": False,
+        "excipient_classes": ["ethylene-vinyl acetate copolymer (EVA)", "buprenorphine"],
+        "release_profile_summary": (
+            "Four solid EVA implants (74.2 mg buprenorphine each) inserted "
+            "subcutaneously in the upper inner arm via incision-based "
+            "applicator, releasing buprenorphine over 6 months. Removal "
+            "required at end of 6-month duration. Procedural friction "
+            "limited commercial uptake."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["SC implant"],
+    }, {
+        "primary_facility": {"location": "Titan / Braeburn contract sites", "capacity_units_per_year": None, "units_definition": "implants"},
+        "cdmo_partners": [],
+        "capacity_headroom": "tight",
+        "scale_up_timeline_months": None,
+        "notes": "Commercial trajectory minimal; capacity wound down post-Braeburn refocus on Brixadi.",
+    }),
+
+    "signifor_lar": ({
+        "injection_volume_ml_range": [2.0, 2.0],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "20G",
+        "max_payload_mass_mg": 60,
+        "cold_chain_required": True,
+        "excipient_classes": ["PLGA copolymer", "carboxymethylcellulose", "mannitol"],
+        "release_profile_summary": (
+            "PLGA microsphere suspension delivering pasireotide pamoate "
+            "monthly via deep gluteal IM injection. Storage 2-8°C. "
+            "Reconstituted at room temp immediately before injection."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["IM"],
+    }, {
+        "primary_facility": {"location": "Recordati / Novartis legacy sites", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "ample",
+        "scale_up_timeline_months": None,
+        "notes": "Mature franchise post-Novartis divestiture; rare-disease scale.",
+    }),
+
+    "spectrum": ({
+        "injection_volume_ml_range": [0.25, 0.375],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "18G",
+        "max_payload_mass_mg": 50,
+        "cold_chain_required": True,
+        "excipient_classes": ["PLGA copolymer", "DMSO"],
+        "release_profile_summary": (
+            "Foresee SpectruM in-situ depot delivering leuprolide mesylate "
+            "(Camcevi) via SC injection. 1-month (5 mg) and 6-month (45 mg) "
+            "formulations. Storage 2-8°C; reconstituted immediately before "
+            "use. Differentiated from Eligard by shorter injection volume "
+            "and SC vs IM."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["SC"],
+    }, {
+        "primary_facility": {"location": "Foresee / Accord contract sites", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "moderate",
+        "scale_up_timeline_months": 12,
+        "notes": "Scale supports current LHRH territory licensing footprint.",
+    }),
+
+    "oil_decanoate": ({
+        "injection_volume_ml_range": [1.0, 3.0],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "21G",
+        "max_payload_mass_mg": 100,
+        "cold_chain_required": False,
+        "excipient_classes": ["sesame oil", "benzyl alcohol", "fatty acid esters"],
+        "release_profile_summary": (
+            "Fatty-acid ester (decanoate, palmitate, enanthate) prodrug "
+            "dissolved in oil vehicle, slowly absorbed from IM depot. "
+            "Fluphenazine decanoate, haloperidol decanoate, zuclopenthixol "
+            "decanoate — biweekly to monthly dosing. Generic global supply; "
+            "room-temperature stable."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["IM"],
+    }, {
+        "primary_facility": {"location": "Multiple generic manufacturers worldwide", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "ample",
+        "scale_up_timeline_months": None,
+        "notes": "Commodity manufacturing; price-anchor floor for LAI markets.",
+    }),
+
+    "chroniject": ({
+        "injection_volume_ml_range": [0.5, 2.0],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "21G",
+        "max_payload_mass_mg": 200,
+        "cold_chain_required": True,
+        "excipient_classes": ["PLGA copolymer", "polyvinyl alcohol", "carboxymethylcellulose"],
+        "release_profile_summary": (
+            "Oakwood Labs proprietary PLGA microsphere platform — duration "
+            "tunable from 1 week to 12 months by polymer composition and "
+            "particle morphology. Demonstrated for octreotide, leuprolide, "
+            "olanzapine, risperidone reformulations. CDMO-style platform; "
+            "specific commercial product details vary by partner."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["IM", "SC"],
+    }, {
+        "primary_facility": {"location": "Solon, Ohio (Oakwood Labs)", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "moderate",
+        "scale_up_timeline_months": 18,
+        "notes": (
+            "Oakwood operates an FDA-inspected sterile-fill facility. "
+            "Capacity dynamic depends on partner program loading."
+        ),
+    }),
+
+    "medusa": ({
+        "injection_volume_ml_range": [0.5, 2.0],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "27G",
+        "max_payload_mass_mg": 100,
+        "cold_chain_required": True,
+        "excipient_classes": ["poly-L-glutamate-cholesterol amphiphile (Adocia proprietary)"],
+        "release_profile_summary": (
+            "Adocia's amphiphilic polymer self-assembles into nanoparticles "
+            "binding peptide/protein payloads via non-covalent interactions; "
+            "controlled release on dissociation. Days to weeks duration. "
+            "Lead historical program BioChaperone Lispro (insulin) terminated "
+            "Lilly partnership 2017."
+        ),
+        "iv_ivc_established": False,
+        "injection_site": ["SC"],
+    }, {
+        "primary_facility": {"location": "Lyon, France (Adocia)", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "tight",
+        "scale_up_timeline_months": 24,
+        "notes": "Clinical-stage only; no commercial-scale manufacturing demonstrated.",
+    }),
+
+    "nanozolid": ({
+        "injection_volume_ml_range": [1.0, 5.0],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "22G",
+        "max_payload_mass_mg": 200,
+        "cold_chain_required": True,
+        "excipient_classes": ["calcium sulfate hemihydrate", "biocompatible binder"],
+        "release_profile_summary": (
+            "LIDDS NanoZolid calcium-sulfate matrix delivering local sustained "
+            "release of cytotoxics (lead asset Liproca Depot — 2-hydroxyflutamide "
+            "intratumoral for prostate cancer active surveillance). 6-month "
+            "duration via single intratumoral injection."
+        ),
+        "iv_ivc_established": True,
+        "injection_site": ["intratumoral", "intra-articular"],
+    }, {
+        "primary_facility": {"location": "Stockholm, Sweden (LIDDS)", "capacity_units_per_year": None, "units_definition": "doses"},
+        "cdmo_partners": [],
+        "capacity_headroom": "tight",
+        "scale_up_timeline_months": 24,
+        "notes": "Clinical-stage only; commercial-scale manufacturing would require partner.",
+    }),
+
+    "polyactiva": ({
+        "injection_volume_ml_range": [None, None],
+        "viscosity_cP_range": [None, None],
+        "needle_gauge_typical": "27G inserter",
+        "max_payload_mass_mg": 0.2,
+        "cold_chain_required": False,
+        "excipient_classes": ["proprietary biodegradable polyester rod", "latanoprost or other PG analog"],
+        "release_profile_summary": (
+            "PolyActiva biodegradable polymer rod implant inserted via 27G "
+            "inserter into the anterior chamber. PA5108 (latanoprost) "
+            "delivers 6-month sustained PG agonist for primary open-angle "
+            "glaucoma. Differentiated from Durysta (3-month) and iDose "
+            "(multi-year) on duration."
+        ),
+        "iv_ivc_established": False,
+        "injection_site": ["intracameral"],
+    }, {
+        "primary_facility": {"location": "Melbourne, Australia (PolyActiva)", "capacity_units_per_year": None, "units_definition": "implants"},
+        "cdmo_partners": [],
+        "capacity_headroom": "tight",
+        "scale_up_timeline_months": 24,
+        "notes": "Clinical-stage only; commercial scale-up would require partner or expansion.",
+    }),
+
     "ism": ({
         "injection_volume_ml_range": [1.0, 1.5],
         "viscosity_cP_range": [None, None],

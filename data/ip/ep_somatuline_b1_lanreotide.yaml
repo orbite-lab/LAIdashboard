@@ -1,0 +1,20 @@
+id: "ep_somatuline_b1_lanreotide"
+patent_number: "EP1392353B1"
+jurisdiction: "EP"
+assignee: "Ipsen Pharma"
+platform_id: "somatuline_autogel"
+asset_id: "somatuline_depot"
+filing_date: "2002-04-25"
+priority_date: "2001-04-26"
+grant_date: "2005-04-13"
+expiry_date: "2022-04-25"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Multiple generic challenges in EU through 2022-2024; verify country-by-country LOE status."
+notes: >
+  European grant covering Somatuline Autogel lanreotide self-assembling gel formulation. Core EU patent off after 2022; manufacturing know-how is the residual moat.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/?q=lanreotide+autogel"
+last_updated: "2026-04-26"

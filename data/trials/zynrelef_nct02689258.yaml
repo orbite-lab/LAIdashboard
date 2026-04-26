@@ -1,0 +1,21 @@
+id: "zynrelef_nct02689258"
+nct_id: "NCT02689258"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 2
+n: 277
+design: "Interventional"
+primary_endpoint: "Summed Pain Intensity Scores Collected Over 24 Hours"
+control_arm: "placebo"
+sponsor: "Heron Therapeutics"
+status: "completed"
+start_date: "2016-02-23"
+expected_readout: "2017-03"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02689258"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Evaluation of the Efficacy and Safety of HTX-011 for Postoperative Analgesia Following Abdominoplasty Surgery. Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

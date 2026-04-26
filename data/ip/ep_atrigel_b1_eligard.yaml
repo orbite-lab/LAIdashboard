@@ -1,0 +1,20 @@
+id: "ep_atrigel_b1_eligard"
+patent_number: "EP1660039B1"
+jurisdiction: "EP"
+assignee: "Tolmar Therapeutics (formerly Atrix Laboratories)"
+platform_id: "atrigel"
+asset_id: "eligard"
+filing_date: "2004-08-26"
+priority_date: "2003-09-02"
+grant_date: "2014-04-09"
+expiry_date: "2024-08-26"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "EP grant \u2014 no sustained oppositions."
+notes: >
+  European grant covering Eligard (leuprolide acetate Atrigel depot) extended formulation. Core Atrigel composition (EP counterpart of US4,938,763) is long-expired; product-specific Eligard EU patents have run off.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/?q=Atrigel+Eligard+leuprolide"
+last_updated: "2026-04-26"

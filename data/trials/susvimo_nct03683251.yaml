@@ -1,0 +1,29 @@
+id: "susvimo_nct03683251"
+nct_id: "NCT03683251"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 3
+n: 1000
+design: "Interventional"
+primary_endpoint: >
+  Incidence and Severity of Ocular and Systemic (Non-Ocular) Adverse Events (AEs); Incidence, Severity, and Duration of Adverse Event of Special Interest (AESIs); Incidence, Severity, and Duration of PDS-Associated Ocular AESIs During the Postoperative Period (Up to 37 days of Initial Implantation) and Follow-Up Period (>37 days After Implantation Surgery) for Participants who Receive the PDS Implant in the Study; Incidence and Severity of Adverse Device Effects; Incidence, Causality, Severity, An
+control_arm: "active comparator"
+sponsor: "Hoffmann-La Roche"
+status: "enrolling"
+start_date: "2018-09-20"
+expected_readout: "2029-10-31"
+result: null
+geography:
+  - "Argentina"
+  - "Australia"
+  - "Austria"
+  - "Belgium"
+  - "Brazil"
+  - "France"
+  - "Germany"
+  - "Israel"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03683251"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Extension Study for the Port Delivery System With Ranibizumab (Portal). Sponsor: Hoffmann-La Roche. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,28 @@
+id: "sandostatin_lar_nct06784752"
+nct_id: "NCT06784752"
+asset_id: "sandostatin_lar"
+indication: "endocrine"
+phase: 3
+n: 240
+design: "Interventional"
+primary_endpoint: "Progression Free Survival (PFS) centrally assessed by Blinded Independent Review Committee (BIRC)"
+control_arm: "active comparator"
+sponsor: "Novartis Pharmaceuticals"
+status: "enrolling"
+start_date: "2025-05-30"
+expected_readout: "2028-12-08"
+result: null
+geography:
+  - "Canada"
+  - "China"
+  - "France"
+  - "Germany"
+  - "Hungary"
+  - "Italy"
+  - "Netherlands"
+  - "Poland"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06784752"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study to Evaluate the Efficacy and Safety of [177Lu]Lu-DOTA-TATE in Patients With Grade 1 and Grade 2 Advanced GEP-NET. Sponsor: Novartis Pharmaceuticals. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

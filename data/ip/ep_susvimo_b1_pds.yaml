@@ -1,0 +1,20 @@
+id: "ep_susvimo_b1_pds"
+patent_number: "EP3151851B1"
+jurisdiction: "EP"
+assignee: "Genentech / F. Hoffmann-La Roche"
+platform_id: "pds"
+asset_id: "susvimo"
+filing_date: "2015-06-04"
+priority_date: "2014-06-06"
+grant_date: "2020-08-26"
+expiry_date: "2035-06-04"
+claim_type: "device"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "No public oppositions."
+notes: >
+  European grant covering the Port Delivery System refillable intravitreal implant device used in Susvimo. EU exclusivity supports any future Susvimo EU commercial launch.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/?q=ranibizumab+port+delivery"
+last_updated: "2026-04-26"

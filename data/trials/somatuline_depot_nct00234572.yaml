@@ -1,0 +1,29 @@
+id: "somatuline_depot_nct00234572"
+nct_id: "NCT00234572"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 108
+design: "Interventional"
+primary_endpoint: >
+  Mean serum GH levels determined from serial measurements at screening, weeks 4, 13, 14, 15, 16, 32 & 52, and in the event of early withdrawal
+control_arm: "null"
+sponsor: "Ipsen"
+status: "completed"
+start_date: "2000-05"
+expected_readout: "2003-01-03"
+result: null
+geography:
+  - "Czechia"
+  - "France"
+  - "Germany"
+  - "Hong Kong"
+  - "Hungary"
+  - "Netherlands"
+  - "United Kingdom"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00234572"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Efficacy and Safety Study of Varying Doses of Lanreotide Autogel in Patients With Acromegaly. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,21 @@
+id: "zynrelef_nct05109312"
+nct_id: "NCT05109312"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 4
+n: 90
+design: "Interventional"
+primary_endpoint: "Incidence of treatment-emergent adverse events (TEAEs)."
+control_arm: "active comparator"
+sponsor: "Heron Therapeutics"
+status: "active"
+start_date: "2021-10-12"
+expected_readout: "2024-06"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05109312"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Multi-surgery Assessment of ZYNRELEF (HTX-011), AMAZE. Master Protocol HTX-011-401.. Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

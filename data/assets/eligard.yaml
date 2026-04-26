@@ -4,61 +4,60 @@ inn: leuprolide acetate
 platform_id: atrigel
 owning_company: Tolmar
 licensee_company: null
-
 indications:
-  - code: oncology
-    phase: approved
-    first_approval_year: 2002
-    geography: US
-
+- code: oncology
+  phase: approved
+  first_approval_year: 2002
+  geography: US
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest:
     year: 2024
     value_usd_m: null
     currency: USD
     source: Tolmar private (estimate from market reports)
-  sales_notes: >
-    Tolmar is private; Eligard sales not publicly disclosed. Industry
-    reports estimate global Eligard franchise at $300-500M range with
-    durable share in the LHRH LAI category despite Lupron Depot dominance.
+  sales_notes: 'Tolmar is private; Eligard sales not publicly disclosed. Industry reports
+    estimate global Eligard franchise at $300-500M range with durable share in the LHRH LAI
+    category despite Lupron Depot dominance.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: null
-
 primary_trials:
-  - nct_id: null
-    role: pivotal
-
+- nct_id: null
+  role: pivotal
 scores:
   tech:
     value: 5
-    rationale: Inherited from Atrigel; first commercial in-situ depot for leuprolide; reliable PK across 1-, 3-, 4-, and 6-month formulations.
+    rationale: Inherited from Atrigel; first commercial in-situ depot for leuprolide; reliable
+      PK across 1-, 3-, 4-, and 6-month formulations.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
     inherited_from: platform
   clinical:
     value: 5
-    rationale: 20+ years commercial use; established as first-line LHRH LAI alternative to Lupron Depot in prostate cancer.
+    rationale: 20+ years commercial use; established as first-line LHRH LAI alternative to
+      Lupron Depot in prostate cancer.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 2
-    rationale: Core platform IP expired; product-specific patents and manufacturing trade secrets retain commercial value but generic entry possible.
+    rationale: Core platform IP expired; product-specific patents and manufacturing trade
+      secrets retain commercial value but generic entry possible.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
   dealability:
     value: 2
-    rationale: Tolmar is private and not actively externally licensing platform; product transfers possible.
+    rationale: Tolmar is private and not actively externally licensing platform; product transfers
+      possible.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
@@ -68,12 +67,24 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Reference in-situ depot LAI in oncology; demonstrated that PLGA in-situ technology
+  can compete with established microsphere incumbents. Strategic context for newer in-situ
+  depot platforms (BEPO, FluidCrystal, ISM) which follow the path Eligard pioneered. Tolmar''s
+  private status limits investment access but commercial trajectory informs category economics.
 
-tactbio_view: >
-  Reference in-situ depot LAI in oncology; demonstrated that PLGA in-situ
-  technology can compete with established microsphere incumbents. Strategic
-  context for newer in-situ depot platforms (BEPO, FluidCrystal, ISM) which
-  follow the path Eligard pioneered. Tolmar's private status limits
-  investment access but commercial trajectory informs category economics.
-
+  '
 last_updated: 2026-04-25
+views:
+  investor: 'Reference in-situ depot LAI in oncology; demonstrated that PLGA in-situ technology
+    can compete with established microsphere incumbents. Strategic context for newer in-situ
+    depot platforms (BEPO, FluidCrystal, ISM) which follow the path Eligard pioneered. Tolmar''s
+    private status limits investment access but commercial trajectory informs category economics.
+
+    '
+  partner: Tolmar-private; not actively externally licensing. Atrigel core IP expired 2008;
+    commercial value in manufacturing scale and regulatory history. New leuprolide LAI entrants
+    must clear this incumbent's prescriber inertia.
+  acquirer: Tolmar is PE-owned (Carlyle) and has been a periodic M&A speculation target —
+    verify current ownership against latest S&P Capital IQ. Eligard franchise plus the residual
+    Sublocade contract revenue plus Atrigel platform IP / know-how represent the acquisition
+    surface.

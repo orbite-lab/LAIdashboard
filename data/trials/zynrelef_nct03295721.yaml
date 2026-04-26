@@ -1,0 +1,22 @@
+id: "zynrelef_nct03295721"
+nct_id: "NCT03295721"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 3
+n: 412
+design: "Interventional"
+primary_endpoint: >
+  Mean Area Under the Curve (AUC) of the Numeric Rating Scale (NRS) Pain Intensity Scores With Activity (NRS-A) Through 72 Hours Postsurgery (AUC0-72), Compared With Saline Placebo.
+control_arm: "placebo"
+sponsor: "Heron Therapeutics"
+status: "completed"
+start_date: "2017-10-24"
+expected_readout: "2018-01-08"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03295721"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Bunionectomy Study for Postoperative Analgesia (EPOCH 1). Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

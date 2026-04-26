@@ -1,0 +1,29 @@
+id: "somatuline_depot_nct02683941"
+nct_id: "NCT02683941"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 77
+design: "Interventional"
+primary_endpoint: >
+  Median Progression-Free Survival (PFS) Time in Subjects Randomised to Lanreotide in the Double-Blind Phase or Open-Label Treatment Phase, Assessed by Central Review
+control_arm: "placebo"
+sponsor: "Ipsen"
+status: "terminated"
+start_date: "2017-03-06"
+expected_readout: "2020-02-28"
+result: null
+geography:
+  - "Austria"
+  - "Canada"
+  - "Denmark"
+  - "France"
+  - "Germany"
+  - "Italy"
+  - "Netherlands"
+  - "Poland"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02683941"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Efficacy and Safety of Lanreotide Autogel/ Depot 120 mg vs. Placebo in Subjects With Lung Neuroendocrine Tumours. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

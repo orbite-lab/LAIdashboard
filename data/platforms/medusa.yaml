@@ -93,27 +93,32 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.5
+  - 2.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 27G
+  max_payload_mass_mg: 100
+  cold_chain_required: true
+  excipient_classes:
+  - poly-L-glutamate-cholesterol amphiphile (Adocia proprietary)
+  release_profile_summary: Adocia's amphiphilic polymer self-assembles into nanoparticles
+    binding peptide/protein payloads via non-covalent interactions; controlled release on
+    dissociation. Days to weeks duration. Lead historical program BioChaperone Lispro (insulin)
+    terminated Lilly partnership 2017.
+  iv_ivc_established: false
+  injection_site:
+  - SC
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Lyon, France (Adocia)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: tight
+  scale_up_timeline_months: 24
+  notes: Clinical-stage only; no commercial-scale manufacturing demonstrated.
 views:
   investor: 'French formulation platform with chronic execution challenges. Strategic relevance
     is primarily as a counterexample for dealability — the 2017 Lilly partnership termination

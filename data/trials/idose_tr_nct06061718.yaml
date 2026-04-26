@@ -1,0 +1,21 @@
+id: "idose_tr_nct06061718"
+nct_id: "NCT06061718"
+asset_id: "idose_tr"
+indication: "ophthalmology"
+phase: 3
+n: 60
+design: "Interventional"
+primary_endpoint: "Change from baseline in mean diurnal IOP"
+control_arm: "none"
+sponsor: "Glaukos Corporation"
+status: "active"
+start_date: "2023-09-11"
+expected_readout: "2024-03-18"
+result: null
+geography:
+  - "Armenia"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06061718"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Travoprost Intraocular Implant in Conjunction With Cataract Surgery. Sponsor: Glaukos Corporation. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -90,27 +90,32 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.6
+  - 0.6
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 18G
+  max_payload_mass_mg: 120
+  cold_chain_required: false
+  excipient_classes:
+  - PLGH polymer
+  - N-methyl-2-pyrrolidone (NMP)
+  release_profile_summary: Atrigel-derived in-situ depot for monthly risperidone SC abdominal
+    injection (90 mg or 120 mg). Discontinued July 2024 — kept here for competitive context
+    and historical IP/manufacturing read-across.
+  iv_ivc_established: true
+  injection_site:
+  - SC
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Indivior contract sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: tight
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Discontinued; capacity wound down 2024.
 views:
   investor: 'Marginal platform tracked for completeness in risperidone LAI competitive set.
     Indivior''s divestiture to Newron suggests the asset is non-core for its original developer;

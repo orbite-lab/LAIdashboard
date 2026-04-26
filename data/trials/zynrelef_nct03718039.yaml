@@ -1,0 +1,22 @@
+id: "zynrelef_nct03718039"
+nct_id: "NCT03718039"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 2
+n: 78
+design: "Interventional"
+primary_endpoint: >
+  Mean Area Under the Curve (AUC) of the NRS-A (Windowed Worst Observation Carried Forward) Pain Intensity Scores
+control_arm: "active comparator"
+sponsor: "Heron Therapeutics"
+status: "completed"
+start_date: "2018-10-24"
+expected_readout: "2019-01-31"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03718039"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Phase 2 Bunionectomy HTX-011 Administration Study. Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

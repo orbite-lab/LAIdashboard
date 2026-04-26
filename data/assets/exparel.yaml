@@ -4,55 +4,53 @@ inn: bupivacaine liposomal
 platform_id: depofoam
 owning_company: Pacira BioSciences
 licensee_company: null
-
 indications:
-  - code: pain
-    phase: approved
-    first_approval_year: 2011
-    geography: US
-
+- code: pain
+  phase: approved
+  first_approval_year: 2011
+  geography: US
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest:
     year: 2024
     value_usd_m: 540
     currency: USD
     source: Pacira 2024 annual report (approximate, verify)
-  sales_notes: >
-    Exparel revenue plateaued around $540M in recent years amid generic
-    challenges and competitive pressure from non-opioid postsurgical
-    pain alternatives. Specific 2024 figure requires verification.
+  sales_notes: 'Exparel revenue plateaued around $540M in recent years amid generic challenges
+    and competitive pressure from non-opioid postsurgical pain alternatives. Specific 2024
+    figure requires verification.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: null
-
 primary_trials:
-  - nct_id: null
-    role: pivotal
-
+- nct_id: null
+  role: pivotal
 scores:
   tech:
     value: 3
-    rationale: Inherited from DepoFoam; reliable 72-hour bupivacaine release post-surgery; mechanism niche to local administration.
+    rationale: Inherited from DepoFoam; reliable 72-hour bupivacaine release post-surgery;
+      mechanism niche to local administration.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
     inherited_from: platform
   clinical:
     value: 4
-    rationale: Demonstrated efficacy across multiple surgical contexts; meta-analyses show modest benefit over standard bupivacaine, contested by some payers.
+    rationale: Demonstrated efficacy across multiple surgical contexts; meta-analyses show
+      modest benefit over standard bupivacaine, contested by some payers.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 2
-    rationale: Core platform IP expired; product-specific patents under generic challenge with mixed legal outcomes for Pacira.
+    rationale: Core platform IP expired; product-specific patents under generic challenge
+      with mixed legal outcomes for Pacira.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -68,13 +66,26 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
-tactbio_view: >
-  Mature postsurgical-pain LAI facing structural commercial headwinds —
-  generic entry, payer resistance, and competition from new non-opioid
-  alternatives (Zynrelef from Heron, opioid-sparing protocols). Strategic
-  value resides in entrenched prescriber relationships and surgical workflow
-  integration rather than IP-protected technology. Watch for 2025-2026
+tactbio_view: 'Mature postsurgical-pain LAI facing structural commercial headwinds — generic
+  entry, payer resistance, and competition from new non-opioid alternatives (Zynrelef from
+  Heron, opioid-sparing protocols). Strategic value resides in entrenched prescriber relationships
+  and surgical workflow integration rather than IP-protected technology. Watch for 2025-2026
   sales trajectory as the test of post-LOE durability.
 
+  '
 last_updated: 2026-04-25
+views:
+  investor: 'Mature postsurgical-pain LAI facing structural commercial headwinds — generic
+    entry, payer resistance, and competition from new non-opioid alternatives (Zynrelef from
+    Heron, opioid-sparing protocols). Strategic value resides in entrenched prescriber relationships
+    and surgical workflow integration rather than IP-protected technology. Watch for 2025-2026
+    sales trajectory as the test of post-LOE durability.
+
+    '
+  partner: Pacira-internal. DepoFoam liposomal mechanism niche-bound to local administration
+    — limited transferability beyond regional anesthesia. Not a credible LAI platform target
+    outside the Pacira context.
+  acquirer: Pacira faces structural headwinds (generic ANDA challenges, payer pressure, opioid-sparing
+    protocol shifts). Distressed-acquisition optionality grows as commercial trajectory deteriorates.
+    Strategic acquirer would integrate DepoFoam into broader pain franchise plus evaluate
+    Zilretta intra-articular extension.

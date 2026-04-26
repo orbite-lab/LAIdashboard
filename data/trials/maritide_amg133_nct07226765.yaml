@@ -1,0 +1,28 @@
+id: "maritide_amg133_nct07226765"
+nct_id: "NCT07226765"
+asset_id: "maritide_amg133"
+indication: "metabolic"
+phase: 3
+n: 250
+design: "Interventional"
+primary_endpoint: "Change in Apnea-hypopnea Index (AHI) from baseline at Week 52"
+control_arm: "placebo"
+sponsor: "Amgen"
+status: "enrolling"
+start_date: "2025-11-25"
+expected_readout: "2027-09-29"
+result: null
+geography:
+  - "Australia"
+  - "Brazil"
+  - "Canada"
+  - "Czechia"
+  - "Germany"
+  - "Japan"
+  - "Poland"
+  - "Spain"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07226765"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Maridebart Cafraglutide Versus Placebo in Adult Participants With Obstructive Sleep Apnea Not on Positive Airway Pressure (PAP) Therapy. Sponsor: Amgen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

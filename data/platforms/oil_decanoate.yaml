@@ -114,27 +114,34 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 1.0
+  - 3.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 21G
+  max_payload_mass_mg: 100
+  cold_chain_required: false
+  excipient_classes:
+  - sesame oil
+  - benzyl alcohol
+  - fatty acid esters
+  release_profile_summary: Fatty-acid ester (decanoate, palmitate, enanthate) prodrug dissolved
+    in oil vehicle, slowly absorbed from IM depot. Fluphenazine decanoate, haloperidol decanoate,
+    zuclopenthixol decanoate — biweekly to monthly dosing. Generic global supply; room-temperature
+    stable.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Multiple generic manufacturers worldwide
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Commodity manufacturing; price-anchor floor for LAI markets.
 views:
   investor: 'Tracked for competitive context, not investability. Oil decanoate solutions are
     the price-anchor floor for LAI markets — any newer platform must justify premium pricing

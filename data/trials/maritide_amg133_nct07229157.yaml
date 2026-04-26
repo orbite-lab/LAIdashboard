@@ -1,0 +1,21 @@
+id: "maritide_amg133_nct07229157"
+nct_id: "NCT07229157"
+asset_id: "maritide_amg133"
+indication: "metabolic"
+phase: 1
+n: 81
+design: "Interventional"
+primary_endpoint: "Change from Baseline in QTcF for Maridebart Cafraglutide"
+control_arm: "active comparator"
+sponsor: "Amgen"
+status: "active"
+start_date: "2025-10-22"
+expected_readout: "2026-08-26"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07229157"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Effect of Maridebart Cafraglutide on the Heart's Electrical Activity. Sponsor: Amgen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

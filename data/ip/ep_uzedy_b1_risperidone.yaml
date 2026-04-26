@@ -1,0 +1,21 @@
+id: "ep_uzedy_b1_risperidone"
+patent_number: "EP3641736B1"
+jurisdiction: "EP"
+assignee: "MedinCell / Teva"
+platform_id: "bepo"
+asset_id: "uzedy"
+filing_date: "2018-06-13"
+priority_date: "2017-06-14"
+grant_date: "2023-09-13"
+expiry_date: "2038-06-13"
+claim_type: "formulation"
+continuation_lineage:
+  - "uzedy_formulation"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "EP grant \u2014 no public oppositions."
+notes: >
+  European grant counterpart of US10,646,484 covering UZEDY risperidone BEPO formulation. EU exclusivity supports SteadyTeq EU launch trajectory.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/059034015/publication/EP3641736B1"
+last_updated: "2026-04-26"

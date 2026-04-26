@@ -1,0 +1,21 @@
+id: "zynrelef_nct04911062"
+nct_id: "NCT04911062"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 2
+n: 32
+design: "Interventional"
+primary_endpoint: "Incidence of Serious Adverse Events"
+control_arm: "active comparator"
+sponsor: "Heron Therapeutics"
+status: "completed"
+start_date: "2022-04-07"
+expected_readout: "2022-07-29"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04911062"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: HTX-011 in Spinal Surgery. Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

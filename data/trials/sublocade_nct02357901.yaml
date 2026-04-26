@@ -1,0 +1,22 @@
+id: "sublocade_nct02357901"
+nct_id: "NCT02357901"
+asset_id: "sublocade"
+indication: "addiction"
+phase: 3
+n: 665
+design: "Interventional"
+primary_endpoint: >
+  Cumulative Distribution Function (CDF) of the Percentage of Urine Samples Negative for Opioids Combined With Self-Reports Negative for Illicit Opioid Use Collected From Week 5 Through Week 24
+control_arm: "placebo"
+sponsor: "Indivior Inc."
+status: "completed"
+start_date: "2015-01-28"
+expected_readout: "2016-04-29"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02357901"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Treatment Seeking Participants With Opioid Use Disorders Assessing Tolerability of Depot Injections of Buprenorphine. Sponsor: Indivior Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

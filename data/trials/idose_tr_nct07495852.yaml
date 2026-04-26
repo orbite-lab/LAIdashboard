@@ -1,0 +1,21 @@
+id: "idose_tr_nct07495852"
+nct_id: "NCT07495852"
+asset_id: "idose_tr"
+indication: "ophthalmology"
+phase: 3
+n: 510
+design: "Interventional"
+primary_endpoint: "Intraocular pressure (IOP)"
+control_arm: "active comparator"
+sponsor: "Glaukos Corporation"
+status: "enrolling"
+start_date: "2026-02-17"
+expected_readout: "2028-06"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07495852"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Trial to Evaluate the Safety and Efficacy of the Second Generation Travoprost Intracameral Implant. Sponsor: Glaukos Corporation. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

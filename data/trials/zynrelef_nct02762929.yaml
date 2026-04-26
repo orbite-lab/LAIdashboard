@@ -1,0 +1,21 @@
+id: "zynrelef_nct02762929"
+nct_id: "NCT02762929"
+asset_id: "zynrelef"
+indication: "pain"
+phase: 2
+n: 430
+design: "Interventional"
+primary_endpoint: "Mean Summed Pain Intensity (SPI) Score Over 24 Hours"
+control_arm: "placebo"
+sponsor: "Heron Therapeutics"
+status: "completed"
+start_date: "2016-05"
+expected_readout: "2017-02"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02762929"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Evaluation of the Efficacy and Safety of Locally Administered HTX-011 for Postoperative Analgesia Following Bunionectomy. Sponsor: Heron Therapeutics. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

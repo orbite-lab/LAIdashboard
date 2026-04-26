@@ -89,22 +89,28 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 27G inserter
+  max_payload_mass_mg: 0.2
+  cold_chain_required: false
+  excipient_classes:
+  - proprietary biodegradable polyester rod
+  - latanoprost or other PG analog
+  release_profile_summary: PolyActiva biodegradable polymer rod implant inserted via 27G inserter
+    into the anterior chamber. PA5108 (latanoprost) delivers 6-month sustained PG agonist
+    for primary open-angle glaucoma. Differentiated from Durysta (3-month) and iDose (multi-year)
+    on duration.
+  iv_ivc_established: false
+  injection_site:
+  - intracameral
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Melbourne, Australia (PolyActiva)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: tight
+  scale_up_timeline_months: 24
+  notes: Clinical-stage only; commercial scale-up would require partner or expansion.
 views:
   investor: 'Speculative emerging-platform watchlist entry. PolyActiva represents the next-generation
     challenger thesis to Durysta in glaucoma — if Phase 3 data supports superior duration

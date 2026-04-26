@@ -1,0 +1,22 @@
+id: "maritide_amg133_nct07313761"
+nct_id: "NCT07313761"
+asset_id: "maritide_amg133"
+indication: "metabolic"
+phase: 1
+n: 349
+design: "Interventional"
+primary_endpoint: >
+  Area Under the Plasma Concentration-time Curve (AUC) From Time 0 to Infinity (AUCinf) of AMG 133; AUC From Time 0 to the Time of the Last Quantifiable Concentration (AUClast) of AMG 133; Maximum Observed Plasma Concentration (Cmax) of AMG 133
+control_arm: "active comparator"
+sponsor: "Amgen"
+status: "active"
+start_date: "2025-12-15"
+expected_readout: "2026-06-26"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07313761"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Trial to Compare the Extent to Which Maridebart Cafraglutide (AMG 133) is Made Available in the Body When Administered Using Two Subcutaneous Presentations. Sponsor: Amgen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

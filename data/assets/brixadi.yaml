@@ -4,84 +4,98 @@ inn: buprenorphine
 platform_id: fluidcrystal
 owning_company: Camurus
 licensee_company: Braeburn
-
 indications:
-  - code: addiction
-    phase: approved
-    first_approval_year: 2023
-    geography: US
-  - code: addiction
-    phase: approved
-    first_approval_year: 2018
-    geography: EU
-
+- code: addiction
+  phase: approved
+  first_approval_year: 2023
+  geography: US
+- code: addiction
+  phase: approved
+  first_approval_year: 2018
+  geography: EU
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest:
     year: 2024
     value_usd_m: 20
     currency: USD
     source: Camurus FY2024 report (Brixadi royalties SEK 212M ≈ USD 20M at ~10.5 SEK/USD)
-  sales_notes: >
-    Brixadi US royalties to Camurus from Braeburn were SEK 212 million in
-    FY2024, up from SEK 9M in FY2023 (>20x growth post-launch). Camurus
-    estimated Brixadi at ~25% market share of the US long-acting buprenorphine
-    segment by end-2024. The $20M figure is Camurus' royalty receipt — actual
-    Brixadi US net sales by Braeburn are higher (typical mid-single-digit
-    royalty would imply ~$300-400M Braeburn net sales, but Braeburn does
+  sales_notes: 'Brixadi US royalties to Camurus from Braeburn were SEK 212 million in FY2024,
+    up from SEK 9M in FY2023 (>20x growth post-launch). Camurus estimated Brixadi at ~25%
+    market share of the US long-acting buprenorphine segment by end-2024. The $20M figure
+    is Camurus'' royalty receipt — actual Brixadi US net sales by Braeburn are higher (typical
+    mid-single-digit royalty would imply ~$300-400M Braeburn net sales, but Braeburn does
     not publicly disclose specific Brixadi net sales).
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: 2014_braeburn_camurus
-
 primary_trials:
-  - nct_id: pending
-    role: pivotal
-
+- nct_id: pending
+  role: pivotal
 scores:
   tech:
     value: 5
-    rationale: Inherited from FluidCrystal; weekly and monthly dosing options demonstrate platform range.
+    rationale: Inherited from FluidCrystal; weekly and monthly dosing options demonstrate
+      platform range.
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
     inherited_from: platform
   clinical:
     value: 5
-    rationale: Approved in EU (2018) and US (2023) with robust Phase 3 data in OUD; real-world effectiveness data strong.
+    rationale: Approved in EU (2018) and US (2023) with robust Phase 3 data in OUD; real-world
+      effectiveness data strong.
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
   ip:
     value: 3
-    rationale: Platform IP limitations (see FluidCrystal) combined with asset-specific formulation patents; runway shorter than newer LAI entrants.
+    rationale: Platform IP limitations (see FluidCrystal) combined with asset-specific formulation
+      patents; runway shorter than newer LAI entrants.
     confidence: medium
     scored_at: 2026-04-21
     scorer: RX
   dealability:
     value: 3
-    rationale: Braeburn (mid-tier) partnership for US; no tier-1 pharma endorsement; competitive dynamics vs. Sublocade (Indivior) in US limit further deal optionality.
+    rationale: Braeburn (mid-tier) partnership for US; no tier-1 pharma endorsement; competitive
+      dynamics vs. Sublocade (Indivior) in US limit further deal optionality.
     confidence: medium
     scored_at: 2026-04-21
     scorer: RX
   regulatory:
     value: 5
-    rationale: Dual-geography approval with REMS framework established; label expansions possible but not pending.
+    rationale: Dual-geography approval with REMS framework established; label expansions possible
+      but not pending.
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
+tactbio_view: 'Brixadi/Buvidal is the structurally disadvantaged second player in US OUD LAI
+  behind Sublocade. Camurus-Braeburn must compete on dosing flexibility (weekly option) and
+  provider economics. Follow-up question: is the weekly formulation genuinely expanding the
+  LAI-treated patient population, or substituting for daily buprenorphine while Sublocade
+  captures first-line LAI?
 
-tactbio_view: >
-  Brixadi/Buvidal is the structurally disadvantaged second player in US OUD LAI
-  behind Sublocade. Camurus-Braeburn must compete on dosing flexibility (weekly
-  option) and provider economics. Follow-up question: is the weekly formulation
-  genuinely expanding the LAI-treated patient population, or substituting for
-  daily buprenorphine while Sublocade captures first-line LAI?
-
+  '
 last_updated: 2026-04-21
+views:
+  investor: 'Brixadi/Buvidal is the structurally disadvantaged second player in US OUD LAI
+    behind Sublocade. Camurus-Braeburn must compete on dosing flexibility (weekly option)
+    and provider economics. Follow-up question: is the weekly formulation genuinely expanding
+    the LAI-treated patient population, or substituting for daily buprenorphine while Sublocade
+    captures first-line LAI?
+
+    '
+  partner: US territory locked under Braeburn license (mid-teen royalties to Camurus). Not
+    available for partnering. Reference deal economics (Camurus 13-17% royalty, $20M upfront
+    2014) inform what specialty-pharma counterparties will pay for FluidCrystal addiction
+    scope.
+  acquirer: Brixadi US royalty stream (~SEK 212M / USD 20M FY2024) is a secondary contributor
+    to Camurus enterprise value behind Buvidal. Braeburn change-of-control rights likely apply
+    on a Camurus acquisition — verify the 2014 license and 2018 amendment provisions before
+    structuring any deal.

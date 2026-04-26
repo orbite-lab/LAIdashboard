@@ -1,0 +1,21 @@
+id: "idose_tr_nct07400926"
+nct_id: "NCT07400926"
+asset_id: "idose_tr"
+indication: "ophthalmology"
+phase: null
+n: 30
+design: "Observational"
+primary_endpoint: "Successful implantation"
+control_arm: "none"
+sponsor: "Glaukos Corporation"
+status: "enrolling"
+start_date: "2025-12-17"
+expected_readout: "2026-06"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07400926"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Observational Trial of the Updated Inserter for the Travoprost Intracameral Implant 75mcg. Sponsor: Glaukos Corporation. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

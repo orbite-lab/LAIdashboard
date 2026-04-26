@@ -95,22 +95,27 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: applicator (incision-based insertion)
+  max_payload_mass_mg: 297
+  cold_chain_required: false
+  excipient_classes:
+  - ethylene-vinyl acetate copolymer (EVA)
+  - buprenorphine
+  release_profile_summary: Four solid EVA implants (74.2 mg buprenorphine each) inserted subcutaneously
+    in the upper inner arm via incision-based applicator, releasing buprenorphine over 6 months.
+    Removal required at end of 6-month duration. Procedural friction limited commercial uptake.
+  iv_ivc_established: true
+  injection_site:
+  - SC implant
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Titan / Braeburn contract sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: tight
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Commercial trajectory minimal; capacity wound down post-Braeburn refocus on Brixadi.
 views:
   investor: 'Tracked as competitive context and as a cautionary tale — Probuphine illustrates
     that LAI duration alone does not win markets; site-of-care workflow and prescriber preference

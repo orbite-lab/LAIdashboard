@@ -1,0 +1,22 @@
+id: "met097_metsera_nct06924320"
+nct_id: "NCT06924320"
+asset_id: "met097_metsera"
+indication: "metabolic"
+phase: 2
+n: 132
+design: "Interventional"
+primary_endpoint: >
+  Part A: Occurrence of treatment-emergent adverse events (TEAEs); Part B: Occurrence of treatment-emergent adverse events (TEAEs); Part C: Occurrence of treatment-emergent adverse events (TEAEs)
+control_arm: "placebo"
+sponsor: "Metsera, a wholly owned subsidiary of Pfizer"
+status: "enrolling"
+start_date: "2025-03-03"
+expected_readout: "2027-01-25"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06924320"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study of MET233 in Combination With MET097 in Individuals With Obesity or Overweight With or Without Diabetes. Sponsor: Metsera, a wholly owned subsidiary of Pfizer. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -4,36 +4,31 @@ inn: risperidone
 platform_id: bepo
 owning_company: MedinCell
 licensee_company: Teva
-
 indications:
-  - code: psych
-    phase: approved
-    first_approval_year: 2023
-    geography: US
-
+- code: psych
+  phase: approved
+  first_approval_year: 2023
+  geography: US
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: 2026-Q4
-
 commercial:
   sales_latest:
     year: 2025
     value_usd_m: 191
     currency: USD
     source: Teva FY2025 earnings
-  sales_notes: >
-    FY2025 sales $191M, +63% YoY. Teva 2026 guidance $250-280M per company disclosure.
+  sales_notes: 'FY2025 sales $191M, +63% YoY. Teva 2026 guidance $250-280M per company disclosure.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: 2013_teva_medincell
-
 primary_trials:
-  - nct_id: pending
-    role: pivotal
-
+- nct_id: pending
+  role: pivotal
 scores:
   tech:
     value: 4
@@ -44,19 +39,22 @@ scores:
     inherited_from: platform
   clinical:
     value: 5
-    rationale: FDA-approved 2023; commercial uptake validates efficacy and safety profile in real-world setting.
+    rationale: FDA-approved 2023; commercial uptake validates efficacy and safety profile
+      in real-world setting.
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
   ip:
     value: 4
-    rationale: BEPO platform IP to 2033 plus asset-specific formulation patents; generic entry blocked in near term.
+    rationale: BEPO platform IP to 2033 plus asset-specific formulation patents; generic entry
+      blocked in near term.
     confidence: medium
     scored_at: 2026-04-21
     scorer: RX
   dealability:
     value: 5
-    rationale: Teva commercial infrastructure established; no termination signals; Teva growing investment (2026 guidance step-up).
+    rationale: Teva commercial infrastructure established; no termination signals; Teva growing
+      investment (2026 guidance step-up).
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
@@ -66,13 +64,27 @@ scores:
     confidence: high
     scored_at: 2026-04-21
     scorer: RX
+tactbio_view: 'UZEDY trajectory is the de-risking case for BEPO royalty compounding thesis,
+  but represents only one molecule in one indication with one partner. The question is not
+  whether UZEDY works commercially — it clearly does — but whether the growth trajectory Teva
+  guides to (2026E $250-280M) fully captures market share from Invega Trinza/Hafyera franchise,
+  or whether cannibalization has been underestimated.
 
-tactbio_view: >
-  UZEDY trajectory is the de-risking case for BEPO royalty compounding thesis,
-  but represents only one molecule in one indication with one partner.
-  The question is not whether UZEDY works commercially — it clearly does —
-  but whether the growth trajectory Teva guides to (2026E $250-280M) fully
-  captures market share from Invega Trinza/Hafyera franchise, or whether
-  cannibalization has been underestimated.
-
+  '
 last_updated: 2026-04-21
+views:
+  investor: 'UZEDY trajectory is the de-risking case for BEPO royalty compounding thesis,
+    but represents only one molecule in one indication with one partner. The question is not
+    whether UZEDY works commercially — it clearly does — but whether the growth trajectory
+    Teva guides to (2026E $250-280M) fully captures market share from Invega Trinza/Hafyera
+    franchise, or whether cannibalization has been underestimated.
+
+    '
+  partner: Not available — Teva exclusive in psych under the 2013 BEPO master agreement. UZEDY's
+    commercial trajectory is the principal real-world validation of BEPO platform manufacturing
+    and regulatory execution; reference data point for any BD scout evaluating BEPO for non-psych
+    indications.
+  acquirer: Asset cash flows are split between Teva (commercial gross profit) and MedinCell
+    (mid-to-high single-digit royalties + commercial milestones). MedinCell acquirer thesis
+    hinges on this royalty stream durability plus TEV-749 olanzapine PDUFA optionality. Diligence
+    the 2013 Teva agreement for change-of-control terms.

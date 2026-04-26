@@ -1,0 +1,21 @@
+id: "eyp1901_nct07449923"
+nct_id: "NCT07449923"
+asset_id: "eyp1901"
+indication: "ophthalmology"
+phase: 3
+n: 240
+design: "Interventional"
+primary_endpoint: "Average change in best corrected visual acuity (BCVA)"
+control_arm: "active comparator"
+sponsor: "EyePoint Pharmaceuticals, Inc."
+status: "enrolling"
+start_date: "2026-02-09"
+expected_readout: "2027-10"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07449923"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: CAPRI: A Phase 3 Randomized, Double-Masked Study Comparing the Efficacy of EYP-1901 Against Aflibercept in DME. Sponsor: EyePoint Pharmaceuticals, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

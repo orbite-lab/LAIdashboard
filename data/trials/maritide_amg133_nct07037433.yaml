@@ -1,0 +1,29 @@
+id: "maritide_amg133_nct07037433"
+nct_id: "NCT07037433"
+asset_id: "maritide_amg133"
+indication: "metabolic"
+phase: 3
+n: 12800
+design: "Interventional"
+primary_endpoint: >
+  Time to First Occurrence of a Composite Endpoint Consisting of: CV Death, Myocardial Infarction (MI), or Ischemic Stroke (3-point Major Adverse Cardiac Events [3-P MACE]); Time to First Occurrence of a Composite Endpoint Consisting of: All-cause Death, MI, Ischemic Stroke, Coronary Revascularization, or Heart Failure (HF) Event (5-point MACE)
+control_arm: "placebo"
+sponsor: "Amgen"
+status: "enrolling"
+start_date: "2025-07-25"
+expected_readout: "2028-06-30"
+result: null
+geography:
+  - "Argentina"
+  - "Australia"
+  - "Austria"
+  - "Belgium"
+  - "Brazil"
+  - "Bulgaria"
+  - "Canada"
+  - "Chile"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07037433"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Evaluating the Impact of Maridebart Cafraglutide on Cardiovascular Outcomes in Participants With Atherosclerotic Cardiovascular Disease and Overweight or Obesity. Sponsor: Amgen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

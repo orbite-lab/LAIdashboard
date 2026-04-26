@@ -1,0 +1,21 @@
+id: "idose_tr_nct07228221"
+nct_id: "NCT07228221"
+asset_id: "idose_tr"
+indication: "ophthalmology"
+phase: 4
+n: 20
+design: "Interventional"
+primary_endpoint: "IOP reduction from baseline"
+control_arm: "none"
+sponsor: "Jonathon Myers"
+status: "enrolling"
+start_date: "2026-01-05"
+expected_readout: "2031-08-30"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07228221"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Standalone iStent Infinite and iDose TR for Management of Moderate to Severe Open Angle Glaucoma. Sponsor: Jonathon Myers. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

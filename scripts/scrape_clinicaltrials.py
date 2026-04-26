@@ -33,6 +33,13 @@ ASSETS_DIR = REPO / "data" / "assets"
 # Keep tightly LAI-scoped — explicit intervention strings rule out
 # oral, transdermal, and short-acting trials of the same molecule.
 ASSET_QUERIES = [
+    ("eyp1901",          "EyePoint",   "EYP-1901 OR DURAVYU OR vorolanib intravitreal OR LUGANO OR LUCIA",                "ophthalmology", {2,3},   10),
+    ("pa5108",           "PolyActiva", "PA5108 OR latanoprost intracameral implant",                                      "ophthalmology", {1,2,3}, 5),
+    ("maritide_amg133",  "Amgen",      "maridebart OR MariTide OR AMG-133 OR AMG 133 OR maridebart cafraglutide",          "metabolic",     {1,2,3}, 12),
+    ("met097_metsera",   "Metsera",    "MET097 OR MET-097 OR PF-08653944 OR MET233 OR MET-233",                            "metabolic",     {1,2,3}, 12),
+    ("zynrelef",         "Heron",      "Zynrelef OR HTX-011 OR bupivacaine meloxicam extended-release",                    "pain",          {2,3,4}, 10),
+    ("idose_tr",         "Glaukos",    "iDose TR OR travoprost intracameral",                                              "ophthalmology", {2,3,4}, 8),
+    ("durysta",          "Allergan",   "Durysta OR bimatoprost intracameral",                                              "ophthalmology", {3,4},   8),
     ("uzedy",            "Teva",       "TV-46000 OR risperidone long-acting OR risperidone subcutaneous",                "psych",         {2,3,4}, 10),
     ("mdc_tjk_olanzapine","Teva",      "TV-44749 OR TV-749 OR olanzapine subcutaneous OR mdc-TJK",                       "psych",         {2,3},   10),
     ("brixadi",          "Camurus",    "CAM2038 OR buprenorphine subcutaneous extended-release OR Brixadi OR Buvidal",   "addiction",     {2,3,4}, 10),
@@ -65,6 +72,55 @@ NEGATIVE_TITLE_PATTERNS = [
     r"\binhaled\b",
 ]
 NEG_RE = re.compile("|".join(NEGATIVE_TITLE_PATTERNS), re.IGNORECASE)
+
+# Cross-sponsor LAI search by indication. Triggered with --indication <code>.
+# Combines an LAI-mechanism term cluster with indication-specific molecule
+# language. Phase-3 only by default to keep noise down.
+INDICATION_QUERIES = {
+    "metabolic": (
+        "(maridebart OR MariTide OR MET097 OR MET-097 OR \"long-acting GLP-1\" "
+        "OR \"long-acting incretin\" OR \"once-monthly GLP-1\" OR retatrutide "
+        "OR \"sustained-release tirzepatide\" OR cagrilintide OR amylin)",
+        ["obesity", "type 2 diabetes", "overweight", "weight loss"],
+    ),
+    "ophthalmology": (
+        "(\"intravitreal implant\" OR \"intracameral implant\" OR \"sustained-release\" "
+        "OR \"port delivery\" OR Susvimo OR DURAVYU OR EYP-1901 OR PA5108 OR Yutiq "
+        "OR Iluvien OR Durysta OR iDose)",
+        ["wet AMD", "diabetic macular edema", "macular degeneration",
+         "uveitis", "glaucoma", "ocular hypertension"],
+    ),
+    "addiction": (
+        "(\"long-acting buprenorphine\" OR \"sustained-release naltrexone\" OR "
+        "Sublocade OR Brixadi OR Buvidal OR Vivitrol OR \"depot buprenorphine\")",
+        ["opioid use disorder", "alcohol use disorder", "substance use disorder"],
+    ),
+    "hiv": (
+        "(\"long-acting cabotegravir\" OR \"long-acting rilpivirine\" OR "
+        "\"long-acting ART\" OR Cabenuva OR Apretude OR \"injectable PrEP\" "
+        "OR lenacapavir OR N6LS)",
+        ["HIV", "PrEP", "pre-exposure prophylaxis"],
+    ),
+    "psych": (
+        "(\"long-acting risperidone\" OR \"long-acting paliperidone\" OR "
+        "\"long-acting olanzapine\" OR \"long-acting aripiprazole\" OR "
+        "\"depot antipsychotic\" OR Invega OR UZEDY OR Risvan OR Aristada "
+        "OR Risperdal Consta)",
+        ["schizophrenia", "bipolar disorder", "psychosis"],
+    ),
+    "endocrine": (
+        "(\"long-acting octreotide\" OR \"long-acting lanreotide\" OR "
+        "\"sustained-release octreotide\" OR Somatuline OR Sandostatin OR "
+        "Signifor OR CAM2029 OR \"depot somatostatin analog\")",
+        ["acromegaly", "neuroendocrine tumor", "Cushing's", "carcinoid"],
+    ),
+    "oncology": (
+        "(\"long-acting leuprolide\" OR \"long-acting goserelin\" OR "
+        "\"long-acting triptorelin\" OR Eligard OR Lupron OR Zoladex OR "
+        "Trelstar OR Camcevi)",
+        ["prostate cancer", "endometriosis", "uterine fibroids"],
+    ),
+}
 
 
 def fetch(query_term: str, page_size: int = 25) -> list[dict]:
@@ -239,9 +295,116 @@ def to_yaml(d: dict) -> str:
     return "\n".join(out) + "\n"
 
 
+def fetch_indication_phase3(indication: str, max_results: int = 50) -> list[dict]:
+    """Cross-sponsor Phase 3 LAI search for the given indication.
+
+    Uses INDICATION_QUERIES intervention/molecule cluster + a Phase 3 filter,
+    then post-filters titles for the indication-specific patient-population
+    keywords to reduce false positives (e.g. an oncology adjuvant trial of a
+    metabolic LAI).
+    """
+    cfg = INDICATION_QUERIES.get(indication)
+    if not cfg:
+        return []
+    intervention_terms, condition_terms = cfg
+
+    base = "https://clinicaltrials.gov/api/v2/studies"
+    params = {
+        "query.term": intervention_terms,
+        "filter.advanced": "AREA[Phase]PHASE3",
+        "pageSize": str(max_results),
+        "format": "json",
+        "filter.overallStatus": (
+            "NOT_YET_RECRUITING|RECRUITING|ACTIVE_NOT_RECRUITING|COMPLETED|"
+            "TERMINATED|UNKNOWN"
+        ),
+    }
+    url = f"{base}?{urllib.parse.urlencode(params)}"
+    with urllib.request.urlopen(url, timeout=20) as r:
+        data = json.loads(r.read())
+    studies = data.get("studies", [])
+
+    # Post-filter: title or condition must include indication keywords
+    cond_re = re.compile("|".join(re.escape(t) for t in condition_terms), re.IGNORECASE)
+    out = []
+    for s in studies:
+        p = s.get("protocolSection", {})
+        title = (p.get("identificationModule", {}) or {}).get("briefTitle", "")
+        conds = " ".join(
+            (p.get("conditionsModule", {}) or {}).get("conditions") or []
+        )
+        if cond_re.search(title) or cond_re.search(conds):
+            out.append(s)
+    return out
+
+
+def assign_asset_for_indication_hit(study: dict, indication: str,
+                                    asset_lookup: dict) -> str | None:
+    """Heuristic: match a study to one of our existing assets by sponsor+
+    intervention. Returns asset_id or None if no confident match."""
+    p = study.get("protocolSection", {})
+    sponsor = (p.get("sponsorCollaboratorsModule", {}) or {}).get("leadSponsor", {}).get("name", "").lower()
+    title = (p.get("identificationModule", {}) or {}).get("briefTitle", "").lower()
+    interventions = " ".join(
+        (i.get("name") or "") for i in
+        (p.get("armsInterventionsModule", {}) or {}).get("interventions") or []
+    ).lower()
+    haystack = f"{sponsor} {title} {interventions}"
+
+    for asset_id, keywords in asset_lookup.items():
+        if any(k.lower() in haystack for k in keywords):
+            return asset_id
+    return None
+
+
+# Per-indication mapping from intervention/sponsor keywords to asset_id.
+# Used by --indication mode to attach a Phase 3 hit to an existing tracker
+# asset instead of creating an orphaned record.
+INDICATION_ASSET_LOOKUP = {
+    "metabolic": {
+        "maritide_amg133": ["maridebart", "maritide", "amg-133", "amg 133"],
+        "met097_metsera": ["met097", "met-097", "pf-08653944", "metsera"],
+    },
+    "ophthalmology": {
+        "eyp1901": ["eyp-1901", "duravyu", "vorolanib"],
+        "pa5108": ["pa5108", "pa-5108", "polyactiva"],
+        "idose_tr": ["idose", "travoprost intracameral", "glaukos"],
+        "durysta": ["durysta", "bimatoprost intracameral"],
+        "susvimo": ["susvimo", "port delivery"],
+    },
+    "addiction": {
+        "sublocade": ["sublocade", "rbp-6000"],
+        "brixadi": ["brixadi", "buvidal", "cam2038"],
+        "vivitrol": ["vivitrol"],
+    },
+    "hiv": {
+        "apretude": ["apretude", "cabotegravir long-acting", "cab-la"],
+        "cabenuva": ["cabenuva"],
+    },
+    "psych": {
+        "uzedy": ["uzedy", "tv-46000"],
+        "mdc_tjk_olanzapine": ["tev-749", "mdc-tjk", "olanzapine subcutaneous"],
+        "invega_sustenna": ["invega sustenna", "paliperidone palmitate monthly"],
+        "invega_hafyera": ["invega hafyera", "paliperidone palmitate 6"],
+        "risvan": ["risvan", "okedi"],
+    },
+    "endocrine": {
+        "cam2029": ["cam2029", "octreotide subcutaneous depot"],
+        "sandostatin_lar": ["sandostatin", "octreotide lar"],
+        "somatuline_depot": ["somatuline", "lanreotide autogel"],
+    },
+    "oncology": {
+        "eligard": ["eligard"],
+        "lupron_depot": ["lupron"],
+    },
+}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--asset", help="Restrict to one asset_id")
+    ap.add_argument("--indication",
+                    help="Cross-sponsor Phase 3 search by indication code")
     ap.add_argument("--dry-run", action="store_true",
                     help="Print proposed yaml writes without saving")
     ap.add_argument("--overwrite", action="store_true",
@@ -250,6 +413,45 @@ def main():
 
     TRIALS_DIR.mkdir(parents=True, exist_ok=True)
 
+    written = 0
+    skipped = 0
+
+    if args.indication:
+        ind = args.indication
+        if ind not in INDICATION_QUERIES:
+            print(f"Unknown indication: {ind}. Known: {sorted(INDICATION_QUERIES)}",
+                  file=sys.stderr)
+            sys.exit(1)
+        print(f"Cross-sponsor Phase 3 search for indication={ind} ...")
+        studies = fetch_indication_phase3(ind, max_results=80)
+        print(f"  {len(studies)} matched after condition filter")
+        lookup = INDICATION_ASSET_LOOKUP.get(ind, {})
+        for s in studies:
+            asset_id = assign_asset_for_indication_hit(s, ind, lookup)
+            if not asset_id:
+                # Skip orphaned hits — better than fabricating asset linkage
+                skipped += 1
+                continue
+            res = study_to_yaml(s, asset_id, ind, expected_phases={3})
+            if not res:
+                skipped += 1
+                continue
+            slug, record = res
+            target = TRIALS_DIR / f"{slug}.yaml"
+            if target.exists() and not args.overwrite:
+                skipped += 1
+                continue
+            yaml_str = to_yaml(record)
+            if args.dry_run:
+                print(f"--- {target.name} ---")
+                print(yaml_str)
+            else:
+                target.write_text(yaml_str, encoding="utf-8")
+                print(f"  wrote {target.name}")
+            written += 1
+        print(f"\n{written} written, {skipped} skipped (orphan or existing).")
+        return
+
     queries = ASSET_QUERIES
     if args.asset:
         queries = [q for q in queries if q[0] == args.asset]
@@ -257,10 +459,7 @@ def main():
             print(f"Unknown asset_id: {args.asset}", file=sys.stderr)
             sys.exit(1)
 
-    written = 0
-    skipped = 0
     for asset_id, sponsor, terms, indication, phases, max_results in queries:
-        # Use sponsor + terms together — CT.gov full-text matches both
         query = f"({terms}) AND {sponsor}"
         try:
             studies = fetch(query, page_size=max_results)

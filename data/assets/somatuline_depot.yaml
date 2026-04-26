@@ -4,46 +4,41 @@ inn: lanreotide
 platform_id: somatuline_autogel
 owning_company: Ipsen
 licensee_company: null
-
 indications:
-  - code: endocrine
-    phase: approved
-    first_approval_year: 2007
-    geography: US
-  - code: oncology
-    phase: approved
-    first_approval_year: 2014
-    geography: US
-
+- code: endocrine
+  phase: approved
+  first_approval_year: 2007
+  geography: US
+- code: oncology
+  phase: approved
+  first_approval_year: 2014
+  geography: US
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest:
     year: 2024
     value_usd_m: 1100
     currency: USD
     source: Ipsen 2024 annual report (approximate, verify)
-  sales_notes: >
-    Somatuline franchise estimated at €1B+ annually. Approval expansion
-    to neuroendocrine tumors (CLARINET trial) substantially expanded
-    addressable market beyond acromegaly.
+  sales_notes: 'Somatuline franchise estimated at €1B+ annually. Approval expansion to neuroendocrine
+    tumors (CLARINET trial) substantially expanded addressable market beyond acromegaly.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: null
-
 primary_trials:
-  - nct_id: NCT00353496
-    role: pivotal
-
+- nct_id: NCT00353496
+  role: pivotal
 scores:
   tech:
     value: 4
-    rationale: Inherited from Somatuline Autogel; novel self-assembling nanotube mechanism delivers convenient deep SC injection.
+    rationale: Inherited from Somatuline Autogel; novel self-assembling nanotube mechanism
+      delivers convenient deep SC injection.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
@@ -56,7 +51,8 @@ scores:
     scorer: CL
   ip:
     value: 2
-    rationale: Core IP at or near expiry; generic threat emerging though no LAI generic launches publicly disclosed.
+    rationale: Core IP at or near expiry; generic threat emerging though no LAI generic launches
+      publicly disclosed.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
@@ -72,13 +68,25 @@ scores:
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
-
-tactbio_view: >
-  Largest somatostatin analog LAI by recent revenue. Strategic relevance
-  is as the higher-bar comparator for any lanreotide- or octreotide-class
-  entrant. Patent expiry trajectory creates the central question for
-  Ipsen — defending Somatuline economics will require new indications,
-  pricing flexibility, or commercial focus on geographies where generic
+tactbio_view: 'Largest somatostatin analog LAI by recent revenue. Strategic relevance is as
+  the higher-bar comparator for any lanreotide- or octreotide-class entrant. Patent expiry
+  trajectory creates the central question for Ipsen — defending Somatuline economics will
+  require new indications, pricing flexibility, or commercial focus on geographies where generic
   entry remains less competitive.
 
+  '
 last_updated: 2026-04-25
+views:
+  investor: 'Largest somatostatin analog LAI by recent revenue. Strategic relevance is as
+    the higher-bar comparator for any lanreotide- or octreotide-class entrant. Patent expiry
+    trajectory creates the central question for Ipsen — defending Somatuline economics will
+    require new indications, pricing flexibility, or commercial focus on geographies where
+    generic entry remains less competitive.
+
+    '
+  partner: Ipsen-internal. Self-assembling peptide LAI mechanism is uniquely Ipsen's; not
+    externally licensable. New lanreotide LAI entrants would need to design around the self-assembly
+    mechanism.
+  acquirer: Ipsen is a specialty pharma with founder-family majority control — restricts hostile
+    M&A. Somatuline IP cliff is the central question for franchise valuation; defense via
+    new indications or generic-restricted geographies informs the trajectory.

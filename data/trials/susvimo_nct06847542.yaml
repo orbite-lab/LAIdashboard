@@ -1,0 +1,29 @@
+id: "susvimo_nct06847542"
+nct_id: "NCT06847542"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 3
+n: 250
+design: "Interventional"
+primary_endpoint: >
+  Change From Baseline in Best Corrected Visual Acuity (BCVA) Score Averaged Over Weeks 68 and 72, as Assessed Using the Early Treatment Diabetic Retinopathy Study (ETDRS) Chart at a Starting Distance of 4 Meters
+control_arm: "none"
+sponsor: "Hoffmann-La Roche"
+status: "enrolling"
+start_date: "2025-11-27"
+expected_readout: "2028-09-12"
+result: null
+geography:
+  - "Austria"
+  - "Czechia"
+  - "Denmark"
+  - "France"
+  - "Germany"
+  - "Greece"
+  - "Italy"
+  - "Poland"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06847542"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study of 36-Week Refill Exchanges of Port Delivery System (PDS) With Ranibizumab in nAMD. Sponsor: Hoffmann-La Roche. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

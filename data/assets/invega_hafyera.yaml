@@ -4,55 +4,53 @@ inn: paliperidone palmitate (6-monthly)
 platform_id: nanocrystal
 owning_company: Janssen (Johnson & Johnson)
 licensee_company: null
-
 indications:
-  - code: psych
-    phase: approved
-    first_approval_year: 2021
-    geography: US
-
+- code: psych
+  phase: approved
+  first_approval_year: 2021
+  geography: US
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest:
     year: 2024
     value_usd_m: null
     currency: USD
     source: J&J 2024 (segment-level disclosure pending)
-  sales_notes: >
-    Hafyera launched 2021 as the longest-duration LAI antipsychotic;
-    growing share of Invega franchise but specific Hafyera-only sales
-    not separately disclosed by J&J. Estimate $300-500M range for 2024.
+  sales_notes: 'Hafyera launched 2021 as the longest-duration LAI antipsychotic; growing share
+    of Invega franchise but specific Hafyera-only sales not separately disclosed by J&J. Estimate
+    $300-500M range for 2024.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: null
-
 primary_trials:
-  - nct_id: NCT03345342
-    role: pivotal
-
+- nct_id: NCT03345342
+  role: pivotal
 scores:
   tech:
     value: 5
-    rationale: First and only 6-monthly LAI antipsychotic; nanocrystal mechanism extended beyond conventional duration ranges.
+    rationale: First and only 6-monthly LAI antipsychotic; nanocrystal mechanism extended
+      beyond conventional duration ranges.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
     inherited_from: platform
   clinical:
     value: 4
-    rationale: Phase 3 demonstrated non-inferiority to 3-monthly Trinza; real-world durability evidence still accumulating.
+    rationale: Phase 3 demonstrated non-inferiority to 3-monthly Trinza; real-world durability
+      evidence still accumulating.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
   ip:
     value: 4
-    rationale: Newer formulation patents extend exclusivity beyond Sustenna LOE; Hafyera is the franchise's defensive moat.
+    rationale: Newer formulation patents extend exclusivity beyond Sustenna LOE; Hafyera is
+      the franchise's defensive moat.
     confidence: medium
     scored_at: 2026-04-25
     scorer: CL
@@ -64,16 +62,27 @@ scores:
     scorer: CL
   regulatory:
     value: 5
-    rationale: Approved with stable label; uniqueness of 6-monthly duration limits regulatory comparability.
+    rationale: Approved with stable label; uniqueness of 6-monthly duration limits regulatory
+      comparability.
     confidence: high
     scored_at: 2026-04-25
     scorer: CL
+tactbio_view: 'Strategic insurance policy for the Invega franchise as Sustenna approaches
+  LOE. Hafyera''s commercial uptake will determine whether 6-monthly dosing commands sufficient
+  premium to defend franchise economics. Watch prescriber adoption rates relative to Sustenna;
+  weak Hafyera uptake would signal that long-duration LAI is less valuable than assumed.
 
-tactbio_view: >
-  Strategic insurance policy for the Invega franchise as Sustenna approaches
-  LOE. Hafyera's commercial uptake will determine whether 6-monthly dosing
-  commands sufficient premium to defend franchise economics. Watch
-  prescriber adoption rates relative to Sustenna; weak Hafyera uptake
-  would signal that long-duration LAI is less valuable than assumed.
-
+  '
 last_updated: 2026-04-25
+views:
+  investor: 'Strategic insurance policy for the Invega franchise as Sustenna approaches LOE.
+    Hafyera''s commercial uptake will determine whether 6-monthly dosing commands sufficient
+    premium to defend franchise economics. Watch prescriber adoption rates relative to Sustenna;
+    weak Hafyera uptake would signal that long-duration LAI is less valuable than assumed.
+
+    '
+  partner: Janssen-internal — closed. 6-monthly duration is the highest-frequency-tier defensive
+    moat in the Invega franchise.
+  acquirer: Not actionable — internal J&J asset. Hafyera commercial uptake rate is the empirical
+    test for whether long-duration LAI commands sufficient premium to defend franchise economics;
+    informs valuation read for any new ultra-long-duration LAI (e.g. CAM2029 6-monthly target).

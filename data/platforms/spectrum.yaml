@@ -122,27 +122,33 @@ encumbrances:
   expires: deal-life
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.25
+  - 0.375
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 18G
+  max_payload_mass_mg: 50
+  cold_chain_required: true
+  excipient_classes:
+  - PLGA copolymer
+  - DMSO
+  release_profile_summary: Foresee SpectruM in-situ depot delivering leuprolide mesylate (Camcevi)
+    via SC injection. 1-month (5 mg) and 6-month (45 mg) formulations. Storage 2-8°C; reconstituted
+    immediately before use. Differentiated from Eligard by shorter injection volume and SC
+    vs IM.
+  iv_ivc_established: true
+  injection_site:
+  - SC
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Foresee / Accord contract sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: moderate
+  scale_up_timeline_months: 12
+  notes: Scale supports current LHRH territory licensing footprint.
 views:
   investor: 'Asian-domiciled (Taiwan) platform commercializing in Western markets via partner
     — interesting model but not a platform commanding licensing premium. Camcevi competes

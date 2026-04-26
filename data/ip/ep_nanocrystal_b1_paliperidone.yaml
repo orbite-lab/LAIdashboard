@@ -1,0 +1,22 @@
+id: "ep_nanocrystal_b1_paliperidone"
+patent_number: "EP1196149B1"
+jurisdiction: "EP"
+assignee: "Janssen Pharmaceutica"
+platform_id: "nanocrystal"
+asset_id: "invega_sustenna"
+filing_date: "2000-11-20"
+priority_date: "1999-11-20"
+grant_date: "2009-09-30"
+expiry_date: "2020-11-20"
+claim_type: "composition"
+continuation_lineage:
+  - "nanocrystal_paliperidone"
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: >
+  Generic challenges across multiple EU jurisdictions tracked Janssen's Invega Sustenna SPC extensions. Verify country-by-country SPC and pediatric extension status.
+notes: >
+  European grant of the foundational paliperidone palmitate nanocrystal patent. Composition runs to 2020 base; SPC + pediatric extensions extend effective EU exclusivity. Hafyera 6-monthly formulation has separate EU patent estate.
+source_urls:
+  - "https://worldwide.espacenet.com/patent/search/family/?q=paliperidone+palmitate+nanocrystal"
+last_updated: "2026-04-26"
