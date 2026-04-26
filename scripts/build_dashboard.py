@@ -96,15 +96,21 @@ def render_stats(conn) -> str:
     n_plat = conn.execute("SELECT COUNT(*) FROM platforms").fetchone()[0]
     n_asset = conn.execute("SELECT COUNT(*) FROM assets").fetchone()[0]
     n_deal = conn.execute("SELECT COUNT(*) FROM deals").fetchone()[0]
+    n_trial = conn.execute("SELECT COUNT(*) FROM trials").fetchone()[0]
+    n_ip = conn.execute("SELECT COUNT(*) FROM ip_positions").fetchone()[0]
+    n_company = conn.execute("SELECT COUNT(*) FROM companies").fetchone()[0]
     approved = conn.execute(
         "SELECT COUNT(*) FROM assets WHERE indications_json LIKE '%approved%'"
     ).fetchone()[0]
 
     cards = [
-        ("Platforms tracked", n_plat, ACCENT_BLUE),
-        ("Assets tracked", n_asset, ACCENT_BLUE),
-        ("Deals in log", n_deal, ACCENT_TEAL),
-        ("Approved assets", approved, ACCENT_TEAL),
+        ("Platforms", n_plat, ACCENT_BLUE),
+        ("Assets", n_asset, ACCENT_BLUE),
+        ("Approved", approved, ACCENT_TEAL),
+        ("Deals", n_deal, ACCENT_TEAL),
+        ("Trials", n_trial, ACCENT_BLUE),
+        ("IP records", n_ip, ACCENT_BLUE),
+        ("Companies", n_company, ACCENT_TEAL),
     ]
     items = ""
     for label, value, color in cards:
@@ -423,6 +429,329 @@ def render_deal_log(conn) -> str:
         </thead>
         <tbody>{rows}</tbody>
       </table>
+    </section>"""
+
+
+def render_partner_availability(conn) -> str:
+    """Pharma BD view: indication x platform with encumbrance lock icons."""
+    platforms = list(conn.execute(
+        "SELECT id, name, open_to_partnering FROM platforms ORDER BY name"
+    ))
+    indications_scored = set(
+        r["indication_code"] for r in conn.execute(
+            "SELECT DISTINCT indication_code FROM indication_fit"
+        )
+    )
+    indications = [i for i in INDICATION_ORDER if i in indications_scored]
+
+    fit = {}
+    for r in conn.execute(
+        "SELECT platform_id, indication_code, value FROM indication_fit"
+    ):
+        fit[(r["platform_id"], r["indication_code"])] = r["value"]
+
+    enc = {}
+    for r in conn.execute(
+        "SELECT DISTINCT platform_id, indication FROM encumbrances"
+    ):
+        if r["indication"]:
+            enc.setdefault((r["platform_id"], r["indication"]), True)
+
+    posture_color = {
+        "selective": "#5FA89A",
+        "true": "#0E7C6B",
+        "false": "#A84545",
+        "unknown": "#C9B896",
+        "": "#C9B896",
+    }
+
+    thead = '<th class="row-label">Platform</th><th class="row-label">Posture</th>'
+    for ind in indications:
+        thead += f'<th class="col-label">{esc(INDICATION_LABELS.get(ind, ind))}</th>'
+
+    tbody = ""
+    for p in platforms:
+        posture = (p["open_to_partnering"] or "unknown").lower()
+        bg = posture_color.get(posture, "#C9B896")
+        tbody += (
+            f'<tr><td class="row-label">{esc(p["name"])}</td>'
+            f'<td class="cell" style="background:{bg};color:#fff;">'
+            f'{esc(posture)}</td>'
+        )
+        for ind in indications:
+            v = fit.get((p["id"], ind))
+            if v is None:
+                tbody += '<td class="cell empty">—</td>'
+                continue
+            locked = enc.get((p["id"], ind), False)
+            if locked:
+                tbody += (
+                    f'<td class="cell" style="background:#A84545;color:#fff;" '
+                    f'title="Encumbered by exclusive deal">{v} 🔒</td>'
+                )
+            else:
+                bg = SCORE_COLORS.get(v, "#CCC")
+                fg = SCORE_TEXT_COLORS.get(v, INK)
+                tbody += (
+                    f'<td class="cell" style="background:{bg};color:{fg};" '
+                    f'title="Open for partnering on this indication">{v} ✓</td>'
+                )
+        tbody += '</tr>'
+
+    return f"""
+    <section class="card">
+      <h2>Partner Availability</h2>
+      <p class="subtitle">For pharma BD scouting. ✓ = indication open for partnering.
+        🔒 = encumbered by an active exclusive deal. Color follows the indication-fit score.</p>
+      <div class="heatmap-wrap">
+        <table class="heatmap">
+          <thead><tr>{thead}</tr></thead>
+          <tbody>{tbody}</tbody>
+        </table>
+      </div>
+    </section>"""
+
+
+def render_technical_fit(conn) -> str:
+    """Side-by-side comparison of technical attributes for BD scientific diligence."""
+    rows = list(conn.execute("""
+        SELECT id, name, mechanism, duration_min_days, duration_max_days,
+               payload_classes_json, technical_fit_json, capacity_headroom
+        FROM platforms ORDER BY name
+    """))
+
+    body = ""
+    for r in rows:
+        tf = json.loads(r["technical_fit_json"] or "{}") or {}
+        vol = tf.get("injection_volume_ml_range") or [None, None]
+        vol_str = (
+            f"{vol[0]}–{vol[1]}" if vol[0] is not None and vol[1] is not None
+            else "—"
+        )
+        cold = tf.get("cold_chain_required")
+        cold_str = "yes" if cold is True else ("no" if cold is False else "—")
+        sites = tf.get("injection_site") or []
+        sites_str = ", ".join(sites) if sites else "—"
+        gauge = tf.get("needle_gauge_typical") or "—"
+        try:
+            payloads = ", ".join(json.loads(r["payload_classes_json"] or "[]"))
+        except json.JSONDecodeError:
+            payloads = "—"
+        duration = (
+            f"{r['duration_min_days']}–{r['duration_max_days']}d"
+            if r["duration_min_days"] and r["duration_max_days"] else "—"
+        )
+        body += (
+            f"<tr><td>{esc(r['name'])}</td>"
+            f"<td>{esc(r['mechanism'])}</td>"
+            f"<td>{duration}</td>"
+            f"<td>{esc(payloads)}</td>"
+            f"<td>{vol_str}</td>"
+            f"<td>{esc(gauge)}</td>"
+            f"<td>{cold_str}</td>"
+            f"<td>{esc(sites_str)}</td>"
+            f"<td>{esc(r['capacity_headroom'] or '—')}</td></tr>"
+        )
+
+    return f"""
+    <section class="card">
+      <h2>Platform Technical Fit</h2>
+      <p class="subtitle">Label-derived screening attributes for pharma scientist BD diligence.</p>
+      <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr>
+          <th>Platform</th><th>Mechanism</th><th>Duration</th>
+          <th>Payloads</th><th>Vol (mL)</th><th>Needle</th>
+          <th>Cold chain</th><th>Site</th><th>Capacity</th>
+        </tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+      </div>
+    </section>"""
+
+
+def render_encumbrance_log(conn) -> str:
+    """Active exclusive deal scope locking up indication coverage."""
+    rows = list(conn.execute("""
+        SELECT e.platform_id, e.deal_id, e.indication, e.molecule_classes_json,
+               e.territory, p.name AS platform_name,
+               d.licensee, d.announced_date
+        FROM encumbrances e
+        LEFT JOIN platforms p ON e.platform_id = p.id
+        LEFT JOIN deals d ON e.deal_id = d.id
+        ORDER BY p.name, e.indication
+    """))
+    if not rows:
+        return ""
+
+    body = ""
+    for r in rows:
+        molecules = "—"
+        if r["molecule_classes_json"]:
+            try:
+                items = json.loads(r["molecule_classes_json"])
+                molecules = ", ".join(items) if items else "—"
+            except json.JSONDecodeError:
+                pass
+        body += (
+            f"<tr><td>{esc(r['platform_name'] or r['platform_id'])}</td>"
+            f"<td>{esc(r['indication'] or '—')}</td>"
+            f"<td>{esc(r['licensee'] or '—')}<br>"
+            f"<small style='color:{MUTED};'>{esc(r['deal_id'])}</small></td>"
+            f"<td>{esc(r['announced_date'] or '—')}</td>"
+            f"<td>{esc(molecules)}</td>"
+            f"<td>{esc(r['territory'] or '—')}</td></tr>"
+        )
+
+    return f"""
+    <section class="card">
+      <h2>Encumbrance Log</h2>
+      <p class="subtitle">Active exclusive deals locking indication scope. BD scouts treat these as unavailable.</p>
+      <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr>
+          <th>Platform</th><th>Indication</th><th>Locked by</th>
+          <th>Since</th><th>Molecules</th><th>Territory</th>
+        </tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+      </div>
+    </section>"""
+
+
+def render_target_screener(conn) -> str:
+    """Public companies sized for M&A scouting."""
+    rows = list(conn.execute("""
+        SELECT * FROM companies
+        WHERE ticker IS NOT NULL AND ticker != ''
+        ORDER BY market_cap_usd_m DESC
+    """))
+
+    body = ""
+    for c in rows:
+        plats = "—"
+        if c["related_platforms_json"]:
+            try:
+                items = json.loads(c["related_platforms_json"])
+                plats = ", ".join(items) if items else "—"
+            except json.JSONDecodeError:
+                pass
+        mc = f"${c['market_cap_usd_m']:,.0f}M" if c["market_cap_usd_m"] else "—"
+        cash = f"${c['cash_position_usd_m']:,.0f}M" if c["cash_position_usd_m"] else "—"
+        debt = f"${c['debt_usd_m']:,.0f}M" if c["debt_usd_m"] else "—"
+        body += (
+            f"<tr><td>{esc(c['name'])}</td>"
+            f"<td>{esc(c['ticker'])}</td>"
+            f"<td>{esc(c['country_hq'])}</td>"
+            f"<td style='text-align:right;'>{mc}</td>"
+            f"<td style='text-align:right;'>{cash}</td>"
+            f"<td style='text-align:right;'>{debt}</td>"
+            f"<td>{esc(plats)}</td></tr>"
+        )
+
+    return f"""
+    <section class="card">
+      <h2>Target Screener</h2>
+      <p class="subtitle">Public LAI-platform companies sized by market cap. M&A scouting view.</p>
+      <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr>
+          <th>Company</th><th>Ticker</th><th>HQ</th>
+          <th>Mkt cap</th><th>Cash</th><th>Debt</th><th>Platforms</th>
+        </tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+      </div>
+    </section>"""
+
+
+def render_trials_summary(conn) -> str:
+    """Trial count and upcoming readouts by asset."""
+    asset_counts = list(conn.execute("""
+        SELECT a.id, a.name, p.name AS platform_name,
+               COUNT(t.id) AS n_trials,
+               SUM(CASE WHEN t.status IN ('enrolling','active','planning','readout-pending') THEN 1 ELSE 0 END) AS n_active,
+               SUM(CASE WHEN t.phase=3 THEN 1 ELSE 0 END) AS n_phase3
+        FROM assets a
+        LEFT JOIN platforms p ON a.platform_id = p.id
+        LEFT JOIN trials t ON t.asset_id = a.id
+        GROUP BY a.id
+        HAVING n_trials > 0
+        ORDER BY n_trials DESC, a.name
+    """))
+
+    body = ""
+    for r in asset_counts:
+        body += (
+            f"<tr><td>{esc(r['name'])}</td>"
+            f"<td>{esc(r['platform_name'] or '—')}</td>"
+            f"<td style='text-align:right;'>{r['n_trials']}</td>"
+            f"<td style='text-align:right;'>{r['n_active'] or 0}</td>"
+            f"<td style='text-align:right;'>{r['n_phase3'] or 0}</td></tr>"
+        )
+
+    n_total = conn.execute("SELECT COUNT(*) FROM trials").fetchone()[0]
+    n_phase3_total = conn.execute("SELECT COUNT(*) FROM trials WHERE phase=3").fetchone()[0]
+    n_active_total = conn.execute(
+        "SELECT COUNT(*) FROM trials WHERE status IN ('enrolling','active','planning','readout-pending')"
+    ).fetchone()[0]
+
+    return f"""
+    <section class="card">
+      <h2>Clinical Trials Coverage</h2>
+      <p class="subtitle">{n_total} trials indexed; {n_active_total} active or pre-readout; {n_phase3_total} Phase 3.
+        Sourced from ClinicalTrials.gov via <code>scripts/scrape_clinicaltrials.py</code>.</p>
+      <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr>
+          <th>Asset</th><th>Platform</th>
+          <th>Total trials</th><th>Active</th><th>Phase 3</th>
+        </tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+      </div>
+    </section>"""
+
+
+def render_ip_overview(conn) -> str:
+    """IP record counts by platform with earliest expiry."""
+    rows = list(conn.execute("""
+        SELECT p.id, p.name,
+               COUNT(ip.id) AS n_records,
+               MIN(ip.expiry_date) AS earliest_expiry,
+               MAX(ip.expiry_date) AS latest_expiry
+        FROM platforms p
+        LEFT JOIN ip_positions ip ON ip.platform_id = p.id
+        GROUP BY p.id
+        HAVING n_records > 0
+        ORDER BY n_records DESC, p.name
+    """))
+
+    body = ""
+    for r in rows:
+        body += (
+            f"<tr><td>{esc(r['name'])}</td>"
+            f"<td style='text-align:right;'>{r['n_records']}</td>"
+            f"<td>{esc(r['earliest_expiry'] or '—')}</td>"
+            f"<td>{esc(r['latest_expiry'] or '—')}</td></tr>"
+        )
+
+    n_total = conn.execute("SELECT COUNT(*) FROM ip_positions").fetchone()[0]
+
+    return f"""
+    <section class="card">
+      <h2>IP Coverage</h2>
+      <p class="subtitle">{n_total} patent records indexed from FDA Orange Book and curated filings.
+        Sourced via <code>scripts/scrape_orange_book.py</code>.</p>
+      <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr>
+          <th>Platform</th><th>Patents</th>
+          <th>Earliest expiry</th><th>Latest expiry</th>
+        </tr></thead>
+        <tbody>{body}</tbody>
+      </table>
+      </div>
     </section>"""
 
 
@@ -829,8 +1158,14 @@ def build_dashboard() -> str:
         render_stats(conn),
         render_h2h_matrix(conn),
         render_composite_bars(conn),
+        render_partner_availability(conn),
+        render_technical_fit(conn),
+        render_encumbrance_log(conn),
         render_asset_table(conn),
+        render_target_screener(conn),
         render_deal_log(conn),
+        render_trials_summary(conn),
+        render_ip_overview(conn),
         render_gaps(conn),
     ]
 
