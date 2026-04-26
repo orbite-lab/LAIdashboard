@@ -20,8 +20,8 @@
 | Invega Hafyera | paliperidone palmitate (6-monthly) | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.75** | — |
 | Invega Sustenna | paliperidone palmitate | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.90** | — |
 | Lupron Depot | leuprolide acetate | Lupron Depot | AbbVie / Takeda | approved | **3.60** | — |
-| MET-097 | undisclosed long-acting GLP-1 | Metsera depot platform | Metsera (Pfizer-acquired) | phase_2 | **2.90** | 2026-Q3 |
-| MariTide | maridebart cafraglutide (AMG 133) | MariTide platform (Amgen) | Amgen | phase_3 | **2.75** | 2026-Q4 |
+| MET-097 | undisclosed long-acting GLP-1 | Metsera depot platform | Metsera (Pfizer-acquired) | phase_2 | **2.75** | 2026-Q3 |
+| MariTide | maridebart cafraglutide (AMG 133) | MariTide platform (Amgen) | Amgen | phase_3 | **2.60** | 2026-Q4 |
 | PA5108 | latanoprost | PolyActiva | PolyActiva Pty Ltd | phase_2 | **2.50** | 2026-Q3 |
 | Risperdal Consta | risperidone | Medisorb | Janssen (Johnson & Johnson) | approved | **3.60** | — |
 | Risvan | risperidone | ISM | Rovi | approved | **3.45** | — |
@@ -264,7 +264,7 @@
 |---|---|---|---|
 | tech | 2 | low | Phase 1/2 stage; long-acting peptide engineering not yet platform-validated. |
 | clinical | 2 | low | Phase 1 data supportive; Phase 2 dose-finding ongoing. |
-| ip | 4 | low | Newer-vintage IP, full runway; specific patent landscape not reviewed. |
+| ip | 3 | low | Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Metsera HALO patent landscape search confirms strong composition coverage; Pfizer-acquired status may add continuation activity. |
 | dealability | 5 | medium | Pfizer 2025 acquisition validates platform commercial value at tier-1 level. |
 | regulatory | 2 | low | Pre-IND or early IND; regulatory pathway established by GLP-1 class. |
 
@@ -279,7 +279,7 @@
 |---|---|---|---|
 | tech | 3 | medium | Phase 2 monthly dosing demonstrated; mechanism is half-life extension rather than depot LAI. |
 | clinical | 3 | medium | Phase 2 weight loss results competitive; Phase 3 outcomes pending. |
-| ip | 4 | low | Amgen-internal IP estate, full runway; specific patent landscape not reviewed. |
+| ip | 3 | low | Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Amgen MariTide patent landscape search confirms strong composition and method coverage. |
 | dealability | 1 | high | Internal Amgen asset; not externally licensable. |
 | regulatory | 3 | medium | Pre-NDA. GLP-1 / GIP regulatory pathway established by tirzepatide and semaglutide. |
 

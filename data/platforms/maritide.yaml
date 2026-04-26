@@ -79,10 +79,10 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 4
-    rationale: Amgen-internal IP estate, full runway.
+    value: 3
+    rationale: Default neutral per rubric — Amgen MariTide patent landscape not assessed; revise after a proper Espacenet / WIPO search. Likely a strong estate given Amgen's biologics IP infrastructure but the specific Fc-conjugate composition and method claims have not been verified.
     confidence: low
-    scored_at: 2026-04-26
+    scored_at: 2026-04-27
     scorer: CL
   dealability:
     value: 1

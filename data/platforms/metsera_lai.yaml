@@ -80,10 +80,10 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 4
-    rationale: Newer-vintage IP, full runway.
+    value: 3
+    rationale: Default neutral per rubric — Metsera HALO platform patent landscape not assessed. Newer-vintage filings (Metsera founded 2022) suggest full nominal runway, but the specific composition claims and any Pfizer-augmented continuations post-acquisition have not been verified.
     confidence: low
-    scored_at: 2026-04-26
+    scored_at: 2026-04-27
     scorer: CL
   dealability:
     value: 5
@@ -100,10 +100,10 @@ scores:
 
 indication_fit:
   metabolic:
-    value: 4
-    rationale: Phase 1/2 obesity data positive; primary commercial focus.
+    value: 3
+    rationale: Default neutral per rubric — Phase 1/2 obesity data is too early-stage to claim a "good fit" (4); upgrade contingent on Phase 3 readout. Pfizer acquisition in late 2025 underscores the commercial bet on the category but does not de-risk the platform's clinical fit.
     confidence: low
-    scored_at: 2026-04-26
+    scored_at: 2026-04-27
     scorer: CL
 
 views:

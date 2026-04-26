@@ -50,10 +50,10 @@ scores:
     scored_at: 2026-04-26
     scorer: CL
   ip:
-    value: 4
-    rationale: Amgen-internal IP estate, full runway; specific patent landscape not reviewed.
+    value: 3
+    rationale: Default neutral per rubric — inherits the platform-level IP score (3, low confidence). Revise upward if a proper Amgen MariTide patent landscape search confirms strong composition and method coverage.
     confidence: low
-    scored_at: 2026-04-26
+    scored_at: 2026-04-27
     scorer: CL
   dealability:
     value: 1
