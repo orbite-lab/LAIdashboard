@@ -89,10 +89,10 @@
 
 ### PolyActiva Pty Ltd × undisclosed pharma counterparty — 2024-01-01
 
-**Description:** PolyActiva (private Australian company) has reported partnership discussions with multiple ophthalmology pharma counterparties around PA5108 (latanoprost glaucoma implant) Phase 3 readiness, with no confirmed exclusive partnership disclosed publicly through 2024. Tracked as a placeholder for the partnership-discussion category — represents the type of platform-stage opportunity available for pharma BD scouts looking at ophthalmic LAI implants.
+**Description:** PolyActiva (private Australian company) has reported partnership discussions with multiple ophthalmology pharma counterparties around PA5108 (latanoprost glaucoma implant) Phase 3 readiness, with no confirmed exclusive partnership disclosed publicly through 2024. Tracked while awaiting public disclosure of an executed partnership — represents the type of platform-stage opportunity available for pharma BD scouts looking at ophthalmic LAI implants.
   
 **Type:** licensing | **Status:** active | **Exclusivity:** non_exclusive | **Territory:** undisclosed  
-*Notes:* No public deal — placeholder for an actively-shopped asset.
+*Notes:* No public deal — tracked while awaiting confirmation of an executed partnership for an actively-shopped asset.
 
 **TactBio view:** Tracked for partner-scout relevance rather than as a confirmed deal. PA5108 is the most clinically advanced asset in PolyActiva's pipeline and the platform's commercial story rests on partnership economics more than product economics. Useful in the partner_scout output as a signal that PolyActiva is actively shopping the asset. Replace this entry with a specific deal yaml once a partnership is announced.
 

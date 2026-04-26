@@ -1,5 +1,5 @@
 id: abbvie_bepo_program_1
-name: AbbVie BEPO Program 1 (placeholder)
+name: AbbVie BEPO Program 1 (awaiting disclosure)
 inn: undisclosed
 platform_id: bepo
 owning_company: MedinCell
@@ -24,8 +24,9 @@ commercial:
     AbbVie has rights to develop up to six programs across multiple
     therapeutic areas using BEPO. Specific molecules and indications are
     not publicly disclosed. AbbVie has guided to first IND filing in 2026.
-    This placeholder represents the lead program; programs 2-6 follow the
-    same structure and per-program $315M milestone economics.
+    This entry represents the lead program and is awaiting public disclosure
+    of molecule and indication; programs 2-6 follow the same structure and
+    per-program $315M milestone economics.
   list_price_usd: null
   addressable_market_usd_m: null
 

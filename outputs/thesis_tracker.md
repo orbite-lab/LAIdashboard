@@ -6,7 +6,7 @@
 
 | Asset | INN | Platform | Owner / Licensee | Status | Composite | Next catalyst |
 |---|---|---|---|---|---|---|
-| AbbVie BEPO Program 1 (placeholder) | undisclosed | BEPO | MedinCell / AbbVie | preclinical | **2.85** | 2026-Q4 |
+| AbbVie BEPO Program 1 (awaiting disclosure) | undisclosed | BEPO | MedinCell / AbbVie | preclinical | **2.85** | 2026-Q4 |
 | Apretude | cabotegravir | NanoCrystal | ViiV Healthcare | approved | **4.65** | — |
 | Brixadi | buprenorphine | FluidCrystal | Camurus / Braeburn | approved | **4.30** | — |
 | Buvidal | buprenorphine | FluidCrystal | Camurus | approved | **4.50** | — |
@@ -37,7 +37,7 @@
 
 ## Asset detail
 
-### AbbVie BEPO Program 1 (placeholder) (undisclosed)
+### AbbVie BEPO Program 1 (awaiting disclosure) (undisclosed)
 
 **Platform:** BEPO  
 **Owner:** MedinCell  
