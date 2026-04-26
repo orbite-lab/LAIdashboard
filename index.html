@@ -13,33 +13,72 @@
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }
-  header.page-header {
+  html { scroll-behavior: smooth; }
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background: #0F1B2D;
-    color: #FFFFFF;
-    padding: 32px 40px;
     border-bottom: 4px solid #2E5090;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  header.page-header {
+    color: #FFFFFF;
+    padding: 18px 40px 14px;
   }
   header.page-header .brand {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #7899C9;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   header.page-header h1 {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing: -0.3px;
+    display: inline-block;
   }
   header.page-header .meta {
-    margin-top: 8px;
-    font-size: 12px;
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 11px;
     color: #B0BEC5;
+  }
+  nav.section-nav {
+    background: rgba(0,0,0,0.18);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0 32px;
+    scrollbar-width: thin;
+  }
+  nav.section-nav a {
+    color: #B0BEC5;
+    text-decoration: none;
+    padding: 10px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.12s, border-color 0.12s;
+  }
+  nav.section-nav a:hover {
+    color: #FFFFFF;
+    border-bottom-color: #0E7C6B;
+  }
+  nav.section-nav a.active {
+    color: #FFFFFF;
+    border-bottom-color: #0E7C6B;
   }
   main {
     max-width: 1240px;
     margin: 0 auto;
     padding: 32px 40px 80px;
+  }
+  /* Anchor offset so jumps land below the sticky header */
+  section.card {
+    scroll-margin-top: 110px;
   }
   .stats-row {
     display: grid;
@@ -368,11 +407,14 @@
 </style>
 </head>
 <body>
-<header class="page-header">
-  <div class="brand">LAI RESEARCH</div>
-  <h1>Long-Acting Injectable Tracker</h1>
-  <div class="meta">Generated 2026-04-26 19:59 UTC</div>
-</header>
+<div class="sticky-top">
+  <header class="page-header">
+    <div class="brand">LAI RESEARCH</div>
+    <h1>Long-Acting Injectable Tracker</h1>
+    <span class="meta">Generated 2026-04-26 20:04 UTC</span>
+  </header>
+  <nav class="section-nav"><a href="#overview">Overview</a><a href="#h2h">Indication Fit</a><a href="#composite">Composite Scores</a><a href="#availability">Partner Availability</a><a href="#tech-fit">Technical Fit</a><a href="#encumbrances">Encumbrances</a><a href="#assets">Assets</a><a href="#companies">Target Screener</a><a href="#deals">Deal Log</a><a href="#trials">Trials</a><a href="#ip">IP Coverage</a></nav>
+</div>
 <main>
 <div class="stats-row">
         <div class="stat-card">
@@ -403,7 +445,7 @@
           <div class="stat-value" style="color:#0E7C6B;">31</div>
           <div class="stat-label">Companies</div>
         </div></div>
-    <section class="card">
+    <section id="h2h" class="card">
       <h2>Platform × Indication Fit</h2>
       <p class="subtitle">Hover any cell for the scoring rationale.</p>
       <div class="heatmap-wrap">
@@ -422,7 +464,7 @@
       <span class="legend-item legend-conf">Confidence: full opacity = high; · medium; ? low</span>
     </div>
     </section>
-    <section class="card">
+    <section id="composite" class="card">
       <h2>Platform composite scores</h2>
       <p class="subtitle">Weighted: tech 40% · IP 30% · dealability 30%. Hover any bar segment for the rationale; click a row to expand full detail.</p>
       <div class="bars">
@@ -1575,7 +1617,7 @@
           <div class="d-editorial"><strong>Analytical view</strong><br>Internal Glaukos asset, not externally investable as platform. Strategic significance for us is as a benchmark — iDose&#x27;s longer duration pressures Allergan&#x27;s Durysta and sets a higher bar for any new ophthalmic LAI platform. Watch commercial uptake post-launch as a leading indicator for prescriber/patient acceptance of multi-year ocular implants.</div>
         </div></div>
     </section>
-    <section class="card">
+    <section id="availability" class="card">
       <h2>Partner Availability</h2>
       <p class="subtitle">For pharma BD scouting. ✓ = indication open for partnering.
         🔒 = encumbered by an active exclusive deal. Color follows the indication-fit score.</p>
@@ -1586,7 +1628,7 @@
         </table>
       </div>
     </section>
-    <section class="card">
+    <section id="tech-fit" class="card">
       <h2>Platform Technical Fit</h2>
       <p class="subtitle">Label-derived screening attributes for pharma scientist BD diligence.</p>
       <div class="table-wrap">
@@ -1600,7 +1642,7 @@
       </table>
       </div>
     </section>
-    <section class="card">
+    <section id="encumbrances" class="card">
       <h2>Encumbrance Log</h2>
       <p class="subtitle">Active exclusive deals locking indication scope. BD scouts treat these as unavailable.</p>
       <div class="table-wrap">
@@ -1613,7 +1655,7 @@
       </table>
       </div>
     </section>
-    <section class="card">
+    <section id="assets" class="card">
       <h2>Asset thesis tracker</h2>
       <p class="subtitle">Click any column header to sort. Click again to reverse.</p>
       <table class="data-table sortable">
@@ -1912,7 +1954,7 @@
         </tr></tbody>
       </table>
     </section>
-    <section class="card">
+    <section id="companies" class="card">
       <h2>Target Screener</h2>
       <p class="subtitle">Public LAI-platform companies sized by market cap. M&A scouting view.</p>
       <div class="table-wrap">
@@ -1925,7 +1967,7 @@
       </table>
       </div>
     </section>
-    <section class="card">
+    <section id="deals" class="card">
       <h2>Deal log</h2>
       <p class="subtitle">Click any column header to sort. Click again to reverse.</p>
       <table class="data-table sortable">
@@ -2144,7 +2186,7 @@
         </tr></tbody>
       </table>
     </section>
-    <section class="card">
+    <section id="trials" class="card">
       <h2>Clinical Trials Coverage</h2>
       <p class="subtitle">166 trials indexed; 53 active or pre-readout; 87 Phase 3.
         Sourced from ClinicalTrials.gov via <code>scripts/scrape_clinicaltrials.py</code>.</p>
@@ -2158,7 +2200,7 @@
       </table>
       </div>
     </section>
-    <section class="card">
+    <section id="ip" class="card">
       <h2>IP Coverage</h2>
       <p class="subtitle">108 patent records indexed from FDA Orange Book and curated filings.
         Sourced via <code>scripts/scrape_orange_book.py</code>.</p>
@@ -2278,6 +2320,65 @@
       }
     });
   });
+
+  // Scroll-spy: highlight the section-nav link whose section is currently
+  // closest to the top of the viewport (just below the sticky header).
+  var navLinks = Array.prototype.slice.call(
+    document.querySelectorAll('nav.section-nav a')
+  );
+  var sections = navLinks
+    .map(function(a) {
+      var id = a.getAttribute('href').replace('#', '');
+      return { id: id, link: a, el: document.getElementById(id) };
+    })
+    .filter(function(s) { return s.el; });
+
+  function setActive(id) {
+    navLinks.forEach(function(a) {
+      var href = a.getAttribute('href').replace('#', '');
+      if (href === id) { a.classList.add('active'); }
+      else { a.classList.remove('active'); }
+    });
+  }
+
+  function onScroll() {
+    var header = document.querySelector('.sticky-top');
+    var headerH = header ? header.offsetHeight : 100;
+    var threshold = headerH + 16;
+    var current = sections[0] && sections[0].id;
+    for (var i = 0; i < sections.length; i++) {
+      var rect = sections[i].el.getBoundingClientRect();
+      if (rect.top - threshold <= 0) {
+        current = sections[i].id;
+      } else {
+        break;
+      }
+    }
+    if (current) setActive(current);
+  }
+
+  if (sections.length) {
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // Auto-scroll the nav so the active link stays visible if it overflows
+  // horizontally (long nav on narrow screens).
+  function ensureActiveVisible() {
+    var active = document.querySelector('nav.section-nav a.active');
+    if (!active) return;
+    var nav = active.parentElement;
+    var aLeft = active.offsetLeft;
+    var aRight = aLeft + active.offsetWidth;
+    if (aLeft < nav.scrollLeft + 24) {
+      nav.scrollLeft = Math.max(0, aLeft - 24);
+    } else if (aRight > nav.scrollLeft + nav.clientWidth - 24) {
+      nav.scrollLeft = aRight - nav.clientWidth + 24;
+    }
+  }
+  if (sections.length) {
+    window.addEventListener('scroll', ensureActiveVisible, { passive: true });
+  }
 })();
 </script>
 </body>

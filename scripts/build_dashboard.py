@@ -869,33 +869,72 @@ CSS = f"""
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
   }}
-  header.page-header {{
+  html {{ scroll-behavior: smooth; }}
+  .sticky-top {{
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background: {NAVY};
-    color: #FFFFFF;
-    padding: 32px 40px;
     border-bottom: 4px solid {ACCENT_BLUE};
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }}
+  header.page-header {{
+    color: #FFFFFF;
+    padding: 18px 40px 14px;
   }}
   header.page-header .brand {{
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #7899C9;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }}
   header.page-header h1 {{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing: -0.3px;
+    display: inline-block;
   }}
   header.page-header .meta {{
-    margin-top: 8px;
-    font-size: 12px;
+    display: inline-block;
+    margin-left: 16px;
+    font-size: 11px;
     color: #B0BEC5;
+  }}
+  nav.section-nav {{
+    background: rgba(0,0,0,0.18);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0 32px;
+    scrollbar-width: thin;
+  }}
+  nav.section-nav a {{
+    color: #B0BEC5;
+    text-decoration: none;
+    padding: 10px 14px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.12s, border-color 0.12s;
+  }}
+  nav.section-nav a:hover {{
+    color: #FFFFFF;
+    border-bottom-color: {ACCENT_TEAL};
+  }}
+  nav.section-nav a.active {{
+    color: #FFFFFF;
+    border-bottom-color: {ACCENT_TEAL};
   }}
   main {{
     max-width: 1240px;
     margin: 0 auto;
     padding: 32px 40px 80px;
+  }}
+  /* Anchor offset so jumps land below the sticky header */
+  section.card {{
+    scroll-margin-top: 110px;
   }}
   .stats-row {{
     display: grid;
@@ -1228,20 +1267,35 @@ def build_dashboard() -> str:
     conn = connect()
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    body_sections = [
-        render_stats(conn),
-        render_h2h_matrix(conn),
-        render_composite_bars(conn),
-        render_partner_availability(conn),
-        render_technical_fit(conn),
-        render_encumbrance_log(conn),
-        render_asset_table(conn),
-        render_target_screener(conn),
-        render_deal_log(conn),
-        render_trials_summary(conn),
-        render_ip_overview(conn),
-        render_gaps(conn),
+    # (id, label, html) per section. Empty html sections are skipped from
+    # both the rendered body and the nav.
+    sections = [
+        ("overview",      "Overview",            render_stats(conn)),
+        ("h2h",           "Indication Fit",      render_h2h_matrix(conn)),
+        ("composite",     "Composite Scores",    render_composite_bars(conn)),
+        ("availability",  "Partner Availability", render_partner_availability(conn)),
+        ("tech-fit",      "Technical Fit",       render_technical_fit(conn)),
+        ("encumbrances",  "Encumbrances",        render_encumbrance_log(conn)),
+        ("assets",        "Assets",              render_asset_table(conn)),
+        ("companies",     "Target Screener",     render_target_screener(conn)),
+        ("deals",         "Deal Log",            render_deal_log(conn)),
+        ("trials",        "Trials",              render_trials_summary(conn)),
+        ("ip",            "IP Coverage",         render_ip_overview(conn)),
+        ("gaps",          "Research Queue",      render_gaps(conn)),
     ]
+
+    # Inject id="" on the first <section ...> opening tag so anchor links land
+    # on each card. render functions emit `<section class="card ...">`.
+    def with_id(sid: str, html: str) -> str:
+        if not html.strip():
+            return ""
+        return html.replace('<section class="card', f'<section id="{sid}" class="card', 1)
+
+    nav_links = "".join(
+        f'<a href="#{sid}">{label}</a>'
+        for sid, label, html in sections if html.strip()
+    )
+    body_html = "".join(with_id(sid, html) for sid, _, html in sections)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -1252,13 +1306,16 @@ def build_dashboard() -> str:
 <style>{CSS}</style>
 </head>
 <body>
-<header class="page-header">
-  <div class="brand">LAI RESEARCH</div>
-  <h1>Long-Acting Injectable Tracker</h1>
-  <div class="meta">Generated {generated}</div>
-</header>
+<div class="sticky-top">
+  <header class="page-header">
+    <div class="brand">LAI RESEARCH</div>
+    <h1>Long-Acting Injectable Tracker</h1>
+    <span class="meta">Generated {generated}</span>
+  </header>
+  <nav class="section-nav">{nav_links}</nav>
+</div>
 <main>
-{''.join(body_sections)}
+{body_html}
 </main>
 <footer>
   Internal use · Not investment advice
@@ -1365,6 +1422,65 @@ def build_dashboard() -> str:
       }}
     }});
   }});
+
+  // Scroll-spy: highlight the section-nav link whose section is currently
+  // closest to the top of the viewport (just below the sticky header).
+  var navLinks = Array.prototype.slice.call(
+    document.querySelectorAll('nav.section-nav a')
+  );
+  var sections = navLinks
+    .map(function(a) {{
+      var id = a.getAttribute('href').replace('#', '');
+      return {{ id: id, link: a, el: document.getElementById(id) }};
+    }})
+    .filter(function(s) {{ return s.el; }});
+
+  function setActive(id) {{
+    navLinks.forEach(function(a) {{
+      var href = a.getAttribute('href').replace('#', '');
+      if (href === id) {{ a.classList.add('active'); }}
+      else {{ a.classList.remove('active'); }}
+    }});
+  }}
+
+  function onScroll() {{
+    var header = document.querySelector('.sticky-top');
+    var headerH = header ? header.offsetHeight : 100;
+    var threshold = headerH + 16;
+    var current = sections[0] && sections[0].id;
+    for (var i = 0; i < sections.length; i++) {{
+      var rect = sections[i].el.getBoundingClientRect();
+      if (rect.top - threshold <= 0) {{
+        current = sections[i].id;
+      }} else {{
+        break;
+      }}
+    }}
+    if (current) setActive(current);
+  }}
+
+  if (sections.length) {{
+    window.addEventListener('scroll', onScroll, {{ passive: true }});
+    onScroll();
+  }}
+
+  // Auto-scroll the nav so the active link stays visible if it overflows
+  // horizontally (long nav on narrow screens).
+  function ensureActiveVisible() {{
+    var active = document.querySelector('nav.section-nav a.active');
+    if (!active) return;
+    var nav = active.parentElement;
+    var aLeft = active.offsetLeft;
+    var aRight = aLeft + active.offsetWidth;
+    if (aLeft < nav.scrollLeft + 24) {{
+      nav.scrollLeft = Math.max(0, aLeft - 24);
+    }} else if (aRight > nav.scrollLeft + nav.clientWidth - 24) {{
+      nav.scrollLeft = aRight - nav.clientWidth + 24;
+    }}
+  }}
+  if (sections.length) {{
+    window.addEventListener('scroll', ensureActiveVisible, {{ passive: true }});
+  }}
 }})();
 </script>
 </body>
