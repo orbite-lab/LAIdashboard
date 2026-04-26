@@ -1,0 +1,31 @@
+id: titan
+name: Titan Pharmaceuticals, Inc.
+ticker: TTNP
+listing_venue: NASDAQ
+country_hq: US
+employees: ~10
+market_cap_usd_m: 5
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Micro-cap biotech. Developer of Probuphine (buprenorphine implant)
+  for OUD. Probuphine commercial trajectory was minimal post-launch;
+  Braeburn discontinued the product in 2020. Titan retains the
+  ProNeura implant platform IP but commercial activity has wound down.
+
+related_platforms: [probuphine]
+related_assets: []
+related_deals: []
+
+ir_contact: ir@titanpharm.com
+last_updated: 2026-04-27
+
+notes: >
+  Cautionary case for implant LAI duration vs. workflow tradeoff.
+  6-month duration was insufficient compensation for surgical
+  insertion friction. Tracked primarily as historical context and
+  competitive read-across for any prospective implant LAI in
+  indications where injectable alternatives exist.

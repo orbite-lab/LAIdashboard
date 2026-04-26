@@ -1,0 +1,31 @@
+id: polyactiva
+name: PolyActiva Pty Ltd
+ticker: null
+listing_venue: private
+country_hq: AU
+employees: ~30
+market_cap_usd_m: null
+market_cap_as_of: null
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: AU AAS
+
+governance_notes: >
+  Private Australian clinical-stage biotech. Developer of biodegradable
+  polymer-rod intracameral implant platform; lead asset PA5108
+  (latanoprost glaucoma implant) in Phase 2 development. Commercial
+  strategy depends on partnership economics.
+
+related_platforms: [polyactiva]
+related_assets: [pa5108]
+related_deals:
+  - 2024_polyactiva_partnerships
+
+ir_contact: info@polyactiva.com
+last_updated: 2026-04-27
+
+notes: >
+  PolyActiva represents the next-generation challenger thesis to
+  Allergan/AbbVie Durysta in glaucoma. Pre-Phase-3 readout — pure
+  optionality. BD scouts looking at glaucoma LAI implants should
+  monitor PA5108 Phase 2 readout 2026 as the diligence trigger.

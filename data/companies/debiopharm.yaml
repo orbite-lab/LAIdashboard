@@ -1,0 +1,31 @@
+id: debiopharm
+name: Debiopharm Group
+ticker: null
+listing_venue: private
+country_hq: CH
+employees: ~600
+market_cap_usd_m: null
+market_cap_as_of: null
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: Swiss GAAP
+
+governance_notes: >
+  Privately-held Swiss pharma group. Original developer of triptorelin
+  pamoate / Decapeptyl (PLGA microsphere LAI for prostate cancer and
+  endometriosis). Co-marketed globally with Ipsen (EU) and historically
+  Allergan/Watson (US Trelstar). Family-owned (Mauvernay family).
+
+related_platforms: [trelstar_platform]
+related_assets: []
+related_deals: []
+
+ir_contact: info@debiopharm.com
+last_updated: 2026-04-27
+
+notes: >
+  Debiopharm is the originator of Decapeptyl/Trelstar; commercial
+  expression varies by region (Ipsen EU, Verity Pharmaceuticals US,
+  others ROW). Tracked for completeness in the LHRH LAI competitive
+  set. Private status limits investability but the franchise remains
+  a periodic divestment / consolidation candidate.

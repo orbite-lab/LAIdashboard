@@ -1,0 +1,32 @@
+id: foresee
+name: Foresee Pharmaceuticals Co., Ltd.
+ticker: 6576
+listing_venue: Taiwan Stock Exchange (TPEx)
+country_hq: TW
+employees: ~80
+market_cap_usd_m: 130
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Taiwan-listed clinical-stage specialty pharma. Owns the SpectruM
+  in-situ depot platform; lead product Camcevi (leuprolide mesylate
+  LAI) approved in US, EU, China. Commercial expression entirely via
+  territorial licensees (Accord, Intas, GenSci) — Foresee retains
+  platform IP and royalty/profit-share economics.
+
+related_platforms: [spectrum]
+related_assets: []
+related_deals:
+  - 2019_accord_foresee_camcevi
+  - 2021_intas_foresee_camcevi
+
+ir_contact: ir@foreseepharma.com
+last_updated: 2026-04-27
+
+notes: >
+  Foresee's commercial model is platform-licensing-driven rather than
+  direct commercialization. Reference for territorial-licensing
+  economics on commodity LHRH LAI products.

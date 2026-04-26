@@ -1,0 +1,32 @@
+id: recordati
+name: Recordati S.p.A.
+ticker: REC
+listing_venue: Borsa Italiana
+country_hq: IT
+employees: ~4500
+market_cap_usd_m: 11000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 200
+debt_usd_m: 1300
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Mid-cap European specialty pharma. Recordati Rare Diseases division
+  acquired Signifor / Signifor LAR (pasireotide) and Isturisa
+  (osilodrostat) franchises from Novartis in 2019 for $390M plus
+  contingent osilodrostat economics. Founder Recordati family retains
+  major shareholding through Rossini Investimenti.
+
+related_platforms: [signifor_lar_platform]
+related_assets: []
+related_deals:
+  - 2019_recordati_novartis_signifor
+
+ir_contact: investor.relations@recordati.it
+last_updated: 2026-04-27
+
+notes: >
+  Recordati's rare-disease commercial focus makes it a plausible
+  long-tail acquirer of mature pituitary / endocrine LAI franchises
+  divested by tier-1 pharma. Reference for acquirer valuation of
+  late-life peptide LAI franchises near patent expiry.

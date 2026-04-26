@@ -10,12 +10,14 @@
 | Johnson & Johnson (Janssen Pharmaceutical) | JNJ | NYSE | 380000 | 25000 | 30000 | nanocrystal, medisorb |
 | AbbVie Inc. | ABBV | NYSE | 320000 | 12000 | 60000 | bepo, lupron_depot, novadur |
 | F. Hoffmann-La Roche AG (Roche / Genentech) | ROG | SIX Swiss Exchange | 280000 | 6000 | 35000 | pds |
+| AstraZeneca PLC | AZN | LSE / NASDAQ | 220000 | 7000 | 28000 | zoladex_implant |
 | Novartis AG | NVS | SIX Swiss Exchange / NYSE | 220000 | 12000 | 25000 | sandostatin_lar_platform, signifor_lar |
 | Amgen Inc. | AMGN | NASDAQ | 165000 | 8000 | 60000 | maritide |
 | Pfizer Inc. | PFE | NYSE | 160000 | 12000 | 60000 | metsera_lai |
 | GSK plc | GSK | LSE / NYSE | 75000 | 5000 | 22000 | nanocrystal |
 | Teva Pharmaceutical Industries Ltd. | TEVA | NYSE / Tel Aviv | 22000 | 3000 | 17000 | bepo |
 | Ipsen S.A. | IPN | Euronext Paris | 11000 | 800 | 1800 | somatuline_autogel |
+| Recordati S.p.A. | REC | Borsa Italiana | 11000 | 200 | 1300 | signifor_lar_platform |
 | Alkermes plc | ALKS | NASDAQ | 5500 | 800 | 300 | medisorb, nanocrystal |
 | Camurus AB | CAMX | Nasdaq Stockholm | 4500 | 250 | — | fluidcrystal |
 | Glaukos Corporation | GKOS | NYSE | 4500 | 250 | 280 | idose |
@@ -25,6 +27,10 @@
 | EyePoint Pharmaceuticals, Inc. | EYPT | NASDAQ | 600 | 280 | 50 | durasert |
 | Heron Therapeutics, Inc. | HRTX | NASDAQ | 250 | 60 | 120 | biochronomer |
 | MedinCell SA | MEDCL | Euronext Paris | 250 | 50 | — | bepo |
+| Foresee Pharmaceuticals Co., Ltd. | 6576 | Taiwan Stock Exchange (TPEx) | 130 | — | — | spectrum |
+| Adocia SA | ADOC | Euronext Paris | 50 | 15 | — | medusa |
+| LIDDS AB | LIDDS | Nasdaq First North (Stockholm) | 10 | — | — | nanozolid |
+| Titan Pharmaceuticals, Inc. | TTNP | NASDAQ | 5 | — | — | probuphine |
 
 ## Acquirer view per company
 
@@ -82,6 +88,19 @@ AbbVie's BEPO collaboration covers up to 6 programs across oncology, ophthalmolo
 - **PDS (Susvimo)** _(acquirer view not yet populated)_
 
 Roche is the reference for what biologic LAI commercial economics look like via Susvimo. Susvimo's recall (2022) and relaunch (2023) define the device-formulation-hybrid LAI cautionary case. Genentech is Roche's US subsidiary; PDS development originated at Genentech. Not a likely external LAI partner — internal-only platform strategy.
+
+### AstraZeneca PLC (AZN)
+
+**HQ:** GB  
+**Listing:** LSE / NASDAQ  
+**Market cap:** $220000M (as of 2026-04-25)  
+**Cash:** $7000M  
+**Debt:** $28000M  
+
+**Related platforms:**
+- **Zoladex** _(acquirer view not yet populated)_
+
+AstraZeneca's LAI exposure has been managed-down through divestitures (Bydureon to Lilly, Zoladex US rights to TerSera). Tracked primarily for historical context and the Zoladex EU commercial scope.
 
 ### Novartis AG (NVS)
 
@@ -160,6 +179,19 @@ Teva is the principal commercial counterparty for BEPO/SteadyTeq. UZEDY commerci
 - **Somatuline Autogel** _(acquirer view not yet populated)_
 
 Ipsen is the reference for late-life LAI franchise economics under generic threat. Somatuline IP cliff is the central question — defense via additional indications or geographic carve-outs informs valuation for any prospective octreotide/lanreotide LAI new entrant (CAM2029). Founder-family voting structure makes Ipsen a difficult M&A target.
+
+### Recordati S.p.A. (REC)
+
+**HQ:** IT  
+**Listing:** Borsa Italiana  
+**Market cap:** $11000M (as of 2026-04-25)  
+**Cash:** $200M  
+**Debt:** $1300M  
+
+**Related platforms:**
+- **Signifor LAR** _(acquirer view not yet populated)_
+
+Recordati's rare-disease commercial focus makes it a plausible long-tail acquirer of mature pituitary / endocrine LAI franchises divested by tier-1 pharma. Reference for acquirer valuation of late-life peptide LAI franchises near patent expiry.
 
 ### Alkermes plc (ALKS)
 
@@ -278,4 +310,49 @@ Heron is the closest competitor to Pacira in postsurgical pain LAI. Zynrelef dif
 - **BEPO** — MedinCell (MEDCL, Euronext Paris) is a small-cap clinical-stage / early-royalty biotech with significant counterparty concentration risk (Teva 100% of near-term royalties). M&A targets at this stage typically gate on platform-validation milestones — TEV-749 olanzapine PDUFA Q4 2026 is the single most important near-term catalyst. Both Teva (2013) and AbbVie (2024) deals likely contain consent / ROFR provisions on platform transfer; diligence both. Royalty Pharma olanzapine financing creates an additional creditor relationship to navigate. French listing and IFRS reporting add accounting complexity for US acquirers.
 
 MedinCell's revenue model is royalty/milestone-driven through partners. Near-term cash flows dominated by Teva milestones on UZEDY commercial ramp and TEV-749 olanzapine PDUFA. AbbVie 2024 deal added $35M upfront but milestone receipts are program-progression-gated. Cash runway and TEV-749 PDUFA Q4 2026 outcome are the central operational variables.
+
+### Foresee Pharmaceuticals Co., Ltd. (6576)
+
+**HQ:** TW  
+**Listing:** Taiwan Stock Exchange (TPEx)  
+**Market cap:** $130M (as of 2026-04-25)  
+
+**Related platforms:**
+- **SpectruM** _(acquirer view not yet populated)_
+
+Foresee's commercial model is platform-licensing-driven rather than direct commercialization. Reference for territorial-licensing economics on commodity LHRH LAI products.
+
+### Adocia SA (ADOC)
+
+**HQ:** FR  
+**Listing:** Euronext Paris  
+**Market cap:** $50M (as of 2026-04-25)  
+**Cash:** $15M  
+
+**Related platforms:**
+- **Medusa** _(acquirer view not yet populated)_
+
+Cautionary case study for formulation-platform biotech execution risk. The Lilly partnership termination in 2017 illustrates how formulation-only platforms can lose tier-1 relationships when underlying programs disappoint. Tracking value low absent a specific program reaching Phase 3.
+
+### LIDDS AB (LIDDS)
+
+**HQ:** SE  
+**Listing:** Nasdaq First North (Stockholm)  
+**Market cap:** $10M (as of 2026-04-25)  
+
+**Related platforms:**
+- **NanoZolid** _(acquirer view not yet populated)_
+
+NanoZolid's calcium-sulfate matrix differentiates from polymer-based in-situ depot platforms — potentially more compatible with sensitive payloads. Phase IIb data confirmation needed before commercial-stage partnering thesis becomes actionable. Persistent cash-runway concerns.
+
+### Titan Pharmaceuticals, Inc. (TTNP)
+
+**HQ:** US  
+**Listing:** NASDAQ  
+**Market cap:** $5M (as of 2026-04-25)  
+
+**Related platforms:**
+- **Probuphine** _(acquirer view not yet populated)_
+
+Cautionary case for implant LAI duration vs. workflow tradeoff. 6-month duration was insufficient compensation for surgical insertion friction. Tracked primarily as historical context and competitive read-across for any prospective implant LAI in indications where injectable alternatives exist.
 

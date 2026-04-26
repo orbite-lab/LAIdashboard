@@ -1,6 +1,7 @@
-id: lupron_microsphere_legacy
+id: trelstar_platform
 name: Trelstar
 company: Debiopharm / Ipsen
+company_id: debiopharm
 company_ticker: IPN
 country: FR
 mechanism: microsphere

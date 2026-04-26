@@ -1,6 +1,7 @@
 id: pds
 name: PDS (Susvimo)
 company: Genentech (Roche)
+company_id: roche
 company_ticker: ROG
 country: CH
 mechanism: implant

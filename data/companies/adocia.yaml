@@ -1,0 +1,33 @@
+id: adocia
+name: Adocia SA
+ticker: ADOC
+listing_venue: Euronext Paris
+country_hq: FR
+employees: ~75
+market_cap_usd_m: 50
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 15
+debt_usd_m: null
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Small-cap clinical-stage formulation specialist. BioChaperone /
+  Medusa drug-conjugate platform for sustained delivery of peptides
+  and proteins. Lead historical program BioChaperone Lispro (insulin)
+  saw the 2017 Lilly partnership terminate; subsequent strategic
+  pivots have produced limited commercial traction. Founder-led;
+  ongoing financing concerns.
+
+related_platforms: [medusa]
+related_assets: []
+related_deals: []
+
+ir_contact: ir@adocia.com
+last_updated: 2026-04-27
+
+notes: >
+  Cautionary case study for formulation-platform biotech execution
+  risk. The Lilly partnership termination in 2017 illustrates how
+  formulation-only platforms can lose tier-1 relationships when
+  underlying programs disappoint. Tracking value low absent a
+  specific program reaching Phase 3.

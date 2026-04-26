@@ -1,6 +1,7 @@
 id: novadur
 name: Novadur
 company: Allergan (AbbVie)
+company_id: abbvie
 company_ticker: ABBV
 country: US
 mechanism: implant

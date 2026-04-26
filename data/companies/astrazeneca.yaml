@@ -1,0 +1,32 @@
+id: astrazeneca
+name: AstraZeneca PLC
+ticker: AZN
+listing_venue: LSE / NASDAQ
+country_hq: GB
+employees: ~90000
+market_cap_usd_m: 220000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 7000
+debt_usd_m: 28000
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Tier-1 large-cap pharma. Historical owner of Zoladex (goserelin
+  implant) franchise via legacy Zeneca Group; US commercial rights
+  transferred to TerSera Therapeutics in 2017. Limited current
+  internal LAI focus; oncology and cardiometabolic franchises
+  dominate.
+
+related_platforms: [zoladex_implant]
+related_assets: []
+related_deals:
+  - 2014_az_alkermes_bydureon
+
+ir_contact: ir@astrazeneca.com
+last_updated: 2026-04-27
+
+notes: >
+  AstraZeneca's LAI exposure has been managed-down through
+  divestitures (Bydureon to Lilly, Zoladex US rights to TerSera).
+  Tracked primarily for historical context and the Zoladex EU
+  commercial scope.

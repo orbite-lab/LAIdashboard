@@ -1,0 +1,33 @@
+id: oakwood
+name: Oakwood Laboratories LLC
+ticker: null
+listing_venue: private
+country_hq: US
+employees: ~150
+market_cap_usd_m: null
+market_cap_as_of: null
+cash_position_usd_m: null
+debt_usd_m: null
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Private US specialty CDMO + platform owner. Operates Chroniject PLGA
+  microsphere platform supporting partner-funded reformulation programs
+  (octreotide, leuprolide, olanzapine, risperidone reformulations under
+  development). Solon, Ohio-based with FDA-inspected sterile-fill
+  facility. Privately held; ownership disclosed only partially.
+
+related_platforms: [chroniject]
+related_assets: []
+related_deals: []
+
+ir_contact: null
+last_updated: 2026-04-27
+
+notes: >
+  Oakwood is the principal external CDMO for partner-funded LAI
+  microsphere development in the US. Strategic relevance is primarily
+  as a window into the broader LAI development pipeline — the partner
+  roster (when disclosed) reveals which biotechs are pursuing
+  microsphere reformulations. Not a primary investment target on its
+  own merits.
