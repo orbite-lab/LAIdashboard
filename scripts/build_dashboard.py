@@ -47,6 +47,61 @@ INDICATION_LABELS = {
     "other": "Other",
 }
 
+# Human-readable labels for mechanism, payload, posture, capacity, site —
+# the underlying YAML uses snake_case taxonomy codes; these display in the
+# dashboard.
+MECHANISM_LABELS = {
+    "in_situ_depot": "In-situ depot",
+    "microsphere": "Microsphere",
+    "nanoparticle": "Nanocrystal",
+    "implant": "Implant",
+    "drug_conjugate": "Drug conjugate",
+    "liposome_depot": "Liposome",
+    "oil_solution": "Oil depot",
+    "peptide_self_assembly": "Peptide gel",
+    "other": "Other",
+}
+PAYLOAD_LABELS = {
+    "small_molecule": "Small molecule",
+    "peptide": "Peptide",
+    "protein": "Protein",
+    "biologic": "Biologic",
+    "nucleic_acid": "Nucleic acid",
+}
+POSTURE_LABELS = {
+    "true": "Open",
+    "false": "Closed",
+    "selective": "Selective",
+    "unknown": "—",
+    "": "—",
+    None: "—",
+}
+HEADROOM_LABELS = {
+    "ample": "Ample",
+    "moderate": "Moderate",
+    "tight": "Tight",
+    "unknown": "—",
+    None: "—",
+}
+SITE_LABELS = {
+    "SC": "SC",
+    "IM": "IM",
+    "intravitreal": "Intravitreal",
+    "intracameral": "Intracameral",
+    "intra-articular": "Intra-articular",
+    "intratumoral": "Intratumoral",
+    "local infiltration": "Local infiltration",
+    "SC implant": "SC implant",
+    "intravitreal device": "Intravitreal device",
+}
+
+
+def fmt_list(items, label_map):
+    """Map a list of taxonomy codes to a comma-joined human label."""
+    if not items:
+        return "—"
+    return ", ".join(label_map.get(x, x) for x in items)
+
 # Heatmap colors — semantic, matching TactBio muted palette
 SCORE_COLORS = {
     5: "#0E7C6B",   # deep teal
@@ -473,10 +528,16 @@ def render_partner_availability(conn) -> str:
     for p in platforms:
         posture = (p["open_to_partnering"] or "unknown").lower()
         bg = posture_color.get(posture, "#C9B896")
+        posture_label = POSTURE_LABELS.get(posture, "—")
+        # Muted color for unknown so the eye skips it instead of assuming "open"
+        if posture in ("unknown", ""):
+            bg, fg = "#E8E4D8", MUTED
+        else:
+            fg = "#fff"
         tbody += (
             f'<tr><td class="row-label">{esc(p["name"])}</td>'
-            f'<td class="cell" style="background:{bg};color:#fff;">'
-            f'{esc(posture)}</td>'
+            f'<td class="cell" style="background:{bg};color:{fg};">'
+            f'{esc(posture_label)}</td>'
         )
         for ind in indications:
             v = fit.get((p["id"], ind))
@@ -524,33 +585,46 @@ def render_technical_fit(conn) -> str:
     for r in rows:
         tf = json.loads(r["technical_fit_json"] or "{}") or {}
         vol = tf.get("injection_volume_ml_range") or [None, None]
-        vol_str = (
-            f"{vol[0]}–{vol[1]}" if vol[0] is not None and vol[1] is not None
-            else "—"
-        )
+        if vol[0] is not None and vol[1] is not None:
+            vol_str = (
+                f"{vol[0]}" if vol[0] == vol[1] else f"{vol[0]}–{vol[1]}"
+            )
+        else:
+            vol_str = "—"
         cold = tf.get("cold_chain_required")
-        cold_str = "yes" if cold is True else ("no" if cold is False else "—")
-        sites = tf.get("injection_site") or []
-        sites_str = ", ".join(sites) if sites else "—"
+        cold_str = "Yes" if cold is True else ("No" if cold is False else "—")
+        sites_str = fmt_list(tf.get("injection_site") or [], SITE_LABELS)
         gauge = tf.get("needle_gauge_typical") or "—"
         try:
-            payloads = ", ".join(json.loads(r["payload_classes_json"] or "[]"))
+            payloads_str = fmt_list(
+                json.loads(r["payload_classes_json"] or "[]"),
+                PAYLOAD_LABELS,
+            )
         except json.JSONDecodeError:
-            payloads = "—"
-        duration = (
-            f"{r['duration_min_days']}–{r['duration_max_days']}d"
-            if r["duration_min_days"] and r["duration_max_days"] else "—"
-        )
+            payloads_str = "—"
+        # Format duration in days/weeks/months for readability
+        dmin, dmax = r["duration_min_days"], r["duration_max_days"]
+        if dmin and dmax:
+            if dmax >= 365:
+                duration = f"{dmin}d – {round(dmax/30)}mo"
+            elif dmax >= 60:
+                duration = f"{dmin}d – {round(dmax/30)}mo"
+            else:
+                duration = f"{dmin}–{dmax}d"
+        else:
+            duration = "—"
+        mechanism_str = MECHANISM_LABELS.get(r["mechanism"], r["mechanism"] or "—")
+        capacity_str = HEADROOM_LABELS.get(r["capacity_headroom"], "—")
         body += (
             f"<tr><td>{esc(r['name'])}</td>"
-            f"<td>{esc(r['mechanism'])}</td>"
+            f"<td>{esc(mechanism_str)}</td>"
             f"<td>{duration}</td>"
-            f"<td>{esc(payloads)}</td>"
+            f"<td>{esc(payloads_str)}</td>"
             f"<td>{vol_str}</td>"
             f"<td>{esc(gauge)}</td>"
             f"<td>{cold_str}</td>"
             f"<td>{esc(sites_str)}</td>"
-            f"<td>{esc(r['capacity_headroom'] or '—')}</td></tr>"
+            f"<td>{esc(capacity_str)}</td></tr>"
         )
 
     return f"""
