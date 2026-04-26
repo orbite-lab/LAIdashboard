@@ -1,0 +1,29 @@
+id: "susvimo_nct01059630"
+nct_id: "NCT01059630"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 3
+n: 413
+design: "Interventional"
+primary_endpoint: >
+  Number of Participants With Progressive Disease (PD) as Assessed by Independent Review Committee (IRC) or Death; Progression-Free Survival (PFS) as Assessed by IRC
+control_arm: "active comparator"
+sponsor: "Genentech, Inc."
+status: "completed"
+start_date: "2010-04-30"
+expected_readout: "2014-09-30"
+result: null
+geography:
+  - "Austria"
+  - "Belgium"
+  - "Canada"
+  - "Czechia"
+  - "France"
+  - "Germany"
+  - "Italy"
+  - "Netherlands"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT01059630"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study to Investigate the Efficacy and Safety of Bendamustine Compared With Bendamustine+Obinutuzumab (GA101) in Participants With Rituximab-Refractory, Indolent Non-Hodgkin's Lymphoma (GADOLIN). Sponsor: Genentech, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -41,34 +41,34 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 
 | Platform | Mechanism | Duration | Payloads | Inj. vol (mL) | Cold chain | Capacity |
 |---|---|---|---|---|---|---|
-| Atrigel | in_situ_depot | 30–180d | small_molecule, peptide | — | — | unknown |
+| Atrigel | in_situ_depot | 30–180d | small_molecule, peptide | 0.25–0.5 | yes | moderate |
 | BEPO | in_situ_depot | 7–90d | small_molecule, peptide | 0.3–2.0 | no | moderate |
-| Biochronomer | in_situ_depot | 3–7d | small_molecule | — | — | unknown |
+| Biochronomer | in_situ_depot | 3–7d | small_molecule | 0.5–30.0 | yes | moderate |
 | Chroniject | microsphere | 7–365d | small_molecule, peptide, protein | — | — | unknown |
-| DepoFoam | liposome_depot | 3–4d | small_molecule | — | — | unknown |
-| Durasert | implant | 180–1095d | small_molecule | — | — | unknown |
+| DepoFoam | liposome_depot | 3–4d | small_molecule | 0.5–30.0 | yes | moderate |
+| Durasert | implant | 180–1095d | small_molecule | — | no | moderate |
 | FluidCrystal | in_situ_depot | 7–180d | small_molecule, peptide | 0.16–1.5 | no | moderate |
-| ISM | in_situ_depot | 28–90d | small_molecule, peptide | — | — | unknown |
-| Lupron Depot | microsphere | 28–180d | peptide | — | — | unknown |
+| ISM | in_situ_depot | 28–90d | small_molecule, peptide | 1.0–1.5 | no | ample |
+| Lupron Depot | microsphere | 28–180d | peptide | 1.0–2.0 | no | ample |
 | MariTide platform (Amgen) | other | 28–90d | peptide, biologic | — | yes | unknown |
-| Medisorb | microsphere | 14–28d | small_molecule, peptide | — | — | unknown |
+| Medisorb | microsphere | 14–28d | small_molecule, peptide | 0.5–3.4 | yes | ample |
 | Medusa | drug_conjugate | 3–30d | peptide, protein | — | — | unknown |
 | Metsera depot platform | other | 28–90d | peptide | — | yes | unknown |
-| NanoCrystal | nanoparticle | 28–180d | small_molecule | — | — | unknown |
+| NanoCrystal | nanoparticle | 28–180d | small_molecule | 0.875–1.5 | no | ample |
 | NanoZolid | in_situ_depot | 90–180d | small_molecule, peptide, protein | — | — | unknown |
-| Novadur | implant | 90–180d | small_molecule | — | — | unknown |
+| Novadur | implant | 90–180d | small_molecule | — | no | ample |
 | Oil decanoate | oil_solution | 14–28d | small_molecule | — | — | unknown |
-| PDS (Susvimo) | implant | 120–180d | biologic | — | — | unknown |
+| PDS (Susvimo) | implant | 120–180d | biologic | 0.05–0.05 | yes | moderate |
 | Perseris | in_situ_depot | 30–30d | small_molecule | — | — | unknown |
 | PolyActiva | implant | 180–365d | small_molecule | — | — | unknown |
 | Probuphine | implant | 180–180d | small_molecule | — | — | unknown |
-| Sandostatin LAR | microsphere | 28–28d | peptide | — | — | unknown |
+| Sandostatin LAR | microsphere | 28–28d | peptide | 2.5–2.5 | yes | ample |
 | Signifor LAR | microsphere | 28–28d | peptide | — | — | unknown |
-| Somatuline Autogel | in_situ_depot | 28–56d | peptide | — | — | unknown |
+| Somatuline Autogel | in_situ_depot | 28–56d | peptide | 0.5–0.5 | yes | moderate |
 | SpectruM | in_situ_depot | 30–180d | small_molecule, peptide | — | — | unknown |
-| Trelstar | microsphere | 28–180d | peptide | — | — | unknown |
-| Zoladex | implant | 28–90d | peptide | — | — | unknown |
-| iDose | implant | 90–1095d | small_molecule | — | — | unknown |
+| Trelstar | microsphere | 28–180d | peptide | 2.0–2.0 | no | ample |
+| Zoladex | implant | 28–90d | peptide | — | no | ample |
+| iDose | implant | 90–1095d | small_molecule | — | no | moderate |
 
 ## Encumbrance log
 
@@ -81,17 +81,17 @@ Active exclusive deals locking up indication scope by platform. BD scouts should
 | BEPO | ophthalmology | AbbVie (2024_abbvie_medincell) | 2024-04-16 | undisclosed | worldwide |
 | BEPO | other | AbbVie (2024_abbvie_medincell) | 2024-04-16 | undisclosed | worldwide |
 | BEPO | psych | Teva (2013_teva_medincell) | 2013-11-01 | risperidone, olanzapine, third CNS LAI | worldwide |
-| Durasert | ophthalmology | Alimera Sciences (2008_alimera_eyepoint_iluvien) | 2008-02-12 | undisclosed | Worldwide |
+| Durasert | ophthalmology | Alimera Sciences (2008_alimera_eyepoint_iluvien) | 2008-02-12 | fluocinolone acetonide | Worldwide |
 | FluidCrystal | addiction | Braeburn (2014_braeburn_camurus) | 2014-11-20 | buprenorphine, buprenorphine combinations | North America (with Asia options) |
 | FluidCrystal | endocrine | Eli Lilly and Company (2025_lilly_camurus_incretins) | 2025-06-03 | GIP/GLP-1 agonists, GIP/glucagon/GLP-1 agonists, amylin receptor agonists | worldwide |
 | FluidCrystal | metabolic | Eli Lilly and Company (2025_lilly_camurus_incretins) | 2025-06-03 | GIP/GLP-1 agonists, GIP/glucagon/GLP-1 agonists, amylin receptor agonists | worldwide |
 | FluidCrystal | pain | Braeburn (2014_braeburn_camurus) | 2014-11-20 | buprenorphine, buprenorphine combinations | North America (with Asia options) |
 | FluidCrystal | pain | Braeburn (2016_braeburn_camurus_cam2058_amendment) | 2016-10-24 | buprenorphine-granisetron | North America |
-| Medisorb | endocrine | AstraZeneca / later Eli Lilly (2014_az_alkermes_bydureon) | 2014-02-01 | undisclosed | Worldwide (with regional commercial transitions) |
-| NanoCrystal | hiv | ViiV Healthcare (2016_viiv_janssen_cabenuva) | 2016-01-07 | undisclosed | Worldwide |
-| Signifor LAR | endocrine | Recordati Rare Diseases (2019_recordati_novartis_signifor) | 2019-07-12 | undisclosed | Worldwide |
-| SpectruM | oncology | Accord Healthcare (2019_accord_foresee_camcevi) | 2019-02-11 | undisclosed | Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle East |
-| SpectruM | oncology | Intas Pharmaceuticals (Accord BioPharma US) (2021_intas_foresee_camcevi) | 2021-03-04 | undisclosed | United States |
+| Medisorb | endocrine | AstraZeneca / later Eli Lilly (2014_az_alkermes_bydureon) | 2014-02-01 | exenatide | Worldwide (with regional commercial transitions) |
+| NanoCrystal | hiv | ViiV Healthcare (2016_viiv_janssen_cabenuva) | 2016-01-07 | rilpivirine | Worldwide |
+| Signifor LAR | endocrine | Recordati Rare Diseases (2019_recordati_novartis_signifor) | 2019-07-12 | pasireotide | Worldwide |
+| SpectruM | oncology | Accord Healthcare (2019_accord_foresee_camcevi) | 2019-02-11 | leuprolide mesylate | Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle East |
+| SpectruM | oncology | Intas Pharmaceuticals (Accord BioPharma US) (2021_intas_foresee_camcevi) | 2021-03-04 | leuprolide mesylate | United States |
 
 ## Partner view per platform
 

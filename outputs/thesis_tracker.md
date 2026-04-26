@@ -13,11 +13,16 @@
 | CAM2029 (Oclaiz) | octreotide | FluidCrystal | Camurus | phase_3 | **3.90** | 2026-Q2 |
 | CAM2032 | setmelanotide | FluidCrystal | Camurus / Rhythm Pharmaceuticals | phase_2 | **3.30** | 2026-Q4 |
 | Cabenuva | cabotegravir + rilpivirine | NanoCrystal | ViiV Healthcare | approved | **4.85** | — |
+| Durysta | bimatoprost | Novadur | AbbVie / Allergan | approved | **3.25** | — |
+| EYP-1901 (DURAVYU) | vorolanib | Durasert | EyePoint Pharmaceuticals | phase_3 | **3.55** | 2026-Q4 |
 | Eligard | leuprolide acetate | Atrigel | Tolmar | approved | **3.95** | — |
 | Exparel | bupivacaine liposomal | DepoFoam | Pacira BioSciences | approved | **3.05** | — |
 | Invega Hafyera | paliperidone palmitate (6-monthly) | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.75** | — |
 | Invega Sustenna | paliperidone palmitate | NanoCrystal | Janssen (Johnson & Johnson) | approved | **3.90** | — |
 | Lupron Depot | leuprolide acetate | Lupron Depot | AbbVie / Takeda | approved | **3.60** | — |
+| MET-097 | undisclosed long-acting GLP-1 | Metsera depot platform | Metsera (Pfizer-acquired) | phase_2 | **2.90** | 2026-Q3 |
+| MariTide | maridebart cafraglutide (AMG 133) | MariTide platform (Amgen) | Amgen | phase_3 | **2.75** | 2026-Q4 |
+| PA5108 | latanoprost | PolyActiva | PolyActiva Pty Ltd | phase_2 | **2.50** | 2026-Q3 |
 | Risperdal Consta | risperidone | Medisorb | Janssen (Johnson & Johnson) | approved | **3.60** | — |
 | Risvan | risperidone | ISM | Rovi | approved | **3.45** | — |
 | Sandostatin LAR | octreotide acetate | Sandostatin LAR | Novartis | approved | **3.40** | — |
@@ -27,6 +32,8 @@
 | TEV-749 (mdc-TJK) | olanzapine | BEPO | MedinCell / Teva | phase_3 | **4.05** | 2026-Q4 |
 | UZEDY | risperidone | BEPO | MedinCell / Teva | approved | **4.65** | 2026-Q4 |
 | Vivitrol | naltrexone | Medisorb | Alkermes | approved | **3.45** | — |
+| Zynrelef | bupivacaine + meloxicam | Biochronomer | Heron Therapeutics | approved | **3.40** | — |
+| iDose TR | travoprost | iDose | Glaukos Corporation | approved | **3.70** | — |
 
 ## Asset detail
 
@@ -140,6 +147,36 @@
 
 **Investor view:** Defines HIV LAI category economics. Commercial trajectory is the leading indicator for whether infrequent-dosing antiretroviral therapy can take share from generic daily oral regimens — a structurally challenging comparison given oral ART pricing. Cabenuva's growth tells us about the upper bound of LAI premium pricing in cost-sensitive disease categories.
 
+### Durysta (bimatoprost)
+
+**Platform:** Novadur  
+**Owner:** AbbVie / Allergan  
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 4 | high | Inherited from Novadur; first biodegradable intracameral implant for glaucoma. |
+| clinical | 4 | high | Phase 3 ARTEMIS trials demonstrated 3-month sustained IOP reduction. |
+| ip | 3 | medium | Novadur platform IP plus asset-specific formulation; runway adequate but iDose competitive pressure compresses commercial potential. |
+| dealability | 1 | high | Internal AbbVie/Allergan asset. |
+| regulatory | 4 | high | Approved with single-administration limitation; re-implantation not approved. |
+
+**Investor view:** Cautionary case for early-mover biodegradable ophthalmic implant. 3-month duration created procedural-workflow challenges; iDose's multi-year duration takes the high-convenience tier. Durysta will likely persist as a niche product but is not a franchise asset.
+
+### EYP-1901 (DURAVYU) (vorolanib)
+
+**Platform:** Durasert  
+**Owner:** EyePoint Pharmaceuticals  
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 5 | high | Inherited from Durasert; bioerodible intravitreal insert mechanism well-validated by Yutiq commercial use. |
+| clinical | 3 | medium | Phase 2 data positive in DAVIO trials; Phase 3 LUGANO/LUCIA pending readout; wet AMD non-inferiority bar is high. |
+| ip | 4 | medium | Durasert platform IP plus asset-specific formulation patents; verify Orange Book listings post-approval. |
+| dealability | 3 | medium | Asia partnership with Ono validates platform commercial value but US/EU rights still EyePoint-internal; tier-1 pharma partner not yet engaged. |
+| regulatory | 3 | medium | Pre-NDA. PDUFA path depends on Phase 3 outcome; precedent is established (Susvimo). |
+
+**Investor view:** EYP-1901 is the pivotal-readout that defines whether EyePoint becomes a wet-AMD LAI franchise or remains a niche steroid-implant business. Phase 3 LUGANO/LUCIA readouts in 2026 are binary catalysts. Bull case: bioerodible insert with multi-month duration takes share from monthly anti-VEGF injections in real-world adherence-challenged patients. Bear case: efficacy gap vs Lucentis/Eylea/Vabysmo monthly is too large for label and physicians stick with current paradigm. Susvimo refill technology and Roche's commercial muscle are the structural competitive threat.
+
 ### Eligard (leuprolide acetate)
 
 **Platform:** Atrigel  
@@ -217,6 +254,51 @@
 | regulatory | 5 | high | Approved with stable label across multiple indications. |
 
 **Investor view:** The reference LHRH LAI by US revenue. Strategic relevance is as price/share anchor for any new entrant in prostate cancer hormonal therapy. Lupron Depot's commercial durability post-LOE is the empirical demonstration that LAI manufacturing barriers and prescriber inertia create durable moats even in commoditized indications.
+
+### MET-097 (undisclosed long-acting GLP-1)
+
+**Platform:** Metsera depot platform  
+**Owner:** Metsera (Pfizer-acquired)  
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 2 | low | Phase 1/2 stage; long-acting peptide engineering not yet platform-validated. |
+| clinical | 2 | low | Phase 1 data supportive; Phase 2 dose-finding ongoing. |
+| ip | 4 | low | Newer-vintage IP, full runway; specific patent landscape not reviewed. |
+| dealability | 5 | medium | Pfizer 2025 acquisition validates platform commercial value at tier-1 level. |
+| regulatory | 2 | low | Pre-IND or early IND; regulatory pathway established by GLP-1 class. |
+
+**Investor view:** Now a Pfizer-internal asset post-acquisition. Phase 2 readouts will determine whether Pfizer's $5B+ Metsera bet was prescient.
+
+### MariTide (maridebart cafraglutide (AMG 133))
+
+**Platform:** MariTide platform (Amgen)  
+**Owner:** Amgen  
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 3 | medium | Phase 2 monthly dosing demonstrated; mechanism is half-life extension rather than depot LAI. |
+| clinical | 3 | medium | Phase 2 weight loss results competitive; Phase 3 outcomes pending. |
+| ip | 4 | low | Amgen-internal IP estate, full runway; specific patent landscape not reviewed. |
+| dealability | 1 | high | Internal Amgen asset; not externally licensable. |
+| regulatory | 3 | medium | Pre-NDA. GLP-1 / GIP regulatory pathway established by tirzepatide and semaglutide. |
+
+**Investor view:** The internal Amgen comp to FluidCrystal-formulated obesity LAI candidates. Phase 3 MARITIME readouts will define the obesity-LAI competitive bar.
+
+### PA5108 (latanoprost)
+
+**Platform:** PolyActiva  
+**Owner:** PolyActiva Pty Ltd  
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 3 | medium | Inherited from PolyActiva platform; biodegradable hexafluorisopropyl-rod implant mechanism not yet commercially validated. |
+| clinical | 2 | medium | Phase 2 stage; specific endpoints positive but limited sample size; no Phase 3 yet. |
+| ip | 3 | low | PolyActiva platform IP plus asset-specific formulation; runway adequate for first commercial cycle. |
+| dealability | 2 | low | PolyActiva is private and clinical-stage; partnership economics speculative. |
+| regulatory | 3 | medium | Glaucoma implant pathway established by Durysta and iDose precedents. |
+
+**Investor view:** Speculative early-stage glaucoma LAI implant. Bull case: 6-month duration positions between Durysta (3-month) and iDose (multi-year) as the convenience-pricing sweet spot. Bear case: glaucoma implant market remains adoption-constrained despite Durysta's 4+ years on market; PolyActiva's smaller commercial scale means partnership economics will dominate the value capture.
 
 ### Risperdal Consta (risperidone)
 
@@ -357,4 +439,36 @@
 | regulatory | 5 | high | Approved with stable label; broad clinical guidelines integration. |
 
 **Investor view:** Established LAI for addiction with dual indication coverage. Strategic positioning is unique — opioid antagonist mechanism distinguishes from buprenorphine LAI competitors (Sublocade/Brixadi) which are partial agonists. Watch market dynamics as overall OUD treatment shifts toward buprenorphine LAI; Vivitrol's defensible niche is patients who cannot or will not use partial agonists.
+
+### Zynrelef (bupivacaine + meloxicam)
+
+**Platform:** Biochronomer  
+**Owner:** Heron Therapeutics  
+**Sales 2024:** $35M (Heron Therapeutics 2024 annual report (approximate; verify))
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 3 | high | Inherited from Biochronomer; reliable 72-hour combination release validated commercially. |
+| clinical | 4 | high | Phase 3 PROCEED trials demonstrated significant pain reduction and opioid-sparing benefit vs bupivacaine alone. |
+| ip | 3 | medium | Biochronomer platform IP plus combination product patents; runway constrained but adequate near-term. |
+| dealability | 2 | medium | Heron commercializes directly; no major pharma partnership; dealability reflects platform-level optionality only. |
+| regulatory | 5 | high | Approved with stable label across two regions. |
+
+**Investor view:** Zynrelef is the test case for whether bupivacaine combination LAI can carve commercial space against Exparel's entrenched position. Modest revenue and Heron's persistent cash-burn create distressed- acquisition optionality. Strategic question is whether the multimodal-analgesia narrative is durable as opioid-sparing protocols continue to evolve.
+
+### iDose TR (travoprost)
+
+**Platform:** iDose  
+**Owner:** Glaukos Corporation  
+**Sales 2024:** $50M (Glaukos 2024 annual report (approximate; verify))
+
+| Dimension | Score | Conf. | Rationale |
+|---|---|---|---|
+| tech | 4 | high | Inherited from iDose platform; first commercial multi-year prostaglandin implant. |
+| clinical | 4 | high | Phase 3 GC-010 demonstrated non-inferior IOP reduction vs timolol; durability data over 36 months supportive. |
+| ip | 5 | medium | Inherited from iDose; deep IP estate with continuation strategy. |
+| dealability | 1 | high | Internal Glaukos asset; not externally licensable. |
+| regulatory | 5 | high | Approved with stable label. |
+
+**Investor view:** iDose's commercial uptake is the leading indicator for multi-year ocular implant prescriber acceptance. Bull case: convenience driver drives durable share take from daily prostaglandin drops; bear case: procedural friction limits adoption beyond a niche specialty segment. Pressures Allergan/AbbVie Durysta and sets a higher bar for any new ophthalmic LAI platform.
 

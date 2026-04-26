@@ -105,8 +105,8 @@ encumbrances:
   indications:
   - oncology
   molecule_classes:
-  - undisclosed
-  compound_count_locked: null
+  - leuprolide mesylate
+  compound_count_locked: 1
   territory: Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle
     East
   exclusivity: exclusive
@@ -115,8 +115,8 @@ encumbrances:
   indications:
   - oncology
   molecule_classes:
-  - undisclosed
-  compound_count_locked: null
+  - leuprolide mesylate
+  compound_count_locked: 1
   territory: United States
   exclusivity: exclusive
   expires: deal-life

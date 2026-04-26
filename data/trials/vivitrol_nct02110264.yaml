@@ -1,0 +1,21 @@
+id: "vivitrol_nct02110264"
+nct_id: "NCT02110264"
+asset_id: "vivitrol"
+indication: "addiction"
+phase: 3
+n: 151
+design: "Interventional"
+primary_endpoint: "Opioid Use"
+control_arm: "active comparator"
+sponsor: "University of California, Los Angeles"
+status: "completed"
+start_date: "2015-06"
+expected_readout: "2018-12"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02110264"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Injectable Pharmacotherapy for Opioid Use Disorders (IPOD). Sponsor: University of California, Los Angeles. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,25 @@
+id: "cam2029_nct02299089"
+nct_id: "NCT02299089"
+asset_id: "cam2029"
+indication: "endocrine"
+phase: 2
+n: 12
+design: "Interventional"
+primary_endpoint: >
+  Pharmacokinetic (PK) Profile of Octreotide After Each Injection of CAM2029 as Compared With Baseline PK for Sandostatin® Long-acting Release (LAR®) AUC; Pharmacokinetic (PK) Profile of Octreotide After Each Injection of CAM2029 as Compared With Baseline PK for Sandostatin® Long-acting Release (LAR®) AUC.; Pharmacokinetic (PK) Profile of Octreotide After Each Injection of CAM2029 as Compared With Baseline PK for Sandostatin® Long-acting Release (LAR®) Ctrough; Pharmacokinetic (PK) Profile of Octr
+control_arm: "active comparator"
+sponsor: "Camurus AB"
+status: "completed"
+start_date: "2015-01"
+expected_readout: "2016-05"
+result: null
+geography:
+  - "France"
+  - "Germany"
+  - "Italy"
+  - "Sweden"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02299089"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Phase II Study of Subcutaneous Inj. Depot of Octreotide in Patients With Acromegaly and Neuroendocrine Tumours (NETs). Sponsor: Camurus AB. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

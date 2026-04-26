@@ -1,0 +1,24 @@
+id: "ob_eligard_us_11771841"
+patent_number: "US11771841"
+jurisdiction: "US"
+assignee: "Tolmar"
+platform_id: "atrigel"
+asset_id: "eligard"
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2041-12-22"
+claim_type: "composition"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 021379. Sponsor: Tolmar.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=021379"
+last_updated: "2026-04-26"

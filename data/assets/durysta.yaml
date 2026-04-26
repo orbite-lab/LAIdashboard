@@ -1,0 +1,86 @@
+id: durysta
+name: Durysta
+inn: bimatoprost
+platform_id: novadur
+owning_company: AbbVie / Allergan
+licensee_company: null
+
+indications:
+  - code: ophthalmology
+    phase: approved
+    first_approval_year: 2020
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Durysta is a biodegradable intracameral bimatoprost implant for
+    primary open-angle glaucoma. FDA approval March 2020. Commercial
+    trajectory has been modest — 3-month duration creates procedural
+    friction in clinical workflow. The 2023-2024 emergence of Glaukos
+    iDose (multi-year travoprost) presents structural competitive pressure.
+    Durysta US is currently labelled for a single administration only —
+    re-implantation not approved per most recent label review.
+  list_price_usd: null
+  addressable_market_usd_m: 1500
+
+primary_deal_id: null
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from Novadur; first biodegradable intracameral implant for glaucoma.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: Phase 3 ARTEMIS trials demonstrated 3-month sustained IOP reduction.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Novadur platform IP plus asset-specific formulation; runway adequate but iDose competitive pressure compresses commercial potential.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal AbbVie/Allergan asset.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 4
+    rationale: Approved with single-administration limitation; re-implantation not approved.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Cautionary case for early-mover biodegradable ophthalmic implant.
+    3-month duration created procedural-workflow challenges; iDose's
+    multi-year duration takes the high-convenience tier. Durysta will
+    likely persist as a niche product but is not a franchise asset.
+  partner: >
+    Not available — internal AbbVie/Allergan asset.
+  acquirer: >
+    Not actionable as a standalone target.
+
+tactbio_view: >
+  3-month bimatoprost intracameral implant. Strategic relevance is as a
+  cautionary case for ophthalmic LAI duration tradeoffs — short duration
+  + procedural friction limits commercial uptake.
+
+last_updated: 2026-04-26

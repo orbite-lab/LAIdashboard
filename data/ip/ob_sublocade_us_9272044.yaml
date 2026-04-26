@@ -1,0 +1,25 @@
+id: "ob_sublocade_us_9272044"
+patent_number: "US9272044"
+jurisdiction: "US"
+assignee: "Indivior"
+platform_id: "atrigel"
+asset_id: "sublocade"
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2031-06-06"
+claim_type: "use"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 209819. Sponsor: Indivior.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+  Patent Use Code: U-2176 (method-of-use claim).
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=209819"
+last_updated: "2026-04-26"

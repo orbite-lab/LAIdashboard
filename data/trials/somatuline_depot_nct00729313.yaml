@@ -1,0 +1,22 @@
+id: "somatuline_depot_nct00729313"
+nct_id: "NCT00729313"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 111
+design: "Interventional"
+primary_endpoint: "Number of patients with a reduction of fistula drainage volume > 50% of baseline at 72 hours."
+control_arm: "active comparator"
+sponsor: "Ipsen"
+status: "completed"
+start_date: "2000-04"
+expected_readout: "2005-04"
+result: null
+geography:
+  - "France"
+  - "Russia"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00729313"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Efficacy and Safety of Lanreotide Versus Placebo for Treatment of Patients With Digestive Fistulae. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

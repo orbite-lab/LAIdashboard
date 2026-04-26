@@ -1,0 +1,21 @@
+id: "exparel_nct04191031"
+nct_id: "NCT04191031"
+asset_id: "exparel"
+indication: "pain"
+phase: null
+n: 79
+design: "Interventional"
+primary_endpoint: "NRS \"worst pain\" intensity scores from first pain assessment post-TKA (Day 1) to Day 30."
+control_arm: "active comparator"
+sponsor: "Pacira Pharmaceuticals, Inc"
+status: "terminated"
+start_date: "2020-09-30"
+expected_readout: "2022-05-13"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04191031"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study to Evaluate Iovera®° in Adult Patients Undergoing Total Knee Arthroplasty. Sponsor: Pacira Pharmaceuticals, Inc. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,20 @@
+id: "vivitrol_nct00156936"
+nct_id: "NCT00156936"
+asset_id: "vivitrol"
+indication: "addiction"
+phase: 3
+n: 108
+design: "Interventional"
+primary_endpoint: "Number of Subjects Who Reported at Least 1 Treatment-emergent Adverse Event (TEAE) While on Study."
+control_arm: "active comparator"
+sponsor: "Alkermes, Inc."
+status: "terminated"
+start_date: "2004-08"
+expected_readout: "2007-01"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00156936"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: ALK21-006EXT: Long-term Safety of Medisorb® Naltrexone (VIVITROL®) in Alcohol- or Opioid-dependent Adults (Extension of Study ALK21-006 [NCT01218997]). Sponsor: Alkermes, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

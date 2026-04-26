@@ -1,0 +1,22 @@
+id: "cabenuva_nct04001803"
+nct_id: "NCT04001803"
+asset_id: "cabenuva"
+indication: "hiv"
+phase: 3
+n: 115
+design: "Interventional"
+primary_endpoint: >
+  Change From Baseline in the Acceptability of Intervention Measure (AIM) Total Score in Staff Study Participants at Month 4; Change From Baseline in AIM Total Score in Staff Study Participants at Month 12; Change From Baseline in AIM Total Score in Participants With HIV Infection at Month 4; Change From Baseline in AIM Total Score in Participants With HIV Infection at Month 12; Change From Baseline in Intervention Appropriateness Measure (IAM) Score in Staff Study Participants at Month 4; Change 
+control_arm: "none"
+sponsor: "ViiV Healthcare"
+status: "completed"
+start_date: "2019-07-08"
+expected_readout: "2020-10-05"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04001803"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study to Identify and Determine Best Implementation Practices for Injectable Cabotegravir+Rilpivirine in the United States (US). Sponsor: ViiV Healthcare. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

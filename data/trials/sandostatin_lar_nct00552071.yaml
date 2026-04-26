@@ -1,0 +1,21 @@
+id: "sandostatin_lar_nct00552071"
+nct_id: "NCT00552071"
+asset_id: "sandostatin_lar"
+indication: "endocrine"
+phase: 4
+n: 15
+design: "Interventional"
+primary_endpoint: "Plasma Octreotide Level After Each Treatment Phase"
+control_arm: "active comparator"
+sponsor: "Cedars-Sinai Medical Center"
+status: "completed"
+start_date: "2007-07"
+expected_readout: "2014-03"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00552071"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Ultrasound Guided Octreotide LAR Injection in Acromegaly. Sponsor: Cedars-Sinai Medical Center. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

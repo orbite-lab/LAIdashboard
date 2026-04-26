@@ -1,0 +1,22 @@
+id: "brixadi_nct02946073"
+nct_id: "NCT02946073"
+asset_id: "brixadi"
+indication: "addiction"
+phase: 3
+n: 1053
+design: "Interventional"
+primary_endpoint: >
+  Change From Baseline in Weekly Average of (Daily) Average Pain Intensity (WAAPI) and the Primary Timepoint Will be Week 12 of the Double-Blind Phase.; Change From Baseline in Weekly Average of (Daily) Average Pain Intensity (WAAPI) of the Open Label Phase.
+control_arm: "placebo"
+sponsor: "Braeburn Pharmaceuticals"
+status: "completed"
+start_date: "2016-09"
+expected_readout: "2018-05"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02946073"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Buprenorphine (CAM2038) in Subjects With a Recent History of Moderate to Severe Chronic Low Back Pain. Sponsor: Braeburn Pharmaceuticals. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

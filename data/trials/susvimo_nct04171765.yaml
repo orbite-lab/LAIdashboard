@@ -1,0 +1,26 @@
+id: "susvimo_nct04171765"
+nct_id: "NCT04171765"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 2
+n: 46
+design: "Interventional"
+primary_endpoint: >
+  Proportion of Participants With NASH Resolution on Overall Histopathological Reading Without Worsening of Fibrosis at Week 52
+control_arm: "placebo"
+sponsor: "Genentech, Inc."
+status: "terminated"
+start_date: "2020-09-30"
+expected_readout: "2023-01-23"
+result: null
+geography:
+  - "Belgium"
+  - "France"
+  - "Puerto Rico"
+  - "Spain"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04171765"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of BFKB8488A Compared With Placebo in Participants With Non-Alcoholic Steatohepatitis. Sponsor: Genentech, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

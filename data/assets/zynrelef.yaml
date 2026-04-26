@@ -1,0 +1,102 @@
+id: zynrelef
+name: Zynrelef
+inn: bupivacaine + meloxicam
+platform_id: biochronomer
+owning_company: Heron Therapeutics
+licensee_company: null
+
+indications:
+  - code: pain
+    phase: approved
+    first_approval_year: 2021
+    geography: US
+  - code: pain
+    phase: approved
+    first_approval_year: 2020
+    geography: EU
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 35
+    currency: USD
+    source: Heron Therapeutics 2024 annual report (approximate; verify)
+  sales_notes: >
+    Zynrelef (bupivacaine + meloxicam extended-release) for postsurgical
+    pain via Biochronomer LAI delivery. FDA approval May 2021. Modest
+    commercial trajectory relative to Pacira's Exparel; Heron has
+    repeatedly faced cash-burn concerns. The bupivacaine + meloxicam
+    combination is the differentiator vs Exparel monotherapy — supports
+    multimodal opioid-sparing protocols. Verify FY2024 net sales figure
+    against Heron's most recent 10-K.
+  list_price_usd: null
+  addressable_market_usd_m: 800
+
+primary_deal_id: null
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 3
+    rationale: Inherited from Biochronomer; reliable 72-hour combination release validated commercially.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: Phase 3 PROCEED trials demonstrated significant pain reduction and opioid-sparing benefit vs bupivacaine alone.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 3
+    rationale: Biochronomer platform IP plus combination product patents; runway constrained but adequate near-term.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 2
+    rationale: Heron commercializes directly; no major pharma partnership; dealability reflects platform-level optionality only.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label across two regions.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Zynrelef is the test case for whether bupivacaine combination LAI
+    can carve commercial space against Exparel's entrenched position.
+    Modest revenue and Heron's persistent cash-burn create distressed-
+    acquisition optionality. Strategic question is whether the
+    multimodal-analgesia narrative is durable as opioid-sparing protocols
+    continue to evolve.
+  partner: >
+    Heron-internal asset. Biochronomer platform may have residual
+    licensing optionality outside the Zynrelef / Sustol commercial
+    products. BD scouts would gate platform inquiry on Heron's cash
+    runway and commercial strategy direction.
+  acquirer: >
+    Heron is a small-cap with a single approved combination LAI plus
+    Sustol. Acquirer thesis would key off cost synergies and pain
+    portfolio integration; Pacira is the most logical strategic acquirer
+    but the failed GlycoMimetics deal complicates that read.
+
+tactbio_view: >
+  Combination LAI for postsurgical pain. Commercial trajectory tells us
+  whether multimodal analgesia LAI can take share from Exparel monotherapy.
+  Heron's cash-burn trajectory is the dominant operational variable.
+
+last_updated: 2026-04-26

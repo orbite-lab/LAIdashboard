@@ -1,0 +1,62 @@
+id: 2018_braeburn_camurus_brixadi_amendment
+deal_type: licensing
+status: active
+
+licensor: Camurus
+licensor_ticker: CAMX
+licensee: Braeburn Inc.
+licensee_ticker: null
+
+asset_id: brixadi
+platform_id: fluidcrystal
+description: >
+  2018 amendment to the original 2014 Camurus-Braeburn agreement,
+  restructuring economics following Braeburn's strategic refocus on
+  CAM2038/Brixadi and away from CAM2058 combination products. Specific
+  amendment terms not publicly disclosed; effect was to preserve mid-teen
+  royalty structure on CAM2038 while narrowing scope. Tracked separately
+  from the 2014 master agreement and the 2016 CAM2058 amendment for
+  amendment-lineage clarity.
+
+announced_date: 2018-12-31
+completed_date: 2018-12-31
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: 13
+  royalty_high_pct: 17
+  royalty_notes: >
+    Continuation of mid-teen royalty structure (13-17%) from the 2014
+    parent agreement on the CAM2038/Brixadi commercial scope. Amendment
+    terms otherwise undisclosed.
+
+option_structure: null
+territory: North America (with Asia options)
+exclusivity: exclusive
+indications_covered:
+  - addiction
+termination_clauses: >
+  Standard amendment provisions; not publicly disclosed.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.camurus.com/media/press-releases/
+
+tactbio_view: >
+  Tracked for amendment-lineage clarity rather than fresh deal value.
+  Brixadi US commercial economics flow through the 2014 master agreement's
+  mid-teen royalty structure; this 2018 amendment preserved that structure
+  while Braeburn restructured its corporate posture. Reference for the
+  partner-scout view: the CAM2038/Brixadi addiction encumbrance on
+  FluidCrystal traces through three deal records — 2014 master, 2016
+  CAM2058 amendment, 2018 restructuring — and the encumbrance is still
+  active.
+
+last_updated: 2026-04-26

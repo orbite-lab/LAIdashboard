@@ -1,0 +1,32 @@
+id: pfizer
+name: Pfizer Inc.
+ticker: PFE
+listing_venue: NYSE
+country_hq: US
+employees: ~80000
+market_cap_usd_m: 160000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 12000
+debt_usd_m: 60000
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Tier-1 large-cap pharma. Post-COVID-vaccine cliff; oncology and obesity
+  are stated growth pillars. Acquired Metsera (announced Sept 2025, ~$5B
+  base + CVRs) to enter long-acting incretin LAI category; verify deal
+  close status against latest 8-K.
+
+related_platforms: [metsera_lai]
+related_assets: []
+related_deals: []
+
+ir_contact: ir@pfizer.com
+last_updated: 2026-04-26
+
+notes: >
+  Pfizer's Metsera acquisition validates LAI peptide formulation as
+  strategically necessary for any pharma competing in obesity. Combined
+  with Lilly-Camurus and Amgen's internal MariTide, the obesity-LAI
+  category is now anchored by three tier-1 pharma positions. Pfizer's
+  legacy ViiV minority stake (11.7%) creates change-of-control consent
+  rights in the cabotegravir LAI franchise.

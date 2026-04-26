@@ -1,0 +1,28 @@
+id: "cam2029_nct04076462"
+nct_id: "NCT04076462"
+asset_id: "cam2029"
+indication: "endocrine"
+phase: 3
+n: 72
+design: "Interventional"
+primary_endpoint: "Proportion of patients with mean IGF-1 levels \u22641xULN"
+control_arm: "placebo"
+sponsor: "Camurus AB"
+status: "completed"
+start_date: "2019-08-19"
+expected_readout: "2023-05-02"
+result: null
+geography:
+  - "Germany"
+  - "Greece"
+  - "Hungary"
+  - "Italy"
+  - "Poland"
+  - "Russia"
+  - "Spain"
+  - "Turkey (T\u00fcrkiye)"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04076462"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Trial to Assess Efficacy and Safety of Octreotide Subcutaneous Depot in Patients With Acromegaly. Sponsor: Camurus AB. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

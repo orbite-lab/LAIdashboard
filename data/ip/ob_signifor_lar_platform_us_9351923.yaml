@@ -1,0 +1,24 @@
+id: "ob_signifor_lar_platform_us_9351923"
+patent_number: "US9351923"
+jurisdiction: "US"
+assignee: "Recordati / Novartis"
+platform_id: "signifor_lar_platform"
+asset_id: null
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2028-05-23"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 203255. Sponsor: Recordati / Novartis.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=203255"
+last_updated: "2026-04-26"

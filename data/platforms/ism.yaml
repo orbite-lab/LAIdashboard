@@ -108,27 +108,34 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 1.0
+  - 1.5
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 21G
+  max_payload_mass_mg: 100
+  cold_chain_required: false
+  excipient_classes:
+  - PLGA copolymer
+  - DMSO
+  release_profile_summary: PLGA / DMSO in-situ depot delivering risperidone monthly via deep
+    gluteal IM injection. Mechanism analogous to BEPO and Atrigel; differentiated by polymer
+    formulation.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Madrid / Granada, Spain (Rovi)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: ample
+  scale_up_timeline_months: 12
+  notes: Rovi operates large-scale aseptic-fill manufacturing supporting both internal Risvan
+    supply and external CDMO contracts (incl. COVID vaccine fill/finish). Capacity is a structural
+    advantage.
 views:
   investor: 'European challenger platform with single-product commercialization in psych.
     Strategic question: can Rovi differentiate from BEPO-derived UZEDY or Risperdal Consta

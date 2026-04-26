@@ -1,0 +1,59 @@
+id: 2024_kala_eyepoint_collaboration
+deal_type: licensing
+status: active
+
+licensor: Astellas Pharma Inc.
+licensor_ticker: 4503.T
+licensee: EyePoint Pharmaceuticals
+licensee_ticker: EYPT
+
+asset_id: null
+platform_id: durasert
+description: >
+  Astellas and EyePoint announced (October 2023) a collaboration and
+  license agreement covering a novel sustained-release tyrosine kinase
+  inhibitor delivered via EyePoint's Durasert E platform for retinal
+  disease applications. The collaboration positions Durasert technology
+  to deliver TKIs for non-VEGF retinal pathology — an early validation
+  of the platform beyond steroid (Yutiq, Iluvien, Dexycu) and vorolanib
+  (EYP-1901) applications. Verify deal date and exact terms — the
+  Astellas-EyePoint relationship has multiple historical layers; this
+  entry treats the most recent retinal collaboration.
+
+announced_date: 2023-10-01
+completed_date: 2023-10-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Specific financial terms not publicly disclosed.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - ophthalmology
+termination_clauses: >
+  Standard partnership termination provisions; not publicly disclosed.
+
+disclosure_quality: minimal
+source_urls:
+  - https://investors.eyepointpharma.com/news-releases
+
+tactbio_view: >
+  Validates Durasert as a non-steroid retinal LAI platform. Tracked
+  primarily for its signal value to the wet-AMD LAI thesis: if a tier-1
+  pharma is willing to deliver a novel TKI via Durasert E, the platform
+  has commercial attention beyond the EYP-1901 single-asset story.
+  Deal terms minimal — verify against EyePoint and Astellas 10-K filings.
+
+last_updated: 2026-04-26

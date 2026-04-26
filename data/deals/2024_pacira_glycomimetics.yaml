@@ -1,0 +1,61 @@
+id: 2024_pacira_glycomimetics
+deal_type: m_and_a
+status: terminated
+
+licensor: GlycoMimetics, Inc.
+licensor_ticker: GLYC
+licensee: Pacira BioSciences, Inc.
+licensee_ticker: PCRX
+
+asset_id: null
+platform_id: depofoam
+description: >
+  Pacira announced (and subsequently restructured/wound down) a strategic
+  acquisition of GlycoMimetics in 2024. The transaction was structured to
+  add a clinical-stage oncology asset (uproleselan) to Pacira's portfolio
+  but was not consummated as originally announced; verify exact status
+  against latest Pacira 10-Q and 8-K filings — different sources have
+  reported deal restructuring versus full termination. Pacira's broader
+  strategy is to diversify beyond DepoFoam/Exparel given generic erosion
+  threats; acquisition dynamics here are tracked as competitive context
+  rather than a clean LAI deal.
+
+announced_date: 2024-05-01
+completed_date: null
+termination_date: 2024-12-15
+termination_clauses: >
+  Verify exact termination terms.
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Original deal terms reported but the transaction did not close as
+    announced. Verify current state.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - oncology
+
+disclosure_quality: minimal
+source_urls:
+  - https://investor.pacira.com/
+
+tactbio_view: >
+  Tracked as a competitive event illustrating Pacira's strategic
+  diversification pressure as DepoFoam/Exparel face generic threats. Not
+  a primary LAI partnership but informs the read on Pacira's enterprise
+  strategy. Outcome depended on regulatory and clinical context not
+  directly relevant to LAI. Verify deal status — public reporting on
+  the transaction's progression has been incomplete.
+
+last_updated: 2026-04-26

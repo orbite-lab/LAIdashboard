@@ -1,0 +1,20 @@
+id: "exparel_nct03954639"
+nct_id: "NCT03954639"
+asset_id: "exparel"
+indication: "pain"
+phase: 3
+n: 0
+design: "Interventional"
+primary_endpoint: "Magnitude of analgesic effect"
+control_arm: "active comparator"
+sponsor: "Pacira Pharmaceuticals, Inc"
+status: "terminated"
+start_date: "2020-06-15"
+expected_readout: "2020-09"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03954639"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Phase 3, Randomized, Double Blinded, Active Controlled, Multicenter Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of EXPAREL Admixed With Bupi vs. Bupi Only Administered as Combined Sciatic and Adductor Canal Nerve Block for Postsurgical Analgesia in Lower Extremity Surgeries. Sponsor: Pacira Pharmaceuticals, Inc. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

@@ -1,0 +1,21 @@
+id: "invega_sustenna_nct00632229"
+nct_id: "NCT00632229"
+asset_id: "invega_sustenna"
+indication: "psych"
+phase: 2
+n: 34
+design: "Interventional"
+primary_endpoint: "Yale Brown Obsessive Compulsive Scale"
+control_arm: "placebo"
+sponsor: "University of South Florida"
+status: "completed"
+start_date: "2007-10"
+expected_readout: "2013-09"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00632229"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Double Blinded, Placebo-Controlled Trial of Paliperidone Addition in SRI-Resistant Obsessive-Compulsive Disorder. Sponsor: University of South Florida. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

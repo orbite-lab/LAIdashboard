@@ -1,0 +1,101 @@
+id: eyp1901
+name: EYP-1901 (DURAVYU)
+inn: vorolanib
+platform_id: durasert
+owning_company: EyePoint Pharmaceuticals
+licensee_company: null
+
+indications:
+  - code: ophthalmology
+    phase: phase_3
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: 2026-Q4
+  next_catalyst: 2026-Q4
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. EYP-1901 is a bioerodible intravitreal insert
+    delivering vorolanib (a TKI with anti-VEGF activity) for sustained
+    therapy in wet AMD. Two pivotal Phase 3 trials (LUGANO and LUCIA)
+    are ongoing with primary completion expected in 2026. Asia rights
+    licensed to Ono Pharmaceutical (October 2024); EyePoint retains
+    worldwide ex-Asia. TAM in wet AMD is substantial ($10B+ globally
+    for anti-VEGF therapies); LAI penetration potential is gated on
+    duration vs. monthly intravitreal injections (Lucentis, Eylea,
+    Vabysmo) and competitive positioning vs. Susvimo refill device.
+  list_price_usd: null
+  addressable_market_usd_m: 5000
+
+primary_deal_id: 2024_eyepoint_ono_eyp1901
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 5
+    rationale: Inherited from Durasert; bioerodible intravitreal insert mechanism well-validated by Yutiq commercial use.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 3
+    rationale: Phase 2 data positive in DAVIO trials; Phase 3 LUGANO/LUCIA pending readout; wet AMD non-inferiority bar is high.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Durasert platform IP plus asset-specific formulation patents; verify Orange Book listings post-approval.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 3
+    rationale: Asia partnership with Ono validates platform commercial value but US/EU rights still EyePoint-internal; tier-1 pharma partner not yet engaged.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 3
+    rationale: Pre-NDA. PDUFA path depends on Phase 3 outcome; precedent is established (Susvimo).
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    EYP-1901 is the pivotal-readout that defines whether EyePoint becomes
+    a wet-AMD LAI franchise or remains a niche steroid-implant business.
+    Phase 3 LUGANO/LUCIA readouts in 2026 are binary catalysts. Bull case:
+    bioerodible insert with multi-month duration takes share from monthly
+    anti-VEGF injections in real-world adherence-challenged patients. Bear
+    case: efficacy gap vs Lucentis/Eylea/Vabysmo monthly is too large for
+    label and physicians stick with current paradigm. Susvimo refill
+    technology and Roche's commercial muscle are the structural competitive
+    threat.
+  partner: >
+    Asia rights already encumbered (Ono, Oct 2024). US/EU rights remain
+    available for partnering subject to EyePoint commercial strategy
+    decisions post-Phase-3-readout. For BD scouts in retinal disease,
+    EYP-1901 is the highest-value Durasert-derived asset and a
+    plausible target for any pharma without an internal wet-AMD LAI
+    program.
+  acquirer: >
+    EyePoint enterprise value is dominated by EYP-1901 trial outcomes.
+    Acquisition thesis is binary on Phase 3 readout. Ono Asia license
+    creates change-of-control consent considerations. Verify any
+    additional in-licensing obligations on the Durasert platform.
+
+tactbio_view: >
+  Pivotal Phase 3 readout in 2026 is the defining catalyst. Phase 3
+  LUGANO/LUCIA outcomes determine whether EyePoint becomes a wet-AMD LAI
+  franchise or remains a niche steroid-implant business.
+
+last_updated: 2026-04-26

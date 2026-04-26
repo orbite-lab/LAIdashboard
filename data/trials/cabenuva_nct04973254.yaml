@@ -1,0 +1,22 @@
+id: "cabenuva_nct04973254"
+nct_id: "NCT04973254"
+asset_id: "cabenuva"
+indication: "hiv"
+phase: null
+n: 25
+design: "Interventional"
+primary_endpoint: >
+  Adherence to Cabenuva Injections; Adherence to Primary Care Appointments; Adherence to Mental Health/Behavioral Appointments; Adherence to Substance Abuse Appointments in Cohorts 1 and 2
+control_arm: "SOC"
+sponsor: "Boston Medical Center"
+status: "completed"
+start_date: "2022-02-23"
+expected_readout: "2023-03-17"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04973254"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Improving Treatment and Retention Adherence in Nontraditional Settings. Sponsor: Boston Medical Center. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

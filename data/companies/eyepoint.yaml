@@ -1,0 +1,33 @@
+id: eyepoint
+name: EyePoint Pharmaceuticals, Inc.
+ticker: EYPT
+listing_venue: NASDAQ
+country_hq: US
+employees: ~150
+market_cap_usd_m: 600
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 280
+debt_usd_m: 50
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Small-cap clinical-stage biotech. Owns Durasert ophthalmic implant
+  technology (originally pSivida → pSivida changed name to EyePoint).
+  Historical commercial assets (Yutiq, Dexycu) plus pivotal-stage
+  asset DURAVYU/EYP-1901 (vorolanib bioerodible insert for wet AMD).
+
+related_platforms: [durasert]
+related_assets:
+  - eyp1901
+related_deals: [2008_alimera_eyepoint_iluvien]
+
+ir_contact: ir@eyepointpharma.com
+last_updated: 2026-04-26
+
+notes: >
+  EyePoint's enterprise value is dominated by EYP-1901/DURAVYU pivotal
+  trials in wet AMD. Successful Phase 3 readout would re-rate the company
+  from a niche steroid-implant business to a wet-AMD LAI competitor against
+  Susvimo. Iluvien commercialization continues via the 2008 Alimera deal;
+  Yutiq and Dexycu remain in EyePoint hands. Acquirer thesis would key
+  off EYP-1901 readout.

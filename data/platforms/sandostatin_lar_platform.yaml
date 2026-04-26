@@ -93,27 +93,32 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 2.5
+  - 2.5
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 19G
+  max_payload_mass_mg: 30
+  cold_chain_required: true
+  excipient_classes:
+  - DL-lactic-glycolic acid copolymer
+  - mannitol
+  - carboxymethylcellulose
+  release_profile_summary: PLGA microsphere suspension delivering octreotide monthly via deep
+    gluteal IM injection. Storage 2-8°C. Reconstituted at room temp immediately before injection.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Novartis internal sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Mature franchise; capacity surplus given category decline post-generic.
 views:
   investor: 'Reference product for peptide LAI commercial economics in endocrine oncology.
     Strategic read-across — Camurus CAM2029 (octreotide via FluidCrystal) directly challenges

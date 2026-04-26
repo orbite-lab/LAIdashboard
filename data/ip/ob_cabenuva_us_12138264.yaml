@@ -1,0 +1,25 @@
+id: "ob_cabenuva_us_12138264"
+patent_number: "US12138264"
+jurisdiction: "US"
+assignee: "ViiV / Janssen"
+platform_id: "nanocrystal"
+asset_id: "cabenuva"
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2031-09-15"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 212888. Sponsor: ViiV / Janssen.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+  Patent Use Code: U-3348 (method-of-use claim).
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=212888"
+last_updated: "2026-04-26"

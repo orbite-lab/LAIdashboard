@@ -1,0 +1,20 @@
+id: "susvimo_nct02511067"
+nct_id: "NCT02511067"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 2
+n: 0
+design: "Interventional"
+primary_endpoint: "Adverse Events; Anatomic Retinal Changes"
+control_arm: "active comparator"
+sponsor: "University of Nebraska"
+status: "terminated"
+start_date: "2016-10-01"
+expected_readout: "2016-10-05"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02511067"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Ranibizumab for Edema of the mAcula in Diabetes: Protocol 4 With Tocilizumab: The READ-4 Study. Sponsor: University of Nebraska. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

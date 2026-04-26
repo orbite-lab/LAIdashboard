@@ -1,0 +1,26 @@
+id: "eligard_nct02452931"
+nct_id: "NCT02452931"
+asset_id: "eligard"
+indication: "oncology"
+phase: 3
+n: 64
+design: "Interventional"
+primary_endpoint: "Percentage of Participants With Suppression of Peak-Stimulated Luteinizing Hormone at 6 Months."
+control_arm: "none"
+sponsor: "Tolmar Inc."
+status: "completed"
+start_date: "2015-08-31"
+expected_readout: "2018-09-05"
+result: null
+geography:
+  - "Argentina"
+  - "Canada"
+  - "Chile"
+  - "Mexico"
+  - "New Zealand"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02452931"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study of Leuprolide Acetate Injectable Suspension in the Treatment of Central Precocious Puberty. Sponsor: Tolmar Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

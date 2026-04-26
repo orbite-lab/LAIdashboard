@@ -6,13 +6,20 @@
 
 | Date | Licensor | Licensee | Platform | Type | Upfront | Milestones | Territory | Disclosure |
 |---|---|---|---|---|---|---|---|---|
+| 2025-09-22 | Metsera, Inc. | Pfizer Inc. | Metsera depot platform | m_and_a | $4900M | $2300M | Worldwide | partial |
 | 2025-06-03 | Camurus | Eli Lilly and Company | FluidCrystal | licensing | undisc. | $870M | Worldwide | partial |
+| 2024-10-01 | EyePoint Pharmaceuticals | Ono Pharmaceutical Co., Ltd. | Durasert | licensing | $25M | $130M | Japan, South Korea, Taiwan, certain other Asian territories | partial |
 | 2024-07-09 | Indivior | (discontinued — no buyer) | Perseris | licensing | undisc. | undisc. | United States | full |
+| 2024-05-01 | GlycoMimetics, Inc. | Pacira BioSciences, Inc. | DepoFoam | m_and_a | undisc. | undisc. | Worldwide | minimal |
 | 2024-04-16 | MedinCell | AbbVie | BEPO | licensing | $35M | $1900M | Worldwide | partial |
+| 2024-01-01 | PolyActiva Pty Ltd | undisclosed pharma counterparty | PolyActiva | licensing | undisc. | undisc. | undisclosed | minimal |
 | 2023-11-13 | Teva Pharmaceuticals International GmbH | Royalty Pharma | BEPO | royalty_purchase | $100M | $125M | Worldwide | full |
+| 2023-10-01 | Astellas Pharma Inc. | EyePoint Pharmaceuticals | Durasert | licensing | undisc. | undisc. | Worldwide | minimal |
 | 2021-03-04 | Foresee Pharmaceuticals | Intas Pharmaceuticals (Accord BioPharma US) | SpectruM | licensing | $10M | $207M | United States | partial |
 | 2019-07-12 | Novartis | Recordati Rare Diseases | Signifor LAR | m_and_a | $390M | undisc. | Worldwide | partial |
 | 2019-02-11 | Foresee Pharmaceuticals | Accord Healthcare | SpectruM | licensing | undisc. | $86M | Global excl. US, mainland China, Japan, Taiwan, Israel, Turkey, certain Middle East | partial |
+| 2018-12-31 | Camurus | Braeburn Inc. | FluidCrystal | licensing | undisc. | undisc. | North America (with Asia options) | minimal |
+| 2018-12-01 | Tolmar (former owners — undisclosed PE) | The Carlyle Group LP | Atrigel | m_and_a | undisc. | undisc. | Worldwide | minimal |
 | 2016-10-24 | Camurus | Braeburn | FluidCrystal | licensing | undisc. | undisc. | North America (with Asia options) | minimal |
 | 2016-01-07 | Janssen (Johnson & Johnson) | ViiV Healthcare | NanoCrystal | licensing | undisc. | undisc. | Worldwide | minimal |
 | 2014-11-20 | Camurus | Braeburn | FluidCrystal | licensing | $20M | $131M | North America (with options for Japan, Korea, Taiwan, China) | full |
@@ -21,6 +28,16 @@
 | 2008-02-12 | EyePoint Pharmaceuticals | Alimera Sciences | Durasert | licensing | undisc. | undisc. | Worldwide | partial |
 
 ## Deal detail and TactBio view
+
+### Metsera, Inc. × Pfizer Inc. — 2025-09-22
+
+**Description:** Pfizer announced the acquisition of Metsera (NASDAQ: MTSR) in September 2025 to enter the long-acting incretin obesity LAI category. Metsera's pipeline includes MET-097 (long-acting GLP-1 receptor agonist) in early clinical development plus dual-mechanism amylin/GLP-1 candidates. The deal includes upfront cash plus contingent value rights tied to clinical and commercial milestones. Reported headline value approximately $5B base plus CVRs (verify exact terms against Pfizer 8-K and definitive agreement).
+  
+**Type:** m_and_a | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
+**Economics:** Upfront $4900M · milestones $2300M  
+*Notes:* Headline structure per company press releases: ~$47.50/share base cash consideration plus contingent value rights (CVRs) potentially paying up to ~$22.50/share tied to development and commercial milestones for Metsera lead programs. Verify exact upfront and CVR structure against the definitive merger agreement filed with the SEC. Treated here as ~$4.9B upfront + ~$2.3B max contingent on ~103M diluted shares; structure may differ once close documentation is finalized.
+
+**TactBio view:** Single most important obesity-LAI consolidation event of 2025. Pfizer's acquisition of Metsera completes the tier-1 pharma trio in long-acting incretins — Lilly + Camurus (FluidCrystal partnership), Amgen (MariTide internal), now Pfizer + Metsera. Strategic significance: confirms that every tier-1 with obesity ambitions needs a long-acting formulation position. Metsera-Pfizer is structured as M&A rather than license, signalling Pfizer values internal control over partnership flexibility — the opposite of Lilly's choice with Camurus. The valuation per Metsera share establishes a new comp for clinical-stage obesity LAI biotech enterprise value.
 
 ### Camurus × Eli Lilly and Company — 2025-06-03
 
@@ -32,6 +49,16 @@
 
 **TactBio view:** Single most important platform deal of 2025 for the LAI category and validates FluidCrystal at the highest tier of pharma counterparty. Strategic significance — (1) Lilly's choice of Camurus over BEPO, Atrigel, or in-house formulation work signals that FluidCrystal's payload-breadth and duration-range profile is genuinely differentiated for obesity peptides; (2) the structure ($290M upfront/dev + $580M sales + mid-single-digit royalty) sets a new market-rate benchmark for platform deals where the licensee provides the molecule; (3) the deal re-rates the dealability score for FluidCrystal — Camurus had not previously had a tier-1 pharma partnership, and now does. The contrarian read is that royalty tiers in mid-single digits are below what biotech bulls might have expected for a platform with Lilly's incretin franchise attached; this is "best-effort" obesity LAI rather than a transformational economics deal for Camurus.
 
+### EyePoint Pharmaceuticals × Ono Pharmaceutical Co., Ltd. — 2024-10-01
+
+**Description:** EyePoint announced an exclusive collaboration and license agreement with Ono granting Ono development and commercialization rights to EYP-1901 (vorolanib bioerodible intravitreal insert via Durasert E technology) in Japan, South Korea, Taiwan, and certain other Asian territories. EYP-1901 is in Phase 3 development for wet age-related macular degeneration (LUGANO and LUCIA pivotal trials). EyePoint retains worldwide ex-Asia rights. Verify deal date and exact territory list against EyePoint press releases.
+  
+**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Japan, South Korea, Taiwan, certain other Asian territories  
+**Economics:** Upfront $25M · milestones $130M  
+*Notes:* Headline economics per EyePoint disclosure: upfront cash plus development and sales milestones plus tiered royalties on Ono territory net sales. Specific royalty rates undisclosed. Verify exact financial terms — the figures here are approximate and should be cross-checked against EyePoint 10-K and Ono press releases.
+
+**TactBio view:** Mid-tier territorial licensing deal that validates EyePoint's EYP-1901/DURAVYU asset in Asia ahead of the pivotal LUGANO/LUCIA wet AMD readouts. Strategic relevance — (1) Ono is a credible Asian ophthalmology counterparty (Mydicar, Detic); (2) Asia territory rights remove a sourcing burden for EyePoint while preserving the high-value US/EU economics; (3) provides a platform-validation data point for the Durasert ophthalmic implant mechanism. Reference comp for territorial licensing economics for late-stage ophthalmic LAI.
+
 ### Indivior × (discontinued — no buyer) — 2024-07-09
 
 **Description:** Indivior announced discontinuation of Perseris (risperidone monthly LAI) in July 2024 as part of a strategic refocus on its OUD franchise (Sublocade) and Opvee. Perseris had launched in 2018 but never achieved meaningful commercial scale relative to Risperdal Consta, UZEDY, or the Invega franchise. This was a discontinuation rather than a divestiture — Indivior did not find a buyer for the asset. Tracked here as a competitive market event rather than a classical deal.
@@ -40,6 +67,15 @@
 *Notes:* No transaction value applicable — discontinuation, not divestiture. Indivior recorded approximately $65M total impairment/restructuring charges including $20M cash for severance and contract termination. Approximately 130 jobs were eliminated. Ongoing annual operating expense savings expected at ~$50M.
 
 **TactBio view:** The clearest competitive market signal of 2024 in the schizophrenia LAI category — fourth-place risperidone LAI was non-viable even within an established commercial organization. Perseris launched 2018, ran for six years, and was discontinued without a buyer despite Indivior having US commercial infrastructure. Strategic read-across: in crowded LAI categories, late entry without structural differentiation produces not just margin compression but outright commercial failure. This is the empirical case study supporting the "category position matters more than technology" thesis. Reference point for any prospective late-stage LAI in the same space (Rovi Risvan in particular).
+
+### GlycoMimetics, Inc. × Pacira BioSciences, Inc. — 2024-05-01
+
+**Description:** Pacira announced (and subsequently restructured/wound down) a strategic acquisition of GlycoMimetics in 2024. The transaction was structured to add a clinical-stage oncology asset (uproleselan) to Pacira's portfolio but was not consummated as originally announced; verify exact status against latest Pacira 10-Q and 8-K filings — different sources have reported deal restructuring versus full termination. Pacira's broader strategy is to diversify beyond DepoFoam/Exparel given generic erosion threats; acquisition dynamics here are tracked as competitive context rather than a clean LAI deal.
+  
+**Type:** m_and_a | **Status:** terminated | **Exclusivity:** exclusive | **Territory:** Worldwide  
+*Notes:* Original deal terms reported but the transaction did not close as announced. Verify current state.
+
+**TactBio view:** Tracked as a competitive event illustrating Pacira's strategic diversification pressure as DepoFoam/Exparel face generic threats. Not a primary LAI partnership but informs the read on Pacira's enterprise strategy. Outcome depended on regulatory and clinical context not directly relevant to LAI. Verify deal status — public reporting on the transaction's progression has been incomplete.
 
 ### MedinCell × AbbVie — 2024-04-16
 
@@ -51,6 +87,15 @@
 
 **TactBio view:** Platform validation deal: tier-1 pharma partner, multi-program scope, meaningful milestone total. Key tensions — (1) per-program structure ($315M each across 6 programs) gives MedinCell more transparency than bundled deals but also creates per-program execution risk; (2) specific therapeutic area allocations and molecules not disclosed, limiting ability to triangulate success probability; (3) renegotiation or program drops would be known only via press release. Monitor MEDCL quarterly calls for IND progression updates. The $35M upfront on $1.9B headline is light for a tier-1 platform deal — consistent with AbbVie retaining optionality program-by-program rather than committing capital upfront.
 
+### PolyActiva Pty Ltd × undisclosed pharma counterparty — 2024-01-01
+
+**Description:** PolyActiva (private Australian company) has reported partnership discussions with multiple ophthalmology pharma counterparties around PA5108 (latanoprost glaucoma implant) Phase 3 readiness, with no confirmed exclusive partnership disclosed publicly through 2024. Tracked as a placeholder for the partnership-discussion category — represents the type of platform-stage opportunity available for pharma BD scouts looking at ophthalmic LAI implants.
+  
+**Type:** licensing | **Status:** active | **Exclusivity:** non_exclusive | **Territory:** undisclosed  
+*Notes:* No public deal — placeholder for an actively-shopped asset.
+
+**TactBio view:** Tracked for partner-scout relevance rather than as a confirmed deal. PA5108 is the most clinically advanced asset in PolyActiva's pipeline and the platform's commercial story rests on partnership economics more than product economics. Useful in the partner_scout output as a signal that PolyActiva is actively shopping the asset. Replace this entry with a specific deal yaml once a partnership is announced.
+
 ### Teva Pharmaceuticals International GmbH × Royalty Pharma — 2023-11-13
 
 **Description:** Synthetic R&D funding agreement (not a forward royalty purchase). Royalty Pharma provides Teva up to $100M to fund ongoing Phase 3 development costs for olanzapine LAI (TEV-'749, mdc-TJK), the second BEPO/SteadyTeq-based asset after UZEDY. Mutual option to extend total funding to $125M. Upon FDA approval, Teva repays the funded amount over five years AND pays low-to-mid-single-digit royalties to Royalty Pharma on commercialization. Structure is hybrid debt/royalty: principal repayment + royalty stream contingent on regulatory success. MedinCell is the underlying platform technology owner but is not a counterparty to this specific RPRX-Teva agreement.
@@ -60,6 +105,15 @@
 *Notes:* Per Teva and Royalty Pharma joint press release Nov 13 2023: $100M upfront R&D funding to Teva, with mutual option to extend to $125M total. Conditional repayment terms: if FDA approves olanzapine LAI, Teva repays the funded amount over five years AND pays "low to mid single-digit" royalties on commercial sales. Royalty range 1-5% inferred from "low to mid single digit" language (typically interpreted as 1-6%, conservatively 1-5%). NOT a forward royalty stream purchase — Royalty Pharma's economics depend entirely on FDA approval, after which they receive principal-plus-royalty rather than a clean royalty asset.
 
 **TactBio view:** Structurally significant deal but commonly misunderstood. This is NOT Royalty Pharma buying a forward royalty stream — it is conditional R&D financing with a synthetic loan plus royalty kicker. The implications differ — (1) Royalty Pharma's diligence here validates Teva's olanzapine Phase 3 probability, but does not imply RPRX views the asset as a high-quality royalty compounder; (2) Teva preserves the bulk of olanzapine economics, paying out only repayment plus 1-5% royalty; (3) approval risk is borne primarily by Royalty Pharma, but Teva's optionality is preserved. For BEPO platform validation, the deal is meaningful but less of a signal than a true forward royalty purchase would have been. MedinCell does not benefit directly from this RPRX-Teva agreement — MedinCell's olanzapine economics flow through the original 2013 Teva agreement, separately.
+
+### Astellas Pharma Inc. × EyePoint Pharmaceuticals — 2023-10-01
+
+**Description:** Astellas and EyePoint announced (October 2023) a collaboration and license agreement covering a novel sustained-release tyrosine kinase inhibitor delivered via EyePoint's Durasert E platform for retinal disease applications. The collaboration positions Durasert technology to deliver TKIs for non-VEGF retinal pathology — an early validation of the platform beyond steroid (Yutiq, Iluvien, Dexycu) and vorolanib (EYP-1901) applications. Verify deal date and exact terms — the Astellas-EyePoint relationship has multiple historical layers; this entry treats the most recent retinal collaboration.
+  
+**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
+*Notes:* Specific financial terms not publicly disclosed.
+
+**TactBio view:** Validates Durasert as a non-steroid retinal LAI platform. Tracked primarily for its signal value to the wet-AMD LAI thesis: if a tier-1 pharma is willing to deliver a novel TKI via Durasert E, the platform has commercial attention beyond the EYP-1901 single-asset story. Deal terms minimal — verify against EyePoint and Astellas 10-K filings.
 
 ### Foresee Pharmaceuticals × Intas Pharmaceuticals (Accord BioPharma US) — 2021-03-04
 
@@ -90,6 +144,25 @@
 *Notes:* Per Foresee press release Feb 11 2019: combined upfront + regulatory milestones + sales milestones up to $86M total, plus "a significant share of the product revenue in the territory." Specific upfront amount within the $86M tranche not separately disclosed. Royalty structure described as revenue share rather than tiered royalty — suggesting profit-share or net-sales-share economics rather than classical royalty layering.
 
 **TactBio view:** Mid-tier territorial licensing deal for a value-priced LHRH LAI. Combined $86M is modest by platform-deal standards, reflecting Camcevi's positioning as a commodity-priced alternative to Lupron Depot/Eligard rather than a premium innovator product. Revenue-share structure (vs. classical royalty) is unusual and may reflect Accord's generics-focused business model and Foresee's interest in cash-flow share rather than upfront capital. Reference data point: territory-licensing economics for late-entrant LAI in mature LHRH category cap meaningfully below tier-1 platform deals.
+
+### Camurus × Braeburn Inc. — 2018-12-31
+
+**Description:** 2018 amendment to the original 2014 Camurus-Braeburn agreement, restructuring economics following Braeburn's strategic refocus on CAM2038/Brixadi and away from CAM2058 combination products. Specific amendment terms not publicly disclosed; effect was to preserve mid-teen royalty structure on CAM2038 while narrowing scope. Tracked separately from the 2014 master agreement and the 2016 CAM2058 amendment for amendment-lineage clarity.
+  
+**Type:** licensing | **Status:** active | **Exclusivity:** exclusive | **Territory:** North America (with Asia options)  
+**Economics:** royalty 13%–17%  
+*Notes:* Continuation of mid-teen royalty structure (13-17%) from the 2014 parent agreement on the CAM2038/Brixadi commercial scope. Amendment terms otherwise undisclosed.
+
+**TactBio view:** Tracked for amendment-lineage clarity rather than fresh deal value. Brixadi US commercial economics flow through the 2014 master agreement's mid-teen royalty structure; this 2018 amendment preserved that structure while Braeburn restructured its corporate posture. Reference for the partner-scout view: the CAM2038/Brixadi addiction encumbrance on FluidCrystal traces through three deal records — 2014 master, 2016 CAM2058 amendment, 2018 restructuring — and the encumbrance is still active.
+
+### Tolmar (former owners — undisclosed PE) × The Carlyle Group LP — 2018-12-01
+
+**Description:** The Carlyle Group's affiliated funds acquired Tolmar Inc. and Tolmar Pharmaceuticals (the holding company for Atrigel platform plus Eligard commercial rights) in 2018. Subsequent secondary transactions involving PE co-investors not publicly disclosed in detail. Tolmar remained private and continues to commercialize Eligard plus a generic injectables business. Verify exact Carlyle acquisition date and ownership timeline against PitchBook / S&P Capital IQ.
+  
+**Type:** m_and_a | **Status:** active | **Exclusivity:** exclusive | **Territory:** Worldwide  
+*Notes:* PE deal — financial terms not publicly disclosed.
+
+**TactBio view:** Tracked as a reference event for valuation of mature LAI platforms post-IP-cliff. Atrigel core composition was already expired (2008) at the time of Carlyle's acquisition; commercial value rested on Eligard product economics, manufacturing know-how, and the Sublocade royalty stream from Indivior. PE ownership establishes a private-market benchmark for mature LAI franchises. Verify current Tolmar ownership — PE secondary transactions can change the cap table without public disclosure.
 
 ### Camurus × Braeburn — 2016-10-24
 

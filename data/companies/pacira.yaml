@@ -1,0 +1,31 @@
+id: pacira
+name: Pacira BioSciences, Inc.
+ticker: PCRX
+listing_venue: NASDAQ
+country_hq: US
+employees: ~600
+market_cap_usd_m: 1100
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 350
+debt_usd_m: 400
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Small-cap commercial-stage biotech. Single-product concentration on
+  Exparel (bupivacaine liposomal LAI for postsurgical pain). Acquisitions
+  added Zilretta (triamcinolone ER intra-articular, microsphere) and Iovera
+  (cryoneurolysis) but Exparel remains the dominant revenue driver.
+
+related_platforms: [depofoam]
+related_assets: [exparel]
+related_deals: []
+
+ir_contact: ir@pacira.com
+last_updated: 2026-04-26
+
+notes: >
+  Pacira faces structural headwinds — generic ANDA challenges to Exparel,
+  payer pressure on postsurgical pain LAI category, competition from Heron
+  Zynrelef and opioid-sparing protocols. Single-product LAI biotech that
+  illustrates the IP cliff dynamic for first-generation depot platforms.
+  Potential acquisition target if commercial trajectory deteriorates.

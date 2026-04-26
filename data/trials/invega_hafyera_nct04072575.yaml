@@ -1,0 +1,27 @@
+id: "invega_hafyera_nct04072575"
+nct_id: "NCT04072575"
+asset_id: "invega_hafyera"
+indication: "psych"
+phase: 3
+n: 178
+design: "Interventional"
+primary_endpoint: >
+  Number of Participants With Relapse; Number of Participants With Treatment-emergent Adverse Events (TEAEs)
+control_arm: "none"
+sponsor: "Janssen Research & Development, LLC"
+status: "completed"
+start_date: "2019-09-19"
+expected_readout: "2022-05-03"
+result: null
+geography:
+  - "Argentina"
+  - "Hong Kong"
+  - "Italy"
+  - "Poland"
+  - "Russia"
+  - "Ukraine"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04072575"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study of Paliperidone Palmitate 6-Month Formulation. Sponsor: Janssen Research & Development, LLC. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

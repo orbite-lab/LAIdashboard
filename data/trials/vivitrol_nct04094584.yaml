@@ -1,0 +1,22 @@
+id: "vivitrol_nct04094584"
+nct_id: "NCT04094584"
+asset_id: "vivitrol"
+indication: "addiction"
+phase: 4
+n: 179
+design: "Interventional"
+primary_endpoint: >
+  Participants Retained in Study at 3 Months; Retention at 12 Months; Change in Daily Total Alcohol Consumption From Baseline at 3 Months; Change in Total Alcohol Consumption at 12 Months
+control_arm: "none"
+sponsor: "University of California, San Francisco"
+status: "terminated"
+start_date: "2020-08-14"
+expected_readout: "2022-05-01"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04094584"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Emergency Department Initiated Extended-Release Naltrexone and Case Management for the Treatment of Alcohol Use Disorder. Sponsor: University of California, San Francisco. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

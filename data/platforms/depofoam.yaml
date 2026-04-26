@@ -109,27 +109,36 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.5
+  - 30.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 25G
+  max_payload_mass_mg: 266
+  cold_chain_required: true
+  excipient_classes:
+  - DEPC
+  - DPPG
+  - tricaprylin
+  - cholesterol
+  release_profile_summary: 'Multivesicular liposomal depot. Exparel: 0.5-30 mL local wound
+    infiltration delivering bupivacaine over 72 hours. Mechanism limited to local administration;
+    not systemic LAI. Storage 2-8°C.'
+  iv_ivc_established: true
+  injection_site:
+  - local infiltration
+  - intra-articular
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: San Diego, California, USA (Pacira)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: Pacira San Diego facility supports Exparel commercial supply. Generic ANDA challenges
+    may reshape capacity utilization.
 views:
   investor: 'Niche local-administration liposomal depot with limited transferability beyond
     regional anesthesia. Strategic relevance to broader LAI thesis is primarily as a counterexample

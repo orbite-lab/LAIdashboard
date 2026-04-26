@@ -1,0 +1,21 @@
+id: "apretude_nct07370649"
+nct_id: "NCT07370649"
+asset_id: "apretude"
+indication: "hiv"
+phase: null
+n: 250
+design: "Observational"
+primary_endpoint: "Virologic Suppression at Follow-Up"
+control_arm: "active comparator"
+sponsor: "Pomeranian Medical University Szczecin"
+status: "planning"
+start_date: "2026-02-01"
+expected_readout: "2026-02-01"
+result: null
+geography:
+  - "Poland"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT07370649"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Long-Acting Cabotegravir and Rilpivirine in People Living With HIV-1 Subtype A6: A Real-World Retrospective Study. Sponsor: Pomeranian Medical University Szczecin. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

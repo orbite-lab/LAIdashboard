@@ -1,0 +1,35 @@
+id: rovi
+name: Laboratorios Farmacéuticos Rovi, S.A.
+ticker: ROVI
+listing_venue: BME (Madrid)
+country_hq: ES
+employees: ~2300
+market_cap_usd_m: 4000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 250
+debt_usd_m: 200
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Mid-cap specialty pharma with two distinct businesses: ISM LAI platform
+  (proprietary; lead product Risvan/Okedi monthly risperidone LAI) plus
+  large CDMO operation (sterile-fill manufacturing for COVID vaccines and
+  third-party LAI production). Founder family (López-Belmonte) holds
+  majority voting stake.
+
+related_platforms: [ism]
+related_assets: [risvan]
+related_deals: []
+
+ir_contact: ir@rovi.es
+last_updated: 2026-04-26
+
+notes: >
+  Rovi is the European challenger in risperidone LAI. ISM platform IP
+  modeled after BEPO/Atrigel in-situ depot architecture. US filing for
+  Risvan (Okedi) reportedly in progress; partnership path uncertain.
+  Strategic relevance to the tracker: ISM platform is potentially
+  available for partnering at the platform level (not just risperidone)
+  given Rovi's preference to retain Spanish/EU commercialization while
+  out-licensing US/ROW. Founder-family ownership structure complicates
+  any acquisition.

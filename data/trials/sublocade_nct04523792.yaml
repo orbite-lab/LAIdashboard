@@ -1,0 +1,20 @@
+id: "sublocade_nct04523792"
+nct_id: "NCT04523792"
+asset_id: "sublocade"
+indication: "addiction"
+phase: 3
+n: 0
+design: "Interventional"
+primary_endpoint: "Treatment engagement - 1 month"
+control_arm: "none"
+sponsor: "Virginia Commonwealth University"
+status: "terminated"
+start_date: "2021-01-01"
+expected_readout: "2021-12-31"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04523792"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Virginia Opioid Treatment-Emergency Department. Sponsor: Virginia Commonwealth University. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

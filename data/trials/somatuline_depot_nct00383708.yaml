@@ -1,0 +1,29 @@
+id: "somatuline_depot_nct00383708"
+nct_id: "NCT00383708"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 125
+design: "Interventional"
+primary_endpoint: >
+  Percentage of Subjects With Acromegaly With a Normalised (Age and Sex Adjusted) IGF-1 Level at the End of the Co-administration Period; Percentage of Subjects With Acromegaly With a Normalised (Age and Sex Adjusted) IGF-1 Level at the End of the Co-administration Period; Summarised by Previous Treatment and by Final Dose of Pegvisomant; Percentage of Subjects With Acromegaly With a Normalised (Age and Sex Adjusted) IGF-1 Level at the End of the Co-administration Period; Summarised by Diabetic St
+control_arm: "none"
+sponsor: "Ipsen"
+status: "completed"
+start_date: "2006-10"
+expected_readout: "2008-10"
+result: null
+geography:
+  - "Czechia"
+  - "Denmark"
+  - "France"
+  - "Germany"
+  - "Greece"
+  - "Italy"
+  - "Netherlands"
+  - "Spain"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00383708"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Lanreotide Autogel and Pegvisomant Combination Therapy in Acromegalic Patients. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

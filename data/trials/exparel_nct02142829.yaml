@@ -1,0 +1,21 @@
+id: "exparel_nct02142829"
+nct_id: "NCT02142829"
+asset_id: "exparel"
+indication: "pain"
+phase: 4
+n: 101
+design: "Interventional"
+primary_endpoint: "Numeric rating scale (NRS) pain intensity scores"
+control_arm: "active comparator"
+sponsor: "Pacira Pharmaceuticals, Inc"
+status: "completed"
+start_date: "2012-11"
+expected_readout: "2013-03"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02142829"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Pain Control in Bariatric Patients: EXPAREL(R) vs. the On-Q(R) Pain Ball. Sponsor: Pacira Pharmaceuticals, Inc. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

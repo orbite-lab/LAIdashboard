@@ -1,0 +1,25 @@
+id: "ob_exparel_us_11819574"
+patent_number: "US11819574"
+jurisdiction: "US"
+assignee: "Pacira"
+platform_id: "depofoam"
+asset_id: "exparel"
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2041-01-22"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 022496. Sponsor: Pacira.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+  Patent Use Code: U-3250 (method-of-use claim).
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=022496"
+last_updated: "2026-04-26"

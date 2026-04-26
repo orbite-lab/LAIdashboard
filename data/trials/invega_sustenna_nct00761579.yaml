@@ -1,0 +1,22 @@
+id: "invega_sustenna_nct00761579"
+nct_id: "NCT00761579"
+asset_id: "invega_sustenna"
+indication: "psych"
+phase: 4
+n: 190
+design: "Interventional"
+primary_endpoint: >
+  Change From Baseline in Positive and Negative Syndrome Scale (PANSS) Total Score at Week 48; Change From Baseline in Positive and Negative Syndrome Scale (PANSS) - Positive Subscale Score at Week 48; Change From Baseline in Positive and Negative Syndrome Scale (PANSS) - Negative Subscale Score at Week 48; Change From Baseline in Positive and Negative Syndrome Scale (PANSS) - General Psychopathology Subscale Score at Week 48
+control_arm: "none"
+sponsor: "Janssen Korea, Ltd., Korea"
+status: "completed"
+start_date: "2008-04"
+expected_readout: "2010-10"
+result: null
+geography:
+  - "South Korea"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00761579"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Paliperidone Extended Release(ER) Effectiveness Study to Evaluate the Objective Symptom Change and Symptomatic Remission. Sponsor: Janssen Korea, Ltd., Korea. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

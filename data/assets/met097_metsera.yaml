@@ -1,0 +1,83 @@
+id: met097_metsera
+name: MET-097
+inn: undisclosed long-acting GLP-1
+platform_id: metsera_lai
+owning_company: Metsera (Pfizer-acquired)
+licensee_company: null
+
+indications:
+  - code: metabolic
+    phase: phase_2
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: 2026-Q3
+  next_catalyst: 2026-Q3
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. MET-097 is Metsera's lead long-acting GLP-1 receptor
+    agonist candidate, designed for monthly subcutaneous dosing. Phase 1
+    data reported 2024-2025 supported once-monthly dosing potential with
+    competitive weight-loss profile. Phase 2 dose-finding ongoing. Pipeline
+    inherited by Pfizer as part of the September 2025 Metsera acquisition.
+    Mechanism of long action combines proprietary peptide engineering and
+    formulation approach (Metsera's HALO platform).
+  list_price_usd: null
+  addressable_market_usd_m: 20000
+
+primary_deal_id: 2025_pfizer_metsera_acquisition
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 2
+    rationale: Phase 1/2 stage; long-acting peptide engineering not yet platform-validated.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  clinical:
+    value: 2
+    rationale: Phase 1 data supportive; Phase 2 dose-finding ongoing.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Newer-vintage IP, full runway; specific patent landscape not reviewed.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 5
+    rationale: Pfizer 2025 acquisition validates platform commercial value at tier-1 level.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 2
+    rationale: Pre-IND or early IND; regulatory pathway established by GLP-1 class.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    Now a Pfizer-internal asset post-acquisition. Phase 2 readouts will
+    determine whether Pfizer's $5B+ Metsera bet was prescient.
+  partner: >
+    Not available — Pfizer-acquired.
+  acquirer: >
+    Already acquired. Reference comp for clinical-stage obesity LAI
+    enterprise valuation.
+
+tactbio_view: >
+  Pfizer's lead obesity LAI candidate post-Metsera acquisition. Phase 2
+  readout 2026 defines whether the deal's CVR-heavy structure pays out.
+
+last_updated: 2026-04-26

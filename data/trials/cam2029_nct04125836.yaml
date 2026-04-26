@@ -1,0 +1,28 @@
+id: "cam2029_nct04125836"
+nct_id: "NCT04125836"
+asset_id: "cam2029"
+indication: "endocrine"
+phase: 3
+n: 135
+design: "Interventional"
+primary_endpoint: "Characterization of adverse events (AEs)"
+control_arm: "none"
+sponsor: "Camurus AB"
+status: "completed"
+start_date: "2019-10-10"
+expected_readout: "2025-04-24"
+result: null
+geography:
+  - "Germany"
+  - "Greece"
+  - "Hungary"
+  - "Italy"
+  - "Poland"
+  - "Russia"
+  - "Serbia"
+  - "Spain"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04125836"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Trial to Assess the Long-term Safety of Octreotide Subcutaneous Depot in Patients With Acromegaly. Sponsor: Camurus AB. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

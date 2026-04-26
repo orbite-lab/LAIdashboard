@@ -1,0 +1,20 @@
+id: "somatuline_depot_nct04065165"
+nct_id: "NCT04065165"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 3
+n: 0
+design: "Interventional"
+primary_endpoint: "Number of bowel movements (BMs)"
+control_arm: "active comparator"
+sponsor: "European Organisation for Research and Treatment of Cancer - EORTC"
+status: "terminated"
+start_date: "2020-04"
+expected_readout: "2023-07"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04065165"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Lanreotide Combined With Telotristat Ethyl or Placebo for the First-line Treatment in Patients With Advanced Well Differentiated Small Intestinal Neuroendocrine Tumours (siNET) With Highly-functioning Carcinoid Syndrome. Sponsor: European Organisation for Research and Treatment of Cancer - EORTC. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

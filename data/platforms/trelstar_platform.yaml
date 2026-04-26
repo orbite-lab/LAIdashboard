@@ -109,27 +109,33 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 2.0
+  - 2.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 21G
+  max_payload_mass_mg: 22.5
+  cold_chain_required: false
+  excipient_classes:
+  - PLGA copolymer
+  - DL-lactide-glycolide
+  - mannitol
+  - polysorbate 80
+  release_profile_summary: PLGA microsphere suspension delivering triptorelin pamoate every
+    1, 3, or 6 months via deep IM gluteal injection. Storage at room temperature.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Allergan / Watson legacy sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Mature franchise; commercial trajectory under generic pressure.
 views:
   investor: 'Tracked for competitive context in LHRH LAI category. Decapeptyl/Trelstar''s
     European market share is durable despite IP expiry — the LHRH LAI category has demonstrated

@@ -100,27 +100,34 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.5
+  - 30.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 23-25G
+  max_payload_mass_mg: 400
+  cold_chain_required: true
+  excipient_classes:
+  - polyorthoester
+  - triethyl citrate
+  - menthol
+  release_profile_summary: Polyorthoester triglyceride matrix delivering local sustained release
+    over 72 hours (Zynrelef bupivacaine + meloxicam) or 5 days (Sustol granisetron). Designed
+    for local infiltration / SC administration. Storage 2-8°C.
+  iv_ivc_established: true
+  injection_site:
+  - local infiltration
+  - SC
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: San Diego, California (Heron)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: Heron-internal manufacturing for Zynrelef, Sustol commercial supply.
 views:
   investor: 'Specialty short-duration depot platform with two approved products in two distinct
     therapeutic areas. Limited platform-licensing optionality given Heron''s internal commercialization

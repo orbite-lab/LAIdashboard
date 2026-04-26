@@ -1,0 +1,61 @@
+id: 2018_carlyle_tolmar_acquisition
+deal_type: m_and_a
+status: active
+
+licensor: Tolmar (former owners — undisclosed PE)
+licensor_ticker: null
+licensee: The Carlyle Group LP
+licensee_ticker: CG
+
+asset_id: null
+platform_id: atrigel
+description: >
+  The Carlyle Group's affiliated funds acquired Tolmar Inc. and Tolmar
+  Pharmaceuticals (the holding company for Atrigel platform plus Eligard
+  commercial rights) in 2018. Subsequent secondary transactions involving
+  PE co-investors not publicly disclosed in detail. Tolmar remained
+  private and continues to commercialize Eligard plus a generic injectables
+  business. Verify exact Carlyle acquisition date and ownership timeline
+  against PitchBook / S&P Capital IQ.
+
+announced_date: 2018-12-01
+completed_date: 2018-12-01
+termination_date: null
+
+economics:
+  upfront_usd_m: null
+  milestones_total_usd_m: null
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    PE deal — financial terms not publicly disclosed.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - addiction
+  - oncology
+termination_clauses: >
+  PE deal — not applicable.
+
+disclosure_quality: minimal
+source_urls:
+  - https://www.carlyle.com/
+
+tactbio_view: >
+  Tracked as a reference event for valuation of mature LAI platforms
+  post-IP-cliff. Atrigel core composition was already expired (2008) at
+  the time of Carlyle's acquisition; commercial value rested on Eligard
+  product economics, manufacturing know-how, and the Sublocade royalty
+  stream from Indivior. PE ownership establishes a private-market
+  benchmark for mature LAI franchises. Verify current Tolmar ownership —
+  PE secondary transactions can change the cap table without public
+  disclosure.
+
+last_updated: 2026-04-26

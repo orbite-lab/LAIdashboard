@@ -1,0 +1,25 @@
+id: "ob_lupron_depot_us_8921326"
+patent_number: "US8921326"
+jurisdiction: "US"
+assignee: "AbbVie / Takeda"
+platform_id: "lupron_depot_platform"
+asset_id: "lupron_depot"
+filing_date: null
+priority_date: null
+grant_date: null
+expiry_date: "2031-02-05"
+claim_type: "formulation"
+continuation_lineage: []
+paragraph_iv_filers: []
+ipr_petitions: []
+opposition_history: "Not assessed at import. Refresh against most recent OB and PTAB filings quarterly."
+notes: >
+  Auto-imported from Orange Book on 2026-04-26.
+  NDA: 020517. Sponsor: AbbVie / Takeda.
+  Expiry reflects FDA Orange Book listed date — does not include PTE/PTA
+  or pediatric exclusivity. Verify against current Orange Book quarterly
+  for ParaIV / IPR activity.
+  Patent Use Code: U-1666 (method-of-use claim).
+source_urls:
+  - "https://www.accessdata.fda.gov/scripts/cder/ob/results_product.cfm?Appl_Type=N&Appl_No=020517"
+last_updated: "2026-04-26"

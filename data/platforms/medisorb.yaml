@@ -122,34 +122,43 @@ encumbrances:
   indications:
   - endocrine
   molecule_classes:
-  - undisclosed
-  compound_count_locked: null
+  - exenatide
+  compound_count_locked: 1
   territory: Worldwide (with regional commercial transitions)
   exclusivity: exclusive
   expires: deal-life
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.5
+  - 3.4
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 20G
+  max_payload_mass_mg: 1064
+  cold_chain_required: true
+  excipient_classes:
+  - PLG copolymer
+  - carboxymethylcellulose
+  - polysorbate 20
+  - mannitol
+  release_profile_summary: PLGA microsphere suspension. Aristada delivers monthly to every-2-month
+    aripiprazole lauroxil. Vivitrol monthly naltrexone. Bydureon weekly exenatide. Storage
+    2-8°C reflects microsphere stability requirements.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Athlone, Ireland
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: ample
+  scale_up_timeline_months: 24
+  notes: Alkermes Athlone facility is one of the largest dedicated LAI microsphere manufacturing
+    operations globally. Capacity reserved for Vivitrol, Aristada, plus historic third-party
+    Bydureon supply.
 views:
   investor: 'Foundational microsphere platform whose strategic relevance has shifted from
     technology innovation to manufacturing scale. Alkermes'' product portfolio built on Medisorb

@@ -138,34 +138,44 @@ encumbrances:
   indications:
   - hiv
   molecule_classes:
-  - undisclosed
-  compound_count_locked: null
+  - rilpivirine
+  compound_count_locked: 1
   territory: Worldwide
   exclusivity: exclusive
   expires: deal-life
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 0.875
+  - 1.5
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 22G
+  max_payload_mass_mg: 234
+  cold_chain_required: false
+  excipient_classes:
+  - polysorbate 20
+  - PEG 4000
+  - citric acid
+  - disodium phosphate
+  release_profile_summary: Nanocrystal palmitate ester suspension; gradual dissolution from
+    deltoid or gluteal IM injection produces sustained paliperidone release over 1 month (Sustenna),
+    3 months (Trinza), or 6 months (Hafyera). For cabotegravir LA, monthly to every-2-month
+    dosing.
+  iv_ivc_established: true
+  injection_site:
+  - IM
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Multiple Janssen / Alkermes sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Janssen operates large-scale aseptic suspension manufacturing for Invega franchise.
+    Alkermes retains residual NanoCrystal manufacturing know-how for legacy products. Capacity
+    is not the bottleneck for this platform — adoption is.
 views:
   investor: 'Most commercially successful LAI platform by revenue, with Invega franchise and
     cabotegravir generating multi-billion-dollar combined sales. Strategic value resides in

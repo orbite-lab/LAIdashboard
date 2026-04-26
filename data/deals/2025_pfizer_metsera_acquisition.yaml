@@ -1,0 +1,74 @@
+id: 2025_pfizer_metsera_acquisition
+deal_type: m_and_a
+status: active
+
+licensor: Metsera, Inc.
+licensor_ticker: MTSR
+licensee: Pfizer Inc.
+licensee_ticker: PFE
+
+asset_id: null
+platform_id: metsera_lai
+description: >
+  Pfizer announced the acquisition of Metsera (NASDAQ: MTSR) in September
+  2025 to enter the long-acting incretin obesity LAI category. Metsera's
+  pipeline includes MET-097 (long-acting GLP-1 receptor agonist) in early
+  clinical development plus dual-mechanism amylin/GLP-1 candidates. The
+  deal includes upfront cash plus contingent value rights tied to clinical
+  and commercial milestones. Reported headline value approximately $5B
+  base plus CVRs (verify exact terms against Pfizer 8-K and definitive
+  agreement).
+
+announced_date: 2025-09-22
+completed_date: null
+termination_date: null
+
+economics:
+  upfront_usd_m: 4900
+  milestones_total_usd_m: 2300
+  milestones_development_usd_m: null
+  milestones_regulatory_usd_m: null
+  milestones_commercial_usd_m: null
+  equity_investment_usd_m: null
+  rd_funding_usd_m: null
+  royalty_low_pct: null
+  royalty_high_pct: null
+  royalty_notes: >
+    Headline structure per company press releases: ~$47.50/share base
+    cash consideration plus contingent value rights (CVRs) potentially
+    paying up to ~$22.50/share tied to development and commercial
+    milestones for Metsera lead programs. Verify exact upfront and CVR
+    structure against the definitive merger agreement filed with the SEC.
+    Treated here as ~$4.9B upfront + ~$2.3B max contingent on
+    ~103M diluted shares; structure may differ once close documentation
+    is finalized.
+
+option_structure: null
+territory: Worldwide
+exclusivity: exclusive
+indications_covered:
+  - metabolic
+  - endocrine
+termination_clauses: >
+  Standard CVR-deal termination provisions. CVR milestones are time-bound
+  with specific clinical and regulatory triggers; verify against the CVR
+  agreement.
+
+disclosure_quality: partial
+source_urls:
+  - https://www.pfizer.com/news/press-release/press-release-detail/pfizer-acquire-metsera
+  - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=metsera
+
+tactbio_view: >
+  Single most important obesity-LAI consolidation event of 2025. Pfizer's
+  acquisition of Metsera completes the tier-1 pharma trio in long-acting
+  incretins — Lilly + Camurus (FluidCrystal partnership), Amgen (MariTide
+  internal), now Pfizer + Metsera. Strategic significance: confirms that
+  every tier-1 with obesity ambitions needs a long-acting formulation
+  position. Metsera-Pfizer is structured as M&A rather than license,
+  signalling Pfizer values internal control over partnership flexibility —
+  the opposite of Lilly's choice with Camurus. The valuation per Metsera
+  share establishes a new comp for clinical-stage obesity LAI biotech
+  enterprise value.
+
+last_updated: 2026-04-26

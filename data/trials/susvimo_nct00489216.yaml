@@ -1,0 +1,22 @@
+id: "susvimo_nct00489216"
+nct_id: "NCT00489216"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: null
+n: 2
+design: "Interventional"
+primary_endpoint: >
+  Number of Subjects Experiencing Adverse Events; Degree of Skin Involvement by GVHD Using Two Digital Photography Techniques.; Exploratory Assessment of the Staining of Cutaneous Tissues for LFA-1, ICAM-1, CD4, CD8, and Possibly CD20
+control_arm: "none"
+sponsor: "UNC Lineberger Comprehensive Cancer Center"
+status: "terminated"
+start_date: "2006-12"
+expected_readout: "2008-06"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00489216"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Efalizumab in Treating Patients With Graft-Versus-Host Disease of the Skin That Did Not Respond to Previous Steroids. Sponsor: UNC Lineberger Comprehensive Cancer Center. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

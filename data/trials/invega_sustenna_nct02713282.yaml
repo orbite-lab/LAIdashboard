@@ -1,0 +1,29 @@
+id: "invega_sustenna_nct02713282"
+nct_id: "NCT02713282"
+asset_id: "invega_sustenna"
+indication: "psych"
+phase: 3
+n: 306
+design: "Interventional"
+primary_endpoint: >
+  Percentage of Participants Achieving Symptomatic Remission Based on Positive and Negative Syndrome Scale (PANSS)
+control_arm: "none"
+sponsor: "Janssen-Cilag Ltd."
+status: "completed"
+start_date: "2016-04-28"
+expected_readout: "2018-03-26"
+result: null
+geography:
+  - "Croatia"
+  - "Denmark"
+  - "France"
+  - "Germany"
+  - "Greece"
+  - "Israel"
+  - "Malaysia"
+  - "Netherlands"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02713282"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study of Transition to the Paliperidone Palmitate 3-Month Formulation In Participants With Schizophrenia Previously Stabilized on the Paliperidone Palmitate 1-Month Formulation. Sponsor: Janssen-Cilag Ltd.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

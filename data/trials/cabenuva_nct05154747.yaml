@@ -1,0 +1,24 @@
+id: "cabenuva_nct05154747"
+nct_id: "NCT05154747"
+asset_id: "cabenuva"
+indication: "hiv"
+phase: 3
+n: 476
+design: "Interventional"
+primary_endpoint: "Confirmed virological rebound"
+control_arm: "active comparator"
+sponsor: "University College, London"
+status: "active"
+start_date: "2023-06-22"
+expected_readout: "2025-03"
+result: null
+geography:
+  - "Kenya"
+  - "South Africa"
+  - "Uganda"
+  - "Zimbabwe"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05154747"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Long-Acting Treatment in Adolescents (LATA). Sponsor: University College, London. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

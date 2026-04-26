@@ -1,0 +1,86 @@
+id: maritide_amg133
+name: MariTide
+inn: maridebart cafraglutide (AMG 133)
+platform_id: maritide
+owning_company: Amgen
+licensee_company: null
+
+indications:
+  - code: metabolic
+    phase: phase_3
+    first_approval_year: null
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: 2026-Q4
+  next_catalyst: 2026-Q4
+
+commercial:
+  sales_latest: null
+  sales_notes: >
+    Pre-commercial. MariTide is a long-acting GIP receptor antagonist /
+    GLP-1 receptor agonist bispecific peptide-antibody conjugate dosed
+    monthly subcutaneously. Phase 2 obesity data reported December 2024
+    showed competitive weight loss vs. weekly GLP-1 agonists. Phase 3
+    program (MARITIME) initiated 2024-2025 across obesity, type 2
+    diabetes, and obesity-related complications. Mechanism of long action
+    is Fc-mediated half-life extension, NOT depot release — strictly
+    speaking outside the v0 LAI taxonomy but tracked here for the
+    obesity-LAI competitive landscape.
+  list_price_usd: null
+  addressable_market_usd_m: 25000
+
+primary_deal_id: null
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 3
+    rationale: Phase 2 monthly dosing demonstrated; mechanism is half-life extension rather than depot LAI.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  clinical:
+    value: 3
+    rationale: Phase 2 weight loss results competitive; Phase 3 outcomes pending.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 4
+    rationale: Amgen-internal IP estate, full runway; specific patent landscape not reviewed.
+    confidence: low
+    scored_at: 2026-04-26
+    scorer: CL
+  dealability:
+    value: 1
+    rationale: Internal Amgen asset; not externally licensable.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 3
+    rationale: Pre-NDA. GLP-1 / GIP regulatory pathway established by tirzepatide and semaglutide.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    The internal Amgen comp to FluidCrystal-formulated obesity LAI
+    candidates. Phase 3 MARITIME readouts will define the obesity-LAI
+    competitive bar.
+  partner: >
+    Not available — internal Amgen asset.
+  acquirer: >
+    Not actionable as a standalone target; relevant only for obesity
+    LAI competitive context.
+
+tactbio_view: >
+  Internal Amgen obesity LAI; mechanism is half-life extension rather
+  than depot release. Tracked for competitive context only.
+
+last_updated: 2026-04-26

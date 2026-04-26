@@ -1,0 +1,26 @@
+id: "mdc_tjk_olanzapine_nct05693935"
+nct_id: "NCT05693935"
+asset_id: "mdc_tjk_olanzapine"
+indication: "psych"
+phase: 3
+n: 675
+design: "Interventional"
+primary_endpoint: >
+  Double-blind Period: Change in the Positive and Negative Syndrome Scale (PANSS) Total Score From Baseline to Week 8
+control_arm: "placebo"
+sponsor: "Teva Branded Pharmaceutical Products R&D LLC"
+status: "completed"
+start_date: "2023-01-24"
+expected_readout: "2024-03-19"
+result: null
+geography:
+  - "Bulgaria"
+  - "China"
+  - "Romania"
+  - "Turkey (T\u00fcrkiye)"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05693935"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Randomized, Double-Blind, Placebo-Controlled Study With an Open-Label, Long-Term Safety Phase to Evaluate the Efficacy and Safety of TV-44749 in Adults With Schizophrenia. Sponsor: Teva Branded Pharmaceutical Products R&D LLC. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

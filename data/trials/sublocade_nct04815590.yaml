@@ -1,0 +1,21 @@
+id: "sublocade_nct04815590"
+nct_id: "NCT04815590"
+asset_id: "sublocade"
+indication: "addiction"
+phase: null
+n: 40
+design: "Observational"
+primary_endpoint: "Number of XR-BUP injections received; Proportion of treatment-engaged visits per participant"
+control_arm: "none"
+sponsor: "BC Centre on Substance Use"
+status: "active"
+start_date: "2022-10-17"
+expected_readout: "2023-10-17"
+result: null
+geography:
+  - "Canada"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT04815590"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Extended-release Injectable Buprenorphine for Individuals at High Risk of Overdose. Sponsor: BC Centre on Substance Use. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

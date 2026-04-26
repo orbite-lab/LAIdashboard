@@ -1,0 +1,22 @@
+id: "susvimo_nct02510794"
+nct_id: "NCT02510794"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: 2
+n: 225
+design: "Interventional"
+primary_endpoint: >
+  Time Until a Participant First Requires the Implant Refill According to Protocol-Defined Refill Criteria
+control_arm: "active comparator"
+sponsor: "Genentech, Inc."
+status: "completed"
+start_date: "2015-09-28"
+expected_readout: "2018-04-10"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02510794"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study of the Efficacy and Safety of the Ranibizumab Port Delivery System for Sustained Delivery of Ranibizumab in Patients With Subfoveal Neovascular Age-Related Macular Degeneration. Sponsor: Genentech, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

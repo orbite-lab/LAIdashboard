@@ -110,27 +110,34 @@ partnering_posture:
 encumbrances: []
 technical_fit:
   injection_volume_ml_range:
-  - null
-  - null
+  - 1.0
+  - 2.0
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 22G
+  max_payload_mass_mg: 45
+  cold_chain_required: false
+  excipient_classes:
+  - lactide-glycolide copolymer
+  - gelatin
+  - mannitol
+  release_profile_summary: PLGA microsphere suspension delivering leuprolide acetate monthly
+    (3.75-7.5 mg), every 3 months (11.25-22.5 mg), every 4 months (30 mg), or every 6 months
+    (45 mg) via IM or SC. Storage at room temperature.
+  iv_ivc_established: true
+  injection_site:
+  - IM
+  - SC
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Takeda / AbbVie sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Mature global manufacturing; not capacity-constrained.
 views:
   investor: 'Tracked as competitive context — Lupron Depot is the price/share anchor for prostate
     cancer LHRH LAI globally. Any new entrant must position against Lupron''s prescriber inertia

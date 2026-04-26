@@ -1,0 +1,31 @@
+id: ipsen
+name: Ipsen S.A.
+ticker: IPN
+listing_venue: Euronext Paris
+country_hq: FR
+employees: ~5500
+market_cap_usd_m: 11000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 800
+debt_usd_m: 1800
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Mid-cap specialty pharma. Founder family (Beaufour-Ipsen) holds majority
+  voting stake — restricts hostile M&A. Endocrinology / oncology / rare
+  disease franchises. Somatuline Autogel (lanreotide LAI for acromegaly
+  and NETs) is the cornerstone product but core IP at expiry.
+
+related_platforms: [somatuline_autogel]
+related_assets: [somatuline_depot]
+related_deals: []
+
+ir_contact: investors@ipsen.com
+last_updated: 2026-04-26
+
+notes: >
+  Ipsen is the reference for late-life LAI franchise economics under
+  generic threat. Somatuline IP cliff is the central question — defense
+  via additional indications or geographic carve-outs informs valuation
+  for any prospective octreotide/lanreotide LAI new entrant (CAM2029).
+  Founder-family voting structure makes Ipsen a difficult M&A target.

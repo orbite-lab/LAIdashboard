@@ -1,0 +1,27 @@
+id: "apretude_nct05896748"
+nct_id: "NCT05896748"
+asset_id: "apretude"
+indication: "hiv"
+phase: 3
+n: 94
+design: "Interventional"
+primary_endpoint: >
+  Concentrations at the End of the Dosing Interval (Ctau) of CAB LA 400 mg Following Administration CAB LA + RPV LA; Ctau of RPV LA 600 mg Following Administration of CAB LA + RPV LA; Maximum Plasma Concentration (Cmax) One Week Post Dose of CAB LA 400 mg Following Administration of CAB LA + RPV LA; Cmax One Week Post Dose of RPV LA 600 mg Following Administration of CAB LA + RPV LA; Area Under the Plasma Concentration-time Curve From 0 Through the End of Dosing Interval (AUC[0-tau]) of CAB LA 400
+control_arm: "none"
+sponsor: "ViiV Healthcare"
+status: "completed"
+start_date: "2022-11-08"
+expected_readout: "2023-09-14"
+result: null
+geography:
+  - "Canada"
+  - "Japan"
+  - "South Africa"
+  - "Spain"
+  - "United Kingdom"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05896748"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study to Assess the Effects of Cabotegravir (CAB) and Rilpivirine (RPV) Long-Acting (LA) Injections Following Sub-cutaneous (SC) Administration Compared With Intramuscular (IM) Administration in Adult Participants Living With Human Immunodeficiency Virus (HIV-1) Infection in the FLAIR Study. Sponsor: ViiV Healthcare. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

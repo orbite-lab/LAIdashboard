@@ -1,0 +1,21 @@
+id: "apretude_nct02462772"
+nct_id: "NCT02462772"
+asset_id: "apretude"
+indication: "hiv"
+phase: 2
+n: 0
+design: "Interventional"
+primary_endpoint: "Number of participants with adverse events"
+control_arm: "placebo"
+sponsor: "Centre for the AIDS Programme of Research in South Africa"
+status: "terminated"
+start_date: "2015-10"
+expected_readout: "2018-09"
+result: null
+geography:
+  - "South Africa"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT02462772"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Safety and Acceptability of Cabotegravir in HIV Uninfected Women in KwaZulu-Natal, South Africa. Sponsor: Centre for the AIDS Programme of Research in South Africa. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

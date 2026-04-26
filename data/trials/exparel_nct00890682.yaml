@@ -1,0 +1,21 @@
+id: "exparel_nct00890682"
+nct_id: "NCT00890682"
+asset_id: "exparel"
+indication: "pain"
+phase: 3
+n: 193
+design: "Interventional"
+primary_endpoint: "Area Under the Curve (AUC) of the Numeric Rating Scale at Rest (NRS-R) Pain Intensity Scores"
+control_arm: "placebo"
+sponsor: "Pacira Pharmaceuticals, Inc"
+status: "completed"
+start_date: "2009-04"
+expected_readout: "2009-11"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00890682"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study of Postoperative Analgesia in Bunionectomy. Sponsor: Pacira Pharmaceuticals, Inc. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

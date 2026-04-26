@@ -1,0 +1,21 @@
+id: "susvimo_nct00287443"
+nct_id: "NCT00287443"
+asset_id: "susvimo"
+indication: "ophthalmology"
+phase: null
+n: 0
+design: "Interventional"
+primary_endpoint: null
+control_arm: "null"
+sponsor: "University of Texas Southwestern Medical Center"
+status: "terminated"
+start_date: "2006-02-02"
+expected_readout: "2006-02-02"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00287443"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Metabolic Abnormalities in Hispanic Children With Cystic Fibrosis. Sponsor: University of Texas Southwestern Medical Center. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

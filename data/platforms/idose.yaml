@@ -93,22 +93,27 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 27G inserter
+  max_payload_mass_mg: 0.075
+  cold_chain_required: false
+  excipient_classes:
+  - proprietary titanium implant
+  - travoprost
+  release_profile_summary: Anchored intracameral titanium implant releasing travoprost free
+    acid over 24-36 months. Inserted by ophthalmologist via dedicated inserter through a clear
+    corneal incision.
+  iv_ivc_established: true
+  injection_site:
+  - intracameral
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Aliso Viejo, California (Glaukos)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: Glaukos-internal. Capacity scales with launch trajectory.
 views:
   investor: 'Internal Glaukos asset, not externally investable as platform. Strategic significance
     for us is as a benchmark — iDose''s longer duration pressures Allergan''s Durysta and

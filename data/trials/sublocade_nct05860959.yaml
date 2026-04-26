@@ -1,0 +1,25 @@
+id: "sublocade_nct05860959"
+nct_id: "NCT05860959"
+asset_id: "sublocade"
+indication: "addiction"
+phase: null
+n: 480
+design: "Observational"
+primary_endpoint: >
+  Participants achieving DSM-5 remission, early or sustained, (yes/no) while on initial SUBLOCADE treatment by 6 months and 1, 1.5, 2, 2.5, and 3 years from study Baseline
+control_arm: "null"
+sponsor: "Indivior Inc."
+status: "completed"
+start_date: "2023-08-31"
+expected_readout: "2025-08-31"
+result: null
+geography:
+  - "Australia"
+  - "Canada"
+  - "Sweden"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT05860959"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: SUBLOCADE Long-term Outcomes. Sponsor: Indivior Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

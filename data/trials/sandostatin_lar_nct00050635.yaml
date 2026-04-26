@@ -1,0 +1,22 @@
+id: "sandostatin_lar_nct00050635"
+nct_id: "NCT00050635"
+asset_id: "sandostatin_lar"
+indication: "endocrine"
+phase: 4
+n: 150
+design: "Interventional"
+primary_endpoint: >
+  Change from baseline and at 6 months in the proportion of patients with NCI Grades 3 and/or 4 diarrhea during chemotherapy
+control_arm: "null"
+sponsor: "Novartis Pharmaceuticals"
+status: "completed"
+start_date: "2002-12"
+expected_readout: null
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00050635"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: STOP Trial - Sandostatin LAR Depot Trial for the Optimum Prevention of Chemotherapy Induced Diarrhea. Sponsor: Novartis Pharmaceuticals. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

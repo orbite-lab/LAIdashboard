@@ -1,0 +1,22 @@
+id: "cabenuva_nct06451341"
+nct_id: "NCT06451341"
+asset_id: "cabenuva"
+indication: "hiv"
+phase: null
+n: 55
+design: "Observational"
+primary_endpoint: >
+  Patient participants determination of acceptability of CAB+RPV LA implementation; Patient participants determination of feasibility of CAB+RPV LA implementation; Staff participants determination of the acceptability of CAB+RPV LA implementation; Staff participants determination of the feasibility of CAB+RPV LA implementation
+control_arm: "active comparator"
+sponsor: "University of Nebraska"
+status: "active"
+start_date: "2024-07-01"
+expected_readout: "2027-04"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT06451341"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: IMplementation of CAB+RPV LA for People With HIV in Non-Metropolitan Areas. Sponsor: University of Nebraska. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

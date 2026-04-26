@@ -112,8 +112,8 @@ encumbrances:
   indications:
   - ophthalmology
   molecule_classes:
-  - undisclosed
-  compound_count_locked: null
+  - fluocinolone acetonide
+  compound_count_locked: 1
   territory: Worldwide
   exclusivity: exclusive
   expires: deal-life
@@ -124,22 +124,31 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 25G inserter
+  max_payload_mass_mg: 0.18
+  cold_chain_required: false
+  excipient_classes:
+  - polyvinyl alcohol
+  - polylactic acid
+  - fluocinolone acetonide
+  - vorolanib
+  - or other API
+  release_profile_summary: 'Bioerodible (Durasert E) or non-erodible (Durasert legacy) intravitreal
+    insert. Yutiq: 0.18 mg fluocinolone acetonide, 36-month duration. EYP-1901: vorolanib
+    bioerodible in development. Inserted via 25G inserter as in-office procedure.'
+  iv_ivc_established: true
+  injection_site:
+  - intravitreal
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: Watertown, Massachusetts (EyePoint)
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
-  scale_up_timeline_months: null
-  notes: Data pending.
+  capacity_headroom: moderate
+  scale_up_timeline_months: 18
+  notes: EyePoint-internal manufacturing for Yutiq, Dexycu commercial supply plus EYP-1901
+    clinical supply.
 views:
   investor: 'The reference platform for ophthalmic implant LAI. Strategic question is whether
     EyePoint''s pipeline — particularly EYP-1901 in wet AMD — can establish a sustained-release

@@ -1,0 +1,95 @@
+id: idose_tr
+name: iDose TR
+inn: travoprost
+platform_id: idose
+owning_company: Glaukos Corporation
+licensee_company: null
+
+indications:
+  - code: ophthalmology
+    phase: approved
+    first_approval_year: 2023
+    geography: US
+
+key_dates:
+  pdufa: null
+  nda_filed: null
+  expected_readout: null
+  next_catalyst: null
+
+commercial:
+  sales_latest:
+    year: 2024
+    value_usd_m: 50
+    currency: USD
+    source: Glaukos 2024 annual report (approximate; verify)
+  sales_notes: >
+    iDose TR is a sustained-release intracameral travoprost implant for
+    primary open-angle glaucoma and ocular hypertension. FDA approval
+    December 2023; commercial launch 2024. Multi-year duration profile
+    differentiates from Allergan/AbbVie Durysta (3-month bimatoprost).
+    Commercial trajectory in 2024-2025 is the leading indicator for
+    multi-year ocular implant prescriber acceptance. Verify FY2024 net
+    sales — early launch revenue often lags reported figures.
+  list_price_usd: null
+  addressable_market_usd_m: 2500
+
+primary_deal_id: null
+
+primary_trials: []
+
+scores:
+  tech:
+    value: 4
+    rationale: Inherited from iDose platform; first commercial multi-year prostaglandin implant.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  clinical:
+    value: 4
+    rationale: Phase 3 GC-010 demonstrated non-inferior IOP reduction vs timolol; durability data over 36 months supportive.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  ip:
+    value: 5
+    rationale: Inherited from iDose; deep IP estate with continuation strategy.
+    confidence: medium
+    scored_at: 2026-04-26
+    scorer: CL
+    inherited_from: platform
+  dealability:
+    value: 1
+    rationale: Internal Glaukos asset; not externally licensable.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+  regulatory:
+    value: 5
+    rationale: Approved with stable label.
+    confidence: high
+    scored_at: 2026-04-26
+    scorer: CL
+
+views:
+  investor: >
+    iDose's commercial uptake is the leading indicator for multi-year
+    ocular implant prescriber acceptance. Bull case: convenience driver
+    drives durable share take from daily prostaglandin drops; bear case:
+    procedural friction limits adoption beyond a niche specialty segment.
+    Pressures Allergan/AbbVie Durysta and sets a higher bar for any new
+    ophthalmic LAI platform.
+  partner: >
+    Not available — internal Glaukos asset.
+  acquirer: >
+    Glaukos enterprise value is dominated by iDose plus the iStent
+    franchise. Strategic fit for any large-cap ophthalmic player; verify
+    M&A protections in Glaukos governance.
+
+tactbio_view: >
+  Multi-year ocular implant. Commercial uptake is the leading indicator
+  for prescriber acceptance of multi-year duration in glaucoma; bull case
+  drives Durysta's positioning into question.
+
+last_updated: 2026-04-26

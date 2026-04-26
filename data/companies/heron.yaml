@@ -1,0 +1,30 @@
+id: heron
+name: Heron Therapeutics, Inc.
+ticker: HRTX
+listing_venue: NASDAQ
+country_hq: US
+employees: ~280
+market_cap_usd_m: 250
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 60
+debt_usd_m: 120
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Small-cap commercial-stage biotech. Biochronomer LAI platform supports
+  Sustol (granisetron extended-release, CINV) and Zynrelef (bupivacaine/
+  meloxicam, postsurgical pain). Persistent cash-burn / dilution trajectory.
+
+related_platforms: [biochronomer]
+related_assets: []
+related_deals: []
+
+ir_contact: ir@herontx.com
+last_updated: 2026-04-26
+
+notes: >
+  Heron is the closest competitor to Pacira in postsurgical pain LAI.
+  Zynrelef differentiated as bupivacaine + meloxicam combination for
+  multimodal analgesia. Cash runway is a recurring concern; Biochronomer
+  platform ex-current-products may have residual licensing optionality.
+  Verify current cash burn vs market cap for distressed-acquisition read.

@@ -107,22 +107,26 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 14-16G implanter
+  max_payload_mass_mg: 10.8
+  cold_chain_required: false
+  excipient_classes:
+  - lactide-glycolide copolymer (D,L-lactide:glycolide)
+  release_profile_summary: Solid biodegradable PLGA cylinder implant inserted SC into the
+    upper abdominal wall via dedicated implanter delivering goserelin acetate over 28 days
+    (3.6 mg) or 12 weeks (10.8 mg). Storage at room temperature.
+  iv_ivc_established: true
+  injection_site:
+  - SC implant
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: AstraZeneca / TerSera sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: Mature franchise; multi-decade commercial use.
 views:
   investor: 'Reference solid-implant platform for peptide LAI. Tracked for indication-fit
     context in the platform H2H matrix. Competitive context for any new solid- rod implant

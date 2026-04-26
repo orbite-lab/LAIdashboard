@@ -1,0 +1,22 @@
+id: "somatuline_depot_nct00149188"
+nct_id: "NCT00149188"
+asset_id: "somatuline_depot"
+indication: "endocrine"
+phase: 4
+n: 30
+design: "Interventional"
+primary_endpoint: >
+  To assess the ability of patients or their partners to perform unsupervised Somatuline Autogel injections.
+control_arm: "null"
+sponsor: "Ipsen"
+status: "completed"
+start_date: "2004-02"
+expected_readout: "2005-08-24"
+result: null
+geography:
+  - "United Kingdom"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00149188"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Somatuline Autogel: Acromegaly Self/Partner Injection Study. Sponsor: Ipsen. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

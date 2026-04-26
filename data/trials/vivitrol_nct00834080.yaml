@@ -1,0 +1,21 @@
+id: "vivitrol_nct00834080"
+nct_id: "NCT00834080"
+asset_id: "vivitrol"
+indication: "addiction"
+phase: 3
+n: 38
+design: "Interventional"
+primary_endpoint: "Number of Subjects Reporting at Least 1 Treatment-emergent Adverse Event (TEAE) While on Study."
+control_arm: "none"
+sponsor: "Alkermes, Inc."
+status: "completed"
+start_date: "2009-03"
+expected_readout: "2012-05"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT00834080"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: ALK21-021: A Safety Study of Medisorb® Naltrexone (VIVITROL®) Administered to Health Care Professionals. Sponsor: Alkermes, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

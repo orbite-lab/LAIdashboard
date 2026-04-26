@@ -1,0 +1,33 @@
+id: amgen
+name: Amgen Inc.
+ticker: AMGN
+listing_venue: NASDAQ
+country_hq: US
+employees: ~28000
+market_cap_usd_m: 165000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 8000
+debt_usd_m: 60000
+ifrs_or_gaap: GAAP
+
+governance_notes: >
+  Tier-1 large-cap biotech. MariTide (maridebart cafraglutide / AMG 133)
+  is Amgen's lead obesity asset — long-acting bispecific peptide-antibody
+  conjugate dosed monthly. Mechanism of long action is Fc half-life
+  extension, not depot release; tracked in our LAI scope as competitive
+  context only.
+
+related_platforms: [maritide]
+related_assets: []
+related_deals: []
+
+ir_contact: investors@amgen.com
+last_updated: 2026-04-26
+
+notes: >
+  Amgen's MariTide Phase 3 readouts will define the obesity LAI
+  competitive bar versus Lilly retatrutide / Camurus FluidCrystal
+  incretin formulations. Internal-only platform — not externally
+  available for partnering. Strategic context for the tracker: any
+  monthly-or-longer obesity peptide must benchmark against MariTide
+  PK / efficacy / tolerability profile.

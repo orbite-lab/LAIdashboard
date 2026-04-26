@@ -214,7 +214,8 @@ def validate_deal(d: dict, platforms: dict, assets: dict):
 
 def validate_trial(t: dict, assets: dict):
     label = f"trials/{t.get('_source_file', t['id'])}"
-    required = ["id", "nct_id", "asset_id", "indication", "phase", "sponsor", "status"]
+    # phase is optional — CT.gov reports null for observational/PMS/registry trials
+    required = ["id", "nct_id", "asset_id", "indication", "sponsor", "status"]
     for r in required:
         if t.get(r) in (None, ""):
             err(f"{label}: missing required field '{r}'")
@@ -283,7 +284,7 @@ def main():
     if errors:
         print(f"\n{len(errors)} ERROR(S):")
         for e in errors:
-            print(f"  ✗ {e}")
+            print(f"  X {e}")
     if warnings:
         print(f"\n{len(warnings)} WARNING(S):")
         for w in warnings:

@@ -1,0 +1,20 @@
+id: "invega_sustenna_nct01541371"
+nct_id: "NCT01541371"
+asset_id: "invega_sustenna"
+indication: "psych"
+phase: 3
+n: 405
+design: "Interventional"
+primary_endpoint: "Change From Baseline in Positive and Negative Syndrome Scale (PANSS) Total Score at Week 12"
+control_arm: "none"
+sponsor: "Xian-Janssen Pharmaceutical Ltd."
+status: "completed"
+start_date: "2008-07"
+expected_readout: "2009-09"
+result: null
+geography: null
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT01541371"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: A Study of Flexibly Dosed Paliperidone Extended Release Tablets in Participants With Schizophrenia. Sponsor: Xian-Janssen Pharmaceutical Ltd.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

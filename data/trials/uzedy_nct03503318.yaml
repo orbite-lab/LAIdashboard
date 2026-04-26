@@ -1,0 +1,23 @@
+id: "uzedy_nct03503318"
+nct_id: "NCT03503318"
+asset_id: "uzedy"
+indication: "psych"
+phase: 3
+n: 544
+design: "Interventional"
+primary_endpoint: >
+  Time to Impending Relapse (Number of Participants With Impending Relapse) for Intent-to-treat [ITT] Analysis Set
+control_arm: "placebo"
+sponsor: "Teva Branded Pharmaceutical Products R&D, Inc."
+status: "completed"
+start_date: "2018-04-27"
+expected_readout: "2020-09-30"
+result: null
+geography:
+  - "Bulgaria"
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT03503318"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Study to Evaluate TV-46000 as Maintenance Treatment in Adult and Adolescent Participants With Schizophrenia. Sponsor: Teva Branded Pharmaceutical Products R&D, Inc.. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

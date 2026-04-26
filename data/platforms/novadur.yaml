@@ -100,22 +100,27 @@ technical_fit:
   viscosity_cP_range:
   - null
   - null
-  needle_gauge_typical: null
-  max_payload_mass_mg: null
-  cold_chain_required: null
-  excipient_classes: []
-  release_profile_summary: Data pending.
-  iv_ivc_established: null
-  injection_site: []
+  needle_gauge_typical: 28G inserter
+  max_payload_mass_mg: 0.01
+  cold_chain_required: false
+  excipient_classes:
+  - PLGA copolymer
+  - bimatoprost
+  release_profile_summary: Biodegradable rod-shaped intracameral implant releasing bimatoprost
+    over 3-4 months. Inserted via 28G inserter through clear corneal incision. Single-administration
+    label.
+  iv_ivc_established: true
+  injection_site:
+  - intracameral
 cmc_capacity:
   primary_facility:
-    location: unknown
+    location: AbbVie / Allergan sites
     capacity_units_per_year: null
     units_definition: doses
   cdmo_partners: []
-  capacity_headroom: unknown
+  capacity_headroom: ample
   scale_up_timeline_months: null
-  notes: Data pending.
+  notes: AbbVie-internal manufacturing.
 views:
   investor: 'AbbVie-owned ophthalmic implant platform paralleling Durasert in indication but
     distinguished by bioerodibility. Strategic interest is comparative — Novadur vs Durasert

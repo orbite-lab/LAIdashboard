@@ -1,0 +1,22 @@
+id: "invega_hafyera_nct01181960"
+nct_id: "NCT01181960"
+asset_id: "invega_hafyera"
+indication: "psych"
+phase: null
+n: 1066
+design: "Observational"
+primary_endpoint: >
+  The number of psychiatric hospitalizations, non-psychiatric hospitalizations, emergency room visits, and CBHO visits.
+control_arm: "active comparator"
+sponsor: "Janssen Scientific Affairs, LLC"
+status: "completed"
+start_date: "2010-08"
+expected_readout: "2013-11"
+result: null
+geography:
+  - "United States"
+source_urls:
+  - "https://clinicaltrials.gov/study/NCT01181960"
+notes: >
+  Auto-imported from ClinicalTrials.gov on import date. Title: Research and Evaluation of Antipsychotic Treatment in Community Behavioral Health Organizations. Sponsor: Janssen Scientific Affairs, LLC. Verify scope against asset's depot/LAI formulation before relying on this record.
+last_updated: "2026-04-26"

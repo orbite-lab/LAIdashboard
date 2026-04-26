@@ -1,0 +1,30 @@
+id: gsk
+name: GSK plc
+ticker: GSK
+listing_venue: LSE / NYSE
+country_hq: GB
+employees: ~70000
+market_cap_usd_m: 75000
+market_cap_as_of: 2026-04-25
+cash_position_usd_m: 5000
+debt_usd_m: 22000
+ifrs_or_gaap: IFRS
+
+governance_notes: >
+  Tier-1 large-cap pharma post Haleon consumer-health spinoff. HIV
+  franchise consolidates through ViiV Healthcare (GSK majority owner;
+  Pfizer 11.7%, Shionogi 10% minority). Cabenuva and Apretude LAI HIV
+  products drive a meaningful share of the HIV franchise.
+
+related_platforms: [nanocrystal]
+related_assets: [cabenuva, apretude]
+related_deals: [2016_viiv_janssen_cabenuva]
+
+ir_contact: ir@gsk.com
+last_updated: 2026-04-26
+
+notes: >
+  GSK's LAI exposure runs through ViiV — see data/companies/viiv.yaml.
+  ViiV has explored next-generation HIV LAI candidates including N6LS
+  broadly-neutralizing antibody and cabotegravir extensions; verify pipeline
+  state per latest GSK pharmaceuticals capital markets day.
