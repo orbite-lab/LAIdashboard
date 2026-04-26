@@ -58,11 +58,12 @@ scores:
     scorer: CL
   availability:
     value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    rationale: Heron commercializes Zynrelef and Sustol directly using Biochronomer; platform-licensing
+      posture is selective given cash-runway pressure. Plausibly available for non-pain /
+      non-CINV indications subject to Heron's strategic focus.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   pain:
     value: 4

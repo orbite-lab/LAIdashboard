@@ -46,12 +46,12 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 2
-    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
-      — review and refine.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 1
+    rationale: Recordati-internal post-2019 acquisition from Novartis. Rare-disease commercial
+      focus does not include external platform licensing. Pasireotide indication scope encumbered.
+    confidence: high
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   endocrine:
     value: 4

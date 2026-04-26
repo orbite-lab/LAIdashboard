@@ -4,58 +4,58 @@ inn: risperidone
 platform_id: ism
 owning_company: Rovi
 licensee_company: null
-
 indications:
-  - code: psych
-    phase: approved
-    first_approval_year: 2022
-    geography: EU
-
+- code: psych
+  phase: approved
+  first_approval_year: 2022
+  geography: EU
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: null
   next_catalyst: null
-
 commercial:
   sales_latest: null
-  sales_notes: >
-    Risvan is Rovi's monthly risperidone LAI built on the ISM in-situ
-    depot platform. Approved EMA 2022 (ROVIRIS — Rovi's branded EMEA
-    name). US filing status uncertain; Rovi has explored US partnership
-    paths. Commercial trajectory in EU has been modest given competition
-    from Risperdal Consta (Janssen, microsphere) and entry of UZEDY (BEPO)
-    when partnered for EU.
+  sales_notes: 'Risvan is Rovi''s monthly risperidone LAI built on the ISM in-situ depot platform.
+    Approved EMA 2022 (ROVIRIS — Rovi''s branded EMEA name). US filing status uncertain; Rovi
+    has explored US partnership paths. Commercial trajectory in EU has been modest given competition
+    from Risperdal Consta (Janssen, microsphere) and entry of UZEDY (BEPO) when partnered
+    for EU.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: null
-
 primary_deal_id: null
-
 primary_trials: []
-
 scores:
   tech:
     value: 4
-    rationale: Inherited from ISM platform; demonstrates reliable monthly risperidone dosing in commercial use.
+    rationale: Inherited from ISM platform; demonstrates reliable monthly risperidone dosing
+      in commercial use.
     confidence: high
     scored_at: 2026-04-26
     scorer: CL
     inherited_from: platform
   clinical:
     value: 4
-    rationale: EMA-approved with non-inferiority data vs Risperdal Consta; real-world commercial uptake limited.
+    rationale: EMA-approved with non-inferiority data vs Risperdal Consta; real-world commercial
+      uptake limited.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
   ip:
     value: 3
-    rationale: ISM platform IP plus asset-specific patents; runway adequate.
-    confidence: low
-    scored_at: 2026-04-26
+    rationale: ISM platform IP (Rovi-controlled) plus asset-specific formulation patents covering
+      the monthly risperidone in-situ depot. EU exclusivity supports current Risvan / Okedi
+      commercial trajectory; US filing status uncertain so US IP scope speculative until ANDA
+      / NDA path clarifies.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   dealability:
     value: 2
-    rationale: Rovi has retained ex-US commercialization; US partner path unclear; no major pharma counterparty.
+    rationale: Rovi has retained ex-US commercialization; US partner path unclear; no major
+      pharma counterparty.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
@@ -65,29 +65,26 @@ scores:
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
-
 views:
-  investor: >
-    Risvan illustrates the structural challenge of being late to a crowded
-    LAI category. Risperidone LAI options include Risperdal Consta (Janssen,
-    microsphere, off-patent generics emerging), UZEDY (Teva/MedinCell BEPO,
-    growing US share), and Risvan (Rovi ISM, EU only). The Indivior
-    Perseris discontinuation (July 2024) is the cautionary case study —
-    fourth-place risperidone LAI is non-viable even with US commercial
-    infrastructure.
-  partner: >
-    Direct competitor to UZEDY in EU. For BD scouts, Risvan + ISM platform
-    is potentially available for partnership at the platform level; verify
-    Rovi BD posture. Useful as a comp data point for risperidone LAI
-    economics in EU.
-  acquirer: >
-    Rovi (Madrid-listed) is a small-mid cap specialty pharma. Risvan is
-    a minor contributor to Rovi enterprise value relative to its CDMO
-    business. Not a strategic acquisition target on its own merits.
+  investor: 'Risvan illustrates the structural challenge of being late to a crowded LAI category.
+    Risperidone LAI options include Risperdal Consta (Janssen, microsphere, off-patent generics
+    emerging), UZEDY (Teva/MedinCell BEPO, growing US share), and Risvan (Rovi ISM, EU only).
+    The Indivior Perseris discontinuation (July 2024) is the cautionary case study — fourth-place
+    risperidone LAI is non-viable even with US commercial infrastructure.
 
-tactbio_view: >
-  Late entrant in a crowded risperidone LAI category. Read-across from
-  Indivior Perseris discontinuation suggests fourth-place LAI in psych is
-  structurally challenged.
+    '
+  partner: 'Direct competitor to UZEDY in EU. For BD scouts, Risvan + ISM platform is potentially
+    available for partnership at the platform level; verify Rovi BD posture. Useful as a comp
+    data point for risperidone LAI economics in EU.
 
+    '
+  acquirer: 'Rovi (Madrid-listed) is a small-mid cap specialty pharma. Risvan is a minor contributor
+    to Rovi enterprise value relative to its CDMO business. Not a strategic acquisition target
+    on its own merits.
+
+    '
+tactbio_view: 'Late entrant in a crowded risperidone LAI category. Read-across from Indivior
+  Perseris discontinuation suggests fourth-place LAI in psych is structurally challenged.
+
+  '
 last_updated: 2026-04-26

@@ -4,60 +4,62 @@ inn: latanoprost
 platform_id: polyactiva
 owning_company: PolyActiva Pty Ltd
 licensee_company: null
-
 indications:
-  - code: ophthalmology
-    phase: phase_2
-    first_approval_year: null
-    geography: AU
-
+- code: ophthalmology
+  phase: phase_2
+  first_approval_year: null
+  geography: AU
 key_dates:
   pdufa: null
   nda_filed: null
   expected_readout: 2026-Q3
   next_catalyst: 2026-Q3
-
 commercial:
   sales_latest: null
-  sales_notes: >
-    Pre-commercial. PA5108 is a 6-month sustained-release latanoprost
-    intracameral implant for primary open-angle glaucoma. Phase 2
-    studies in Australia and US ongoing. Direct competitor to
-    Allergan/AbbVie Durysta (3-month bimatoprost) and Glaukos iDose TR
-    (multi-year travoprost). Differentiation rests on duration profile
-    and prostaglandin agonist class choice.
+  sales_notes: 'Pre-commercial. PA5108 is a 6-month sustained-release latanoprost intracameral
+    implant for primary open-angle glaucoma. Phase 2 studies in Australia and US ongoing.
+    Direct competitor to Allergan/AbbVie Durysta (3-month bimatoprost) and Glaukos iDose TR
+    (multi-year travoprost). Differentiation rests on duration profile and prostaglandin agonist
+    class choice.
+
+    '
   list_price_usd: null
   addressable_market_usd_m: 1500
-
 primary_deal_id: null
-
 primary_trials: []
-
 scores:
   tech:
     value: 3
-    rationale: Inherited from PolyActiva platform; biodegradable hexafluorisopropyl-rod implant mechanism not yet commercially validated.
+    rationale: Inherited from PolyActiva platform; biodegradable hexafluorisopropyl-rod implant
+      mechanism not yet commercially validated.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
     inherited_from: platform
   clinical:
     value: 2
-    rationale: Phase 2 stage; specific endpoints positive but limited sample size; no Phase 3 yet.
+    rationale: Phase 2 stage; specific endpoints positive but limited sample size; no Phase
+      3 yet.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
   ip:
     value: 3
-    rationale: PolyActiva platform IP plus asset-specific formulation; runway adequate for first commercial cycle.
-    confidence: low
-    scored_at: 2026-04-26
+    rationale: PolyActiva platform IP (composition-of-matter for biodegradable rod implant)
+      plus PA5108-specific formulation patents covering latanoprost loading and release profile.
+      Effective protection adequate for first commercial cycle if Phase 3 succeeds; private
+      company so detailed patent landscape less visible than for public peers.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   dealability:
     value: 2
-    rationale: PolyActiva is private and clinical-stage; partnership economics speculative.
-    confidence: low
-    scored_at: 2026-04-26
+    rationale: 'Pre-Phase-3 readout — partnership economics speculative. Reference comp: Glaukos
+      iDose internal commercialization and AbbVie/Allergan Durysta acquisition history establish
+      commercial value for ophthalmic implant LAI but PolyActiva private status and clinical-stage
+      scale limit deal optionality until pivotal data lands.'
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   regulatory:
     value: 3
@@ -65,27 +67,25 @@ scores:
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
-
 views:
-  investor: >
-    Speculative early-stage glaucoma LAI implant. Bull case: 6-month
-    duration positions between Durysta (3-month) and iDose (multi-year)
-    as the convenience-pricing sweet spot. Bear case: glaucoma implant
-    market remains adoption-constrained despite Durysta's 4+ years on
-    market; PolyActiva's smaller commercial scale means partnership
-    economics will dominate the value capture.
-  partner: >
-    PolyActiva is the most actionable target in the glaucoma LAI
-    implant category for BD scouts looking at next-generation prostaglandin
-    delivery. Platform is open. Phase 2 readout 2026 is the diligence
-    trigger.
-  acquirer: >
-    Speculative — PolyActiva is private and pre-pivotal. Useful as an
-    optionality lottery rather than a primary acquisition target.
+  investor: 'Speculative early-stage glaucoma LAI implant. Bull case: 6-month duration positions
+    between Durysta (3-month) and iDose (multi-year) as the convenience-pricing sweet spot.
+    Bear case: glaucoma implant market remains adoption-constrained despite Durysta''s 4+
+    years on market; PolyActiva''s smaller commercial scale means partnership economics will
+    dominate the value capture.
 
-tactbio_view: >
-  Speculative early-stage glaucoma LAI implant with 6-month duration
-  positioning between Durysta and iDose. Phase 2 readout 2026 is the
-  diligence trigger.
+    '
+  partner: 'PolyActiva is the most actionable target in the glaucoma LAI implant category
+    for BD scouts looking at next-generation prostaglandin delivery. Platform is open. Phase
+    2 readout 2026 is the diligence trigger.
 
+    '
+  acquirer: 'Speculative — PolyActiva is private and pre-pivotal. Useful as an optionality
+    lottery rather than a primary acquisition target.
+
+    '
+tactbio_view: 'Speculative early-stage glaucoma LAI implant with 6-month duration positioning
+  between Durysta and iDose. Phase 2 readout 2026 is the diligence trigger.
+
+  '
 last_updated: 2026-04-26

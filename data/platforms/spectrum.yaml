@@ -60,25 +60,19 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 2
-    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
-      — review and refine.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 4
+    rationale: Foresee Pharmaceuticals' commercial model is explicitly platform-licensing-driven
+      (Camcevi via Accord ex-US, Intas US, GenSci China). LHRH oncology scope is encumbered
+      globally but other therapeutic areas remain open subject to Foresee BD bandwidth.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   oncology:
     value: 4
     rationale: Camcevi competes in commoditized prostate cancer LHRH category; differentiation
       primarily on dosing convenience and pricing rather than novel mechanism.
     confidence: high
-    scored_at: 2026-04-25
-    scorer: CL
-  endocrine:
-    value: 3
-    rationale: Mechanism compatible but no current programs in non-oncology endocrine indications
-      publicly disclosed.
-    confidence: low
     scored_at: 2026-04-25
     scorer: CL
 tactbio_view: 'Asian-domiciled (Taiwan) platform commercializing in Western markets via partner

@@ -59,11 +59,12 @@ scores:
     scorer: CL
   availability:
     value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    rationale: Rovi (founder-controlled mid-cap) retains EU commercialization for Risvan but
+      has historically explored US/ROW out-licensing for the platform. Available scope outside
+      EU psych is plausible; founder-family voting structure complicates platform-level deals.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   psych:
     value: 4
@@ -74,17 +75,19 @@ indication_fit:
     scorer: CL
   endocrine:
     value: 3
-    rationale: Letrozole-ISM and other peptide programs in development; theoretical fit but
-      commercial validation pending.
-    confidence: low
-    scored_at: 2026-04-25
+    rationale: Rovi has disclosed letrozole-ISM and other peptide LAI programs in early development;
+      mechanism compatible with peptide endocrine therapies. No commercial validation yet
+      outside risperidone; commercial fit gated on Phase 3 demonstration.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   oncology:
     value: 3
-    rationale: Letrozole-ISM positions for breast cancer hormonal therapy; established competitive
-      set.
-    confidence: low
-    scored_at: 2026-04-25
+    rationale: Letrozole-ISM in Rovi's pipeline targets breast cancer hormonal therapy. Mechanism
+      compatible with non-LHRH oncology hormonal LAI; incumbents (anastrozole, letrozole oral)
+      and emerging SERDs compress commercial fit unless ISM offers structural advantage.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
 tactbio_view: 'European challenger platform with single-product commercialization in psych.
   Strategic question: can Rovi differentiate from BEPO-derived UZEDY or Risperdal Consta on

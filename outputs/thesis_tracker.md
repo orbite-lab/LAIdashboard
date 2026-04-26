@@ -125,8 +125,8 @@
 | Dimension | Score | Conf. | Rationale |
 |---|---|---|---|
 | tech | 5 | high | Inherited from FluidCrystal. |
-| clinical | 2 | low | Phase 2 stage; specific clinical endpoints and timing not publicly disclosed. |
-| ip | 3 | low | FluidCrystal platform IP plus partnership-specific formulation patents. |
+| clinical | 2 | medium | Setmelanotide approved (IMCIVREE) for rare genetic obesity establishes the molecule clinically. CAM2032 is the FluidCrystal-formulated long-acting variant in Phase 2 with Rhythm; weight-of-evidence supports feasibility but specific Phase 2 readout endpoints and dose-finding data are not publicly disclosed. Phase 3 timing dependent on Phase 2 outcome. |
+| ip | 3 | medium | FluidCrystal platform IP (~2030 base, continuations through 2030+) plus Rhythm-partnered formulation patents covering the long-acting setmelanotide composition. Setmelanotide molecule IP is Rhythm-controlled; LAI formulation IP provides additional moat over the approved daily dosing form. |
 | dealability | 4 | medium | Rhythm partnership demonstrates ability to attract specialty rare-disease counterparty for FluidCrystal; specific terms undisclosed. |
 | regulatory | 3 | medium | Setmelanotide regulatory pathway established by IMCIVREE; LAI formulation will require its own pivotal data. |
 
@@ -294,8 +294,8 @@
 |---|---|---|---|
 | tech | 3 | medium | Inherited from PolyActiva platform; biodegradable hexafluorisopropyl-rod implant mechanism not yet commercially validated. |
 | clinical | 2 | medium | Phase 2 stage; specific endpoints positive but limited sample size; no Phase 3 yet. |
-| ip | 3 | low | PolyActiva platform IP plus asset-specific formulation; runway adequate for first commercial cycle. |
-| dealability | 2 | low | PolyActiva is private and clinical-stage; partnership economics speculative. |
+| ip | 3 | medium | PolyActiva platform IP (composition-of-matter for biodegradable rod implant) plus PA5108-specific formulation patents covering latanoprost loading and release profile. Effective protection adequate for first commercial cycle if Phase 3 succeeds; private company so detailed patent landscape less visible than for public peers. |
+| dealability | 2 | medium | Pre-Phase-3 readout — partnership economics speculative. Reference comp: Glaukos iDose internal commercialization and AbbVie/Allergan Durysta acquisition history establish commercial value for ophthalmic implant LAI but PolyActiva private status and clinical-stage scale limit deal optionality until pivotal data lands. |
 | regulatory | 3 | medium | Glaucoma implant pathway established by Durysta and iDose precedents. |
 
 **Investor view:** Speculative early-stage glaucoma LAI implant. Bull case: 6-month duration positions between Durysta (3-month) and iDose (multi-year) as the convenience-pricing sweet spot. Bear case: glaucoma implant market remains adoption-constrained despite Durysta's 4+ years on market; PolyActiva's smaller commercial scale means partnership economics will dominate the value capture.
@@ -324,7 +324,7 @@
 |---|---|---|---|
 | tech | 4 | high | Inherited from ISM platform; demonstrates reliable monthly risperidone dosing in commercial use. |
 | clinical | 4 | medium | EMA-approved with non-inferiority data vs Risperdal Consta; real-world commercial uptake limited. |
-| ip | 3 | low | ISM platform IP plus asset-specific patents; runway adequate. |
+| ip | 3 | medium | ISM platform IP (Rovi-controlled) plus asset-specific formulation patents covering the monthly risperidone in-situ depot. EU exclusivity supports current Risvan / Okedi commercial trajectory; US filing status uncertain so US IP scope speculative until ANDA / NDA path clarifies. |
 | dealability | 2 | medium | Rovi has retained ex-US commercialization; US partner path unclear; no major pharma counterparty. |
 | regulatory | 4 | medium | EMA-approved; US pathway pending. |
 

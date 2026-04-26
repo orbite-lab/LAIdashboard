@@ -66,12 +66,13 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 2
+    rationale: Debiopharm-Ipsen co-managed mature franchise (Decapeptyl/Trelstar). Triptorelin
+      oncology scope commercially saturated; private-family ownership at Debiopharm and founder-family
+      control at Ipsen restrict external platform-level deals.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   oncology:
     value: 5

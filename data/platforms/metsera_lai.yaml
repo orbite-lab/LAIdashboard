@@ -4,65 +4,68 @@ company: Metsera
 company_id: null
 company_ticker: MTSR
 country: US
-
 mechanism: other
 duration_bucket: medium
-duration_range_days: [28, 90]
+duration_range_days:
+- 28
+- 90
 payload_classes:
-  - peptide
-
-mechanism_notes: >
-  Metsera is developing long-acting incretins (MET-097, dual GIP/GLP-1
-  amylin/GLP-1 combinations) using proprietary HALO ("Half-life Augmenting
-  Lipid Optimization") and depot technologies. Mix of half-life extension
-  and depot mechanisms; not a pure depot LAI platform but tracked here
-  for the obesity-LAI competitive landscape. Pfizer announced acquisition
+- peptide
+mechanism_notes: 'Metsera is developing long-acting incretins (MET-097, dual GIP/GLP-1 amylin/GLP-1
+  combinations) using proprietary HALO ("Half-life Augmenting Lipid Optimization") and depot
+  technologies. Mix of half-life extension and depot mechanisms; not a pure depot LAI platform
+  but tracked here for the obesity-LAI competitive landscape. Pfizer announced acquisition
   in late 2025 (verify deal close status).
 
+  '
 regulatory_history: []
-
 ip_core_expiry_year: 2042
 ip_continuation_strategy: strong
 ip_fto_concerns: minor
-ip_notes: >
-  Newer-vintage IP; full runway. Specific patent landscape not reviewed.
+ip_notes: 'Newer-vintage IP; full runway. Specific patent landscape not reviewed.
+
+  '
 ip_records:
-  - metsera_zihipp_peptide_analogues_wo
-
+- metsera_zihipp_peptide_analogues_wo
 active_partners:
-  - name: Pfizer
-    tier: tier_1
-    deal_id: null
-
+- name: Pfizer
+  tier: tier_1
+  deal_id: null
 partnering_posture:
   open_to_partnering: false
   open_indications: []
-  closed_indications: [metabolic, endocrine]
+  closed_indications:
+  - metabolic
+  - endocrine
   open_geographies: []
-  closed_geographies: [worldwide]
+  closed_geographies:
+  - worldwide
   last_partnering_signal:
     date: 2025-12-01
     type: deal_announcement
     description: Pfizer announced acquisition / strategic partnership (verify close)
   bd_contact_disclosed: false
   notes: Internal Metsera (Pfizer-acquired) — not externally available.
-
 encumbrances: []
-
 technical_fit:
-  injection_volume_ml_range: [null, null]
-  viscosity_cP_range: [null, null]
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
   needle_gauge_typical: null
   max_payload_mass_mg: null
   cold_chain_required: true
   excipient_classes: []
-  release_profile_summary: >
-    Monthly subcutaneous dosing in Phase 1/2 obesity trials. Verify
-    specific platform mechanism — Metsera describes both half-life
-    extension and depot approaches across its pipeline.
-  iv_ivc_established: null
-  injection_site: [SC]
+  release_profile_summary: 'Monthly subcutaneous dosing in Phase 1/2 obesity trials. Verify
+    specific platform mechanism — Metsera describes both half-life extension and depot approaches
+    across its pipeline.
 
+    '
+  iv_ivc_established: null
+  injection_site:
+  - SC
 cmc_capacity:
   primary_facility:
     location: unknown
@@ -72,17 +75,24 @@ cmc_capacity:
   capacity_headroom: unknown
   scale_up_timeline_months: null
   notes: Data pending.
-
 scores:
   tech:
-    value: 2
-    rationale: Phase 1/2 stage; mechanism mix of HALO half-life extension and depot approaches; not yet platform-validated.
-    confidence: low
-    scored_at: 2026-04-26
+    value: 3
+    rationale: VESPER-1 Phase 2b (Sept 2025) confirmed HALO peptide-lipidation platform translates
+      ultra-long PK (15-16 day half-life) into clinical weight loss — late-clinical platform
+      validation. Multiple programs (MET-097, MET-233, MET-067) under same platform across
+      GLP-1/amylin/GIP. Not yet commercial; Pfizer-led Phase 3 starting late 2025.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   ip:
     value: 4
-    rationale: WO2017178829A1 (priority April 2016, expiry ~2037) provides foundational composition-of-matter coverage of peptide hormone analogues (Exendin-4, GLP-1, OXM, glucagon variants) — in-licensed to Zihipp/Metsera from Imperial College / IP2IPO. Underlying library of 20,000 peptides supports MET-097, MET-233, MET-034, MET-067. Pfizer post-acquisition adds tier-1 patent infrastructure plus continuation strategy. Royalty obligations to IP Group plc are a secondary economic consideration but do not weaken the freedom-to-operate position.
+    rationale: WO2017178829A1 (priority April 2016, expiry ~2037) provides foundational composition-of-matter
+      coverage of peptide hormone analogues (Exendin-4, GLP-1, OXM, glucagon variants) — in-licensed
+      to Zihipp/Metsera from Imperial College / IP2IPO. Underlying library of 20,000 peptides
+      supports MET-097, MET-233, MET-034, MET-067. Pfizer post-acquisition adds tier-1 patent
+      infrastructure plus continuation strategy. Royalty obligations to IP Group plc are a
+      secondary economic consideration but do not weaken the freedom-to-operate position.
     confidence: medium
     scored_at: 2026-04-27
     scorer: CL
@@ -98,28 +108,33 @@ scores:
     confidence: high
     scored_at: 2026-04-26
     scorer: CL
-
 indication_fit:
   metabolic:
     value: 4
-    rationale: VESPER-1 Phase 2b (n=215) reported September 2025 — placebo-adjusted weight loss up to 14.1% at 28 weekly doses (1.2mg arm) without titration; dose-response across 0.4-1.2mg; favorable tolerability vs class (12.8% nausea, 11.1% vomiting risk diff vs placebo, 2.9% AE-driven discontinuation). Phase 3 program initiated late 2025. Mechanism is half-life extension rather than depot LAI per taxonomy — minor mismatch keeps it at 4 not 5.
+    rationale: VESPER-1 Phase 2b (n=215) reported September 2025 — placebo-adjusted weight
+      loss up to 14.1% at 28 weekly doses (1.2mg arm) without titration; dose-response across
+      0.4-1.2mg; favorable tolerability vs class (12.8% nausea, 11.1% vomiting risk diff vs
+      placebo, 2.9% AE-driven discontinuation). Phase 3 program initiated late 2025. Mechanism
+      is half-life extension rather than depot LAI per taxonomy — minor mismatch keeps it
+      at 4 not 5.
     confidence: medium
     scored_at: 2026-04-27
     scorer: CL
-
 views:
-  investor: >
-    Tracked as competitive context for Camurus FluidCrystal incretin program.
-    Pfizer's acquisition of Metsera in late 2025 underscores the strategic
-    importance of LAI obesity formulation across tier-1 pharma. Combined
-    with Lilly-Camurus, the obesity LAI category now has Lilly + Camurus,
-    Pfizer + Metsera, Amgen MariTide as the three key competitive axes.
-  partner: >
-    Not available — Pfizer-acquired.
-  acquirer: >
-    Not actionable as a standalone target post-Pfizer deal close.
+  investor: 'Tracked as competitive context for Camurus FluidCrystal incretin program. Pfizer''s
+    acquisition of Metsera in late 2025 underscores the strategic importance of LAI obesity
+    formulation across tier-1 pharma. Combined with Lilly-Camurus, the obesity LAI category
+    now has Lilly + Camurus, Pfizer + Metsera, Amgen MariTide as the three key competitive
+    axes.
 
-tactbio_view: >
-  Pfizer-acquired competitor in obesity-LAI. Tracked for competitive context.
+    '
+  partner: 'Not available — Pfizer-acquired.
 
+    '
+  acquirer: 'Not actionable as a standalone target post-Pfizer deal close.
+
+    '
+tactbio_view: 'Pfizer-acquired competitor in obesity-LAI. Tracked for competitive context.
+
+  '
 last_updated: 2026-04-26

@@ -4,65 +4,67 @@ company: Amgen
 company_id: null
 company_ticker: AMGN
 country: US
-
 mechanism: other
 duration_bucket: medium
-duration_range_days: [28, 90]
+duration_range_days:
+- 28
+- 90
 payload_classes:
-  - peptide
-  - biologic
+- peptide
+- biologic
+mechanism_notes: 'MariTide (maridebart cafraglutide, AMG 133) is a half-life-extended bispecific
+  peptide-antibody conjugate, NOT a true depot LAI. Listed in the tracker for competitive
+  context against FluidCrystal incretin programs and other obesity LAI entrants. Mechanism
+  of long action is Fc-conjugate half-life extension rather than depot release. May technically
+  fall outside v0 LAI scope (taxonomy excludes half-life engineered biologics), but tracked
+  here for the obesity-LAI competitive landscape.
 
-mechanism_notes: >
-  MariTide (maridebart cafraglutide, AMG 133) is a half-life-extended
-  bispecific peptide-antibody conjugate, NOT a true depot LAI. Listed in
-  the tracker for competitive context against FluidCrystal incretin
-  programs and other obesity LAI entrants. Mechanism of long action is
-  Fc-conjugate half-life extension rather than depot release. May
-  technically fall outside v0 LAI scope (taxonomy excludes half-life
-  engineered biologics), but tracked here for the obesity-LAI
-  competitive landscape.
-
+  '
 regulatory_history: []
-
 ip_core_expiry_year: 2040
 ip_continuation_strategy: strong
 ip_fto_concerns: none
-ip_notes: >
-  Amgen-internal IP estate; specific patent landscape not reviewed.
+ip_notes: 'Amgen-internal IP estate; specific patent landscape not reviewed.
+
+  '
 ip_records:
-  - amgen_amg133_method_us
-  - amgen_amg133_obesity_methods_wo
-
+- amgen_amg133_method_us
+- amgen_amg133_obesity_methods_wo
 active_partners: []
-
 partnering_posture:
   open_to_partnering: false
   open_indications: []
-  closed_indications: [metabolic, endocrine]
+  closed_indications:
+  - metabolic
+  - endocrine
   open_geographies: []
-  closed_geographies: [worldwide]
+  closed_geographies:
+  - worldwide
   last_partnering_signal:
     date: null
     type: none
     description: Internal Amgen asset; no platform-licensing signal.
   bd_contact_disclosed: false
   notes: Internal Amgen asset, not externally available.
-
 encumbrances: []
-
 technical_fit:
-  injection_volume_ml_range: [null, null]
-  viscosity_cP_range: [null, null]
+  injection_volume_ml_range:
+  - null
+  - null
+  viscosity_cP_range:
+  - null
+  - null
   needle_gauge_typical: null
   max_payload_mass_mg: null
   cold_chain_required: true
   excipient_classes: []
-  release_profile_summary: >
-    Monthly subcutaneous dosing demonstrated in Phase 2; mechanism is
-    Fc-mediated half-life extension rather than depot release.
-  iv_ivc_established: null
-  injection_site: [SC]
+  release_profile_summary: 'Monthly subcutaneous dosing demonstrated in Phase 2; mechanism
+    is Fc-mediated half-life extension rather than depot release.
 
+    '
+  iv_ivc_established: null
+  injection_site:
+  - SC
 cmc_capacity:
   primary_facility:
     location: Amgen internal sites
@@ -72,17 +74,21 @@ cmc_capacity:
   capacity_headroom: unknown
   scale_up_timeline_months: null
   notes: Internal Amgen manufacturing.
-
 scores:
   tech:
     value: 3
-    rationale: Phase 2 data positive; Phase 3 program initiated 2024-2025; technical category is half-life extension, not depot LAI per se.
+    rationale: Phase 2 data positive; Phase 3 program initiated 2024-2025; technical category
+      is half-life extension, not depot LAI per se.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
   ip:
     value: 4
-    rationale: US10905772B2 (priority Jan 2017, expiry 2038) granted method-of-treatment claims for GIPR-antagonist + GLP-1 conjugates; international counterpart WO2018237095A1. Active continuation strategy via WO2024102742A1 (priority Nov 2022) extends methods-for-obesity claims; national-stage filings in EP/JP/CN/KR/IL/PE/MX/JO/CO. No public oppositions or PTAB challenges identified.
+    rationale: US10905772B2 (priority Jan 2017, expiry 2038) granted method-of-treatment claims
+      for GIPR-antagonist + GLP-1 conjugates; international counterpart WO2018237095A1. Active
+      continuation strategy via WO2024102742A1 (priority Nov 2022) extends methods-for-obesity
+      claims; national-stage filings in EP/JP/CN/KR/IL/PE/MX/JO/CO. No public oppositions
+      or PTAB challenges identified.
     confidence: medium
     scored_at: 2026-04-27
     scorer: CL
@@ -98,37 +104,30 @@ scores:
     confidence: high
     scored_at: 2026-04-26
     scorer: CL
-
 indication_fit:
   metabolic:
     value: 4
-    rationale: Phase 2 monthly dosing competitive vs daily/weekly oral GLP-1 alternatives; potential for monthly or longer durations in Phase 3.
+    rationale: Phase 2 monthly dosing competitive vs daily/weekly oral GLP-1 alternatives;
+      potential for monthly or longer durations in Phase 3.
     confidence: medium
     scored_at: 2026-04-26
     scorer: CL
-  endocrine:
-    value: 3
-    rationale: Mechanism applicable to other peptide hormone applications but Amgen focus is metabolic/obesity.
-    confidence: low
-    scored_at: 2026-04-26
-    scorer: CL
-
 views:
-  investor: >
-    Tracked as primary competitive context to FluidCrystal incretin program
-    via Lilly. MariTide is structurally different (half-life extension via
-    Fc conjugate vs depot release) but competes commercially for the same
-    obesity-LAI market. Amgen Phase 3 readouts will define the obesity-LAI
-    bar.
-  partner: >
-    Not available — internal Amgen asset.
-  acquirer: >
-    Not actionable as a standalone target; relevant only for obesity-LAI
-    competitive context.
+  investor: 'Tracked as primary competitive context to FluidCrystal incretin program via Lilly.
+    MariTide is structurally different (half-life extension via Fc conjugate vs depot release)
+    but competes commercially for the same obesity-LAI market. Amgen Phase 3 readouts will
+    define the obesity-LAI bar.
 
-tactbio_view: >
-  Competitive context for FluidCrystal incretin program. MariTide is
-  half-life extension rather than depot LAI but competes for the same
-  obesity-LAI market.
+    '
+  partner: 'Not available — internal Amgen asset.
 
+    '
+  acquirer: 'Not actionable as a standalone target; relevant only for obesity-LAI competitive
+    context.
+
+    '
+tactbio_view: 'Competitive context for FluidCrystal incretin program. MariTide is half-life
+  extension rather than depot LAI but competes for the same obesity-LAI market.
+
+  '
 last_updated: 2026-04-26

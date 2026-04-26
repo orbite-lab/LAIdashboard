@@ -67,12 +67,11 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 1
+    rationale: AbbVie/Takeda-internal mature franchise; no platform-licensing posture. Closed.
+    confidence: high
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   oncology:
     value: 5

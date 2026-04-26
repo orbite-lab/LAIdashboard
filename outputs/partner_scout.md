@@ -11,18 +11,18 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 | Atrigel | unknown | 2 ✓ | 5 ✓ | — | 5 ✓ | 3 ✓ | — | — | — |
 | BEPO | selective | 5 🔒 | 3 ✓ | 3 ✓ | 3 🔒 | — | 4 🔒 | — | — |
 | Biochronomer | unknown | — | — | — | 3 ✓ | — | — | 4 ✓ | — |
-| Chroniject | unknown | 3 ✓ | — | — | 3 ✓ | — | — | — | — |
+| Chroniject | unknown | — | — | — | — | — | — | — | — |
 | DepoFoam | unknown | — | — | — | 1 ✓ | — | — | 4 ✓ | — |
 | Durasert | selective | — | — | — | — | — | 5 🔒 | — | — |
 | FluidCrystal | selective | 3 ✓ | 5 🔒 | — | 3 ✓ | 4 🔒 | — | — | 5 🔒 |
 | ISM | unknown | 4 ✓ | — | — | 3 ✓ | 3 ✓ | — | — | — |
 | Lupron Depot | unknown | — | — | — | 5 ✓ | 5 ✓ | — | — | — |
-| MariTide platform (Amgen) | — | — | — | — | — | 3 ✓ | — | — | 4 ✓ |
+| MariTide platform (Amgen) | — | — | — | — | — | — | — | — | 4 ✓ |
 | Medisorb | selective | 5 ✓ | 4 ✓ | — | — | 3 🔒 | — | — | — |
-| Medusa | unknown | — | — | — | — | 3 ✓ | — | — | 3 ✓ |
+| Medusa | unknown | — | — | — | — | — | — | — | 3 ✓ |
 | Metsera depot platform | — | — | — | — | — | — | — | — | 4 ✓ |
-| NanoCrystal | selective | 5 ✓ | 3 ✓ | 5 🔒 | 3 ✓ | — | — | — | — |
-| NanoZolid | unknown | — | — | — | 3 ✓ | 3 ✓ | — | — | — |
+| NanoCrystal | selective | 5 ✓ | — | 5 🔒 | — | — | — | — | — |
+| NanoZolid | unknown | — | — | — | 3 ✓ | — | — | — | — |
 | Novadur | unknown | — | — | — | — | — | 5 ✓ | — | — |
 | Oil decanoate | unknown | 4 ✓ | — | — | 4 ✓ | 5 ✓ | — | — | — |
 | PDS (Susvimo) | unknown | — | — | — | — | — | 5 ✓ | — | — |
@@ -32,7 +32,7 @@ Each cell shows indication_fit score (1–5) and encumbrance status. `✓` = ope
 | Sandostatin LAR | unknown | — | — | — | 4 ✓ | 5 ✓ | — | — | — |
 | Signifor LAR | selective | — | — | — | 3 ✓ | 4 🔒 | — | — | — |
 | Somatuline Autogel | unknown | — | — | — | 5 ✓ | 5 ✓ | — | — | — |
-| SpectruM | selective | — | — | — | 4 🔒 | 3 ✓ | — | — | — |
+| SpectruM | selective | — | — | — | 4 🔒 | — | — | — | — |
 | Trelstar | unknown | — | — | — | 5 ✓ | 4 ✓ | — | — | — |
 | Zoladex | unknown | — | — | — | 5 ✓ | 4 ✓ | — | — | — |
 | iDose | unknown | — | — | — | — | — | 5 ✓ | — | — |

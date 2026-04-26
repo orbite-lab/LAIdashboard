@@ -70,11 +70,13 @@ scores:
     scorer: CL
   availability:
     value: 2
-    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
-      — review and refine.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    rationale: Alkermes had an open NanoCrystal/Medisorb licensing posture in the 1990s-2010s
+      (Janssen, AstraZeneca/Lilly). Current focus is internal pipeline and existing royalty
+      streams; no signal of active external partnering for new programs. Bydureon endocrine
+      encumbrance limits incretin scope.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   psych:
     value: 5

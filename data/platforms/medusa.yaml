@@ -49,25 +49,20 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 4
+    rationale: 'Adocia''s commercial model is platform-licensing-driven (BioChaperone). After
+      the 2017 Lilly partnership termination, Adocia has actively signaled openness to new
+      partnerships; small-cap with cash-runway pressure increases willingness to deal. Track
+      record warning: execution risk on partner programs.'
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   metabolic:
     value: 3
     rationale: Insulin/GLP-1 combination programs target large markets but face dominant incumbents
       (Novo Nordisk, Lilly).
     confidence: medium
-    scored_at: 2026-04-25
-    scorer: CL
-  endocrine:
-    value: 3
-    rationale: Mechanism applicable to peptide endocrine therapies but no specific programs
-      in late-stage development publicly disclosed.
-    confidence: low
     scored_at: 2026-04-25
     scorer: CL
 tactbio_view: 'French formulation platform with chronic execution challenges. Strategic relevance

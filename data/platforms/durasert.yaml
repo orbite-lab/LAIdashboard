@@ -74,12 +74,13 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 2
-    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
-      — review and refine.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 3
+    rationale: 'EyePoint actively partners Durasert: Alimera (Iluvien, since 2008), Astellas
+      (2023 retinal TKI collaboration), Ono (2024 Asia EYP-1901 rights). Demonstrated openness
+      to external partners in ophthalmic scope, though core wet-AMD economics retained internally.'
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   ophthalmology:
     value: 5

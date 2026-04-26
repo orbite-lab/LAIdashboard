@@ -79,11 +79,13 @@ scores:
     scorer: CL
   availability:
     value: 2
-    rationale: Auto-migrated v1 default. Encumbrances detected from active exclusive deals
-      — review and refine.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    rationale: Alkermes-derived NanoCrystal IP estate is now Janssen-controlled for the active
+      Invega and cabotegravir LAI franchises. ViiV/Janssen HIV scope is encumbered; Janssen
+      psych scope is internal-only. Limited available scope absent specific Janssen out-licensing
+      — none signaled.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   psych:
     value: 5
@@ -97,20 +99,6 @@ indication_fit:
     rationale: Cabenuva (treatment) and Apretude (PrEP) collectively define the HIV LAI market;
       ViiV holds dominant position.
     confidence: high
-    scored_at: 2026-04-25
-    scorer: CL
-  addiction:
-    value: 3
-    rationale: Mechanism compatible with low-solubility small molecules but no nanocrystal
-      LAI specifically advanced for OUD; Sublocade/Brixadi own that category.
-    confidence: low
-    scored_at: 2026-04-25
-    scorer: CL
-  oncology:
-    value: 3
-    rationale: Theoretical fit for hormonal therapies but commercially commoditized space;
-      no nanocrystal LAI advanced for oncology indications.
-    confidence: low
     scored_at: 2026-04-25
     scorer: CL
 tactbio_view: 'Most commercially successful LAI platform by revenue, with Invega franchise

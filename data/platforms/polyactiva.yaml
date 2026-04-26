@@ -35,25 +35,30 @@ scores:
     scorer: CL
   ip:
     value: 3
-    rationale: Limited public IP visibility for private company; assumed moderate based on
-      platform-stage filings.
-    confidence: low
-    scored_at: 2026-04-25
+    rationale: Composition-of-matter patent estate for biodegradable polymer-rod intracameral
+      implant filed mid-2010s; effective protection through ~2035-2040 base. Private filing
+      with limited public visibility, but company has stated FTO position is clear. Specific
+      patent search would refine; estate is real but not exhaustively reviewed.
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   dealability:
     value: 3
-    rationale: Private clinical-stage platform; deal optionality theoretical pending Phase
-      2/3 validation.
-    confidence: low
-    scored_at: 2026-04-25
+    rationale: 'Active partnership discussions disclosed by company since 2023 (no executed
+      exclusive deal) signal genuine BD activity. Reference comp: Glaukos iDose-licensed precedents
+      and AbbVie/Allergan Durysta establish that ophthalmic implant LAI commands tier-1 economics
+      post-Phase-3 readout. Pre-pivotal so dealability is theoretical.'
+    confidence: medium
+    scored_at: '2026-04-27'
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 4
+    rationale: PolyActiva (private AU) has signaled active partnering discussions around PA5108
+      Phase 3 readiness through 2024-2025 (no executed exclusive deal disclosed). Platform
+      structure is partnership-dependent given the company's clinical-stage scale.
+    confidence: medium
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   ophthalmology:
     value: 3

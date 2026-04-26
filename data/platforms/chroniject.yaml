@@ -56,27 +56,14 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
-indication_fit:
-  psych:
-    value: 3
-    rationale: PharmaTher ketamine partnership signals psych/neuropsychiatric capability but
-      no approved products; mechanism viable.
-    confidence: low
-    scored_at: 2026-04-25
+    value: 5
+    rationale: Oakwood Laboratories' core business model is partner-funded reformulation programs
+      on Chroniject — the platform is structurally open to any pharma seeking microsphere
+      LAI development. CDMO fee-for-service plus royalty structure standard.
+    confidence: high
+    scored_at: '2026-04-27'
     scorer: CL
-  oncology:
-    value: 3
-    rationale: Microsphere platforms are generally compatible with oncology hormonal therapies
-      and chemo, but Chroniject specifically lacks commercial validation.
-    confidence: low
-    scored_at: 2026-04-25
-    scorer: CL
+indication_fit: {}
 tactbio_view: 'Capacity provider rather than investable platform. Strategic relevance is primarily
   as a window into the broader LAI development pipeline — Oakwood''s partner roster (when
   disclosed) reveals which biotechs are pursuing microsphere reformulations. Not a primary

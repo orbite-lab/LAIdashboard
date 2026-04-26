@@ -52,12 +52,13 @@ scores:
     scored_at: 2026-04-25
     scorer: CL
   availability:
-    value: 3
-    rationale: Auto-migrated v1 default. No active encumbrances detected; review partnering
-      posture before publication.
-    confidence: low
-    scored_at: '2026-04-26'
-    scorer: MIG
+    value: 1
+    rationale: Probuphine commercial product was discontinued post-2020. Titan Pharmaceuticals
+      retains the ProNeura implant platform but commercial activity has wound down to maintenance.
+      Effectively closed.
+    confidence: high
+    scored_at: '2026-04-27'
+    scorer: CL
 indication_fit:
   addiction:
     value: 2

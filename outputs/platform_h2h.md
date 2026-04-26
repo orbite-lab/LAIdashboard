@@ -9,20 +9,20 @@ Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no mark
 | Platform | psych | addiction | hiv | oncology | endocrine | ophthalmology | pain | metabolic |
 |---|---|---|---|---|---|---|---|---|
 | Atrigel | 2· | 5 | — | 5 | 3· | — | — | — |
-| BEPO | 5 🔒 | 3· | 3? | 3? 🔒 | — | 4· 🔒 | — | — |
+| BEPO | 5 🔒 | 3· | 3· | 3· 🔒 | — | 4· 🔒 | — | — |
 | Biochronomer | — | — | — | 3· | — | — | 4 | — |
-| Chroniject | 3? | — | — | 3? | — | — | — | — |
+| Chroniject | — | — | — | — | — | — | — | — |
 | DepoFoam | — | — | — | 1 | — | — | 4 | — |
 | Durasert | — | — | — | — | — | 5 🔒 | — | — |
-| FluidCrystal | 3· | 5 🔒 | — | 3? | 4 🔒 | — | — | 5 🔒 |
-| ISM | 4 | — | — | 3? | 3? | — | — | — |
+| FluidCrystal | 3· | 5 🔒 | — | 3· | 4 🔒 | — | — | 5 🔒 |
+| ISM | 4 | — | — | 3· | 3· | — | — | — |
 | Lupron Depot | — | — | — | 5 | 5 | — | — | — |
-| MariTide platform (Amgen) | — | — | — | — | 3? | — | — | 4· |
+| MariTide platform (Amgen) | — | — | — | — | — | — | — | 4· |
 | Medisorb | 5 | 4 | — | — | 3· 🔒 | — | — | — |
-| Medusa | — | — | — | — | 3? | — | — | 3· |
+| Medusa | — | — | — | — | — | — | — | 3· |
 | Metsera depot platform | — | — | — | — | — | — | — | 4· |
-| NanoCrystal | 5 | 3? | 5 🔒 | 3? | — | — | — | — |
-| NanoZolid | — | — | — | 3· | 3? | — | — | — |
+| NanoCrystal | 5 | — | 5 🔒 | — | — | — | — | — |
+| NanoZolid | — | — | — | 3· | — | — | — | — |
 | Novadur | — | — | — | — | — | 5 | — | — |
 | Oil decanoate | 4 | — | — | 4 | 5 | — | — | — |
 | PDS (Susvimo) | — | — | — | — | — | 5 | — | — |
@@ -32,7 +32,7 @@ Score 1 (fundamental mismatch) to 5 (best-in-class). Confidence markers: no mark
 | Sandostatin LAR | — | — | — | 4 | 5 | — | — | — |
 | Signifor LAR | — | — | — | 3· | 4 🔒 | — | — | — |
 | Somatuline Autogel | — | — | — | 5 | 5 | — | — | — |
-| SpectruM | — | — | — | 4 🔒 | 3? | — | — | — |
+| SpectruM | — | — | — | 4 🔒 | — | — | — | — |
 | Trelstar | — | — | — | 5 | 4 | — | — | — |
 | Zoladex | — | — | — | 5 | 4 | — | — | — |
 | iDose | — | — | — | — | — | 5 | — | — |
@@ -43,34 +43,34 @@ Composite weights (v1): tech 0.30, ip 0.20, dealability 0.25, availability 0.25.
 
 | Platform | Tech | IP | Dealability | Availability | Composite |
 |---|---|---|---|---|---|
-| Atrigel | 5 | 2 | 3 | 3 | **3.40** |
+| Atrigel | 5 | 2 | 3 | 2 | **3.15** |
 | BEPO | 4 | 4 | 5 | 2 | **3.75** |
 | Biochronomer | 3 | 3 | 2 | 3 | **2.75** |
-| Chroniject | 3 | 2 | 3 | 3 | **2.80** |
-| DepoFoam | 3 | 2 | 2 | 3 | **2.55** |
-| Durasert | 5 | 4 | 3 | 2 | **3.55** |
+| Chroniject | 3 | 2 | 3 | 5 | **3.30** |
+| DepoFoam | 3 | 2 | 2 | 1 | **2.05** |
+| Durasert | 5 | 4 | 3 | 3 | **3.80** |
 | FluidCrystal | 5 | 3 | 5 | 3 | **4.10** |
 | ISM | 4 | 4 | 3 | 3 | **3.50** |
-| Lupron Depot | 5 | 1 | 1 | 3 | **2.70** |
+| Lupron Depot | 5 | 1 | 1 | 1 | **2.20** |
 | MariTide platform (Amgen) | 3 | 4 | 1 | 1 | **2.20** |
 | Medisorb | 5 | 2 | 4 | 2 | **3.40** |
-| Medusa | 2 | 3 | 2 | 3 | **2.45** |
-| Metsera depot platform | 2 | 4 | 5 | 1 | **2.90** |
+| Medusa | 2 | 3 | 2 | 4 | **2.70** |
+| Metsera depot platform | 3 | 4 | 5 | 1 | **3.20** |
 | NanoCrystal | 5 | 3 | 3 | 2 | **3.35** |
-| NanoZolid | 3 | 3 | 2 | 3 | **2.75** |
-| Novadur | 4 | 3 | 2 | 3 | **3.05** |
-| Oil decanoate | 5 | 1 | 1 | 3 | **2.70** |
-| PDS (Susvimo) | 4 | 4 | 1 | 3 | **3.00** |
-| Perseris | 3 | 3 | 2 | 3 | **2.75** |
-| PolyActiva | 3 | 3 | 3 | 3 | **3.00** |
-| Probuphine | 3 | 1 | 1 | 3 | **2.10** |
-| Sandostatin LAR | 4 | 1 | 1 | 3 | **2.40** |
-| Signifor LAR | 3 | 2 | 1 | 2 | **2.05** |
-| Somatuline Autogel | 4 | 2 | 1 | 3 | **2.60** |
-| SpectruM | 4 | 4 | 3 | 2 | **3.25** |
-| Trelstar | 4 | 1 | 2 | 3 | **2.65** |
-| Zoladex | 4 | 1 | 1 | 3 | **2.40** |
-| iDose | 4 | 5 | 1 | 3 | **3.20** |
+| NanoZolid | 3 | 3 | 2 | 4 | **3.00** |
+| Novadur | 4 | 3 | 2 | 1 | **2.55** |
+| Oil decanoate | 5 | 1 | 1 | 5 | **3.20** |
+| PDS (Susvimo) | 4 | 4 | 1 | 1 | **2.50** |
+| Perseris | 3 | 3 | 2 | 1 | **2.25** |
+| PolyActiva | 3 | 3 | 3 | 4 | **3.25** |
+| Probuphine | 3 | 1 | 1 | 1 | **1.60** |
+| Sandostatin LAR | 4 | 1 | 1 | 1 | **1.90** |
+| Signifor LAR | 3 | 2 | 1 | 1 | **1.80** |
+| Somatuline Autogel | 4 | 2 | 1 | 1 | **2.10** |
+| SpectruM | 4 | 4 | 3 | 4 | **3.75** |
+| Trelstar | 4 | 1 | 2 | 2 | **2.40** |
+| Zoladex | 4 | 1 | 1 | 1 | **1.90** |
+| iDose | 4 | 5 | 1 | 1 | **2.70** |
 
 ## TactBio view per platform (investor)
 
